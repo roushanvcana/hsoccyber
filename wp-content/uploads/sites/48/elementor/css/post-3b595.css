@@ -139,7 +139,7 @@
 	/*background-color: var( --e-global-color-1a97da0 );
 	border-style: solid;
 	border-width: 0px 0px 0px 0px;*/
-	border: 1px solid #fff;
+	/* border: 1px solid #fff; */
 }
 .elementor-kit-3 input:focus:not([type="button"]):not([type="submit"]), .elementor-kit-3 textarea:focus, .elementor-kit-3 .elementor-field-textual:focus {
 	color: var( --e-global-color-ace720c );
