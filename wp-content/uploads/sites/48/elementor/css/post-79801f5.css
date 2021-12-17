@@ -2303,6 +2303,9 @@ html, body {
 .elementor-798 .elementor-element.elementor-element-6a632fe {
 	padding: 8em 0em 8em 0em;
 }
+.header-log img {
+    width: 20%;
+}
 .elementor-798 .elementor-element.elementor-element-e32d116 {
 --e-image-carousel-slides-to-show:4;
 }
@@ -2569,6 +2572,7 @@ html, body {
 .elementor-798 .elementor-element.elementor-element-6a632fe {
 	padding: 5em 0em 5em 0em;
 }
+
 .elementor-798 .elementor-element.elementor-element-e0b7768 {
 	padding: 0em 0em 0em 0em;
 }
@@ -7773,12 +7777,32 @@ html,  body {
     background-attachment: fixed;
 }
 }
-@media(max-width:1024px) {
+@media(max-width:1024px) 
+{
     .elementor-150 .elementor-element.elementor-element-2325799 .elementor-icon-list-item > .elementor-icon-list-text,  .elementor-150 .elementor-element.elementor-element-2325799 .elementor-icon-list-item > a {
     font-size: var( --e-global-typography-ce49889-font-size );
     line-height: var( --e-global-typography-ce49889-line-height );
     letter-spacing: var( --e-global-typography-ce49889-letter-spacing );
 }
+.header-logo {
+    width: 30%;
+}
+.res-hover-clr a:hover{
+    color: #fff;
+}
+.footer-logo img {
+    width: 100%;
+}
+.elementor-53 .elementor-element.elementor-element-0f887b0 div.elementor-menu-toggle {
+    background-color: #fff;}
+
+.elementor-53 .elementor-element.elementor-element-0f887b0 div.elementor-menu-toggle:hover {
+        background-color: #fff;
+    }
+    .elementor-53 .elementor-element.elementor-element-0f887b0 div.elementor-menu-toggle:hover .fas .fa-bars .font-awesome-free .bg-white:hover {
+        background-color: #000 !important;
+    }
+
 .elementor-150 .elementor-element.elementor-element-5739281 {
     padding: 3em 0em 3em 0em;
 }
@@ -7806,6 +7830,7 @@ html,  body {
     .elementor-150 .elementor-element.elementor-element-106c1e5 {
     padding: 5em 0em 5em 0em;
 }
+
 .elementor-150 .elementor-element.elementor-element-68a97e7 > .elementor-element-populated {
     padding: 1em 1em 1em 1em;
 }
@@ -7842,4 +7867,25 @@ html,  body {
 .elementor-150 .elementor-element.elementor-element-3eed568 > .elementor-element-populated {
     padding: 2em 2em 2em 2em;
 }
+}
+
+@media(max-width:576px) {
+
+    .footer-logo img {
+        width: 100%;
+    }
+}
+@media(max-width:480px) {
+    .elementor-cta__bg.elementor-bg.bg-white {
+        background-color: #fff;
+    }
+    .footer-logo img {
+        width: 100%;
+    }
+}
+@media(max-width:320px) {
+
+    .footer-logo img {
+        width: 100%;
+    }
 }

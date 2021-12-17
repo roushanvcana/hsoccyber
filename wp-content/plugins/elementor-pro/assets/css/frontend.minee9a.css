@@ -5241,9 +5241,7 @@ transform:translateX(100%)
 	background-color: rgba(0,0,0,.05);
 	color: #494c4f
 }
-.elementor-menu-toggle.elementor-active i:before {
-	content: "\e87f"
-}
+
 .elementor-nav-menu--dropdown {
 	background-color: #fff;
 	font-size: 13px
