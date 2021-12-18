@@ -46,6 +46,7 @@
 	left: 0%;
 	transform: rotate(0deg);
 }
+
 .elementor-53 .elementor-element.elementor-element-c95780e.elementor-column {
 	align-self: inherit;
 	cursor: default;
@@ -93,7 +94,7 @@ body.rtl .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-n
 	background-color: var( --e-global-color-7895cc3 );
 }
 .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-nav-menu--dropdown a.elementor-item-active {
-	color: var( --e-global-color-b2310dd );
+	color: #fff;
 	background-color: var( --e-global-color-7895cc3 );
 }
 .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-nav-menu--dropdown .elementor-item, .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-nav-menu--dropdown .elementor-sub-item {
