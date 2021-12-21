@@ -65,13 +65,13 @@
 	/*background-color: #2C323F;*/
 }
 .elementor-kit-3 a {
-	color: var( --e-global-color-7895cc3 );
+	color: #FFFFFF;
 }
 .elementor-kit-3 a:hover {
-	color: var( --e-global-color-b605180 );
+	color: #5e3402;
 }
 .elementor-kit-3 h1 {
-	color: #0085fe;
+	color: #000000;
 	font-family: var( --e-global-typography-dcb1a32-font-family ), Sans-serif;
 	font-size: var( --e-global-typography-dcb1a32-font-size );
 	font-weight: var( --e-global-typography-dcb1a32-font-weight );
@@ -108,10 +108,10 @@
 	letter-spacing: var( --e-global-typography-6609f2f-letter-spacing );
 }
 .elementor-kit-3 h6 {
-	color: var( --e-global-color-000000 );
+	color:#000000;
 	font-family: var( --e-global-typography-e58e5eb-font-family ), Sans-serif;
 	font-size: var( --e-global-typography-e58e5eb-font-size );
-	font-weight: var( --e-global-typography-e58e5eb-font-weight );
+	/*{font-weight: var( --e-global-typography-e58e5eb-font-weight );}*/
 	text-transform: var( --e-global-typography-e58e5eb-text-transform );
 	line-height: var( --e-global-typography-e58e5eb-line-height );
 	letter-spacing: var( --e-global-typography-e58e5eb-letter-spacing );
@@ -119,7 +119,7 @@
 .elementor-kit-3 button, .elementor-kit-3 input[type="button"], .elementor-kit-3 input[type="submit"], .elementor-kit-3 .elementor-button {
 	font-weight: 500;
 	color: var( --e-global-color-a5eb6b4 );
-	background-color: #0060ff;
+	background-color: #5e3402;
 	/*background-color: var( --e-global-color-582b2de );*/
 	border-style: solid;
 	border-width: 0px 0px 0px 0px;
