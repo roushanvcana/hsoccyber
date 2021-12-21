@@ -19,9 +19,10 @@
 }
 .elementor-72 .elementor-element.elementor-element-0a6193b:not(.elementor-motion-effects-element-type-background), .elementor-72 .elementor-element.elementor-element-0a6193b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
 	/*background-color: var( --e-global-color-b2310dd );*/
-	background: #d1a95f;
+	background: #040e27;
 	color: #fff;
 }
+
 .elementor-72 .elementor-element.elementor-element-0a6193b > .elementor-background-overlay {
 /*	background-image: url("../../2021/06/bg_footer.jpg");*/
 	background-position: center center;
@@ -400,7 +401,7 @@ body:not(.rtl) .elementor-72 .elementor-element.elementor-element-0cec0b8 .eleme
 --e-icon-list-icon-size:14px;
 }
 .elementor-72 .elementor-element.elementor-element-0cec0b8 .elementor-icon-list-text {
-	color: var( --e-global-color-7895cc3 );
+	color: #fff;
 	padding-left: 16px;
 }
 .elementor-72 .elementor-element.elementor-element-0cec0b8 .elementor-icon-list-item:hover .elementor-icon-list-text {
