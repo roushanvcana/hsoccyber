@@ -4642,8 +4642,11 @@ html,  body {
 h6.color-white, .color-white, p.color-white {
 	color: #fff;
 }
-h2.color-black, h3.color-black {
+h3.color-black {
 	color: #fff !important;
+}
+h2.color-black {
+	color: #000 !important;
 }
 h6.theme-color, .theme-color {
 	color: #2575fc;
