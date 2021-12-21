@@ -65,10 +65,16 @@
 	/*background-color: #2C323F;*/
 }
 .elementor-kit-3 a {
-	color: #FFFFFF;
+	color: #fff;
 }
 .elementor-kit-3 a:hover {
-	color: #5e3402;
+	color: #ffffffd4;
+}
+.elementor-element.elementor-element-09d5b82.ob-harakiri-inherit.elementor-widget.elementor-widget-text-editor .elementor-widget-container p {
+	color: #fff;
+}
+.premium-init-wrapper {
+    color: #fff;
 }
 .elementor-kit-3 h1 {
 	color: #000000;
@@ -108,7 +114,7 @@
 	letter-spacing: var( --e-global-typography-6609f2f-letter-spacing );
 }
 .elementor-kit-3 h6 {
-	color:#000000;
+	color:#fff;
 	font-family: var( --e-global-typography-e58e5eb-font-family ), Sans-serif;
 	font-size: var( --e-global-typography-e58e5eb-font-size );
 	/*{font-weight: var( --e-global-typography-e58e5eb-font-weight );}*/
@@ -119,7 +125,7 @@
 .elementor-kit-3 button, .elementor-kit-3 input[type="button"], .elementor-kit-3 input[type="submit"], .elementor-kit-3 .elementor-button {
 	font-weight: 500;
 	color: var( --e-global-color-a5eb6b4 );
-	background-color: #5e3402;
+	background-color: #00aefe;
 	/*background-color: var( --e-global-color-582b2de );*/
 	border-style: solid;
 	border-width: 0px 0px 0px 0px;
@@ -135,11 +141,14 @@
 	line-height: 1.6em;
 }
 .elementor-kit-3 input:not([type="button"]):not([type="submit"]), .elementor-kit-3 textarea, .elementor-kit-3 .elementor-field-textual {
-	color: var( --e-global-color-7895cc3 );
+	color: #fff;
 	/*background-color: var( --e-global-color-1a97da0 );
 	border-style: solid;
 	border-width: 0px 0px 0px 0px;*/
 	/* border: 1px solid #fff; */
+}
+li.menu-item a.elementor-item {
+    color: #000;
 }
 .elementor-kit-3 input:focus:not([type="button"]):not([type="submit"]), .elementor-kit-3 textarea:focus, .elementor-kit-3 .elementor-field-textual:focus {
 	color: var( --e-global-color-ace720c );
