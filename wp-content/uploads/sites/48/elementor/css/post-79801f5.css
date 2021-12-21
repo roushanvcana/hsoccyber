@@ -489,6 +489,7 @@ transition-delay:calc( ( 500ms / 3 ) * 3 );
 	width: 100%;
 	flex: unset;
 	align-self: inherit;
+
 }
 .elementor-798 .elementor-element.elementor-element-578a9df.elementor-column {
 	align-self: inherit;
@@ -1065,6 +1066,7 @@ transition-delay:calc( ( 500ms / 3 ) * 3 );
 	/*border-color: var( --e-global-color-b2310dd );*/
 	border-radius: 5px 5px 5px 5px;
 }
+
 .elementor-798 .elementor-element.elementor-element-e965f19 .elementskit-infobox:hover {
 	border-style: solid;
 	border-width: 1px 1px 1px 1px;
@@ -2185,7 +2187,7 @@ padding-bottom:calc( 0.66 * 100% );
 	content: "0.66";
 }
 .elementor-798 .elementor-element.elementor-element-cf4b2a1 .elementor-post__meta-data span + span:before {
-	content: "•";
+	content: "â€¢";
 }
 .elementor-798 .elementor-element.elementor-element-cf4b2a1 {
 --grid-column-gap:15px;
@@ -2852,7 +2854,7 @@ padding-bottom:calc( 0.5 * 100% );
     /* transition: background 0.3s, border-radius 0.3s, opacity 0.3s; */
 }
 .elementor-469 .elementor-element.elementor-element-7e90c9e:not(.elementor-motion-effects-element-type-background), .elementor-469 .elementor-element.elementor-element-7e90c9e > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-    background-color: #fff !important;
+    background-color: #4e7381 !important;
 }
 .elementor-469 .elementor-element.elementor-element-7e90c9e {
     transition: background 0.3s,  border 0.3s,  border-radius 0.3s,  box-shadow 0.3s;
@@ -4641,13 +4643,13 @@ h6.color-white, .color-white, p.color-white {
 	color: #fff;
 }
 h2.color-black, h3.color-black {
-	color: #000 !important;
+	color: #fff !important;
 }
 h6.theme-color, .theme-color {
-	color: #5e3402;
+	color: #2575fc;
 }
 .bg-dark-blue {
-	background-color: #c09561f0 !important;
+	background-color: #202737 !important;
 }
 .font-awesome-free {
 	font-family: "Font Awesome 5 Pro";}
@@ -4697,7 +4699,7 @@ h6.theme-color, .theme-color {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* opacity: 0.3; */
+     opacity: 0.3; 
     transition: background 0.3s,  border-radius 0.3s,  opacity 0.3s;
 }
 .elementor-571 .elementor-element.elementor-element-793de2a {
@@ -5286,6 +5288,7 @@ body:not(.rtl) .elementor-571 .elementor-element.elementor-element-c23e885 .elem
     font-weight: var( --e-global-typography-6609f2f-font-weight );
     line-height: var( --e-global-typography-6609f2f-line-height );
     letter-spacing: var( --e-global-typography-6609f2f-letter-spacing );
+
 }
 .elementor-571 .elementor-element.elementor-element-ed68467 .elementskit-infobox .box-body > p {
     color: var( --e-global-color-7895cc3 );
@@ -6512,6 +6515,7 @@ html,  body {
 }
 .elementor-571 .elementor-element.elementor-element-8429dca .elementskit-infobox .elementskit-info-box-title {
     font-size: var( --e-global-typography-6609f2f-font-size );
+
     line-height: var( --e-global-typography-6609f2f-line-height );
     letter-spacing: var( --e-global-typography-6609f2f-letter-spacing );
 }
@@ -6887,10 +6891,10 @@ html,  body {
 }
 }
 .bg-clr-none {
-	background-color: #fff !important;
+	background-color: #93b3bf !important;
 }
 .font-white {
-	color: #000000 !important;
+	color: #ffffff !important;
 }
 .font-black, .font-black h6, .font-black h2 {
 color: #000;
@@ -6899,12 +6903,12 @@ color: #000;
     background-image: none !important;
 }
 .bg-theme-clr {
-    background-color: #a96e26ba !important;
+    background-color: #82c4fd !important;
     background-image: none;
 }
 .bg-light-blue {
     background-image: none !important;
-    background-color: #c09561f0 !important;
+    background-color: #05132e !important;
 }
 .background-none {
     background-image: none !important;
@@ -6912,7 +6916,7 @@ color: #000;
 }
 .bg-light-blue-transparent {
     background-image: none !important;
-    background-color: #d99d547d!important;
+    background-color: #82c4fd !important;
 }
 /* Contact */
 .elementor-150 .elementor-element.elementor-element-106c1e5 > .elementor-container {
@@ -7383,6 +7387,7 @@ body:not(.rtl) .elementor-150 .elementor-element.elementor-element-2325799 .elem
 }
 .elementor-150 .elementor-element.elementor-element-9b2d161 .video-content {
     text-align: center;
+
 }
 .elementor-150 .elementor-element.elementor-element-9b2d161 .ekit-video-popup-btn {
     width: 60px;
