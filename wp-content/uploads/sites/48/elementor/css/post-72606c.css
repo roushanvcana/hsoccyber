@@ -19,7 +19,7 @@
 }
 .elementor-72 .elementor-element.elementor-element-0a6193b:not(.elementor-motion-effects-element-type-background), .elementor-72 .elementor-element.elementor-element-0a6193b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
 	/*background-color: var( --e-global-color-b2310dd );*/
-	background: #a2c2f7;
+	background: #d1a95f;
 	color: #fff;
 }
 .elementor-72 .elementor-element.elementor-element-0a6193b > .elementor-background-overlay {
@@ -63,7 +63,7 @@
 .elementor-72 .elementor-element.elementor-element-4f2d487 {
 	border-style: solid;
 	border-width: 0px 0px 1px 0px;
-	border-color: var( --e-global-color-b2310dd );
+	border-color: #5e3402;
 	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 	padding: 0em 0em 0em 0em;
 }
