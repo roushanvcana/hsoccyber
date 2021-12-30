@@ -39,7 +39,7 @@
                             <div class="row">
                                 <div class="form-group  col-md-6 col-lg-6">
                                     <label for="name">Name</label>
-                                    <input type="name"  id="name" class="form-control" name="name" value="<?= !empty($getValue['name']) ? $getValue['name'] : set_value('name') ?>" >
+                                    <input type="name"  id="name" class="form-control" name="name" value="<?= !empty($getValue['first_name']) ? $getValue['first_name'] : set_value('name') ?>" >
                                     <?php echo form_error('name'); ?>
                                     <p style="color:#dc3545!important;" id="nameError"></p>
 
@@ -61,7 +61,7 @@
 
                                 <div class="form-group  col-md-6 col-lg-6">
                                     <label for="phone">Phone</label>
-                                    <input type="text" id="phone" class="form-control" name="phone" value="<?= !empty($getValue['phone']) ? $getValue['phone'] : set_value('phone') ?>"  maxlength="10">
+                                    <input type="text" id="phone" class="form-control" name="phone" value="<?= !empty($getValue['mobile_number']) ? $getValue['mobile_number'] : set_value('phone') ?>"  maxlength="10">
                                     <?php echo form_error('phone'); ?>
                                     <p style="color:#dc3545!important;" id="phoneError"></p>
                                 </div>                              

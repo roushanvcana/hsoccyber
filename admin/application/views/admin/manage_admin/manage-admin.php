@@ -60,9 +60,9 @@
             ?>
               <tr id="tbl_<?php echo $data['id']; ?>">
                 <td><?= $i; ?></td>
-                <td><?php echo $data['fname'].' '.$data['lname']; ?></td>
+                <td><?php echo $data['first_name']; ?></td>
                 <td><?php echo $data['email']; ?></td>
-                <td><?php echo $data['phone']; ?></td>
+                <td><?php echo $data['mobile_number']; ?></td>
                 <td> <a href="<?php echo base_url() . "uploads/admin_img/" . $image ?>" target="_blank"><img src="<?php echo base_url() . "uploads/admin_img/" . $image ?>" height="50px" width="50px"></a></td>
                 <td><?php echo array_value(status(), $data['status']) ?></td>
                 <td class="project-actions text-center">
