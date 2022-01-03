@@ -312,7 +312,7 @@
                     "number_of_partners" => $this->input->post('number_of_partners'),
                     "background_color" => $this->input->post('background_color'),
                     "heading" => $this->input->post('heading'),
-                    "status" => $this->input->post('status'),                 
+                    "status" => 1,                 
                     "cby" => 1,                 
                     "cip" => $this->input->ip_address(),
                 );
