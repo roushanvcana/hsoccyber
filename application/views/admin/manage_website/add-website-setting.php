@@ -17,7 +17,7 @@
     </div>
     <section class="content">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-6">
                 <div class="card card-primary">
                     <div class="card-header">
                         <h3 class="card-title"> Add Website Setting</h3>
@@ -34,12 +34,12 @@
 
                             <div class="row">
                                 <div class="form-group  col-md-6 col-lg-6">
-                                    <label for="address">Address</label>
-                                    <input type="text" id="address" class="form-control" name="address" 
-                                    value="<?= !empty($getValue['address']) ? $getValue['address'] : set_value('address') ?>" >
-                                    <?php echo form_error('address'); ?>
-                                    <p style="color:#dc3545!important;" id="nameError"></p>
+                                    <label for="phone">Phone</label>
+                                    <input type="phone" id="phone" class="form-control" name="phone" value="<?= !empty($getValue['phone']) ? $getValue['phone'] : set_value('phone') ?>" >
+                                    <?php echo form_error('phone'); ?>
+                                    <p style="color:#dc3545!important;" id="passerror"></p>
                                 </div>
+
                                 <div class="form-group  col-md-6 col-lg-6">
                                     <label for="email">Email</label>
                                     <input type="text" id="email" class="form-control" name="email" value="<?= !empty($getValue['email']) ? $getValue['email'] : set_value('email') ?>" >
@@ -47,11 +47,14 @@
                                     <p style="color:#dc3545!important;" id="nameError"></p>
                                 </div>
                               
-                                <div class="form-group  col-md-6 col-lg-6">
-                                    <label for="phone">Phone</label>
-                                    <input type="phone" id="phone" class="form-control" name="phone" value="<?= !empty($getValue['phone']) ? $getValue['phone'] : set_value('phone') ?>" >
-                                    <?php echo form_error('phone'); ?>
-                                    <p style="color:#dc3545!important;" id="passerror"></p>
+                                
+                                <div class="form-group  col-md-12 col-lg-12">
+                                    <label for="address">Address</label>
+                                    <textarea rows="5" cols="5" id="address" class="form-control" name="address" >
+                                    <?php echo  !empty($getValue['address']) ? $getValue['address'] : set_value('address') ?>
+                                    </textarea>
+                                    <?php echo form_error('address'); ?>
+                                    <p style="color:#dc3545!important;" id="nameError"></p>
                                 </div>
 
                                 <div class="form-group  col-md-6 col-lg-6">
@@ -78,22 +81,12 @@
                                     <?php echo form_error('logo'); ?>
                                     <p style="color:#dc3545!important;" id="phoneError"></p>
                                 </div>   
-                                
-                                
-                                <div class="form-group  col-md-6 col-lg-6">
-                                    <label for="status">Status</label>
-                                    <select name="status" class="form-control">
-                                        <?php foreach ($status as $key => $value) : ?>
-                                            <option value="<?php echo $key; ?>"><?php echo $value; ?></option>
-                                        <?php endforeach; ?>
-
-                                    </select>
-                                </div>
+                               
                             </div>
                             <div class="form-group  col-md-6 col-lg-6">
 
                                 <?php if (empty($getValue['id'])) { ?>
-                                    <input type="submit" value="Save" class="btn btn-primary" name="submit" style="margin-top:30px">
+                                    <input type="submit" value="Save" id="submit_btn" class="btn btn-primary" name="submit" style="margin-top:30px">
                                 <?php } else { ?>
                                     <input type="submit" value="Update" class="btn btn-primary" name="submit" style="margin-top:30px" id="btn">
                                 <?php } ?>
@@ -102,7 +95,33 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-6">
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Website Frame</h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                        <iframe src="https://www.vcanaglobal.com/" width="100%" height="300"></iframe>                         
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
 </div>
+<script>
+    $(document).ready(function(){
+        $('#submit_btn').click(function() {
+            
+        });
+    });
+</script>

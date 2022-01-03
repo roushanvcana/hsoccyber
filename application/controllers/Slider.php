@@ -317,62 +317,28 @@
                     "cip" => $this->input->ip_address(),
                 );
 
-            $insert = $this->db->insert('manage_about_us', $aboutme);               
+            $query = $this->db->query('select * from manage_about_us where id=1');
+            
+            if($query->num_rows() > 0){
+                $insert = $this->db->update('manage_about_us',$aboutme, array('id' => 1));  
+            }else {
+                $insert = $this->db->insert('manage_about_us', $aboutme);  
+            }
+
             if ($insert) {
                 $this->session->set_flashdata('success', 'About me Successfully Saved');
-                redirect(site_url().'about-me');
+                redirect(site_url().'add-about');
             } else {
                 $this->session->set_flashdata('success', 'Some error occured. Please try again...');
-                redirect(site_url().'about-me');
+                redirect(site_url().'add-about');
             }
         }   
+        $data['getValue'] = $this->Common_Model->set_data('manage_about_us',1);  
         $data['status'] = status();    
         $data['main_content'] = 'admin/about_me/add-inf';        
         $this->load->view('admin/template/template',$data);
     }
 
-    public function edit_about_mes($id)
-    {
-        //$data['brandlist'] =  $this->db->query('select * from manage_trusted_brand')->result_array();   
-        if($this->input->post()) {
-            $aboutme = array(
-                    "title" => $this->input->post('title'),
-                    "description" => $this->input->post('description'),
-                    "year_of_experience" => $this->input->post('year_of_experience'),
-                    "number_of_employee" => $this->input->post('number_of_employee'),
-                    "number_of_partners" => $this->input->post('number_of_partners'),
-                    "background_color" => $this->input->post('background_color'),
-                    "heading" => $this->input->post('heading'),
-                    "status" => $this->input->post('status'),                 
-                    "cby" => 1,                 
-                    "cip" => $this->input->ip_address(),
-                );
-
-            $insert = $this->db->update('manage_about_us',$aboutme, array('id' => $id));   
-            if ($insert) {
-                $this->session->set_flashdata('success', 'About me Successfully updated....');
-                redirect(site_url().'about-me');
-            } else {
-                $this->session->set_flashdata('success', 'Some error occured. Please try again...');
-                redirect(site_url().'about-me');
-            }
-        }   
-
-        $data['getValue'] = $this->Common_Model->set_data('manage_about_us',$id);  
-        $data['status'] = status();    
-        $data['main_content'] = 'admin/about_me/add-inf';        
-        $this->load->view('admin/template/template',$data);
-    }
-    
-    public function delete_about($id)
-    {
-        $del = $this->db->delete('manage_about_us', array('id' => $id));
-        if(!empty($del)){
-            redirect(site_url().'about-me');
-        }
-    } 
-    
-    
  
  }
  
