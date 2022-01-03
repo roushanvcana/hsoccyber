@@ -189,17 +189,28 @@
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                         data-accordion="false">
                         <li class="nav-item has-treeview menu-open">
-                        <li class="nav-item">
+                            <!-- <li class="nav-item">
                             <a href="<?php echo site_url() ?>manage-admin" class="nav-link">
                                 <i class="far fa-user nav-icon"></i>
                                 <p>Manage Admin</p>
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
-                            <a href="<?php echo base_url() ?>website-settings" class="nav-link">
-                                <i class="far fa-user nav-icon"></i>
-                                <p>Manage Website Setting</p>
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-search"></i>
+                                <p>
+                                    Sidebar
+                                    <i class="fas fa-angle-left right"></i>
+                                </p>
                             </a>
+                            <ul class="nav nav-treeview" style="display: none;">
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>add-website-setting" class="nav-link">
+                                        <i class="far fa-user nav-icon"></i>
+                                        <p>Manage Website Setting</p>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
@@ -216,24 +227,26 @@
                                         <p>Slider</p>
                                     </a>
                                 </li>
-                                
+
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>slider-box" class="nav-link">
+                                        <i class="far fa-user nav-icon"></i>
+                                        <p>Manage Slider Box</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>brand-section" class="nav-link">
+                                        <i class="far fa-user nav-icon"></i>
+                                        <p>Brand Section</p>
+                                    </a>
+                                </li>
+
                             </ul>
                         </li>
 
+
                         <li class="nav-item">
-                            <a href="<?php echo base_url() ?>slider-box" class="nav-link">
-                                <i class="far fa-user nav-icon"></i>
-                                <p>Manage Slider Box</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="<?php echo base_url() ?>brand-section" class="nav-link">
-                                <i class="far fa-user nav-icon"></i>
-                                <p>Brand Section</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="<?php echo base_url() ?>about-me" class="nav-link">
+                            <a href="<?php echo base_url() ?>add-about" class="nav-link">
                                 <i class="far fa-user nav-icon"></i>
                                 <p>Manage About</p>
                             </a>

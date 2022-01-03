@@ -17,7 +17,7 @@
     </div>
     <section class="content">     
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-6">
                 <div class="card card-primary">
                     <div class="card-header">
                         <h3 class="card-title"> Add About</h3>
@@ -72,19 +72,11 @@
                                 <div class="form-group  col-md-12 col-lg-12">
                                     <label for="design_by">Description</label>
                                     <textarea rows="4" cols="4" class="form-control" name="description">
-                                    <?php echo $getValue['description']; ?>
+                                    <?php echo !empty($getValue['description']) ? $getValue['description'] : ''; ?>
                                     </textarea>
                                 </div> 
 
-                                <div class="form-group  col-md-6 col-lg-6">
-                                    <label for="status">Status</label>
-                                    <select name="status" class="form-control">
-                                        <?php foreach ($status as $key => $value) : ?>
-                                            <option value="<?php echo $key; ?>"><?php echo $value; ?></option>
-                                        <?php endforeach; ?>
-
-                                    </select>
-                                </div>
+                               
                             </div>
                             <div class="form-group  col-md-6 col-lg-6">
                                 <?php if (empty($getValue['id'])) { ?>
@@ -94,6 +86,25 @@
                                 <?php } ?>
                             </div>
                         </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">About</h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                        <iframe src="https://www.vcanaglobal.com/" width="100%" height="300"></iframe>                         
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
