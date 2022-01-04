@@ -89,6 +89,18 @@ $route['add-about'] = 'Slider/add_about_mes';
 $route['edit-about/(:num)'] = 'Slider/edit_about_mes/$1';
 $route['about-delete/(:num)'] = 'Slider/delete_about/$1';
 
+$route['service'] = 'Service/index';
+$route['add-service'] = 'Service/add_service';
+$route['service-delete/(:num)'] = 'Service/delete_service/$1';
+$route['service-edit/(:num)'] = 'Service/edit_service/$1';
+
+$route['feature']  = 'Service/feature';
+$route['feature-details'] = 'Service/feature_details';
+$route['add-feature-details'] = 'Service/add_feature_details';
+
+$route['feature-details-delete/(:num)'] = 'Service/delete_feature/$1';
+$route['feature-details-edit/(:num)'] = 'Service/feature_edit_details/$1';
+
 
 
 
