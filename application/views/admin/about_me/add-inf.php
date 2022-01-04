@@ -9,9 +9,7 @@
                         <li class="breadcrumb-item">Add About</a></li>
                     </ol>
                 </div>
-                <div class="col-sm-6">
-                    <a class="btn btn-primary btn" style="float:right" href="<?php echo site_url(); ?>about-me">View About</a>
-                </div>
+                
             </div>
         </div>
     </div>

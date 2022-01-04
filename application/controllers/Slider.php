@@ -28,8 +28,8 @@
                     "rename_button" => $this->input->post('rename_button'),
                     "link_pageon_button" => $this->input->post('link_pageon_button'),
                     "status" => $this->input->post('status'),                 
-                    "cby" => 1,                 
-                    "cip" => $this->input->ip_address(),
+                    "entry_by" => 1,                 
+                    "ip_add" => $this->input->ip_address(),
                 );
 
             if (!empty($_FILES["slider_image"]["name"])) {
@@ -64,8 +64,8 @@
                     "rename_button" => $this->input->post('rename_button'),
                     "link_pageon_button" => $this->input->post('link_pageon_button'),
                     "status" => $this->input->post('status'),                 
-                    "cby" => 1,                 
-                    "cip" => $this->input->ip_address(),
+                    "entry_by" => 1,                 
+                    "ip_add" => $this->input->ip_address(),
                 );
 
             if (!empty($_FILES["slider_image"]["name"])) {
@@ -118,8 +118,8 @@
                     "hover_color" => $this->input->post('hover_color'),
                     "description" => $this->input->post('description'),
                     "status" => $this->input->post('status'),                 
-                    "cby" => 1,                 
-                    "cip" => $this->input->ip_address(),
+                    "entry_by" => 1,                 
+                    "ip_add" => $this->input->ip_address()
                 );
 
             if (!empty($_FILES["image"]["name"])) {
@@ -161,8 +161,8 @@
                     "hover_color" => $this->input->post('hover_color'),
                     "description" => $this->input->post('description'),
                     "status" => $this->input->post('status'),                 
-                    "cby" => 1,                 
-                    "cip" => $this->input->ip_address(),
+                    "entry_by" => 1,                 
+                    "ip_add" => $this->input->ip_address()
                 );
 
             if (!empty($_FILES["image"]["name"])) {
@@ -221,8 +221,8 @@
                     "title" => $this->input->post('title'),
                     "background_color" => $this->input->post('background_color'),
                     "status" => $this->input->post('status'),                 
-                    "cby" => 1,                 
-                    "cip" => $this->input->ip_address(),
+                    "entry_by" => 1,                 
+                     "ip_add" => $this->input->ip_address(),
                 );
 
             if (!empty($_FILES["image"]["name"])) {
@@ -255,8 +255,8 @@
                     "title" => $this->input->post('title'),
                     "background_color" => $this->input->post('background_color'),
                     "status" => $this->input->post('status'),                 
-                    "cby" => 1,                 
-                    "cip" => $this->input->ip_address(),
+                    "entry_by" => 1,                 
+                    "ip_add" => $this->input->ip_address(),
                 );
 
             if (!empty($_FILES["image"]["name"])) {
@@ -313,8 +313,8 @@
                     "background_color" => $this->input->post('background_color'),
                     "heading" => $this->input->post('heading'),
                     "status" => 1,                 
-                    "cby" => 1,                 
-                    "cip" => $this->input->ip_address(),
+                    "entry_by" => 1,                 
+                    "ip_add" => $this->input->ip_address(),
                 );
 
             $query = $this->db->query('select * from manage_about_us where id=1');

@@ -9,9 +9,7 @@
                         <li class="breadcrumb-item">Add Website Setting</a></li>
                     </ol>
                 </div>
-                <div class="col-sm-6">
-                    <a class="btn btn-primary btn" style="float:right" href="<?php echo site_url(); ?>manage-user">View Website Setting</a>
-                </div>
+               
             </div>
         </div>
     </div>
