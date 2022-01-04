@@ -230,13 +230,13 @@
 
                                 <li class="nav-item">
                                     <a href="<?php echo base_url() ?>slider-box" class="nav-link">
-                                        <i class="far fa-user nav-icon"></i>
-                                        <p>Manage Slider Box</p>
+                                    <i class="far fa-circle nav-icon"></i>
+                                        <p>Slider Box</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="<?php echo base_url() ?>brand-section" class="nav-link">
-                                        <i class="far fa-user nav-icon"></i>
+                                    <i class="far fa-circle nav-icon"></i>
                                         <p>Brand Section</p>
                                     </a>
                                 </li>

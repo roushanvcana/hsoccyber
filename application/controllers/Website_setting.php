@@ -34,7 +34,7 @@ class Website_setting extends CI_Controller {
                 "design_by" =>  $this->input->post('design_by'),
                 "status" => 1,                 
                 "entry_by" => 1,                 
-                "cip" => $this->input->ip_address(),
+                "ip_add" => $this->input->ip_address(),
             );
             if (!empty($_FILES["logo"]["name"])) {
                 $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["logo"]["name"];
