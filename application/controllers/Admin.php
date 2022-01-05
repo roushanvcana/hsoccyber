@@ -35,8 +35,6 @@ class Admin extends CI_Controller
                     "cip" => $this->input->ip_address(),
                     "cby" => $this->session->userdata("admin_id"),
                 );
-
-
                 if (!empty($_FILES["image"]["name"])) {
                   
                     $name= rand(1,999999).".".$_FILES["image"]["name"];

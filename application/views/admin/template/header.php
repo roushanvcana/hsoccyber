@@ -251,6 +251,25 @@
                                 <p>Manage About</p>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="<?php echo base_url() ?>service" class="nav-link">
+                                <i class="far fa-user nav-icon"></i>
+                                <p>Manage Service</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?php echo base_url() ?>feature" class="nav-link">
+                                <i class="far fa-user nav-icon"></i>
+                                <p>Feature</p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="<?php echo base_url() ?>feature-details" class="nav-link">
+                                <i class="far fa-user nav-icon"></i>
+                                <p>Feature Details</p>
+                            </a>
+                        </li>
 
                         </li>
                     </ul>
