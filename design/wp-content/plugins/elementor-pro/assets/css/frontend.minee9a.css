@@ -1432,6 +1432,7 @@ body.elementor-editor-active .elementor-posts--show-thumbnail .elementor-post__t
 	border-color: #55595c
 }
 .elementor-cta--skin-cover .elementor-cta {
+	height: 390px;
 	display: block
 }
 .elementor-cta--skin-cover .elementor-cta__bg-wrapper {

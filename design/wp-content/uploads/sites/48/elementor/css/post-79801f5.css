@@ -2181,7 +2181,7 @@ transition-delay:calc( ( 500ms / 3 ) * 3 );
 	transform: rotate(0deg);
 }
 .elementor-798 .elementor-element.elementor-element-cf4b2a1 .elementor-posts-container .elementor-post__thumbnail {
-padding-bottom:calc( 0.66 * 100% );
+padding-bottom:0px;
 }
 .elementor-798 .elementor-element.elementor-element-cf4b2a1:after {
 	content: "0.66";

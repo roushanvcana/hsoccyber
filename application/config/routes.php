@@ -102,8 +102,10 @@ $route['feature-details-delete/(:num)'] = 'Service/delete_feature/$1';
 $route['feature-details-edit/(:num)'] = 'Service/feature_edit_details/$1';
 
 
-
-
+$route['home'] = 'Website/home';
+$route['about'] = 'Website/about';
+$route['services'] = 'Website/services';
+$route['contact'] = 'Website/contact';
 
 
 
