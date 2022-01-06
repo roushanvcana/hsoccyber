@@ -49,8 +49,9 @@
 	color: #05122a;
 }
 .doc_img img {
-	margin: 15px;
+	margin: 0;
 	box-shadow: 0 0 10px #05122a !important;
+	width: 50%;
 }
 .title_ {
     position: relative;
@@ -284,7 +285,7 @@
     padding: 40px 0 0;
 }
 .drdc {
-    padding: 15px 20px 0 0;
+    padding: 0;
     text-align: justify;
 }
 /* ============================================================== 
@@ -307,6 +308,7 @@
 
 .about-area .thumb {
   position: relative;
+	top: 130px;
 }
 
 .about-area .thumb img {
@@ -352,7 +354,7 @@
  
 .about-area .thumb .overlay {
   position: absolute;
-  right: 20%;
+  right: 12%;
   top: 50%;
   height: 160px;
   width: 288px;
@@ -423,7 +425,7 @@
 
 .about-area .info h2 {
   font-weight: 600;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .about-area .author {
@@ -782,6 +784,7 @@ body.admin-bar .dialog-type-lightbox {
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: reverse;
 	-ms-flex-direction: row-reverse;
+
 	flex-direction: row-reverse
 }
 .elementor-templates-modal__header__item {
@@ -3873,6 +3876,7 @@ transform:rotate(1turn)
 }
 .animated.animated-slow {
 	-webkit-animation-duration: 2s;
+
 	animation-duration: 2s
 }
 .animated.animated-fast {
