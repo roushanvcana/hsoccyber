@@ -172,9 +172,9 @@
 						</section>
 					</div>
 				</div>-->
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3eed568" data-id="3eed568" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+				<!--<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3eed568" data-id="3eed568" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
 					
-				</div>
+				</div>-->
 			</div>
 			<div class="col-lg-6 offset-3">
 			<div class="elementor-widget-wrap elementor-element-populated">
