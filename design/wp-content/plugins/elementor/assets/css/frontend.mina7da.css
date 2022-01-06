@@ -11,6 +11,9 @@
 .logo_ {
 	margin: 0 0 10px !important;
 }
+.logo_ img {
+    width: 15%;
+}
 .single-challenges {
 	height: 32vh;
     position: relative;
