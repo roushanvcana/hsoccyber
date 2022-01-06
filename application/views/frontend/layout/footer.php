@@ -19,14 +19,14 @@
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-93a8c85" data-id="93a8c85" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-93a8c85" >
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-3151745 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="3151745" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+										<div class="elementor-element elementor-element-3151745 ob-harakiri-inherit elementor-widget elementor-widget-heading">
 											<div class="elementor-widget-container">
 												<h5 class="elementor-heading-title elementor-size-default">Quick Links</h5>
 											</div>
 										</div>
-										<div class="elementor-element elementor-element-2d943e8 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="2d943e8" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="icon-list.default">
+										<div class="elementor-element elementor-element-2d943e8 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list">
 											<div class="elementor-widget-container">
 												<ul class="elementor-icon-list-items">
 													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/ about "); ?>"> <span class="elementor-icon-list-text">About Us</span> </a> </li>
@@ -38,14 +38,14 @@
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-689a0ef" data-id="689a0ef" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-689a0ef">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-8dd927a ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="8dd927a" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+										<div class="elementor-element elementor-element-8dd927a ob-harakiri-inherit elementor-widget elementor-widget-heading">
 											<div class="elementor-widget-container">
 												<h5 class="elementor-heading-title elementor-size-default">Support</h5>
 											</div>
 										</div>
-										<div class="elementor-element elementor-element-4a7e35e elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="4a7e35e" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="icon-list.default">
+										<div class="elementor-element elementor-element-4a7e35e elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list">
 											<div class="elementor-widget-container">
 												<ul class="elementor-icon-list-items">
 													<li class="elementor-icon-list-item"> <a href="#"> <span class="elementor-icon-list-text">Help Center</span> </a> </li>
@@ -58,19 +58,19 @@
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-d4c11ae" data-id="d4c11ae" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-d4c11ae">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-e315390 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="e315390" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+										<div class="elementor-element elementor-element-e315390 ob-harakiri-inherit elementor-widget elementor-widget-heading">
 											<div class="elementor-widget-container">
 												<h5 class="elementor-heading-title elementor-size-default">Newsletter</h5>
 											</div>
 										</div>
-										<div class="elementor-element elementor-element-ab27332 ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="ab27332" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
+										<div class="elementor-element elementor-element-ab27332 ob-harakiri-inherit elementor-widget elementor-widget-text-editor">
 											<div class="elementor-widget-container">
 												<p>Sign up our newsletter for update information, insight and promotion.</p>
 											</div>
 										</div>
-										<div class="elementor-element elementor-element-ec07b74 elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="ec07b74" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="form.default">
+										<div class="elementor-element elementor-element-ec07b74 elementor-button-align-stretch elementor-widget elementor-widget-form">
 											<div class="elementor-widget-container">
 												<form class="elementor-form" method="post" name="New Form">
 													<input type="hidden" name="post_id" value="72"/>
@@ -93,11 +93,11 @@
 								</div>
 							</div>
 						</section>
-						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-4e0a127 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4e0a127" data-element_type="section" data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-4e0a127 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 							<div class="elementor-container elementor-column-gap-default">
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-29382b9" data-id="29382b9" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-29382b9">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-0cec0b8 elementor-icon-list--layout-inline elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="0cec0b8" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="icon-list.default">
+										<div class="elementor-element elementor-element-0cec0b8 elementor-icon-list--layout-inline elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list">
 											<div class="elementor-widget-container">
 												<ul class="elementor-icon-list-items elementor-inline-items">
 													<li class="elementor-icon-list-item elementor-inline-item"> <a href="#"> <span class="elementor-icon-list-text">Privacy Policy</span> </a> </li>
@@ -109,9 +109,9 @@
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1ce5b46" data-id="1ce5b46" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1ce5b46">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-8afdbb6 elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="8afdbb6" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="social-icons.default">
+										<div class="elementor-element elementor-element-8afdbb6 elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" >
 											<div class="elementor-widget-container">
 												<div class="elementor-social-icons-wrapper elementor-grid"> <span class="elementor-grid-item"> <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow elementor-repeater-item-71798fc" target="_blank"> <span class="elementor-screen-only">Facebook</span> <i class="fab fa-facebook"></i> </a>
 													</span> <span class="elementor-grid-item"> <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-animation-grow elementor-repeater-item-b9c3e11" target="_blank"> <span class="elementor-screen-only">Linkedin</span> <i class="fab fa-linkedin"></i> </a>
@@ -122,10 +122,10 @@
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-12b6a0e" data-id="12b6a0e" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-12b6a0e">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-72c8974 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="72c8974" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
-											<div class="elementor-widget-container"> <span class="elementor-heading-title elementor-size-default">Copyright © 2021, All rights reserved. Design by : Vcanaglobal.</span> </div>
+										<div class="elementor-element elementor-element-72c8974 ob-harakiri-inherit elementor-widget elementor-widget-heading">
+											<div class="elementor-widget-container"> <span class="elementor-heading-title elementor-size-default">Copyright © 2022, All rights reserved. Design by : Vcanaglobal.</span> </div>
 										</div>
 									</div>
 								</div>
