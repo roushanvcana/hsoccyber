@@ -279,6 +279,14 @@
   margin-bottom: 25px;
 	color: #0e2b3d;
 }
+.bgcolor {
+    background: #f3f7fd;
+    padding: 40px 0 0;
+}
+.drdc {
+    padding: 15px 20px 0 0;
+    text-align: justify;
+}
 /* ============================================================== 
      # About 
 =================================================================== */

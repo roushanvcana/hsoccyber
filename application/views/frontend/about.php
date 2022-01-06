@@ -90,13 +90,13 @@
    </div>
   </section>-->
 
-  <section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-50df6d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default ab-pd">
+  <section class="bgcolor ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-50df6d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default ab-pd">
    <div class="elementor-container elementor-column-gap-no">
     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-925752d" data-id="925752d" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
      <div class="elementor-widget-wrap elementor-element-populated sp">
      <h2 class="elementor-heading-title elementor-size-default color-black">Biography</h2>
      <p class="sp">Dr. <a href="https://www.linkedin.com/in/drwesleyphillips/" target="_blank" style="color:#000;"> Wesley Phillips</a> (Doc Wes)</p>
-<p>Accomplished cybersecurity professional with over 20 years of combined law enforcement, physical security, network security, risk management, and executive protection experience.  Over 16 years specific counterintelligence, technical surveillance countermeasures, and cybersecurity experience focused on proactively protecting the infrastructure and security of company resources and data.  Proven project manager, strategist, educator, and technologist with demonstrated leadership ability to set strategic direction, align teams and their performance, and achieve desired results with greater efficiency and effectiveness.  Collaborative team leader, college instructor, certification instructor, skill-based instruction, and effective communicator with the ability to work well both independently and in group settings, as well as the ability to engage with others throughout the organization to set and achieve common goals.  
+<p class="drdc">Accomplished cybersecurity professional with over 20 years of combined law enforcement, physical security, network security, risk management, and executive protection experience.  Over 16 years specific counterintelligence, technical surveillance countermeasures, and cybersecurity experience focused on proactively protecting the infrastructure and security of company resources and data.  Proven project manager, strategist, educator, and technologist with demonstrated leadership ability to set strategic direction, align teams and their performance, and achieve desired results with greater efficiency and effectiveness.  Collaborative team leader, college instructor, certification instructor, skill-based instruction, and effective communicator with the ability to work well both independently and in group settings, as well as the ability to engage with others throughout the organization to set and achieve common goals.  
 </p>
      </div>
     </div>
