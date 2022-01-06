@@ -12,7 +12,7 @@
 										<div class="elementor-element elementor-element-276c298 elementor-widget elementor-widget-image">
 											<div class="elementor-widget-container footer-logo"> <a href="<?php echo site_url("/ home "); ?>"> <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/Comp_7.gif" title="Hsoc Grey" alt="Hsoc Grey" /> </a> </div>
 										</div>
-										<div class="elementor-element elementor-element-24b80df ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="24b80df" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
+										<div class="elementor-element elementor-element-24b80df ob-harakiri-inherit elementor-widget elementor-widget-text-editor" >
 											<div class="elementor-widget-container">
 												<p>HSOC Cyber, formerly Professional Certifications and Consulting Services, is a service-disabled, veteran-owned small business (SDVOSB).</p>
 											</div>
