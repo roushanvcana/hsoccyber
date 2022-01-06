@@ -17,7 +17,7 @@
 <link rel='stylesheet' id='hello-elementor-theme-style-css'  href='<?php echo base_url(); ?>design/wp-content/themes/hello-elementor/theme.min8066.css?ver=2.4.1' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-icons-css'  href='<?php echo base_url(); ?>design/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min05c8.css?ver=5.13.0' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-frontend-css'  href='<?php echo base_url(); ?>design/wp-content/plugins/elementor/assets/css/frontend.mina7da.css?ver=3.4.7' type='text/css' media='all' />
-<style id='elementor-frontend-inline-css' type='text/css'>
+<!--<style id='elementor-frontend-inline-css' type='text/css'>
 @font-face {
 	font-family: eicons;
 	src: url(https://demo.moxcreative.com/byte/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);
@@ -25,7 +25,7 @@
 	font-weight: 400;
 	font-style: normal
 }
-</style>
+</style>-->
 <link rel='stylesheet' id='elementor-post-3-css'  href='<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/css/post-3b595.css?ver=1637060703' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-pro-css'  href='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/css/frontend.minee9a.css?ver=3.2.2' type='text/css' media='all' />
 <link rel='stylesheet' id='ooohboi-steroids-styles-css'  href='<?php echo base_url();?>design/wp-content/plugins/ooohboi-steroids-for-elementor/assets/css/maine45b.css?ver=1.8.103052021' type='text/css' media='all' />
