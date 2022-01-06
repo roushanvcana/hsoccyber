@@ -141,11 +141,11 @@
 <link rel='stylesheet' id='e-animations-css' href='<?php echo base_url(); ?>design/wp-content/plugins/elementor/assets/lib/animations/animations.mina7da.css?ver=3.4.7' type='text/css' media='all'/>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/ooohboi-steroids-for-elementor/assets/js/ooohboi-steroids-min9c0d.js?ver=1.8.103082021b' id='ooohboi-steroids-js'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script8d5a.js?ver=2.4.0' id='elementskit-framework-js-frontend-js'></script>
-<!--<script type='text/javascript' id='elementskit-framework-js-frontend-js-after'>
+<script type='text/javascript' id='elementskit-framework-js-frontend-js-after'>
 	var elementskit = {
-		resturl: 'https://demo.moxcreative.com/byte/wp-json/elementskit/v1/',
+		resturl: '',
 	}
-</script>-->
+</script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts8d5a.js?ver=2.4.0' id='ekit-widget-scripts-js'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-includes/js/wp-embed.min080f.js?ver=5.8.2' id='wp-embed-js'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.minf269.js?ver=1.0.1' id='smartmenus-js'></script>
@@ -156,24 +156,24 @@
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-includes/js/jquery/ui/mouse.min35d0.js?ver=1.12.1' id='jquery-ui-mouse-js'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-includes/js/jquery/ui/draggable.min35d0.js?ver=1.12.1' id='jquery-ui-draggable-js'></script>
 
-<!--<script type='text/javascript' id='premium-addons-js-extra'>
+<script type='text/javascript' id='premium-addons-js-extra'>
 	/* <![CDATA[ */
 	var PremiumSettings = {
-		"ajaxurl": "https:\/\/demo.moxcreative.com\/byte\/wp-admin\/admin-ajax.php",
+		"ajaxurl": "",
 		"nonce": "f547c95abb"
 	};
 	/* ]]> */
-</script>-->
+</script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/premium-addons.min1c9b.js?ver=4.6.1' id='premium-addons-js'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-includes/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>
-<!--<script type='text/javascript' id='bdt-uikit-js-extra'>
+<script type='text/javascript' id='bdt-uikit-js-extra'>
 	/* <![CDATA[ */
 	var element_pack_ajax_login_config = {
-		"ajaxurl": "https:\/\/demo.moxcreative.com\/byte\/wp-admin\/admin-ajax.php",
+		"ajaxurl": "",
 		"loadingmessage": "Sending user info, please wait..."
 	};
 	var ElementPackConfig = {
-		"ajaxurl": "https:\/\/demo.moxcreative.com\/byte\/wp-admin\/admin-ajax.php",
+		"ajaxurl": "",
 		"nonce": "42f2e35418",
 		"contact_form": {
 			"sending_msg": "Sending message please wait...",
@@ -187,7 +187,7 @@
 		}
 	};
 	/* ]]> */
-</script>-->
+</script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/bdthemes-element-pack-lite/assets/js/bdt-uikit.min3d36.js?ver=3.3.1' id='bdt-uikit-js'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/elementor/assets/js/webpack.runtime.mina7da.js?ver=3.4.7' id='elementor-webpack-runtime-js'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/elementor/assets/js/frontend-modules.mina7da.js?ver=3.4.7' id='elementor-frontend-modules-js'></script>
@@ -196,14 +196,14 @@
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/elementor/assets/lib/dialog/dialog.mina288.js?ver=4.8.1' id='elementor-dialog-js'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/elementor/assets/js/frontend.mina7da.js?ver=3.4.7' id='elementor-frontend-js'></script>
 
-<!--<script type='text/javascript' id='elementor-frontend-js-extra'>
+<script type='text/javascript' id='elementor-frontend-js-extra'>
 	/* <![CDATA[ */
 	var PaModulesSettings = {
-		"equalHeight_url": "https:\/\/demo.moxcreative.com\/byte\/wp-content\/plugins\/premium-addons-for-elementor\/assets\/frontend\/min-js\/premium-eq-height.min.js"
+		"equalHeight_url": ""
 	};
 	/* ]]> */
-</script>-->
-<!--<script type='text/javascript' id='elementor-frontend-js-before'>
+</script>
+<script type='text/javascript' id='elementor-frontend-js-before'>
 	var elementorFrontendConfig = {
 		"environmentMode": {
 			"edit": false,
@@ -291,7 +291,7 @@
 			"form-submissions": true
 		},
 		"urls": {
-			"assets": "https:\/\/demo.moxcreative.com\/byte\/wp-content\/plugins\/elementor\/assets\/"
+			"assets": ""
 		},
 		"settings": {
 			"page": [],
@@ -310,22 +310,22 @@
 		},
 		"post": {
 			"id": 798,
-			"title": "Homepage%20%E2%80%93%20Byte",
+			"title": "",
 			"excerpt": "",
-			"featuredImage": "https:\/\/demo.moxcreative.com\/byte\/wp-content\/uploads\/sites\/48\/2021\/06\/Home-279x1024.jpg"
+			"featuredImage": ""
 		}
 	};
-</script>-->
+</script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/bdthemes-element-pack-lite/assets/js/element-pack-site.min3d36.js?ver=3.3.1' id='element-pack-site-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/bdthemes-prime-slider-lite/assets/js/prime-slider-site.min3c94.js?ver=2.1.0' id='prime-slider-site-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.minee9a.js?ver=3.2.2' id='elementor-pro-webpack-runtime-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.minee9a.js?ver=3.2.2' id='elementor-sticky-js'></script>
 <!--<script type='text/javascript' id='elementor-pro-frontend-js-before'>
 	var ElementorProFrontendConfig = {
-		"ajaxurl": "https:\/\/demo.moxcreative.com\/byte\/wp-admin\/admin-ajax.php",
+		"ajaxurl": "",
 		"nonce": "4fe4417b60",
 		"urls": {
-			"assets": "https:\/\/demo.moxcreative.com\/byte\/wp-content\/plugins\/elementor-pro\/assets\/"
+			"assets": ""
 		},
 		"i18n": {
 			"toc_no_headings_found": "No headings were found on this page."
@@ -404,7 +404,7 @@
 			"app_id": ""
 		},
 		"lottie": {
-			"defaultAnimationUrl": "https:\/\/demo.moxcreative.com\/byte\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
+			"defaultAnimationUrl": ""
 		}
 	};
 </script>-->
@@ -412,7 +412,7 @@
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.minee9a.js?ver=3.2.2' id='pro-preloaded-elements-handlers-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle8d5a.js?ver=2.4.0' id='animate-circle-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor8d5a.js?ver=2.4.0' id='elementskit-elementor-js'></script>
-<!--<script type='text/javascript' id='elementor-frontend-js-after'>
+<script type='text/javascript' id='elementor-frontend-js-after'>
 	window.scopes_array = {};
 	window.backend = 0;
 	jQuery( window ).on( "elementor/frontend/init", function () {
@@ -461,18 +461,18 @@
 		};
 		jQuery.cachedAssets( url );
 	} );
-</script>-->
+</script>
 
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/bdthemes-element-pack-lite/assets/js/element-pack-site.min3d36.js?ver=3.3.1' id='element-pack-site-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/bdthemes-prime-slider-lite/assets/js/prime-slider-site.min3c94.js?ver=2.1.0' id='prime-slider-site-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.minee9a.js?ver=3.2.2' id='elementor-pro-webpack-runtime-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.minee9a.js?ver=3.2.2' id='elementor-sticky-js'></script>
-<!--<script type='text/javascript' id='elementor-pro-frontend-js-before'>
+<script type='text/javascript' id='elementor-pro-frontend-js-before'>
 	var ElementorProFrontendConfig = {
-		"ajaxurl": "https:\/\/demo.moxcreative.com\/byte\/wp-admin\/admin-ajax.php",
+		"ajaxurl": "",
 		"nonce": "4fe4417b60",
 		"urls": {
-			"assets": "https:\/\/demo.moxcreative.com\/byte\/wp-content\/plugins\/elementor-pro\/assets\/"
+			"assets": ""
 		},
 		"i18n": {
 			"toc_no_headings_found": "No headings were found on this page."
@@ -551,10 +551,10 @@
 			"app_id": ""
 		},
 		"lottie": {
-			"defaultAnimationUrl": "https:\/\/demo.moxcreative.com\/byte\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
+			"defaultAnimationUrl": ""
 		}
 	};
-</script>-->
+</script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/frontend.minee9a.js?ver=3.2.2' id='elementor-pro-frontend-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.minee9a.js?ver=3.2.2' id='pro-preloaded-elements-handlers-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle8d5a.js?ver=2.4.0' id='animate-circle-js'></script>

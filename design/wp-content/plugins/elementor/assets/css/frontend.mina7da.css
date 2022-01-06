@@ -156,6 +156,347 @@
 .sectng {
     padding: 30px 0 0;
 }
+/* ============================================================== 
+     # Works About Area 
+=================================================================== */
+.about-area {
+	padding: 60px 0;
+}
+.works-about-area {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+}
+
+.works-about-items {
+  position: relative;
+  z-index: 1;
+}
+
+.works-about-items::before {
+  position: absolute;
+  right: 20%;
+  top: 0;
+  content: "";
+  height: 100%;
+  width: 500%;
+  background: #f3f7fd;
+  z-index: -1;
+}
+
+.bg-light .works-about-items::before {
+  background: #ffffff;
+}
+
+.works-about-area .works-about-items .thumb {
+    position: relative;
+    z-index: 1;
+    margin: 140px 0;
+    box-shadow: 0 0 14px #000;
+    padding: 6px;
+    background: #e3edfd;
+}
+
+.works-about-area .works-about-items .thumb .fun-fact {
+  position: absolute;
+  left: -50px;
+  bottom: -50px;
+  background: #ffffff;
+  padding: 50px;
+  box-shadow: 0 5px 30px 0 rgba(214, 215, 216, 0.57);
+  text-align: center;
+}
+
+.works-about-area.reverse .works-about-items .thumb .fun-fact {
+  position: absolute;
+  left: auto;
+  right: -50px;
+  bottom: -50px;
+}
+
+.works-about-area .works-about-items .thumb .fun-fact .medium {
+  display: block;
+  font-weight: 600;
+}
+
+.works-about-area .works-about-items .thumb .fun-fact .timer {
+  display: inline-block;
+  font-weight: 800;
+  color: #0e2b3d;
+  font-size: 2rem;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 10px;
+  margin-left: -20px;
+}
+
+.works-about-area .works-about-items .thumb .fun-fact .timer::after {
+  position: absolute;
+  right: -25px;
+  top: 0;
+  content: "\f067";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.works-about-area .works-about-items .info {
+  padding-right: 10px;
+	padding-top: 30px;
+}
+
+.works-about-area.reverse .works-about-items .info {
+  padding-right: 15px;
+  padding-left: 80px;
+}
+.info p {
+	text-align: justify;
+}
+.works-about-items .info > h5 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 25px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding-left: 45px;
+  color: #086AD8;
+}
+
+.works-about-items .info > h5::after {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  content: "";
+  height: 2px;
+  width: 30px;
+  background: #086AD8;
+  margin-top: -1px;
+}
+
+.works-about-items .info h2 {
+  font-weight: 600;
+  margin-bottom: 25px;
+	color: #0e2b3d;
+}
+/* ============================================================== 
+     # About 
+=================================================================== */
+
+.about-area.inc-shape::after {
+  transform: translateX(10px);
+  position: absolute;
+  left: -100px;
+  top: 150px;
+  content: "";
+  height: 100%;
+  width: 40%;
+  background: url(assets/img/shape/1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.about-area .thumb {
+  position: relative;
+}
+
+.about-area .thumb img {
+  border-radius: 8px;
+}
+
+.about-area .thumb img:first-child {
+  width: 50%;
+}
+
+.about-area .thumb img:nth-child(2) {
+  position: relative;
+  left: 20%;
+  width: 80%;
+  top: -80px;
+  margin-bottom: -80px;
+  box-shadow: 0 0 10px #cccccc;
+  padding: 5px;
+  background: #ffffff;
+}
+
+.about-area .info > h5 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 25px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding-left: 45px;
+  color: #086AD8;
+}
+
+.about-area .info > h5::after {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  content: "";
+  height: 2px;
+  width: 30px;
+  background: #086AD8;
+  margin-top: -1px;
+}
+ 
+.about-area .thumb .overlay {
+  position: absolute;
+  right: 20%;
+  top: 50%;
+  height: 160px;
+  width: 288px;
+  text-align: center;
+  background: #ffffff;
+  transform: translate(50px, -50%);
+  border-radius: 8px;
+  box-shadow: 0 0 10px #cccccc;
+}
+
+.about-area .thumb .overlay .content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+}
+
+.about-area .thumb .overlay h4 {
+  margin: 0;
+  position: relative;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 30px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.about-area .info ul li {
+  display: flex;
+}
+
+.about-area .info ul li i {
+  display: inline-block;
+  font-size: 60px;
+  margin-right: 25px;
+  color: #086AD8;
+}
+
+.about-area .info ul li h4 {
+  font-weight: 600;
+}
+
+.about-area .info ul li {
+  margin-top: 30px;
+}
+
+.about-area .info ul li p {
+  margin: 0;
+}
+
+.about-area .info ul li:first-child {
+  margin-top: 0;
+}
+
+.about-area .info ul {
+  margin-top: 30px;
+}
+
+.about-area .info > h3 {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #086AD8;
+    margin-bottom: 30px;
+}
+
+.about-area .info h2 {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.about-area .author {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.about-area .author img {
+  height: 100px;
+}
+
+.about-area .author .signature {
+  border-right: 1px solid #e7e7e7;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.about-area .author h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.about-area.reverse .thumbs img {
+    max-width: 120%;
+}
+
+.about-area.reverse .info {
+    padding-right: 35px;
+}
+
+.about-area.reverse .info {
+    padding-bottom: 120px;
+}
+
+.about-area .info .progress-box .progress {
+    height: 5px;
+    overflow: inherit;
+}
+
+.about-area.reverse .info .progress-box h5 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.about-area.reverse .info .progress-box {
+    margin-top: 30px;
+    overflow: inherit;
+    text-align: left;
+}
+
+.about-area .info .progress-box .progress .progress-bar {
+  position: relative;
+  overflow: inherit;
+  background: linear-gradient(90deg, rgba(9,70,139,1) 0%, rgba(30,132,246,1) 100%);
+}
+
+.about-area .info .progress-box .progress .progress-bar span {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    background: #086AD8;
+    padding: 0px 8px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.about-area .info .progress-box .progress .progress-bar span::after {
+    position: absolute;
+    left: 5px;
+    bottom: -5px;
+    content: "";
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #086AD8;
+}
+
+
+
+
+
 
 
 
@@ -2154,6 +2495,7 @@ opacity:.6
 .elementor-mobile-button-align-stretch .elementor-field-type-submit:not(.e-form__buttons__wrapper) .elementor-button {
 	-ms-flex-preferred-size: 100%;
 	flex-basis: 100%
+
 }
 .elementor-mobile-button-align-stretch .e-form__buttons__wrapper {
 	-ms-flex-preferred-size: 50%;
@@ -2623,6 +2965,7 @@ opacity:.6
 }
 .elementor-slick-slider ul.slick-dots li button:focus, .elementor-slick-slider ul.slick-dots li button:hover {
 	outline: none
+
 }
 .elementor-slick-slider ul.slick-dots li button:focus:before, .elementor-slick-slider ul.slick-dots li button:hover:before {
 	opacity: 1
@@ -2893,6 +3236,7 @@ button.swiper-pagination-bullet {
 }
 .swiper-container-horizontal>.swiper-pagination-progressbar {
 	width: 100%;
+
 	height: 4px;
 	left: 0;
 	top: 0
@@ -3380,6 +3724,7 @@ transform:rotate(1turn)
 }
 .elementor-slideshow__header .elementor-slideshow__counter {
 	margin-right: auto
+
 }
 .elementor-slideshow__header .elementor-icon-share {
 	z-index: 5

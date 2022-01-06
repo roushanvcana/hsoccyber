@@ -147,66 +147,66 @@
     </div>
    </div>
   </section>
-  <section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-e0b7768 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e0b7768" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+  <section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-e0b7768 elementor-section-boxed elementor-section-height-default elementor-section-height-default" >
    <div class="elementor-background-overlay"></div>
    <div class="elementor-container elementor-column-gap-default">
-    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f07a037" data-id="f07a037" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f07a037">
      <div class="elementor-widget-wrap elementor-element-populated">
-      <div class="elementor-element elementor-element-ce110fb ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="ce110fb" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+      <div class="elementor-element elementor-element-ce110fb ob-harakiri-inherit elementor-widget elementor-widget-heading">
        <div class="elementor-widget-container">
         <h2 class="elementor-heading-title elementor-size-default">Trusted by International Brand</h2>
        </div>
       </div>
-      <div class="elementor-element elementor-element-9b48574 ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="9b48574" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
+      <div class="elementor-element elementor-element-9b48574 ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="9b48574" data-element_type="widget">
        <div class="elementor-widget-container">
         <p>Erat morbi si adipiscing laoreet praesent. Adipiscing duis laoreet orci aliquet ex dis auctor platea. Penatibus enim volutpat lectus curae ac porta etiam erat quam justo.</p>
        </div>
       </div>
-      <div class="elementor-element elementor-element-e32d116 elementor-widget elementor-widget-image-carousel" data-id="e32d116" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;4&quot;,&quot;slides_to_scroll&quot;:&quot;4&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;slides_to_show_tablet&quot;:&quot;4&quot;,&quot;slides_to_show_mobile&quot;:&quot;2&quot;,&quot;slides_to_scroll_tablet&quot;:&quot;4&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;2&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="image-carousel.default">
+      <div class="elementor-element elementor-element-e32d116 elementor-widget elementor-widget-image-carousel">
        <div class="elementor-widget-container">
         <div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
          <div class="elementor-image-carousel swiper-wrapper">
           <div class="swiper-slide">
-           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall (1).png" alt="Logo Autokit" /></figure>
+           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall1.png" alt="Logo Autokit" /></figure>
           </div>
           <div class="swiper-slide">
-           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall (2).png" alt="Logo-Auzora" /></figure>
+           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall2.png" alt="Logo-Auzora" /></figure>
           </div>
           <div class="swiper-slide">
-           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall (7).png" alt="Logo-eunoia" /></figure>
+           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall3.png" alt="Logo-eunoia" /></figure>
           </div>
           <div class="swiper-slide">
-           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall (8).png" alt="logo-bikepro_" /></figure>
+           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall8.png" alt="logo-bikepro_" /></figure>
           </div>
           <div class="swiper-slide">
-           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall (5).png" alt="Logo CryptoKit" /></figure>
+           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall5.png" alt="Logo CryptoKit" /></figure>
           </div>
           <div class="swiper-slide">
-           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall (7).png" alt="logo_dailyfresh" /></figure>
+           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall7.png" alt="logo_dailyfresh" /></figure>
           </div>
          </div>
         </div>
        </div>
       </div>
-      <div class="elementor-element elementor-element-2cd8b4a elementor-widget elementor-widget-image-carousel" data-id="2cd8b4a" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;4&quot;,&quot;slides_to_scroll&quot;:&quot;4&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;slides_to_show_tablet&quot;:&quot;4&quot;,&quot;slides_to_show_mobile&quot;:&quot;2&quot;,&quot;slides_to_scroll_tablet&quot;:&quot;4&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;2&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="image-carousel.default">
+      <div class="elementor-element elementor-element-2cd8b4a elementor-widget elementor-widget-image-carousel">
        <div class="elementor-widget-container">
         <div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
          <div class="elementor-image-carousel swiper-wrapper">
           <div class="swiper-slide">
-           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall (9).png"" alt="logo_defood_1_white" /></figure>
+           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall9.png" alt="logo_defood_1_white" /></figure>
           </div>
          
           <div class="swiper-slide">
-           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall (11).png"" alt="Logo Fitnez White" /></figure>
+           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall11.png" alt="Logo Fitnez White" /></figure>
           </div>
           <div class="swiper-slide">
-           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall (12).png"" alt="logo-expanet" /></figure>
+           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall12.png" alt="logo-expanet" /></figure>
           </div>
           <div class="swiper-slide">
-           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall (14).png"" alt="logo-greenia_w" /></figure>
+           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall14.png" alt="logo-greenia_w" /></figure>
           </div>
           <div class="swiper-slide">
-           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall (14).png"g" alt="logo_justicio" /></figure>
+           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall14.png" alt="logo_justicio" /></figure>
           </div>
          </div>
         </div>
@@ -234,7 +234,7 @@
       <div class="elementor-element elementor-element-09d5b82 ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="09d5b82" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
        <div class="elementor-widget-container">
        <p>HSOC Cyber, formerly Professional Certifications and Consulting Services, is a service-disabled, veteran-owned small business (SDVOSB).  Since 2016, HSOC Cyber has provided certification and real skill training in information technology, cybersecurity, and project management.  As a result of COVID-19, HSOC Cyber altered its business model from the live classroom training to live online training in the form of an internship, and all from the comfort of your home.  At HSOC Cyber, we work on real projects and tasks that equate to real experience versus attending an online class to complete assignments. </p> 
-				 <p>Whether new to the industry or experienced, each HSOC Cyber team member is considered a cybersecurity intern from day one.  We practice with a variety of real industry tools and techniques used in federal agencies, and small to large businesses.  We work in a peer-supported environment, where team members conduct a myriad of tasks and projects related to popular cybersecurity roles within the National Initiative for Cybersecurity Education (NICE) Workforce Framework, the INFOSEC Wheel, and the National Institute of Standards and Technology (NIST) Risk Management Framework. </p>
+				 
        <div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--move-up"> <a class="elementor-cta__button elementor-button elementor-size-sm" href="<?php echo site_url("/about"); ?>"> Read More</a> </div>
         
 
