@@ -135,9 +135,9 @@
 	transform: translateX(-30px)
 }
 .elementor-animated-content:hover .elementor-animated-item--move-up {
-	-webkit-transform: translateY(-30px);
-	-ms-transform: translateY(-30px);
-	transform: translateY(-30px)
+	-webkit-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	transform: translateY(-10px)
 }
 .elementor-animated-content:hover .elementor-animated-item--move-down {
 	-webkit-transform: translateY(30px);
@@ -1537,7 +1537,7 @@ body.elementor-editor-active .elementor-posts--show-thumbnail .elementor-post__t
 	align-items: center;
 	-ms-flex-line-pack: center;
 	align-content: center;
-	padding: 35px;
+	padding:10px 20px;
 	width: 100%
 }
 .elementor-cta__content, .elementor-cta__content-item {

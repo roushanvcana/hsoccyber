@@ -1,4 +1,5 @@
 <?php $this->load->view('frontend/layout/header'); ?>
+<link href="assets/css/bootstrap.css">
 <div data-elementor-type="wp-post" data-elementor-id="798" class="elementor elementor-798" data-elementor-settings="[]">
  <div class="elementor-section-wrap">
   <section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-6a632fe elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6a632fe" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
@@ -44,9 +45,11 @@
               <div class="elementor-cta__bg-overlay"></div>
              </div>
              <div class="elementor-cta__content">
-              <div class="elementor-content-item elementor-cta__content-item elementor-cta__image elementor-animated-item--move-up"> <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/logo1.png" title="Hsoc" alt="Hsoc" /> </div>
-              <h4 class="elementor-cta__title elementor-cta__content-item elementor-content-item elementor-animated-item--move-up"> Securing Your Business </h4>
-              <div class="elementor-cta__description elementor-cta__content-item elementor-content-item elementor-animated-item--move-up"> Whether you have a home-based business, a small- or medium-sized business, HSOC Cyber professional interns will consult with you to help you achieve your business objectives and provide the protection and defense you deserve. Contact us to learn more. We want to help you; therefore, we provide services at an extremely affordable rate</div>
+              <div class="logo_ elementor-content-item elementor-cta__content-item elementor-cta__image elementor-animated-item--move-up"> <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/logo1.png" title="Hsoc" alt="Hsoc" /> </div>
+              <h4 class="elementor-cta__title elementor-cta__content-item elementor-content-item elementor-animated-item--move-up heading_h4"> Securing Your Business </h4>
+              <div class="elementor-cta__description elementor-cta__content-item elementor-content-item elementor-animated-item--move-up"> 
+							 <p class="space_desc">Whether you have a home-based business, a small- or medium-sized business, HSOC Cyber professional interns will consult with you to help you achieve your business objectives and provide the protection and defense you deserve. Contact us to learn more. We want to help you; therefore, we provide services at an extremely affordable rate</p>
+							 </div>
               <div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--move-up"> <a class="elementor-cta__button elementor-button elementor-size-sm"> Discover More </a> </div>
              </div>
             </div>
@@ -64,9 +67,10 @@
               <div class="elementor-cta__bg-overlay"></div>
              </div>
              <div class="elementor-cta__content">
-              <div class="elementor-content-item elementor-cta__content-item elementor-cta__image elementor-animated-item--move-up"> <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/logo1.png" title="Hsoc" alt="Hsoc" /> </div>
-              <h4 class="elementor-cta__title elementor-cta__content-item elementor-content-item elementor-animated-item--move-up"> Securing Your Home</h4>
-              <div class="elementor-cta__description elementor-cta__content-item elementor-content-item elementor-animated-item--move-up"> Gain real cybersecurity experience by building your own HSOC. Apply the same tools and techniques that protect and defend organizations in your home, and then take those new skills with you to your professional organization.  Learn more about the HSOC Cyber Internship Program. </div>
+              <div class="logo_ elementor-content-item elementor-cta__content-item elementor-cta__image elementor-animated-item--move-up"> <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/logo1.png" title="Hsoc" alt="Hsoc" /> </div>
+              <h4 class="elementor-cta__title elementor-cta__content-item elementor-content-item elementor-animated-item--move-up heading_h4"> Securing Your Home</h4>
+              <div class="elementor-cta__description elementor-cta__content-item elementor-content-item elementor-animated-item--move-up">
+								<p class="space_desc">Gain real cybersecurity experience by building your own HSOC. Apply the same tools and techniques that protect and defend organizations in your home, and then take those new skills with you to your professional organization.  Learn more about the HSOC Cyber Internship Program.</p> </div>
               <div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--move-up"> <a class="elementor-cta__button elementor-button elementor-size-sm"> Discover More </a> </div>
              </div>
             </div>
@@ -191,19 +195,20 @@
       <div class="elementor-element elementor-element-09d5b82 ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="09d5b82" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
        <div class="elementor-widget-container">
        <p>HSOC Cyber, formerly Professional Certifications and Consulting Services, is a service-disabled, veteran-owned small business (SDVOSB).  Since 2016, HSOC Cyber has provided certification and real skill training in information technology, cybersecurity, and project management.  As a result of COVID-19, HSOC Cyber altered its business model from the live classroom training to live online training in the form of an internship, and all from the comfort of your home.  At HSOC Cyber, we work on real projects and tasks that equate to real experience versus attending an online class to complete assignments. </p> 
+				 <p>Whether new to the industry or experienced, each HSOC Cyber team member is considered a cybersecurity intern from day one.  We practice with a variety of real industry tools and techniques used in federal agencies, and small to large businesses.  We work in a peer-supported environment, where team members conduct a myriad of tasks and projects related to popular cybersecurity roles within the National Initiative for Cybersecurity Education (NICE) Workforce Framework, the INFOSEC Wheel, and the National Institute of Standards and Technology (NIST) Risk Management Framework. </p>
        <div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--move-up"> <a class="elementor-cta__button elementor-button elementor-size-sm" href="<?php echo site_url("/about"); ?>"> Read More</a> </div>
         
 
        </div>
       </div>
-      <section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-a688530 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a688530" data-element_type="section" data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+      <!--<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-a688530 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a688530" data-element_type="section" data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
        <div class="elementor-container elementor-column-gap-default">
         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-578a9df" data-id="578a9df" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
          <div class="elementor-widget-wrap elementor-element-populated">
           <div class="elementor-element elementor-element-2379c5a elementor-widget elementor-widget-premium-counter" data-id="2379c5a" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="premium-counter.default">
            <div class="elementor-widget-container">
             <div class="premium-counter premium-counter-area left" data-duration="3000" data-from-value="0" data-to-value="23" data-delimiter="," data-rounding="0">
-             <div class="premium-counter-icon"> <span class="icon" data-animation="fadeInLeft"> <!--<i aria-hidden="true" class="icon icon-star"></i>--> </span> </div>
+             <div class="premium-counter-icon"> <span class="icon" data-animation="fadeInLeft">  </span> </div>
              <div class="premium-init-wrapper">
               <div class="premium-counter-value-wrap"> <span class="premium-counter-init" id="counter-2379c5a">0</span> <span id="suffix" class="counter-su-pre">+</span> </div>
               <h4 class="premium-counter-title">
@@ -220,7 +225,7 @@
           <div class="elementor-element elementor-element-317adbc elementor-widget elementor-widget-premium-counter" data-id="317adbc" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="premium-counter.default">
            <div class="elementor-widget-container">
             <div class="premium-counter premium-counter-area left" data-duration="3000" data-from-value="0" data-to-value="2114" data-delimiter="," data-rounding="0">
-             <div class="premium-counter-icon"> <span class="icon" data-animation="fadeInLeft"> <!--<i aria-hidden="true" class="icon icon-consult"></i>--> </span> </div>
+             <div class="premium-counter-icon"> <span class="icon" data-animation="fadeInLeft">  </span> </div>
              <div class="premium-init-wrapper">
               <div class="premium-counter-value-wrap"> <span class="premium-counter-init" id="counter-317adbc">0</span> <span id="suffix" class="counter-su-pre">+</span> </div>
               <h4 class="premium-counter-title">
@@ -237,7 +242,7 @@
           <div class="elementor-element elementor-element-68acc3b elementor-widget elementor-widget-premium-counter" data-id="68acc3b" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="premium-counter.default">
            <div class="elementor-widget-container">
             <div class="premium-counter premium-counter-area left" data-duration="3000" data-from-value="0" data-to-value="8451" data-delimiter="," data-rounding="0">
-             <div class="premium-counter-icon"> <span class="icon" data-animation="fadeInLeft"> <!--<i aria-hidden="true" class="icon icon-coins-1"></i>--> </span> </div>
+             <div class="premium-counter-icon"> <span class="icon" data-animation="fadeInLeft">  </span> </div>
              <div class="premium-init-wrapper">
               <div class="premium-counter-value-wrap"> <span class="premium-counter-init" id="counter-68acc3b">0</span> <span id="suffix" class="counter-su-pre">+</span> </div>
               <h4 class="premium-counter-title">
@@ -250,84 +255,51 @@
          </div>
         </div>
        </div>
-      </section>
+      </section>-->
       
      </div>
     </div>
-    <section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-0ffd50b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0ffd50b" data-element_type="section" data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+    <section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-0ffd50b elementor-section-boxed elementor-section-height-default elementor-section-height-default">
        <div class="elementor-container elementor-column-gap-default">
-        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4248acc" data-id="4248acc" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-         <div class="elementor-widget-wrap elementor-element-populated">
-          <div class="elementor-element elementor-element-30f8f8f ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box" data-id="30f8f8f" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="elementskit-icon-box.default">
-           <div class="elementor-widget-container">
-            <div class="ekit-wid-con" > <!-- link opening --> 
-             <a href="#" target="_self" rel="" class="ekit_global_links"> 
-             <!-- end link opening -->
-             
-             <div class="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation-float media  ">
-              <div class="elementskit-box-header">
-               <div class="elementskit-info-box-icon text-center"> <img style="filter: brightness(0) invert(1);" width="512" height="512" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/3-protection-1.png" class="attachment- size-" alt="" loading="lazy" srcset="https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/3-protection-1.png 512w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/3-protection-1-300x300.png 300w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/3-protection-1-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" /> </div>
-              </div>
-              <div class="box-body">
-               <h3 class="elementskit-info-box-title" style="color: #fff">Information Security Learning Continuum </h3>
-               <p>Developing a Workforce for Security: A NICE Framework Workshop<br>
-https://niccs.cisa.gov/workforce-development/cyber-security-workforce-framework  </p>
-              </div>
-             </div>
-             </a> </div>
-           </div>
-          </div>
-         </div>
+        <div class="elementor-column elementor-col-33">
+					<div class="elementor-widget-wrap elementor-element-populated">
+        <div class="single-challenges overly-one">
+<img src="<?php echo base_url();?>/design/wp-content/uploads/sites/48/2021/06/nisttt.png" alt="">
+<h3>Information Security Learning Continuum</h3>
+<ul>
+					<li><a href="https://www.nist.gov/system/files/documents/2021/09/29/FinalSlides_AwarenessWorkshop_28sep2021%20%28508%20Compliant%29.pdf" target="_blank">Developing a Workforce for Security: A NICE Framework Workshop</a></li>
+	<li><a href="https://niccs.cisa.gov/workforce-development/cyber-security-workforce-framework" target="_blank">cyber-security-workforce-framework</a></li>
+					</ul>
+</div>
         </div>
-        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f385b70" data-id="f385b70" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-         <div class="elementor-widget-wrap elementor-element-populated">
-          <div class="elementor-element elementor-element-cc19be1 ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box" data-id="cc19be1" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="elementskit-icon-box.default">
-           <div class="elementor-widget-container">
-            <div class="ekit-wid-con" > <!-- link opening --> 
-             <a href="#" target="_self" rel="" class="ekit_global_links"> 
-             <!-- end link opening -->
-             
-             <div class="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation-float media  ">
-              <div class="elementskit-box-header">
-               <div class="elementskit-info-box-icon text-center"> <img style="filter: brightness(0) invert(1);" width="64" height="64" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/10-server-1.png" class="attachment- size-" alt="" loading="lazy" /> </div>
-              </div>
-              <div class="box-body">
-               <h3 class="elementskit-info-box-title" style="color: #fff">INFOSEC WHEEL </h3>
-               <p>Introducing the InfoSec colour wheel — blending developers with red and blue security teams </p>
-              </div>
-             </div>
-             </a> </div>
-           </div>
-          </div>
-         </div>
+				 </div>
+				<div class="elementor-column elementor-col-33">
+					<div class="elementor-widget-wrap elementor-element-populated">
+        <div class="single-challenges overly-one">
+<img src="<?php echo base_url();?>/design/wp-content/uploads/sites/48/2021/06/nistt.png" alt="">
+<h3>Infosec Wheel</h3>
+<ul>
+					<li><a href="https://hackernoon.com/introducing-the-infosec-colour-wheel-blending-developers-with-red-and-blue-security-teams-6437c1a07700" target="_blank">Introducing the InfoSec colour	wheel- blending developers with red and blue security teams</a></li>
+	
+					</ul>
+</div>
         </div>
-        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9956534" data-id="9956534" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-         <div class="elementor-widget-wrap elementor-element-populated">
-          <div class="elementor-element elementor-element-31a36cc ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box" data-id="31a36cc" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="elementskit-icon-box.default">
-           <div class="elementor-widget-container">
-            <div class="ekit-wid-con" > <!-- link opening --> 
-             <a href="#" target="_self" rel="" class="ekit_global_links"> 
-             <!-- end link opening -->
-             
-             <div class="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation-float media  ">
-              <div class="elementskit-box-header">
-               <div class="elementskit-info-box-icon text-center"> <img style="filter: brightness(0) invert(1);" width="64" height="64" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/2-database-1.png" class="attachment- size-" alt="" loading="lazy" /> </div>
-              </div>
-              <div class="box-body">
-               <h3 class="elementskit-info-box-title" style="color: #fff">Risk Management Framework </h3>
-               <p>NIST Risk Management Framework RMF </p>
-              </div>
-             </div>
-             </a> </div>
-           </div>
-          </div>
-         </div>
+				 </div>
+				 <div class="elementor-column elementor-col-33">
+					<div class="elementor-widget-wrap elementor-element-populated">
+        <div class="single-challenges overly-one">
+<img src="<?php echo base_url();?>/design/wp-content/uploads/sites/48/2021/06/nist.png" alt="">
+<h3>Risk Management Framework</h3>
+<ul>
+					<li><a href="https://csrc.nist.gov/projects/risk-management/about-rmf" target="_blank">NIST Risk Management Framework RMF</a></li>
+	
+					</ul>
+</div>
         </div>
+				 </div>
        </div>
       </section>
-    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8c6058c" data-id="8c6058c" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-     <div class="elementor-widget-wrap"> </div>
-    </div>
+ 
    </div>
   </section>
   <section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-63ce778 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="63ce778" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
@@ -836,9 +808,13 @@ https://niccs.cisa.gov/workforce-development/cyber-security-workforce-framework 
   </section>
  </div>
 </div>
-<div id="myModal" class="modalcstm">
 
-  <!-- Modal content -->
+
+<?php $this->load->view('frontend/layout/footer'); ?>
+
+<!--<div id="myModal" class="modalcstm">
+
+  <!-- Modal content --
   <div class="modal-content" style="text-align:center; font-family: cursive;">
     <span class="close">&times;</span>
     <h4 style="text-align:center; color:#020817;">Join me on Patreon</h4>
@@ -854,7 +830,7 @@ https://niccs.cisa.gov/workforce-development/cyber-security-workforce-framework 
 ">Join Now</a>
   </div>
 
-</div>
+</div>-->
 
 <script>
 // Get the modal
@@ -923,5 +899,3 @@ window.onclick = function(event) {
   cursor: pointer;
 }
 </style>
-
-<?php $this->load->view('frontend/layout/footer'); ?>

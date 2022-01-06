@@ -56,13 +56,29 @@
      </div>
     </div>
     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-df9ecc3" data-id="df9ecc3" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-     <div class="elementor-widget-wrap elementor-element-populated">
-     <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/about.png" alt="icon" />
-     </div>
+			<div class="doc_img">
+			<img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/about_1.png" alt="icon" />
+			</div>
+     <!--<div class="elementor-widget-wrap elementor-element-populated">
+     
+     </div>-->
     </div>
    </div>
   </section>
- 
+ <section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-50df6d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default bgcolordw">
+   <div class="elementor-container elementor-column-gap-no">
+    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-925752d">
+     <div class="elementor-widget-wrap elementor-element-populated sp">
+			 <div class="title_">
+<div class="left_img"><img src="<?php echo base_url();?>/design/wp-content/uploads/sites/48/2021/06/drwec.jpg" alt=""></div>
+<div class="left_cnt"><h3>Doc Wes is the recipient of the 2021 Blacks in Cyber Outstanding Cybersecurity Training & Curriculum Award</h3></div>
+</div>
+     
+     </div>
+    </div>
+    
+   </div>
+  </section>
   
   <section class="bg-dark-blue ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-b2805a7 elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default" data-id="b2805a7" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
    <div class="elementor-container elementor-column-gap-no">
