@@ -90,8 +90,10 @@ $route['edit-about/(:num)'] = 'Slider/edit_about_mes/$1';
 $route['about-delete/(:num)'] = 'Slider/delete_about/$1';
 
 
-
-
+$route['home'] = 'Website/home';
+$route['about'] = 'Website/about';
+$route['services'] = 'Website/services';
+$route['contact'] = 'Website/contact';
 
 
 
