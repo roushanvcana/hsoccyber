@@ -133,7 +133,7 @@
 			 </div>
 			 </div>
 				 </div>
-      <div class="elementor-element elementor-element-0957d23 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="0957d23" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+      <!--<div class="elementor-element elementor-element-0957d23 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="0957d23" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
        <div class="elementor-widget-container">
         <h4 class="elementor-heading-title elementor-size-default color-black"></h4>
        </div>
@@ -142,7 +142,7 @@
        <div class="elementor-widget-container">
         
        </div>
-      </div>
+      </div>-->
      </div>
     </div>
    </div>
