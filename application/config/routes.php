@@ -101,6 +101,15 @@ $route['add-feature-details'] = 'Service/add_feature_details';
 $route['feature-details-delete/(:num)'] = 'Service/delete_feature/$1';
 $route['feature-details-edit/(:num)'] = 'Service/feature_edit_details/$1';
 
+$route['testimonial'] = 'Service/testimonial_list';
+$route['add-testimonial'] = 'Service/add_testimonial';
+$route['edit-testimonial/(:num)'] = 'Service/edit_testimonial/$1';
+$route['delete-testimonial/(:num)'] = 'Service/delete_testimonial/$1';
+$route['articles'] = 'Service/articles';
+$route['add-article'] = 'Service/add_articles';
+$route['edit-article/(:num)'] = 'Service/edit_articles/$1';
+$route['delete-article/(:num)'] = 'Service/delete_articles/$1';
+
 
 
 

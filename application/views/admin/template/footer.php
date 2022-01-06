@@ -48,7 +48,7 @@
 <script>
   $(function() {
     // Summernote
-    $('#summernote').summernote()
+    $('#summernote,#vision,#moto,#biography,#description').summernote()
   })
 </script>
 <script>

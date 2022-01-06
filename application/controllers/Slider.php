@@ -312,10 +312,24 @@
                     "number_of_partners" => $this->input->post('number_of_partners'),
                     "background_color" => $this->input->post('background_color'),
                     "heading" => $this->input->post('heading'),
+                    "mission" => $this->input->post('mission'),
+                    "vision" => $this->input->post('vision'),
+                    "moto" => $this->input->post('moto'),
+                    "biography" => $this->input->post('biography'),
                     "status" => 1,                 
                     "entry_by" => 1,                 
                     "ip_add" => $this->input->ip_address(),
                 );
+
+                if (!empty($_FILES["upload_biography"]["name"])) {
+                    $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["upload_biography"]["name"];
+                    $tmp_name = $_FILES["upload_biography"]["tmp_name"];
+                    $error = $_FILES["upload_biography"]["error"];
+                    $path = 'uploads/gallery-image/'. $name;
+                    move_uploaded_file($tmp_name, $path);
+                    $aboutme['upload_biography'] = $name;
+                }
+    
 
             $query = $this->db->query('select * from manage_about_us where id=1');
             
@@ -325,7 +339,7 @@
                 $insert = $this->db->insert('manage_about_us', $aboutme);  
             }
 
-            if ($insert) {
+            if($insert) {
                 $this->session->set_flashdata('success', 'About me Successfully Saved');
                 redirect(site_url().'add-about');
             } else {

@@ -27,13 +27,20 @@
                     </div>
 
                     <div class="card-body">
-                        <form class="form" method="post" enctype="multipart/form-data" id="form1" action="">
-        
+                        <form class="form" method="post" enctype="multipart/form-data" id="form1" action="">        
                             <div class="row">
                                 <div class="form-group  col-md-12">
+                                    <label for="title">Feature Type</label>                                    
+                                    <select class="form-control" name="featuretype" id="featuretype">
+                                        <?php foreach ($faturetype as $key => $value) { ?>
+                                           <option value="<?php echo $key;?>"><?php echo $value;?></option>
+                                        <?php }?>                     
+                                    </select>
+                                </div>
+                                <div class="form-group  col-md-12">
                                     <label for="title">Title</label>
-                                    <input type="title" id="title" class="form-control" name="title" value="<?= !empty($getValue['title']) ? $getValue['title'] : set_value('title') ?>" >
-                                    <?php echo form_error('title'); ?>
+                                    <input type="text" id="feature_title" class="form-control" name="feature_title" value="<?= !empty($getValue['feature_title']) ? $getValue['feature_title'] : set_value('feature_title') ?>" >
+                                    <?php echo form_error('feature_title'); ?>
                                     <p style="color:#dc3545!important;" id="passerror"></p>
                                 </div>
                                 <div class="form-group  col-md-12 col-lg-12">
