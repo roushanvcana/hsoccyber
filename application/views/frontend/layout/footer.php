@@ -166,7 +166,7 @@
 </script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/premium-addons.min1c9b.js?ver=4.6.1' id='premium-addons-js'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-includes/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>
-<script type='text/javascript' id='bdt-uikit-js-extra'>
+<!--<script type='text/javascript' id='bdt-uikit-js-extra'>
 	/* <![CDATA[ */
 	var element_pack_ajax_login_config = {
 		"ajaxurl": "",
@@ -187,7 +187,7 @@
 		}
 	};
 	/* ]]> */
-</script>
+</script>-->
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/bdthemes-element-pack-lite/assets/js/bdt-uikit.min3d36.js?ver=3.3.1' id='bdt-uikit-js'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/elementor/assets/js/webpack.runtime.mina7da.js?ver=3.4.7' id='elementor-webpack-runtime-js'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/elementor/assets/js/frontend-modules.mina7da.js?ver=3.4.7' id='elementor-frontend-modules-js'></script>
