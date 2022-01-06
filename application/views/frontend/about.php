@@ -75,6 +75,7 @@
             </div>
         </div>
     </div>
+	 
     <!-- End About Area -->
   <!--<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-50df6d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="50df6d0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
    <div class="elementor-container elementor-column-gap-no about-pd">
