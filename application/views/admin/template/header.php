@@ -281,6 +281,12 @@
                                 <p>Manage About</p>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="<?php echo base_url() ?>add-team" class="nav-link">
+                                <i class="far fa-user nav-icon"></i>
+                                <p>Manage Team</p>
+                            </a>
+                        </li>
                         </li>
                     </ul>
                 </nav>

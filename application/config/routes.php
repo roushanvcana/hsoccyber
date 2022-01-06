@@ -109,6 +109,8 @@ $route['articles'] = 'Service/articles';
 $route['add-article'] = 'Service/add_articles';
 $route['edit-article/(:num)'] = 'Service/edit_articles/$1';
 $route['delete-article/(:num)'] = 'Service/delete_articles/$1';
+$route['add-team'] = 'Team/add_team';
+$route['team-list'] = 'Team/team_list';
 
 
 
