@@ -194,12 +194,6 @@
 						<div class="elementor-element elementor-element-9feffd1 elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="9feffd1" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="form.default">
 							<div class="elementor-widget-container">
 								<form class="elementor-form" method="post" name="New Form">
-									<input type="hidden" name="post_id" value="150"/>
-									<input type="hidden" name="form_id" value="9feffd1"/>
-									<input type="hidden" name="referer_title" value="Contact Us"/>
-
-									<input type="hidden" name="queried_id" value="150"/>
-
 									<div class="elementor-form-fields-wrapper elementor-labels-above">
 										<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50">
 											<label for="form-field-name" class="elementor-field-label">Name</label><input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Name"> </div>
