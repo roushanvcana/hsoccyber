@@ -113,8 +113,10 @@ $route['add-team'] = 'Team/add_team';
 $route['team-list'] = 'Team/team_list';
 
 
-
-
+$route['home'] = 'Website/home';
+$route['about'] = 'Website/about';
+$route['services'] = 'Website/services';
+$route['contact'] = 'Website/contact';
 
 
 
