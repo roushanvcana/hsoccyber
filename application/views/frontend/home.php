@@ -173,7 +173,7 @@
            <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall (2).png" alt="Logo-Auzora" /></figure>
           </div>
           <div class="swiper-slide">
-           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall (7).png"" alt="Logo-eunoia" /></figure>
+           <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall (7).png" alt="Logo-eunoia" /></figure>
           </div>
           <div class="swiper-slide">
            <figure class="swiper-slide-inner"><img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logoall (8).png" alt="logo-bikepro_" /></figure>
