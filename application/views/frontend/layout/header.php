@@ -8,6 +8,7 @@
 <title>Hsoc Cyber</title>
 
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="<?php echo base_url(); ?>design/wp-content/plugins/elementor/assets/css/bootstrap.css"/>
 <!--<link rel='stylesheet' id='bdt-uikit-css'  href='<?php echo base_url(); ?>design/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikitcf1b.css?ver=3.2' type='text/css' media='all' />
 <link rel='stylesheet' id='element-pack-site-css'  href='<?php echo base_url(); ?>design/wp-content/plugins/bdthemes-element-pack-lite/assets/css/element-pack-site3d36.css?ver=3.3.1' type='text/css' media='all' />
 <link rel='stylesheet' id='prime-slider-site-css'  href='<?php echo base_url(); ?>design/wp-content/plugins/bdthemes-prime-slider-lite/assets/css/prime-slider-site3c94.css?ver=2.1.0' type='text/css' media='all' />

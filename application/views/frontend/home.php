@@ -1,5 +1,5 @@
 <?php $this->load->view('frontend/layout/header'); ?>
-<link href="assets/css/bootstrap.css">
+
 <div data-elementor-type="wp-post" data-elementor-id="798" class="elementor elementor-798" data-elementor-settings="[]">
  <div class="elementor-section-wrap">
   <section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-6a632fe elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6a632fe" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
@@ -94,14 +94,53 @@
         <h6 class="">History</h6>
        </div>
       </div>-->
+			 <div class="sectng">
+			 <div class="col-lg-12">
+				 <div class="row">
+					 <div class="col-lg-7">
+					 <div class="main_left_img">
+						 <div class="row">
+					 	 <div class="col-lg-4">
+					 <div class="abt_mg_box">
+					 <img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/abt1.jpg" alt="logo-bikepro_" /></div>
+					 
+					 </div>
+			 <div class="col-lg-4">
+					 <div class="abt_mg_box">
+					 <img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/abt2.jpg" alt="logo-bikepro_" /></div>
+					 
+					 </div>
+					 <div class="col-lg-4">
+					 <div class="abt_mg_box">
+					 <img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/abt3.jpg" alt="logo-bikepro_" /></div>
+					 
+					 </div>
+					 <div class="col-lg-12">
+					 <div class="abt_mg_box">
+					 <img class="swiper-slide-image" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/abt4.jpg" alt="logo-bikepro_" /></div>
+					 </div>
+					 </div>
+					 </div>
+			</div>
+					 <div class="col-lg-5">
+						 <div class="main_right_cnt">
+						 <div class="heading_"><h4>Welcome to HOSC Security</h4></div>
+						 <div class="heading_desc">
+						 <p>At HSOC Cyber, security starts at home!  Our voluntary, non-paid internship program is designed to help you gain quality, resume-building cybersecurity experience quickly.  We empower you to change your life with a proven, real-time, live, hands-on training system that contributes to ethics and national security within the cybersecurity profession.  Contact us to learn more about the HSOC Cyber Internship Program.  Join us on Patreon today!    </p>
+						 </div>
+						 </div
+				 </div>
+			 </div>
+			 </div>
+				 </div>
       <div class="elementor-element elementor-element-0957d23 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="0957d23" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
        <div class="elementor-widget-container">
-        <h4 class="elementor-heading-title elementor-size-default color-black">Welcome to HOSC Security</h4>
+        <h4 class="elementor-heading-title elementor-size-default color-black"></h4>
        </div>
       </div>
       <div class="elementor-element elementor-element-40237c9 ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="40237c9" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
        <div class="elementor-widget-container">
-        <p>At HSOC Cyber, security starts at home!  Our voluntary, non-paid internship program is designed to help you gain quality, resume-building cybersecurity experience quickly.  We empower you to change your life with a proven, real-time, live, hands-on training system that contributes to ethics and national security within the cybersecurity profession.  Contact us to learn more about the HSOC Cyber Internship Program.  Join us on Patreon today!    </p>
+        
        </div>
       </div>
      </div>
@@ -760,42 +799,42 @@
        <div class="elementor-widget-container">
         <div class="elementor-posts-container elementor-posts elementor-posts--skin-cards elementor-grid">
          <article class="elementor-post elementor-grid-item post-92 post type-post status-publish format-standard has-post-thumbnail hentry category-computer-virus tag-cyber-security tag-elementor tag-moxcreative tag-quickenworks tag-template-kit">
-          <div class="elementor-post__card"> <a class="elementor-post__thumbnail__link" href="https://demo.moxcreative.com/byte/2021/06/23/city-of-liege-hit-by-ransomware-ryuk-suspected/" >
+          <div class="elementor-post__card"> <a class="elementor-post__thumbnail__link" href="#" >
            <div class="elementor-post__thumbnail"><img width="1080" height="721" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/cropped-view-of-african-american-businessman-using-laptop-and-smartphone-in-car-with-cyber-security-e1624634401494.jpg" class="attachment-full size-full" alt="cropped view of african american businessman using laptop and smartphone in car with cyber security" loading="lazy" /></div>
            </a>
            <div class="elementor-post__badge font-white">Computer Virus</div>
            <div class="elementor-post__text">
-            <h3 class="elementor-post__title"> <a href="https://demo.moxcreative.com/byte/2021/06/23/city-of-liege-hit-by-ransomware-ryuk-suspected/" > City of Liège hit by ransomware, Ryuk suspected </a> </h3>
+            <h3 class="elementor-post__title"> <a href="#" > City of Liège hit by ransomware, Ryuk suspected </a> </h3>
            </div>
           </div>
          </article>
          <article class="elementor-post elementor-grid-item post-93 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-parental-control tag-cyber-security tag-elementor tag-moxcreative tag-quickenworks tag-template-kit">
-          <div class="elementor-post__card"> <a class="elementor-post__thumbnail__link" href="https://demo.moxcreative.com/byte/2021/06/23/make-the-internet-a-better-safer-place-on-stop-cyberbullying-day/" >
+          <div class="elementor-post__card"> <a class="elementor-post__thumbnail__link" href="#" >
            <div class="elementor-post__thumbnail"><img width="1080" height="721" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/woman-working-on-computer-outdoors-e1624634377985.jpg" class="attachment-full size-full" alt="Woman working on computer outdoors" loading="lazy" /></div>
            </a>
            <div class="elementor-post__badge font-white">Featured</div>
            <div class="elementor-post__text">
-            <h3 class="elementor-post__title"> <a href="https://demo.moxcreative.com/byte/2021/06/23/make-the-internet-a-better-safer-place-on-stop-cyberbullying-day/" > Make the Internet a Better, Safer Place on Stop Cyberbullying Day </a> </h3>
+            <h3 class="elementor-post__title"> <a href="#" > Make the Internet a Better, Safer Place on Stop Cyberbullying Day </a> </h3>
            </div>
           </div>
          </article>
          <article class="elementor-post elementor-grid-item post-94 post type-post status-publish format-standard has-post-thumbnail hentry category-cyber-security tag-cyber-security tag-elementor tag-moxcreative tag-quickenworks tag-template-kit">
-          <div class="elementor-post__card"> <a class="elementor-post__thumbnail__link" href="https://demo.moxcreative.com/byte/2021/06/23/threat-actors-spread-agent-tesla-disguised-as-covid-19-vaccination-registration/" >
+          <div class="elementor-post__card"> <a class="elementor-post__thumbnail__link" href="#" >
            <div class="elementor-post__thumbnail"><img width="2000" height="1333" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen.jpg" class="attachment-full size-full" alt="Male Teenage Hacker With Data Reflected From Computer Screen" loading="lazy" srcset="https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen.jpg 2000w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen-300x200.jpg 300w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen-1024x682.jpg 1024w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen-768x512.jpg 768w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen-1536x1024.jpg 1536w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen-800x533.jpg 800w" sizes="(max-width: 2000px) 100vw, 2000px" /></div>
            </a>
            <div class="elementor-post__badge font-white">Cyber Security</div>
            <div class="elementor-post__text">
-            <h3 class="elementor-post__title"> <a href="https://demo.moxcreative.com/byte/2021/06/23/threat-actors-spread-agent-tesla-disguised-as-covid-19-vaccination-registration/" > Threat Actors Spread Agent Tesla Disguised as COVID-19 Vaccination Registration </a> </h3>
+            <h3 class="elementor-post__title"> <a href="#" > Threat Actors Spread Agent Tesla Disguised as COVID-19 Vaccination Registration </a> </h3>
            </div>
           </div>
          </article>
          <article class="elementor-post elementor-grid-item post-95 post type-post status-publish format-standard has-post-thumbnail hentry category-criminal category-featured tag-cyber-security tag-elementor tag-moxcreative tag-quickenworks tag-template-kit">
-          <div class="elementor-post__card"> <a class="elementor-post__thumbnail__link" href="https://demo.moxcreative.com/byte/2021/06/23/repairmen-suspected-of-installing-ransomware-on-customers-pcs-arrests-in-south-korea/" >
+          <div class="elementor-post__card"> <a class="elementor-post__thumbnail__link" href="#" >
            <div class="elementor-post__thumbnail"><img width="2000" height="1333" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark.jpg" class="attachment-full size-full" alt="Computer Equipment in Dark" loading="lazy" srcset="https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark.jpg 2000w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark-300x200.jpg 300w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark-1024x682.jpg 1024w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark-768x512.jpg 768w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark-1536x1024.jpg 1536w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark-800x533.jpg 800w" sizes="(max-width: 2000px) 100vw, 2000px" /></div>
            </a>
            <div class="elementor-post__badge font-white">Criminal</div>
            <div class="elementor-post__text">
-            <h3 class="elementor-post__title"> <a href="https://demo.moxcreative.com/byte/2021/06/23/repairmen-suspected-of-installing-ransomware-on-customers-pcs-arrests-in-south-korea/" > Repairmen suspected of installing ransomware on customers’ PCs. Arrests in South Korea </a> </h3>
+            <h3 class="elementor-post__title"> <a href="#" > Repairmen suspected of installing ransomware on customers’ PCs. Arrests in South Korea </a> </h3>
            </div>
           </div>
          </article>
@@ -812,25 +851,19 @@
 
 <?php $this->load->view('frontend/layout/footer'); ?>
 
-<!--<div id="myModal" class="modalcstm">
+<div id="myModal" class="modalcstm">
 
-  <!-- Modal content --
-  <div class="modal-content" style="text-align:center; font-family: cursive;">
+   <!--Modal content-->
+  <div class="modal-content">
+		<div class="border_line">
     <span class="close">&times;</span>
     <h4 style="text-align:center; color:#020817;">Join me on Patreon</h4>
     <h3>Your Cybersecurity Coach</h3>
-    <p>Hey!  Are you new to cybersecurity or interested in transitioning into the profession?<br>Great!  You’re in the right place.<br>Gain experience and confidence now every Tuesday and Thursday from 6:30pm to 8:30pm.	</p>
-    <a style="
-    background: #020817;
-    color: #fff;
-    padding: 10px 25px;
-    font-size: 17px;
-    font-weight: 500;
-    border-radius: 10px;
-">Join Now</a>
+    <p class="pup_txt">Hey!  Are you new to cybersecurity or interested in transitioning into the profession?<br>Great!  You’re in the right place.<br>Gain experience and confidence now every Tuesday and Thursday from 6:30pm to 8:30pm.	</p>
+    <p><a href="#" class="btn_jnmeptrn">Join me on Patreon</a></p>
   </div>
-
-</div>-->
+</div>
+</div>
 
 <script>
 // Get the modal
@@ -855,47 +888,3 @@ window.onclick = function(event) {
   }
 }
 </script>
-<style>
-
-.modalcstm {
-  display: block; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  -webkit-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
-  -moz-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
-  -o-transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
-  transition: opacity 0.3s ease-out, bottom 0.3s ease-out;
-}
-
-/* Modal Content */
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 40%;
-}
-
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-</style>
