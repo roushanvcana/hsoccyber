@@ -1,15 +1,15 @@
 <div data-elementor-type="footer" data-elementor-id="72" class="elementor elementor-72 elementor-location-footer" data-elementor-settings="[]">
 	<div class="elementor-section-wrap">
-		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-0a6193b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0a6193b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-0a6193b elementor-section-boxed elementor-section-height-default elementor-section-height-default" >
 			<div class="elementor-background-overlay"></div>
 			<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a0ef3fc" data-id="a0ef3fc" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a0ef3fc">
 					<div class="elementor-widget-wrap elementor-element-populated">
-						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-4f2d487 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4f2d487" data-element_type="section" data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-4f2d487 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 							<div class="elementor-container elementor-column-gap-default">
-								<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-ea7a810" data-id="ea7a810" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-ea7a810">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-276c298 elementor-widget elementor-widget-image" data-id="276c298" data-element_type="widget" data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="image.default">
+										<div class="elementor-element elementor-element-276c298 elementor-widget elementor-widget-image">
 											<div class="elementor-widget-container footer-logo"> <a href="<?php echo site_url("/ home "); ?>"> <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/Comp_7.gif" title="Hsoc Grey" alt="Hsoc Grey" /> </a> </div>
 										</div>
 										<div class="elementor-element elementor-element-24b80df ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="24b80df" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
