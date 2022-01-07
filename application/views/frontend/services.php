@@ -28,7 +28,7 @@
 </div>
             </div>
 </section>
-<section class="bg-mage-none ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-28880c1 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="28880c1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+<!--<section class="bg-mage-none ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-28880c1 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="28880c1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
         <div class="elementor-container elementor-column-gap-default">
     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-49e488d" data-id="49e488d" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
 <div class="elementor-widget-wrap elementor-element-populated">
@@ -103,7 +103,44 @@
     </div>
 </div>
             </div>
-</section>
+</section>-->
+							<section class="space_top_bottom pt-100 pb-70">
+  <div class="about-us-area">
+   <div class="container">
+    <div class="row">
+     <div class="col-lg-6">
+      <div class="about-img mb_30"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/what.jpg" alt="icon" /></div>
+     </div>
+     <div class="col-lg-6">
+      <div class="about-content">
+       <div class="about-title">
+        <h2>What We Do</h2>
+       </div>
+       <div class="react-tabs" data-tabs="true">
+        <p>The HSOC Cyber Roadmap indicates what you will do as you become more proficient and independent in your cybersecurity career journey.  You will also build, learn, and practice real skills that last, create value, and produce observable change that make it easy for you to be noticed, known, and heard.  Real skill employers desire are:</p>
+        
+         
+       </div>
+      </div>
+     </div>
+    </div>
+		<div class="row">
+		 <ul class="listdc">
+          <li><i class="bx bx-check-circle"></i><strong>Self-Control:</strong> Completing tasks and projects without letting distractors or bad habits get in the way (e.g., adaptability, self-awareness, self-confidence, stress management) 
+</li>
+          <li><i class="bx bx-check-circle"></i><strong>Productivity:</strong> Using your non-vocational skills and commitment to complete tasks (e.g., attention to detail, crisis management, effective decision making, troubleshooting)
+</li>
+          <li><i class="bx bx-check-circle"></i><strong>Wisdom:</strong> Real-world skills applied based off experience, knowledge, and good judgment (e.g., conflict resolution instincts, creativity in the face of challenges, critical thinking, supervising with confidence)
+</li>
+          <li><i class="bx bx-check-circle"></i><strong>Perception:</strong> Experience and practice that provide insight to point things out with courage and without influence from others (e.g., designing, mapping, judging people and situations, strategic thinking)
+</li>
+					 <li>	<strong>Influence:</strong> The skills needed to inspire others to act (e.g., constructive criticism, presentation skills, team building, writing for impact)
+</li>
+			 </ul>
+		</div>
+   </div>
+  </div>
+ </section>
 <section class="bg-light-blue ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-b1182e2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b1182e2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
             <div class="elementor-background-overlay"></div>
             <div class="elementor-container elementor-column-gap-default">

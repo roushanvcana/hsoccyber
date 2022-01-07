@@ -16,7 +16,9 @@ body {
 	background-position: center top;
 	-webkit-font-smoothing: antialiased;
 }
-
+.space_desc {
+	padding: 0 0 10px;
+}
 @media (min-width:1200px) {
 .container {
 	max-width: 1170px;
