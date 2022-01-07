@@ -36,7 +36,7 @@
     width: 15%;
 }
 .single-challenges {
-	height: 32vh;
+	height: 42vh;
     position: relative;
     margin-bottom: 30px;
     background: rgba(255,255,255, 0.6);
@@ -585,7 +585,7 @@
 }
 @media  (max-width:1400px) {
 	.single-challenges {
-    height: 40vh;
+    height: 45vh;
     position: relative;
     margin-bottom: 30px;
     background: rgba(255,255,255, 0.6);
@@ -595,7 +595,7 @@
 }
 @media  (max-width:1200px) {
 	.single-challenges {
-    height: 40vh;
+    height: 45vh;
     position: relative;
     margin-bottom: 30px;
     background: rgba(255,255,255, 0.6);
