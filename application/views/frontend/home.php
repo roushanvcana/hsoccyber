@@ -1017,7 +1017,7 @@
 
 	<?php $this->load->view('frontend/layout/footer'); ?>
 
-	<div id="myModal" class="modalcstm">
+	<div id="myModal" class="modalcstm fade-in one">
 
   <div class="modal-content">
 		<div class="border_line">
@@ -1031,8 +1031,10 @@
   </div>
 </div>
 </div>
-
+		
+	
 	<script>
+	
 		// Get the modal
 		var modal = document.getElementById( "myModal" );
 
@@ -1056,6 +1058,28 @@
 		}
 	</script>
 	<style>
+		.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+		
+		
 		.slick-slide {
 			margin: 0px 10px;
 		}
