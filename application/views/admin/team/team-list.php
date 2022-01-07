@@ -53,7 +53,7 @@
           <tbody>
           <?php $i = 1;
          
-            foreach ($Team as $data){            
+            foreach ($teamlist as $data){            
               ?>
               <tr id="tbl_<?php echo $data['id']; ?>">
                   <td><?= $i; ?></td>

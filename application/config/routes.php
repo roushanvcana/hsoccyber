@@ -50,10 +50,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 //$route['default_controller'] = 'Login/index';
-$route['default_controller'] = 'Website/index';
+$route['default_controller'] = 'Website/home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+
+/////////////////frontend/////////////////
+$route['home'] = 'Website/home';
+$route['about'] = 'Website/about';
+$route['services'] = 'Website/services';
+$route['contact'] = 'Website/contact';
 
 
 /////////////////Admin panel////////////////////
@@ -110,13 +116,9 @@ $route['add-article'] = 'Service/add_articles';
 $route['edit-article/(:num)'] = 'Service/edit_articles/$1';
 $route['delete-article/(:num)'] = 'Service/delete_articles/$1';
 $route['add-team'] = 'Team/add_team';
-$route['team-list'] = 'Team/team_list';
-
-
-$route['home'] = 'Website/home';
-$route['about'] = 'Website/about';
-$route['services'] = 'Website/services';
-$route['contact'] = 'Website/contact';
+$route['team-list'] = 'Team/index';
+$route['team-delete/(:num)'] = 'Team/delete_team/$1';
+$route['team-edit/(:num)'] = 'Team/edit_team/$1';
 
 
 

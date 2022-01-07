@@ -282,7 +282,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?php echo base_url() ?>add-team" class="nav-link">
+                            <a href="<?php echo base_url() ?>team-list" class="nav-link">
                                 <i class="far fa-user nav-icon"></i>
                                 <p>Manage Team</p>
                             </a>
