@@ -564,7 +564,16 @@
 .space_top_bottom {
 	margin: 80px 0;
 }
-
+@media  (max-width:1400px) {
+	.single-challenges {
+    height: 40vh;
+    position: relative;
+    margin-bottom: 30px;
+    background: rgba(255,255,255, 0.6);
+    padding: 15px;
+    border-radius: 6px;
+}
+}
 @media  (max-width:1200px) {
 	.single-challenges {
     height: 40vh;
