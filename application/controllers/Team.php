@@ -84,13 +84,13 @@ class Team extends CI_Controller {
                 }
 
                 $insert = $this->db->update('manage_team',$arrayData, array('id' => $id));    
-               if ($insert) {
-                $this->session->set_flashdata('success', 'Data Successfully updated');
-                redirect(site_url().'team-list');
-            } else {
-                $this->session->set_flashdata('success', 'Some error occured. Please try again...');
-                redirect(site_url().'team-list');
-            }
+               if($insert){
+                    $this->session->set_flashdata('success', 'Data Successfully updated');
+                    redirect(site_url().'team-list');
+                } else {
+                    $this->session->set_flashdata('success', 'Some error occured. Please try again...');
+                    redirect(site_url().'team-list');
+                }
         }
 
         $data['getValue'] = $this->Common_Model->set_data('manage_team',$id);
