@@ -340,10 +340,10 @@
 
 					</div>
 				</div>
-				<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-0ffd50b elementor-section-boxed elementor-section-height-default elementor-section-height-default">
-					<div class="elementor-container elementor-column-gap-default">
-						<div class="elementor-column elementor-col-33">
-							<div class="elementor-widget-wrap elementor-element-populated">
+				<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-0ffd50b elementor-section-boxed elementor-section-height-default elementor-section-height-default col-lg-12">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="">
 								<div class="single-challenges overly-one">
 									<img src="<?php echo base_url();?>/design/wp-content/uploads/sites/48/2021/06/nisttt.png" alt="">
 									<h3>Information Security Learning Continuum</h3>
@@ -356,8 +356,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="elementor-column elementor-col-33">
-							<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="col-lg-4">
+							<div class="">
 								<div class="single-challenges overly-one">
 									<img src="<?php echo base_url();?>/design/wp-content/uploads/sites/48/2021/06/nistt.png" alt="">
 									<h3>Infosec Wheel</h3>
@@ -369,19 +369,19 @@
 								</div>
 							</div>
 						</div>
-						<div class="elementor-column elementor-col-33">
-							<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="col-lg-4">
+							<div class="">
 								<div class="single-challenges overly-one">
 									<img src="<?php echo base_url();?>/design/wp-content/uploads/sites/48/2021/06/nist.png" alt="">
 									<h3>Risk Management Framework</h3>
 									<ul>
 										<li><a href="https://csrc.nist.gov/projects/risk-management/about-rmf" target="_blank">NIST Risk Management Framework RMF</a>
 										</li>
-
 									</ul>
 								</div>
 							</div>
 						</div>
+						
 					</div>
 				</section>
 
