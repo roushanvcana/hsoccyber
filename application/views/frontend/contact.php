@@ -70,11 +70,13 @@
 															</div>
 														</div>
 														<div class="box-body">
-															<h5 class="elementskit-info-box-title">
-    Headquarter                </h5>
-														
+															<h5 class="elementskit-info-box-title">Headquarter</h5>
 
-															<p>Jln Cempaka Wangi No 22, Jakarta - Indonesia </p>
+															<p>
+																<?php 
+																	echo str_replace(",","\n",$websitedata[0]['address']);
+																?>
+															</p>
 														</div>
 
 
@@ -99,15 +101,11 @@
 															</div>
 														</div>
 														<div class="box-body">
-															<h5 class="elementskit-info-box-title">
-    Email Us                </h5>
-														
-
-															<p>support@mail.tld </br>
-																business@mail.tld </p>
+															<h5 class="elementskit-info-box-title">Email Us</h5>
+															<?php 
+																echo str_replace(",","\n",$websitedata[0]['email']);
+															?>															
 														</div>
-
-
 													</div>
 												</div>
 											</div>
@@ -119,6 +117,7 @@
 					</div>
 				</div>
 				<!-- https://maps.google.com/maps?q=Jakarta&amp;t=m&amp;z=12&amp;output=embed&amp;iwloc=near -->
+				<?php //print_r($websitedata); ?>
 				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ce87457">
 					<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-0dc9c20 elementor-widget elementor-widget-google_maps">

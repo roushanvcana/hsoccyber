@@ -18,18 +18,22 @@
     }
     public function about()
     {   
+        $data['about'] = $this->db->query('select * from manage_about_us')->result_array();
              
-        $this->load->view('frontend/about');
+        $this->load->view('frontend/about',$data);
     }
     public function services()
     {   
-             
-        $this->load->view('frontend/services');
+        $data['service'] = $this->db->query('select * from manage_service')->result_array();
+            
+        $this->load->view('frontend/services',$data);
     }
     public function contact()
     {   
-             
-        $this->load->view('frontend/contact');
+        
+        $data['websitedata'] = $this->db->query('select * from manage_website_setting')->result_array();
+         
+        $this->load->view('frontend/contact',$data);
     }
  
  }
