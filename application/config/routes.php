@@ -60,7 +60,7 @@ $route['home'] = 'Website/home';
 $route['about'] = 'Website/about';
 $route['services'] = 'Website/services';
 $route['contact'] = 'Website/contact';
-
+$route['prerequest'] = 'Website/prerequest';
 
 /////////////////Admin panel////////////////////
 $route['admin'] = 'Login/index';
@@ -119,6 +119,9 @@ $route['add-team'] = 'Team/add_team';
 $route['team-list'] = 'Team/index';
 $route['team-delete/(:num)'] = 'Team/delete_team/$1';
 $route['team-edit/(:num)'] = 'Team/edit_team/$1';
+
+
+
 
 
 

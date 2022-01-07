@@ -953,7 +953,7 @@
 								</div>
 							</div>
 						</section>
-						<div class="elementor-element elementor-element-cf4b2a1 elementor-grid-4 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-posts--thumbnail-top elementor-posts__hover-gradient elementor-widget elementor-widget-posts" data-id="cf4b2a1" data-element_type="widget" data-settings="{&quot;cards_columns&quot;:&quot;4&quot;,&quot;cards_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;cards_columns_tablet&quot;:&quot;2&quot;,&quot;cards_columns_mobile&quot;:&quot;1&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="posts.cards">
+						<div class="elementor-element elementor-element-cf4b2a1 elementor-grid-4 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-posts--thumbnail-top elementor-posts__hover-gradient elementor-widget elementor-widget-posts">
 							<div class="elementor-widget-container">
 								<div class="elementor-posts-container elementor-posts elementor-posts--skin-cards elementor-grid">
 									<article class="elementor-post elementor-grid-item post-92 post type-post status-publish format-standard has-post-thumbnail hentry category-computer-virus tag-cyber-security tag-elementor tag-moxcreative tag-quickenworks tag-template-kit">
@@ -983,7 +983,7 @@
 									<article class="elementor-post elementor-grid-item post-94 post type-post status-publish format-standard has-post-thumbnail hentry category-cyber-security tag-cyber-security tag-elementor tag-moxcreative tag-quickenworks tag-template-kit">
 										<div class="elementor-post__card">
 											<a class="elementor-post__thumbnail__link" href="#">
-												<div class="elementor-post__thumbnail"><img width="2000" height="1333" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen.jpg" class="attachment-full size-full" alt="Male Teenage Hacker With Data Reflected From Computer Screen" loading="lazy" srcset="https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen.jpg 2000w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen-300x200.jpg 300w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen-1024x682.jpg 1024w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen-768x512.jpg 768w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen-1536x1024.jpg 1536w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen-800x533.jpg 800w" sizes="(max-width: 2000px) 100vw, 2000px"/>
+												<div class="elementor-post__thumbnail"><img width="2000" height="1333" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen.jpg" class="attachment-full size-full" alt="Male Teenage Hacker With Data Reflected From Computer Screen" loading="lazy" />
 												</div>
 											</a>
 											<div class="elementor-post__badge font-white" style="color: #000 !important;">Cyber Security</div>
@@ -995,7 +995,7 @@
 									<article class="elementor-post elementor-grid-item post-95 post type-post status-publish format-standard has-post-thumbnail hentry category-criminal category-featured tag-cyber-security tag-elementor tag-moxcreative tag-quickenworks tag-template-kit">
 										<div class="elementor-post__card">
 											<a class="elementor-post__thumbnail__link" href="#">
-												<div class="elementor-post__thumbnail"><img width="2000" height="1333" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark.jpg" class="attachment-full size-full" alt="Computer Equipment in Dark" loading="lazy" srcset="https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark.jpg 2000w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark-300x200.jpg 300w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark-1024x682.jpg 1024w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark-768x512.jpg 768w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark-1536x1024.jpg 1536w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark-800x533.jpg 800w" sizes="(max-width: 2000px) 100vw, 2000px"/>
+												<div class="elementor-post__thumbnail"><img width="2000" height="1333" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark.jpg" class="attachment-full size-full" alt="Computer Equipment in Dark" loading="lazy"/>
 												</div>
 											</a>
 											<div class="elementor-post__badge font-white" style="color: #000 !important;">Criminal</div>
@@ -1021,14 +1021,35 @@
 
   <div class="modal-content">
 		<div class="border_line">
-    <span class="close">&times;</span>
+			<div class="hide_box" id="Menu1">
+    <!--<span class="close">&times;</span>-->
     <h4 style="text-align:center; color:#020817;">Join me on Patreon</h4>
     <h3>Your Cybersecurity Coach</h3>
     <p class="pup_txt">Hey!  Are you new to cybersecurity or interested in transitioning into the profession?</p>
 			<p class="pup_txt">Great!  You’re in the right place.	</p>
 			<p class="pup_txt">Gain experience and confidence now every Tuesday and Thursday from 6:30pm to 8:30pm.	</p>
-    <p><a href="#" class="btn_jnmeptrn">Join me on Patreon</a></p>
+    <p><a href="#" class="btn_jnmeptrn" onclick="toggleVisibility('Menu2');">Join me on Patreon</a></p>
+			</div>	
+			<div class="show_box" id="Menu2" style="display: none;">
+			<div class="preq_cnt">
+				<span class="close">&times;</span>
+		 <h2>Prerequisites</h2>
+			<ul>
+			<li>No previous information technology or cybersecurity knowledge required</li>
+				<li>Willing to learn</li>
+				<li>The ability to work independently and as a team</li>
+				<li>Complete the <a href="https://curiosity.britannica.com/curiosity-personality-quiz.html" target="_blank">Britannica Curiosity Compass</a> (3-minute quiz)</li>
+				<li>Complete the <a href="http://www.humanmetrics.com/personality" target="_blank">Personality Test</a>  (10-minute quiz)</li>
+			</ul>
+			<h2>System Requirements</h2>
+			<ul>
+			<li>Laptop/Desktop</li>
+				<li>8GB of RAM minimum</li>
+				<li>256GB hard drive minimum</li>
+			</ul>
+		</div>
   </div>
+		</div>
 </div>
 </div>
 		
@@ -1300,3 +1321,27 @@
 			} );
 		} );
 	</script>
+		<script>
+		var divs = ["Menu1", "Menu2", "Menu3", "Menu4"];
+var visibleDivId = null;
+function toggleVisibility(divId) {
+  if(visibleDivId === divId) {
+    //visibleDivId = null;
+  } else {
+    visibleDivId = divId;
+  }
+  hideNonVisibleDivs();
+}
+function hideNonVisibleDivs() {
+  var i, divId, div;
+  for(i = 0; i < divs.length; i++) {
+    divId = divs[i];
+    div = document.getElementById(divId);
+    if(visibleDivId === divId) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  }
+}
+		</script>
