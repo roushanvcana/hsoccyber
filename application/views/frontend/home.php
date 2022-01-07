@@ -916,14 +916,14 @@ window.onclick = function(event) {
 	 <style>
 	 .slick-slide {
     margin: 0px 10px;
-    background: #fff;
+    
+}
+
+.slick-slide img {
+  background: #fff;
     padding: 8px;
     border-radius: 4px;
 }
-
-/*.slick-slide img {
-  width: 100%;
-}*/
 
 .slick-slider {
   position: relative;
