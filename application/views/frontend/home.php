@@ -1017,7 +1017,7 @@
 
 	<?php $this->load->view('frontend/layout/footer'); ?>
 
-	<!--<div id="myModal" class="modalcstm">
+	<div id="myModal" class="modalcstm">
 
   <div class="modal-content">
 		<div class="border_line">
@@ -1030,7 +1030,7 @@
     <p><a href="#" class="btn_jnmeptrn">Join me on Patreon</a></p>
   </div>
 </div>
-</div>-->
+</div>
 
 	<script>
 		// Get the modal
