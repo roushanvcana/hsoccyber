@@ -1,6 +1,22 @@
-
-
-
+.preq_cnt {
+	
+}
+.preq_cnt h2 {
+    color: #000 !important;
+    font-size: 18px !important;
+    text-align: left;
+}
+.preq_cnt ul {
+	
+}
+.preq_cnt li {
+    text-align: left;
+    line-height: 22px;
+    padding: 0 0 10px;
+}
+.preq_cnt li a {
+    color: #2166a8 !important;
+}
 
 
 .space_desc {
@@ -563,6 +579,9 @@
 }
 .space_top_bottom {
 	margin: 80px 0;
+}
+.heading_desc p {
+	text-align: justify !important;
 }
 @media  (max-width:1400px) {
 	.single-challenges {

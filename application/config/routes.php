@@ -106,6 +106,7 @@ $route['home'] = 'Website/home';
 $route['about'] = 'Website/about';
 $route['services'] = 'Website/services';
 $route['contact'] = 'Website/contact';
+$route['prerequest'] = 'Website/prerequest';
 
 
 

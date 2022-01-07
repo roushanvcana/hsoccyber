@@ -1021,14 +1021,35 @@
 
   <div class="modal-content">
 		<div class="border_line">
-    <span class="close">&times;</span>
+			<div class="hide_box" id="Menu1">
+    <!--<span class="close">&times;</span>-->
     <h4 style="text-align:center; color:#020817;">Join me on Patreon</h4>
     <h3>Your Cybersecurity Coach</h3>
     <p class="pup_txt">Hey!  Are you new to cybersecurity or interested in transitioning into the profession?</p>
 			<p class="pup_txt">Great!  You’re in the right place.	</p>
 			<p class="pup_txt">Gain experience and confidence now every Tuesday and Thursday from 6:30pm to 8:30pm.	</p>
-    <p><a href="#" class="btn_jnmeptrn">Join me on Patreon</a></p>
+    <p><a href="#" class="btn_jnmeptrn" onclick="toggleVisibility('Menu2');">Join me on Patreon</a></p>
+			</div>	
+			<div class="show_box" id="Menu2" style="display: none;">
+			<div class="preq_cnt">
+				<span class="close">&times;</span>
+		 <h2>Prerequisites</h2>
+			<ul>
+			<li>No previous information technology or cybersecurity knowledge required</li>
+				<li>Willing to learn</li>
+				<li>The ability to work independently and as a team</li>
+				<li>Complete the <a href="https://curiosity.britannica.com/curiosity-personality-quiz.html" target="_blank">Britannica Curiosity Compass</a> (3-minute quiz)</li>
+				<li>Complete the <a href="http://www.humanmetrics.com/personality" target="_blank">Personality Test</a>  (10-minute quiz)</li>
+			</ul>
+			<h2>System Requirements</h2>
+			<ul>
+			<li>Laptop/Desktop</li>
+				<li>8GB of RAM minimum</li>
+				<li>256GB hard drive minimum</li>
+			</ul>
+		</div>
   </div>
+		</div>
 </div>
 </div>
 		
@@ -1300,3 +1321,27 @@
 			} );
 		} );
 	</script>
+		<script>
+		var divs = ["Menu1", "Menu2", "Menu3", "Menu4"];
+var visibleDivId = null;
+function toggleVisibility(divId) {
+  if(visibleDivId === divId) {
+    //visibleDivId = null;
+  } else {
+    visibleDivId = divId;
+  }
+  hideNonVisibleDivs();
+}
+function hideNonVisibleDivs() {
+  var i, divId, div;
+  for(i = 0; i < divs.length; i++) {
+    divId = divs[i];
+    div = document.getElementById(divId);
+    if(visibleDivId === divId) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  }
+}
+		</script>
