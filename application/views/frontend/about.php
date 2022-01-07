@@ -2,17 +2,17 @@
 <?php $this->load->view('frontend/layout/header'); ?>
 <div data-elementor-type="wp-post" data-elementor-id="469" class="elementor elementor-469" data-elementor-settings="[]">
  <div class="elementor-section-wrap">
-  <section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-7e90c9e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7e90c9e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+  <section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-7e90c9e elementor-section-boxed elementor-section-height-default elementor-section-height-default">
    <div class="elementor-background-overlay"></div>
    <div class="elementor-container elementor-column-gap-default">
-    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ec04429" data-id="ec04429" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ec04429" >
      <div class="elementor-widget-wrap elementor-element-populated">
-      <div class="elementor-element elementor-element-837fb42 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="837fb42" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+      <div class="elementor-element elementor-element-837fb42 ob-harakiri-inherit elementor-widget elementor-widget-heading">
        <div class="elementor-widget-container">
         <h1 class="elementor-heading-title elementor-size-default">About Us</h1>
        </div>
       </div>
-      <div class="elementor-element elementor-element-cede374 elementor-icon-list--layout-inline elementor-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="cede374" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="icon-list.default">
+      <div class="elementor-element elementor-element-cede374 elementor-icon-list--layout-inline elementor-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list">
        <div class="elementor-widget-container">
         <ul class="elementor-icon-list-items elementor-inline-items">
          <li class="elementor-icon-list-item elementor-inline-item"> <span class="elementor-icon-list-text">Home</span> </li>
