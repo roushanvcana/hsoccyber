@@ -2,42 +2,42 @@
 
 <div data-elementor-type="wp-post" data-elementor-id="798" class="elementor elementor-798" data-elementor-settings="[]">
 	<div class="elementor-section-wrap">
-		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-6a632fe elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6a632fe" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-6a632fe elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 			<div class="elementor-background-overlay"></div>
 			<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-10396b5" data-id="10396b5" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-10396b5">
 					<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-422bab5 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="422bab5" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+						<div class="elementor-element elementor-element-422bab5 ob-harakiri-inherit elementor-widget elementor-widget-heading">
 							<div class="elementor-widget-container">
 								<h4 class="elementor-heading-title elementor-size-default" style="color:#000;">Welcome to Home Security Operations Center (HSOC) Cyber!</h4>
 							</div>
 						</div>
-						<div class="elementor-element elementor-element-e938824 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="e938824" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+						<div class="elementor-element elementor-element-e938824 ob-harakiri-inherit elementor-widget elementor-widget-heading">
 							<div class="elementor-widget-container">
 								<h5 class="elementor-heading-title elementor-size-default">Securing Your Home Beyond the Physical</h5>
 							</div>
 						</div>
-						<div class="elementor-element elementor-element-2a18659 elementor-widget elementor-widget-button" data-id="2a18659" data-element_type="widget" data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="button.default">
+						<div class="elementor-element elementor-element-2a18659 elementor-widget elementor-widget-button">
 							<div class="elementor-widget-container">
 								<div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">Discover More</span> </span> </a> </div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3fa625b" data-id="3fa625b" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3fa625b">
 					<div class="elementor-widget-wrap"> </div>
 				</div>
 			</div>
 		</section>
-		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-6a1c204 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6a1c204" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-6a1c204 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 			<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-22f015a" data-id="22f015a" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-22f015a">
 					<div class="elementor-widget-wrap elementor-element-populated">
-						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-0d39e3c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0d39e3c" data-element_type="section" data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-0d39e3c elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 							<div class="elementor-container elementor-column-gap-default">
-								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9cddfdd" data-id="9cddfdd" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9cddfdd">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-9d1d4f2 elementor-cta--skin-cover elementor-cta--valign-bottom elementor-cta--sequenced-animation elementor-animated-content elementor-widget elementor-widget-call-to-action" data-id="9d1d4f2" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="call-to-action.default">
+										<div class="elementor-element elementor-element-9d1d4f2 elementor-cta--skin-cover elementor-cta--valign-bottom elementor-cta--sequenced-animation elementor-animated-content elementor-widget elementor-widget-call-to-action">
 											<div class="elementor-widget-container">
 												<div class="elementor-cta">
 													<div class="elementor-cta__bg-wrapper">
@@ -57,9 +57,9 @@
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-979cde0" data-id="979cde0" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-979cde0">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-b58d738 elementor-cta--skin-cover elementor-cta--valign-bottom elementor-cta--sequenced-animation elementor-animated-content elementor-widget elementor-widget-call-to-action" data-id="b58d738" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="call-to-action.default">
+										<div class="elementor-element elementor-element-b58d738 elementor-cta--skin-cover elementor-cta--valign-bottom elementor-cta--sequenced-animation elementor-animated-content elementor-widget elementor-widget-call-to-action">
 											<div class="elementor-widget-container">
 												<div class="elementor-cta">
 													<div class="elementor-cta__bg-wrapper">
@@ -85,10 +85,10 @@
 				</div>
 			</div>
 		</section>
-		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-80dcaf0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="80dcaf0" data-element_type="section" data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-80dcaf0 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 			<div class="elementor-background-overlay about"></div>
 			<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d478047" data-id="d478047" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d478047">
 					<div class="elementor-widget-wrap elementor-element-populated" style="text-align:center;">
 						<!--<div class="elementor-element elementor-element-f69cd37 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="f69cd37" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
        <div class="elementor-widget-container">
@@ -163,7 +163,7 @@
 								<h2 class="elementor-heading-title elementor-size-default">Trusted by International Brand</h2>
 							</div>
 						</div>
-						<div class="elementor-element elementor-element-9b48574 ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="9b48574" data-element_type="widget">
+						<div class="elementor-element elementor-element-9b48574 ob-harakiri-inherit elementor-widget elementor-widget-text-editor" >
 							<div class="elementor-widget-container">
 								<p>Erat morbi si adipiscing laoreet praesent. Adipiscing duis laoreet orci aliquet ex dis auctor platea. Penatibus enim volutpat lectus curae ac porta etiam erat quam justo.</p>
 							</div>
@@ -258,23 +258,29 @@
 				</div>
 			</div>
 		</section>
-		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-0e6d5ff elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0e6d5ff" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-0e6d5ff elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 			<div class="elementor-background-overlay"></div>
 			<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-18bff79" data-id="18bff79" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-18bff79">
 					<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-32b50e4 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="32b50e4" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+						<div class="elementor-element elementor-element-32b50e4 ob-harakiri-inherit elementor-widget elementor-widget-heading">
 							<div class="elementor-widget-container">
 								<h6 class="elementor-heading-title elementor-size-default">Who we are</h6>
 							</div>
 						</div>
-						<div class="elementor-element elementor-element-284da00 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="284da00" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+						<div class="elementor-element elementor-element-284da00 ob-harakiri-inherit elementor-widget elementor-widget-heading">
 							<div class="elementor-widget-container">
 								<h2 class="elementor-heading-title elementor-size-default" style="color: #fff;">We know how to protect you. </h2>
 							</div>
 						</div>
-						<div class="elementor-element elementor-element-09d5b82 ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="09d5b82" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
+						<div class="elementor-element elementor-element-09d5b82 ob-harakiri-inherit elementor-widget elementor-widget-text-editor">
 							<div class="elementor-widget-container">
+								<div class="live_img">
+								<ul>
+									<li><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/live1.jpg" alt="Logo Autokit"/></li>
+									<li><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/live2.jpg" alt="Logo Autokit"/></li>
+									</ul>
+								</div>
 								<p>HSOC Cyber, formerly Professional Certifications and Consulting Services, is a service-disabled, veteran-owned small business (SDVOSB). Since 2016, HSOC Cyber has provided certification and real skill training in information technology, cybersecurity, and project management. As a result of COVID-19, HSOC Cyber altered its business model from the live classroom training to live online training in the form of an internship, and all from the comfort of your home. At HSOC Cyber, we work on real projects and tasks that equate to real experience versus attending an online class to complete assignments. </p>
 
 								<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--move-up"> <a class="elementor-cta__button elementor-button elementor-size-sm" href="<?php echo site_url("/ about "); ?>"> Read More</a> </div>
@@ -387,27 +393,27 @@
 
 			</div>
 		</section>
-		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-63ce778 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="63ce778" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-63ce778 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 			<div class="elementor-background-overlay"></div>
 			<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b577159" data-id="b577159" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b577159">
 					<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-78e8cf5 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="78e8cf5" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+						<div class="elementor-element elementor-element-78e8cf5 ob-harakiri-inherit elementor-widget elementor-widget-heading">
 							<div class="elementor-widget-container">
 								<h6 class="elementor-heading-title elementor-size-default"> WHAT WE DO</h6>
 							</div>
 						</div>
-						<div class="elementor-element elementor-element-2bee51c ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="2bee51c" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+						<div class="elementor-element elementor-element-2bee51c ob-harakiri-inherit elementor-widget elementor-widget-heading">
 							<div class="elementor-widget-container">
 								<h2 class="elementor-heading-title elementor-size-default">Our Professional Service</h2>
 								<p style="color:#fff;">The HSOC Cyber Roadmap indicates what you will do as you become more proficient and independent in your cybersecurity career journey. You will also build, learn, and practice real skills that last, create value, and produce observable change that make it easy for you to be noticed, known, and heard. Real skill employers desire are:</p>
 							</div>
 						</div>
-						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-0ffd50b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0ffd50b" data-element_type="section" data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-0ffd50b elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 							<div class="elementor-container elementor-column-gap-default">
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4248acc" data-id="4248acc" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4248acc">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-30f8f8f ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box" data-id="30f8f8f" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="elementskit-icon-box.default">
+										<div class="elementor-element elementor-element-30f8f8f ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box">
 											<div class="elementor-widget-container">
 												<div class="ekit-wid-con">
 													<!-- link opening -->
@@ -416,7 +422,7 @@
 
 														<div class="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation-float media  ">
 															<div class="elementskit-box-header">
-																<div class="elementskit-info-box-icon text-center"> <img style="filter: brightness(0) invert(1);" width="512" height="512" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/3-protection-1.png" class="attachment- size-" alt="" loading="lazy" srcset="https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/3-protection-1.png 512w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/3-protection-1-300x300.png 300w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/3-protection-1-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px"/> </div>
+																<div class="elementskit-info-box-icon text-center"> <img style="filter: brightness(0) invert(1);" width="512" height="512" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/3-protection-1.png" class="attachment- size-" alt="" loading="lazy" /> </div>
 															</div>
 															<div class="box-body">
 																<h3 class="elementskit-info-box-title" style="color: #fff">Self-Control </h3>
@@ -429,9 +435,9 @@
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f385b70" data-id="f385b70" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f385b70">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-cc19be1 ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box" data-id="cc19be1" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="elementskit-icon-box.default">
+										<div class="elementor-element elementor-element-cc19be1 ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box">
 											<div class="elementor-widget-container">
 												<div class="ekit-wid-con">
 													<!-- link opening -->
@@ -453,9 +459,9 @@
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9956534" data-id="9956534" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9956534">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-31a36cc ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box" data-id="31a36cc" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="elementskit-icon-box.default">
+										<div class="elementor-element elementor-element-31a36cc ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box">
 											<div class="elementor-widget-container">
 												<div class="ekit-wid-con">
 													<!-- link opening -->
@@ -479,11 +485,11 @@
 								</div>
 							</div>
 						</section>
-						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-94bb947 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="94bb947" data-element_type="section" data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-94bb947 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 							<div class="elementor-container elementor-column-gap-default">
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a1f90a0" data-id="a1f90a0" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a1f90a0">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-2847443 ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box" data-id="2847443" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="elementskit-icon-box.default">
+										<div class="elementor-element elementor-element-2847443 ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box">
 											<div class="elementor-widget-container">
 												<div class="ekit-wid-con">
 													<!-- link opening -->
@@ -505,9 +511,9 @@
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0b367b0" data-id="0b367b0" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0b367b0">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-e965f19 ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box" data-id="e965f19" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="elementskit-icon-box.default">
+										<div class="elementor-element elementor-element-e965f19 ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box">
 											<div class="elementor-widget-container">
 												<div class="ekit-wid-con">
 													<!-- link opening -->
@@ -529,9 +535,9 @@
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-10b1cbe" data-id="10b1cbe" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-10b1cbe">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-4f3df76 ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box" data-id="4f3df76" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="elementskit-icon-box.default">
+										<div class="elementor-element elementor-element-4f3df76 ekit-equal-height-enable elementor-widget elementor-widget-elementskit-icon-box">
 											<div class="elementor-widget-container">
 												<div class="ekit-wid-con">
 													<!-- link opening -->
@@ -560,39 +566,39 @@
 				</div>
 			</div>
 		</section>
-		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-50df6d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="50df6d0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-50df6d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 			<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c762712" data-id="c762712" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c762712">
 					<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-e3d85ee ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="e3d85ee" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+						<div class="elementor-element elementor-element-e3d85ee ob-harakiri-inherit elementor-widget elementor-widget-heading">
 							<div class="elementor-widget-container">
 								<h6 class="elementor-heading-title elementor-size-default">Why Choose Us</h6>
 							</div>
 						</div>
-						<div class="elementor-element elementor-element-d261a1e ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="d261a1e" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+						<div class="elementor-element elementor-element-d261a1e ob-harakiri-inherit elementor-widget elementor-widget-heading">
 							<div class="elementor-widget-container">
 								<h2 class="elementor-heading-title elementor-size-default" style="color: #000000;">Our business is protecting yours</h2>
 							</div>
 						</div>
-						<div class="elementor-element elementor-element-cb7f7df ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="cb7f7df" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
+						<div class="elementor-element elementor-element-cb7f7df ob-harakiri-inherit elementor-widget elementor-widget-text-editor">
 							<div class="elementor-widget-container">
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
 							</div>
 						</div>
-						<div class="elementor-element elementor-element-0a2a502 elementor-widget elementor-widget-button" data-id="0a2a502" data-element_type="widget" data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="button.default">
+						<div class="elementor-element elementor-element-0a2a502 elementor-widget elementor-widget-button">
 							<div class="elementor-widget-container">
 								<div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-md" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-text">Discover More</span> </span> </a> </div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4a6bc31" data-id="4a6bc31" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4a6bc31">
 					<div class="elementor-widget-wrap elementor-element-populated">
-						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-cdc8851 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cdc8851" data-element_type="section" data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-cdc8851 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 							<div class="elementor-container elementor-column-gap-default">
-								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e85116d" data-id="e85116d" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e85116d">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-01bb0a4 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="01bb0a4" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="elementskit-icon-box.default">
+										<div class="elementor-element elementor-element-01bb0a4 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box">
 											<div class="elementor-widget-container">
 												<div class="ekit-wid-con">
 													<!-- link opening -->
@@ -612,9 +618,9 @@
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-066589d" data-id="066589d" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-066589d">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-f55e05e ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="f55e05e" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="elementskit-icon-box.default">
+										<div class="elementor-element elementor-element-f55e05e ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box">
 											<div class="elementor-widget-container">
 												<div class="ekit-wid-con">
 													<!-- link opening -->
@@ -636,11 +642,11 @@
 								</div>
 							</div>
 						</section>
-						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-26f1f7a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="26f1f7a" data-element_type="section" data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-26f1f7a elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 							<div class="elementor-container elementor-column-gap-default">
-								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ab2146f" data-id="ab2146f" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ab2146f">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-81f7261 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="81f7261" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="elementskit-icon-box.default">
+										<div class="elementor-element elementor-element-81f7261 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box">
 											<div class="elementor-widget-container">
 												<div class="ekit-wid-con">
 													<!-- link opening -->
@@ -660,9 +666,9 @@
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a83e750" data-id="a83e750" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a83e750">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-65af2c9 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="65af2c9" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="elementskit-icon-box.default">
+										<div class="elementor-element elementor-element-65af2c9 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box">
 											<div class="elementor-widget-container">
 												<div class="ekit-wid-con">
 													<!-- link opening -->
@@ -688,7 +694,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-c0fb530 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c0fb530" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-c0fb530 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 			<div class="elementor-container elementor-column-gap-default">
 				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5bec30d" data-id="5bec30d" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
 					<div class="elementor-widget-wrap elementor-element-populated">
