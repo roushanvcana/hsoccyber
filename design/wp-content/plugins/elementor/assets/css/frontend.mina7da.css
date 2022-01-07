@@ -570,6 +570,10 @@
   margin: auto;
   width: 100%;
 }
+.space_desc {
+    padding: 0 140px 0 0;
+   
+}	
 }
 @media  (min-width:1200px) {
 	.single-challenges {
