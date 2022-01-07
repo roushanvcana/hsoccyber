@@ -1,3 +1,6 @@
+<?php 
+    $websitedata = $this->db->query('select * from manage_website_setting')->result_array();
+?>
 <!doctype html>
 <html lang="en-US">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -63,7 +66,7 @@
     <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-d9b0db1" data-id="d9b0db1" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
      <div class="elementor-widget-wrap elementor-element-populated">
       <div class="elementor-element elementor-element-767c95b elementor-widget elementor-widget-image" data-id="767c95b" data-element_type="widget" data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="image.default">
-       <div class="elementor-widget-container header-logo"> <a href="index.html"> <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/Comp_7.gif" title="Hsoc" alt="Hsoc" /> </a> </div>
+       <div class="elementor-widget-container header-logo"> <a href="index.html"> <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $websitedata[0]['logo']; ?>" title="Hsoc" alt="Hsoc" /> </a> </div>
       </div>
      </div>
     </div>

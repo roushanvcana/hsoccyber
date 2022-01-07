@@ -12,6 +12,7 @@
 
     public function home()
     {   
+       
              
         $this->load->view('frontend/home');
     }

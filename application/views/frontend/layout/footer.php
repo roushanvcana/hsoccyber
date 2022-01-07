@@ -1,3 +1,6 @@
+<?php 
+    $websitedata = $this->db->query('select * from manage_website_setting')->result_array();
+?>
 <div data-elementor-type="footer" data-elementor-id="72" class="elementor elementor-72 elementor-location-footer" data-elementor-settings="[]">
 	<div class="elementor-section-wrap">
 		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-0a6193b elementor-section-boxed elementor-section-height-default elementor-section-height-default" >
@@ -10,7 +13,7 @@
 								<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-ea7a810">
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-276c298 elementor-widget elementor-widget-image">
-											<div class="elementor-widget-container footer-logo"> <a href="<?php echo site_url("/ home "); ?>"> <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/Comp_7.gif" title="Hsoc Grey" alt="Hsoc Grey" /> </a> </div>
+											<div class="elementor-widget-container footer-logo"> <a href="<?php echo site_url("/ home "); ?>"> <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $websitedata[0]['logo']; ?>" title="Hsoc Grey" alt="Hsoc Grey" /> </a> </div>
 										</div>
 										<div class="elementor-element elementor-element-24b80df ob-harakiri-inherit elementor-widget elementor-widget-text-editor" >
 											<div class="elementor-widget-container">
