@@ -162,7 +162,31 @@
         <p>Erat morbi si adipiscing laoreet praesent. Adipiscing duis laoreet orci aliquet ex dis auctor platea. Penatibus enim volutpat lectus curae ac porta etiam erat quam justo.</p>
        </div>
       </div>
-      <div class="elementor-element elementor-element-e32d116 elementor-widget elementor-widget-image-carousel">
+			 <div class="elementor-element elementor-element-e32d116 elementor-widget">
+			<div class="client-slider">
+      <div class="slide"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logo_1.png" alt="Logo Autokit" /></div>
+      <div class="slide"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logo_2.png" alt="Logo Autokit" /></div>
+      <div class="slide"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logo_3.png" alt="Logo Autokit" /></div>
+      <div class="slide"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logo_4.png" alt="Logo Autokit" /></div>
+      <div class="slide"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logo_5.png" alt="Logo Autokit" /></div>
+      <div class="slide"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logo_6.png" alt="Logo Autokit" /></div>
+   </div>
+				 
+				 <div class="client-slider1">
+      <div class="slide"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logo_7.png" alt="Logo Autokit" /></div>
+      <div class="slide"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logo_8.png" alt="Logo Autokit" /></div>
+      <div class="slide"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logo_9.png" alt="Logo Autokit" /></div>
+      <div class="slide"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logo_10.png" alt="Logo Autokit" /></div>
+      <div class="slide"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logo_11.png" alt="Logo Autokit" /></div>
+      <div class="slide"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/logo_12.png" alt="Logo Autokit" /></div>
+   </div>
+			 </div>
+			 
+			 
+			 
+			 
+			 
+    <!--  <div class="elementor-element elementor-element-e32d116 elementor-widget elementor-widget-image-carousel">
        <div class="elementor-widget-container">
         <div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
          <div class="elementor-image-carousel swiper-wrapper">
@@ -211,7 +235,7 @@
          </div>
         </div>
        </div>
-      </div>
+      </div>-->
      </div>
     </div>
    </div>
@@ -851,9 +875,8 @@
 
 <?php $this->load->view('frontend/layout/footer'); ?>
 
-<div id="myModal" class="modalcstm">
+<!--<div id="myModal" class="modalcstm">
 
-   <!--Modal content-->
   <div class="modal-content">
 		<div class="border_line">
     <span class="close">&times;</span>
@@ -863,7 +886,7 @@
     <p><a href="#" class="btn_jnmeptrn">Join me on Patreon</a></p>
   </div>
 </div>
-</div>
+</div>-->
 
 <script>
 // Get the modal
@@ -888,3 +911,172 @@ window.onclick = function(event) {
   }
 }
 </script>
+	 <style>
+	 .slick-slide {
+    margin: 0px 10px;
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/*.slick-slide img {
+  width: 100%;
+}*/
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-list:focus {
+  outline: none;
+}
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: "";
+}
+
+.slick-track:after {
+  clear: both;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+[dir=rtl] .slick-slide {
+  float: right;
+}
+
+.slick-slide img {
+    display: block;
+   /* background: #fff;
+    padding: 10px;
+    height: auto;
+    border-radius: 6px;*/
+}
+
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+.client-slider {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+	 </style>
+	 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
+<script>
+	 $(document).ready(function(){
+  $('.client-slider').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4
+      }
+    }, {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 2
+      }
+    }]
+  });
+});
+	 </script>
+	<script>
+	 $(document).ready(function(){
+  $('.client-slider1').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4
+      }
+    }, {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 2
+      }
+    }]
+  });
+});
+	 </script>

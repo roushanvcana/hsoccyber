@@ -137,6 +137,7 @@
 		</section>
 	</div>
 </div>
+
 <link rel='stylesheet' id='premium-addons-css' href='<?php echo base_url(); ?>design/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/premium-addons.min1c9b.css?ver=4.6.1' type='text/css' media='all'/>
 <link rel='stylesheet' id='e-animations-css' href='<?php echo base_url(); ?>design/wp-content/plugins/elementor/assets/lib/animations/animations.mina7da.css?ver=3.4.7' type='text/css' media='all'/>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/ooohboi-steroids-for-elementor/assets/js/ooohboi-steroids-min9c0d.js?ver=1.8.103082021b' id='ooohboi-steroids-js'></script>
@@ -152,9 +153,9 @@
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min3958.js?ver=0.2.1' id='jquery-numerator-js'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2' id='elementor-waypoints-js'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/lottie.min1c9b.js?ver=4.6.1' id='lottie-js-js'></script>
-<script type='text/javascript' src='<?php echo base_url(); ?>design/wp-includes/js/jquery/ui/core.min35d0.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<!--<script type='text/javascript' src='<?php echo base_url(); ?>design/wp-includes/js/jquery/ui/core.min35d0.js?ver=1.12.1' id='jquery-ui-core-js'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-includes/js/jquery/ui/mouse.min35d0.js?ver=1.12.1' id='jquery-ui-mouse-js'></script>
-<script type='text/javascript' src='<?php echo base_url(); ?>design/wp-includes/js/jquery/ui/draggable.min35d0.js?ver=1.12.1' id='jquery-ui-draggable-js'></script>
+<script type='text/javascript' src='<?php echo base_url(); ?>design/wp-includes/js/jquery/ui/draggable.min35d0.js?ver=1.12.1' id='jquery-ui-draggable-js'></script>-->
 
 <script type='text/javascript' id='premium-addons-js-extra'>
 	/* <![CDATA[ */
@@ -165,7 +166,7 @@
 	/* ]]> */
 </script>
 <script type='text/javascript' src='<?php echo base_url(); ?>design/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/premium-addons.min1c9b.js?ver=4.6.1' id='premium-addons-js'></script>
-<script type='text/javascript' src='<?php echo base_url(); ?>design/wp-includes/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>
+<!--<script type='text/javascript' src='<?php echo base_url(); ?>design/wp-includes/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>-->
 <!--<script type='text/javascript' id='bdt-uikit-js-extra'>
 	/* <![CDATA[ */
 	var element_pack_ajax_login_config = {
@@ -203,7 +204,7 @@
 	};
 	/* ]]> */
 </script>
-<script type='text/javascript' id='elementor-frontend-js-before'>
+<!--<script type='text/javascript' id='elementor-frontend-js-before'>
 	var elementorFrontendConfig = {
 		"environmentMode": {
 			"edit": false,
@@ -315,7 +316,7 @@
 			"featuredImage": ""
 		}
 	};
-</script>
+</script>-->
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/bdthemes-element-pack-lite/assets/js/element-pack-site.min3d36.js?ver=3.3.1' id='element-pack-site-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/bdthemes-prime-slider-lite/assets/js/prime-slider-site.min3c94.js?ver=2.1.0' id='prime-slider-site-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.minee9a.js?ver=3.2.2' id='elementor-pro-webpack-runtime-js'></script>
@@ -467,7 +468,7 @@
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/bdthemes-prime-slider-lite/assets/js/prime-slider-site.min3c94.js?ver=2.1.0' id='prime-slider-site-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.minee9a.js?ver=3.2.2' id='elementor-pro-webpack-runtime-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.minee9a.js?ver=3.2.2' id='elementor-sticky-js'></script>
-<script type='text/javascript' id='elementor-pro-frontend-js-before'>
+<!--<script type='text/javascript' id='elementor-pro-frontend-js-before'>
 	var ElementorProFrontendConfig = {
 		"ajaxurl": "",
 		"nonce": "4fe4417b60",
@@ -554,12 +555,13 @@
 			"defaultAnimationUrl": ""
 		}
 	};
-</script>
+</script>-->
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/frontend.minee9a.js?ver=3.2.2' id='elementor-pro-frontend-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.minee9a.js?ver=3.2.2' id='pro-preloaded-elements-handlers-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle8d5a.js?ver=2.4.0' id='animate-circle-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor8d5a.js?ver=2.4.0' id='elementskit-elementor-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/js/preloaded-modules.mina7da.js?ver=3.4.7' id='preloaded-modules-js'></script>
+
 
 </body>
 
