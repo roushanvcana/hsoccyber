@@ -962,7 +962,7 @@
 												<div class="elementor-post__thumbnail"><img width="1080" height="721" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/cropped-view-of-african-american-businessman-using-laptop-and-smartphone-in-car-with-cyber-security-e1624634401494.jpg" class="attachment-full size-full" alt="cropped view of african american businessman using laptop and smartphone in car with cyber security" loading="lazy"/>
 												</div>
 											</a>
-											<div class="elementor-post__badge font-white">Computer Virus</div>
+											<div class="elementor-post__badge font-white" style="color: #000 !important;">Computer Virus</div>
 											<div class="elementor-post__text">
 												<h3 class="elementor-post__title"> <a href="#" > City of Liège hit by ransomware, Ryuk suspected </a> </h3>
 											</div>
@@ -974,7 +974,7 @@
 												<div class="elementor-post__thumbnail"><img width="1080" height="721" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/woman-working-on-computer-outdoors-e1624634377985.jpg" class="attachment-full size-full" alt="Woman working on computer outdoors" loading="lazy"/>
 												</div>
 											</a>
-											<div class="elementor-post__badge font-white">Featured</div>
+											<div class="elementor-post__badge font-white" style="color: #000 !important;">Featured</div>
 											<div class="elementor-post__text">
 												<h3 class="elementor-post__title"> <a href="#" > Make the Internet a Better, Safer Place on Stop Cyberbullying Day </a> </h3>
 											</div>
@@ -986,7 +986,7 @@
 												<div class="elementor-post__thumbnail"><img width="2000" height="1333" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen.jpg" class="attachment-full size-full" alt="Male Teenage Hacker With Data Reflected From Computer Screen" loading="lazy" srcset="https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen.jpg 2000w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen-300x200.jpg 300w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen-1024x682.jpg 1024w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen-768x512.jpg 768w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen-1536x1024.jpg 1536w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen-800x533.jpg 800w" sizes="(max-width: 2000px) 100vw, 2000px"/>
 												</div>
 											</a>
-											<div class="elementor-post__badge font-white">Cyber Security</div>
+											<div class="elementor-post__badge font-white" style="color: #000 !important;">Cyber Security</div>
 											<div class="elementor-post__text">
 												<h3 class="elementor-post__title"> <a href="#" > Threat Actors Spread Agent Tesla Disguised as COVID-19 Vaccination Registration </a> </h3>
 											</div>
@@ -998,7 +998,7 @@
 												<div class="elementor-post__thumbnail"><img width="2000" height="1333" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark.jpg" class="attachment-full size-full" alt="Computer Equipment in Dark" loading="lazy" srcset="https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark.jpg 2000w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark-300x200.jpg 300w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark-1024x682.jpg 1024w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark-768x512.jpg 768w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark-1536x1024.jpg 1536w, https://demo.moxcreative.com/byte/wp-content/uploads/sites/48/2021/06/computer-equipment-in-dark-800x533.jpg 800w" sizes="(max-width: 2000px) 100vw, 2000px"/>
 												</div>
 											</a>
-											<div class="elementor-post__badge font-white">Criminal</div>
+											<div class="elementor-post__badge font-white" style="color: #000 !important;">Criminal</div>
 											<div class="elementor-post__text">
 												<h3 class="elementor-post__title"> <a href="#" > Repairmen suspected of installing ransomware on customers’ PCs. Arrests in South Korea </a> </h3>
 											</div>
