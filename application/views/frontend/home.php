@@ -875,18 +875,20 @@
 
 <?php $this->load->view('frontend/layout/footer'); ?>
 
-<!--<div id="myModal" class="modalcstm">
+<div id="myModal" class="modalcstm">
 
   <div class="modal-content">
 		<div class="border_line">
     <span class="close">&times;</span>
     <h4 style="text-align:center; color:#020817;">Join me on Patreon</h4>
     <h3>Your Cybersecurity Coach</h3>
-    <p class="pup_txt">Hey!  Are you new to cybersecurity or interested in transitioning into the profession?<br>Great!  You’re in the right place.<br>Gain experience and confidence now every Tuesday and Thursday from 6:30pm to 8:30pm.	</p>
+    <p class="pup_txt">Hey!  Are you new to cybersecurity or interested in transitioning into the profession?</p>
+			<p class="pup_txt">Great!  You’re in the right place.	</p>
+			<p class="pup_txt">Gain experience and confidence now every Tuesday and Thursday from 6:30pm to 8:30pm.	</p>
     <p><a href="#" class="btn_jnmeptrn">Join me on Patreon</a></p>
   </div>
 </div>
-</div>-->
+</div>
 
 <script>
 // Get the modal

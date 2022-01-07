@@ -90,9 +90,18 @@
 	padding: 20px 0;
 }
 .pup_txt {
-	padding: 0 0 25px;
+	font-family: 'Hina Mincho', serif;
+	text-align: center;
+    color: #333333;
+    font-family: "Hina Mincho", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+	padding: 0 0;
+	margin: 0 0 20px;
 }
 .btn_jnmeptrn {
+	font-family: 'Merienda', cursive !important;
 	background: #286bac;
     color: #fff;
     padding: 10px 25px;
@@ -100,22 +109,33 @@
     font-weight: 500;
     border-radius: 50px;
 }
+.btn_jnmeptrn:hover {
+	font-family: 'Merienda', cursive !important;
+	background: #286bac;
+    color: #fff;
+   text-decoration: none;
+}
 .border_line {
-	text-align:center; font-family: cursive;
+	text-align:center;
+	
 	border: 6px solid #2166a8;
 	padding: 15px;
 }
 .border_line h3 {
-	text-align:center; 
-	font-family: cursive !important;
-	font-weight: 700 !important;
+	text-align:center;
+	font-size: 36px;
+	line-height: 44px;
+	font-family: 'Merienda', cursive !important;
+	font-weight: 600 !important;
 	
 }
 .border_line h4 {
-	font-size: 18px !important;
+	font-size: 20px !important;
+	font-weight: 800 !important;
+	line-height: 24px !important;
 	text-align:center; 
 	color: #f8541f !important;
-	font-family: cursive !important;
+	font-family: 'Merienda', cursive !important;
 	
 }
 .modalcstm {
@@ -141,7 +161,7 @@
 .modal-content {
   background-color: #fefefe;
   margin: auto;
-  width: 40%;
+  width: 550px;
 }
 
 /* The Close Button */
@@ -544,7 +564,13 @@
 .space_top_bottom {
 	margin: 80px 0;
 }
-
+@media (minwidth:767px) {
+	.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  width: 100%;
+}
+}
 @media  (min-width:1200px) {
 	.single-challenges {
     height: 40vh;
