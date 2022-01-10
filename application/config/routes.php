@@ -119,6 +119,7 @@ $route['add-team'] = 'Team/add_team';
 $route['team-list'] = 'Team/index';
 $route['team-delete/(:num)'] = 'Team/delete_team/$1';
 $route['team-edit/(:num)'] = 'Team/edit_team/$1';
+$route['blog-details/(:num)'] = 'Service/blog_details/$1';
 
 
 

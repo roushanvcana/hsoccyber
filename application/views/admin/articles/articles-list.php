@@ -38,6 +38,7 @@
           <thead>
             <tr>
               <th>Sr. No</th>
+              <th>Title</th>
               <th>Author Name</th>
               <th>Publish Date</th>
               <th>Image</th>             
@@ -52,6 +53,7 @@
               ?>
               <tr id="tbl_<?php echo $data['id']; ?>">
                   <td><?= $i; ?></td>
+                  <td><?php echo $data['title']; ?></td>
                   <td><?php echo $data['authorname']; ?></td>
                   <td><?php echo $data['publishdate']; ?></td>
                   <td>

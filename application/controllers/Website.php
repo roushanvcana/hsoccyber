@@ -12,9 +12,15 @@
 
     public function home()
     {   
-       
-             
-        $this->load->view('frontend/home');
+        $data['brandSetion'] = $this->db->query('select * from manage_trusted_brand limit 0,4')->result_array();  
+        $data['brandSetiontwo'] = $this->db->query('select * from manage_trusted_brand limit 4,8')->result_array();  
+        $data['serviceAdd'] = $this->db->query('select * from manage_service')->result_array();  
+        $data['slider'] = $this->db->query('select * from manage_slider')->result_array(); 
+        $data['sliderBox'] = $this->db->query('select * from manage_sliderbox')->result_array();  
+        $data['testimonial'] = $this->db->query('select * from manage_testimonial')->result_array();  
+        $data['articles'] = $this->db->query('select * from articles')->result_array();  
+
+        $this->load->view('frontend/home',$data);
     }
     public function about()
     {   

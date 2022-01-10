@@ -356,6 +356,7 @@ class Service extends CI_Controller {
     {
       if ($this->input->post()) {
           $article = array(
+            'title' => $this->input->post('title'),
             'authorname' => $this->input->post('authorname'),
             'publishdate' => $this->input->post('publishdate'),
             'description' => $this->input->post('description'),
@@ -428,6 +429,12 @@ class Service extends CI_Controller {
         if(!empty($del)){
             redirect(site_url().'articles');
         } 
+    }
+
+    public function blog_details($id)
+    {
+        $data['articles_details'] =  $this->db->query('select * from articles where id="'.$id.'"')->result_array(); 
+        $this->load->view('frontend/about_details',$data);
     }
 
 }

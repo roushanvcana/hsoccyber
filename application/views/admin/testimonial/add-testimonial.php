@@ -80,7 +80,7 @@
                                
                                 <div class="form-group  col-md-12 col-lg-12">
                                     <label for="design_by">Description</label>
-                                    <textarea rows="4" cols="4" class="form-control" name="description">
+                                    <textarea name="description" id="description">
                                     <?php echo !empty($getValue['description']) ? $getValue['description'] : ''; ?>
                                     </textarea>
                                 </div> 
