@@ -94,11 +94,11 @@ body.rtl .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-n
 	color: var( --e-global-color-b2310dd );
 }
 .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-nav-menu--dropdown a:hover,  .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-nav-menu--dropdown a.elementor-item-active,  .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-nav-menu--dropdown a.highlighted {
-	background-color: var( --e-global-color-7895cc3 );
+	background-color: #00aefe;
 }
 .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-nav-menu--dropdown a.elementor-item-active {
 	color: #fff;
-	background-color: var( --e-global-color-7895cc3 );
+	background-color: #00aefe;
 }
 .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-nav-menu--dropdown .elementor-item, .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-nav-menu--dropdown .elementor-sub-item {
 	font-family: var( --e-global-typography-ce49889-font-family ), Sans-serif;
@@ -215,7 +215,9 @@ body.rtl .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-n
 	border-bottom-left-radius: 0px;
 }
 .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-nav-menu--main > .elementor-nav-menu > li > .elementor-nav-menu--dropdown, .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-nav-menu__container.elementor-nav-menu--dropdown {
-	margin-top: 21px !important;
+	margin-top: 60px !important;
+    left: -330px;
+    min-width: 400px;
 }
 .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-menu-toggle {
 	font-size: 21px;
