@@ -1028,7 +1028,6 @@
   <div class="modal-content">
 		<div class="border_line">
 			<div class="hide_box" id="Menu1">
-    <!--<span class="close">&times;</span>-->
     <h4 style="text-align:center; color:#020817;">Join me on Patreon</h4>
     <h3>Your Cybersecurity Coach</h3>
     <p class="pup_txt">Hey!  Are you new to cybersecurity or interested in transitioning into the profession?</p>

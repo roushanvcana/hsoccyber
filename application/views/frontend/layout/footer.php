@@ -10,7 +10,7 @@
 								<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-ea7a810">
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-276c298 elementor-widget elementor-widget-image">
-											<div class="elementor-widget-container footer-logo"> <a href="<?php echo site_url("/ home "); ?>"> <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/Comp_7.gif" title="Hsoc Grey" alt="Hsoc Grey" /> </a> </div>
+											<div class="elementor-widget-container footer-logo"> <a href="<?php echo site_url("/home "); ?>"> <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/Comp_7.gif" title="Hsoc Grey" alt="Hsoc Grey" /> </a> </div>
 										</div>
 										<div class="elementor-element elementor-element-24b80df ob-harakiri-inherit elementor-widget elementor-widget-text-editor" >
 											<div class="elementor-widget-container">
@@ -29,9 +29,9 @@
 										<div class="elementor-element elementor-element-2d943e8 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list">
 											<div class="elementor-widget-container">
 												<ul class="elementor-icon-list-items">
-													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/ about "); ?>"> <span class="elementor-icon-list-text">About Us</span> </a> </li>
-													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/ services "); ?>"> <span class="elementor-icon-list-text">Service</span> </a> </li>
-													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/ contact "); ?>"> <span class="elementor-icon-list-text">Contact</span> </a> </li>
+													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/about "); ?>"> <span class="elementor-icon-list-text">About Us</span> </a> </li>
+													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/services "); ?>"> <span class="elementor-icon-list-text">Service</span> </a> </li>
+													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/contact "); ?>"> <span class="elementor-icon-list-text">Contact</span> </a> </li>
 
 												</ul>
 											</div>
@@ -148,11 +148,11 @@
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/lib/swiper/swiper.min48f5.js?ver=5.3.6' id='swiper-js'></script> 
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/lib/share-link/share-link.mina7da.js?ver=3.4.7' id='share-link-js'></script> 
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/lib/dialog/dialog.mina288.js?ver=4.8.1' id='elementor-dialog-js'></script> 
-<script type='text/javascript' id='elementor-frontend-js-extra'>
+<!--<script type='text/javascript' id='elementor-frontend-js-extra'>
 /* <![CDATA[ */
 var PaModulesSettings = {"equalHeight_url":""};
 /* ]]> */
-</script> 
+</script>--> 
 <script type='text/javascript' id='elementor-frontend-js-before'>
 var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.4.7","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"e_import_export":true,"landing-pages":true,"elements-color-picker":true,"admin-top-bar":true,"form-submissions":true},"urls":{"assets":""},"settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":798,"title":"","excerpt":"","featuredImage":""}};
 </script> 
