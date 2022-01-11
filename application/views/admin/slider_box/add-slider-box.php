@@ -68,7 +68,7 @@
 
                                 <div class="form-group  col-md-12 col-lg-12">
                                     <label for="Logo">Description</label>
-                                    <textarea rows="10" cols="10" name="description" class="form-control">
+                                    <textarea rows="10" cols="10" name="description" id="description">
                                     <?= !empty($getValue['description']) ? $getValue['description'] : '' ?>
                                     </textarea>
                                     <?php echo form_error('description'); ?>

@@ -30,6 +30,13 @@
                         action="">
                             <div class="row">
                                 <div class="form-group  col-md-4 col-lg-4">
+                                    <label for="authorname">Title</label>
+                                    <input type="text" id="title" class="form-control" name="title" 
+                                    value="<?= !empty($getValue['title']) ? $getValue['title'] : set_value('title') ?>" >
+                                    <?php echo form_error('title'); ?>
+                                    <p style="color:#dc3545!important;" id="nameError"></p>
+                                </div>
+                                <div class="form-group  col-md-4 col-lg-4">
                                     <label for="authorname">Author Name</label>
                                     <input type="text" id="authorname" class="form-control" name="authorname" 
                                     value="<?= !empty($getValue['authorname']) ? $getValue['authorname'] : set_value('authorname') ?>" >
@@ -50,7 +57,7 @@
                                 </div>
                                 <div class="form-group  col-md-12 col-lg-12">
                                     <label for="design_by">Description</label>
-                                    <textarea rows="4" cols="4" class="form-control" name="description">
+                                    <textarea  name="description" id="description">
                                     <?php echo !empty($getValue['description']) ? $getValue['description'] : ''; ?>
                                     </textarea>
                                 </div> 
