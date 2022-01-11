@@ -23,7 +23,7 @@ class Website_setting extends CI_Controller {
     public function add_websetting()
     {
        
-        if($this->input->post()){
+        if(!empty($this->input->post())){
             
             $webValue = array(
                 "address" => $this->input->post('address'),
@@ -65,7 +65,7 @@ class Website_setting extends CI_Controller {
         }
         $data['getValue'] = $this->Common_Model->set_data('manage_website_setting',1);
         $data['status'] = status();
-        $data['main_content'] = 'admin/manage_website/add-website-setting';        
+        $data['main_content'] = 'admin/manage_website/add_website_setting';        
         $this->load->view('admin/template/template',$data);
     }
   

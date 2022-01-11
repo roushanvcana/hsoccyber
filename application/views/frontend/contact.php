@@ -70,11 +70,13 @@
 															</div>
 														</div>
 														<div class="box-body">
-															<h5 class="elementskit-info-box-title">
-    Headquarter                </h5>
-														
+															<h5 class="elementskit-info-box-title">Headquarter</h5>
 
-															<p>Jln Cempaka Wangi No 22, Jakarta - Indonesia </p>
+															<p>
+																<?php 
+																	echo str_replace(",","\n",$websitedata[0]['address']);
+																?>
+															</p>
 														</div>
 
 
@@ -99,15 +101,11 @@
 															</div>
 														</div>
 														<div class="box-body">
-															<h5 class="elementskit-info-box-title">
-    Email Us                </h5>
-														
-
-															<p>support@mail.tld </br>
-																business@mail.tld </p>
+															<h5 class="elementskit-info-box-title">Email Us</h5>
+															<?php 
+																echo str_replace(",","\n",$websitedata[0]['email']);
+															?>															
 														</div>
-
-
 													</div>
 												</div>
 											</div>
@@ -118,12 +116,14 @@
 						</section>
 					</div>
 				</div>
+				<!-- https://maps.google.com/maps?q=Jakarta&amp;t=m&amp;z=12&amp;output=embed&amp;iwloc=near -->
+				<?php //print_r($websitedata); ?>
 				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ce87457">
 					<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-0dc9c20 elementor-widget elementor-widget-google_maps">
 							<div class="elementor-widget-container">
 								<div class="elementor-custom-embed">
-									<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Jakarta&amp;t=m&amp;z=12&amp;output=embed&amp;iwloc=near" title="Jakarta" aria-label="Jakarta"></iframe>
+									<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<?php echo $websitedata[0]['embed_map']; ?>" title="Jakarta" aria-label="Jakarta"></iframe>
 								</div>
 							</div>
 						</div>
@@ -134,51 +134,7 @@
 
 		<section class="bg-light-blue-transparent ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-a947266 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 			<div class="elementor-container elementor-column-gap-default">
-				<!--<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-59f61e0" data-id="59f61e0" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-					<div class="elementor-widget-wrap elementor-element-populated">
-						<section class="bg-theme-clr ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-7119151 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7119151" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_offset&quot;:100,&quot;sticky_parent&quot;:&quot;yes&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_effects_offset&quot;:0}">
-							<div class="elementor-container elementor-column-gap-default">
-								<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-d619cb3" data-id="d619cb3" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-									<div class="elementor-widget-wrap elementor-element-populated font-white">
-										<div class="elementor-element elementor-element-0ef6b02 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="0ef6b02" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
-											<div class="elementor-widget-container">
-												<h4 class="elementor-heading-title elementor-size-default">Call Center</h4> </div>
-										</div>
-										<div class="elementor-element elementor-element-e629e0c elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="e629e0c" data-element_type="widget" data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="divider.default">
-											<div class="elementor-widget-container">
-												<div class="elementor-divider">
-													<span class="elementor-divider-separator">
-        </span>
-												
-												</div>
-											</div>
-										</div>
-										<div class="elementor-element elementor-element-1902a89 ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="1902a89" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
-											<div class="elementor-widget-container">
-												<p>We are listening to your feedback, contact our call center for more information.</p>
-											</div>
-										</div>
-										<div class="elementor-element elementor-element-37906f9 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="37906f9" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
-											<div class="elementor-widget-container">
-												<h3 class="elementor-heading-title elementor-size-default">+6221.2002.2012</h3> </div>
-										</div>
-										<div class="elementor-element elementor-element-30a8db7 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="30a8db7" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
-											<div class="elementor-widget-container">
-												<span class="elementor-heading-title elementor-size-default">Business Hour</span> </div>
-										</div>
-										<div class="elementor-element elementor-element-6fbfcc5 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="6fbfcc5" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
-											<div class="elementor-widget-container">
-												<span class="elementor-heading-title elementor-size-default">Monday - Friday (09.00 AM - 05.00 PM)</span> </div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</section>
-					</div>
-				</div>-->
-				<!--<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3eed568" data-id="3eed568" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-					
-				</div>-->
+				
 			</div>
 			<div class="col-lg-6 offset-3">
 				<div class="elementor-widget-wrap elementor-element-populated">
@@ -201,14 +157,12 @@
 								<div class="elementor-form-fields-wrapper elementor-labels-above">
 									<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-33">
 										<label for="form-field-name" class="elementor-field-label">Name</label><input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Name"> </div>
-									<!--<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_fa9e3f0 elementor-col-50">
-										<label for="form-field-field_fa9e3f0" class="elementor-field-label">Company</label><input size="1" type="text" name="form_fields[field_fa9e3f0]" id="form-field-field_fa9e3f0" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Company"> </div>-->
+									
 									<div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_b078184 elementor-col-33">
 										<label for="form-field-field_b078184" class="elementor-field-label">Phone Number</label><input size="1" type="tel" name="form_fields[field_b078184]" id="form-field-field_b078184" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Phone Number" pattern="[0-9()#&amp;+*-=.]+" title="Only numbers and phone characters (#, -, *, etc) are accepted."> </div>
 									<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-33 elementor-field-required">
 										<label for="form-field-email" class="elementor-field-label">Email</label><input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Email" required="required" aria-required="true"> </div>
-									<!--<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_4fc41e0 elementor-col-100 elementor-field-required">
-										<label for="form-field-field_4fc41e0" class="elementor-field-label">Subject</label><input size="1" type="text" name="form_fields[field_4fc41e0]" id="form-field-field_4fc41e0" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Subject" required="required" aria-required="true"> </div>-->
+								
 									<div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
 										<label for="form-field-message" class="elementor-field-label">Message</label><textarea class="elementor-field-textual elementor-field  elementor-size-lg" name="form_fields[message]" id="form-field-message" rows="4" placeholder="Message"></textarea> </div>
 									<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">

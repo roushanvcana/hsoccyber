@@ -230,20 +230,50 @@
 
                                 <li class="nav-item">
                                     <a href="<?php echo base_url() ?>slider-box" class="nav-link">
-                                    <i class="far fa-circle nav-icon"></i>
+                                        <i class="far fa-circle nav-icon"></i>
                                         <p>Slider Box</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="<?php echo base_url() ?>brand-section" class="nav-link">
-                                    <i class="far fa-circle nav-icon"></i>
+                                        <i class="far fa-circle nav-icon"></i>
                                         <p>Brand Section</p>
                                     </a>
                                 </li>
 
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>service" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Manage Service</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>feature" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Feature</p>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>feature-details" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Feature Details</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>testimonial" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Testimonial</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>articles" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Articles</p>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
-
 
                         <li class="nav-item">
                             <a href="<?php echo base_url() ?>add-about" class="nav-link">
@@ -252,25 +282,11 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?php echo base_url() ?>service" class="nav-link">
+                            <a href="<?php echo base_url() ?>team-list" class="nav-link">
                                 <i class="far fa-user nav-icon"></i>
-                                <p>Manage Service</p>
+                                <p>Manage Team</p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="<?php echo base_url() ?>feature" class="nav-link">
-                                <i class="far fa-user nav-icon"></i>
-                                <p>Feature</p>
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="<?php echo base_url() ?>feature-details" class="nav-link">
-                                <i class="far fa-user nav-icon"></i>
-                                <p>Feature Details</p>
-                            </a>
-                        </li>
-
                         </li>
                     </ul>
                 </nav>
