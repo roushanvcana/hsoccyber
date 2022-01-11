@@ -635,6 +635,21 @@
     height: auto;
     
 }
+	.single-challenges {
+    height: auto;
+	}
+	.works-about-area .works-about-items .thumb {
+    margin: 20px 0 40px;
+}
+.space_top_bottom {
+    margin: 30px 0;
+}
+	.listdc {
+    column-count: 1;
+}
+	.space_tb {
+		padding: 4em 1em;
+	}
 }
 
 

@@ -216,8 +216,8 @@ body.rtl .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-n
 }
 .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-nav-menu--main > .elementor-nav-menu > li > .elementor-nav-menu--dropdown, .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-nav-menu__container.elementor-nav-menu--dropdown {
 	margin-top: 60px !important;
-    left: -330px;
-    min-width: 400px;
+  /*  left: -330px;
+    min-width: 400px;*/
 }
 .elementor-53 .elementor-element.elementor-element-0f887b0 .elementor-menu-toggle {
 	font-size: 21px;

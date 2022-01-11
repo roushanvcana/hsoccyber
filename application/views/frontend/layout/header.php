@@ -59,9 +59,9 @@
 <body class="envato_tk_templates-template envato_tk_templates-template-elementor_header_footer single single-envato_tk_templates postid-798 elementor-default elementor-template-full-width elementor-kit-3 elementor-page elementor-page-798">
 		<div data-elementor-type="header" data-elementor-id="53" class="elementor elementor-53 elementor-location-header" data-elementor-settings="[]">
  <div class="elementor-section-wrap">
-  <section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-677e228 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="677e228" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+  <section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-677e228 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default">
    <div class="elementor-container elementor-column-gap-default">
-    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-d9b0db1" data-id="d9b0db1" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-d9b0db1">
      <div class="elementor-widget-wrap elementor-element-populated">
       <div class="elementor-element elementor-element-767c95b elementor-widget elementor-widget-image" data-id="767c95b" data-element_type="widget" data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="image.default">
        <div class="elementor-widget-container header-logo"> <a href="index.html"> <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $websitedata[0]['logo']; ?>" title="Hsoc" alt="Hsoc" /> </a> </div>
@@ -87,10 +87,10 @@
         <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
          <ul class="elementor-nav-menu">
           <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-6"><a href="<?php echo site_url("/home"); ?>" aria-current="page" class="elementor-item elementor-item-active">Home</a></li>
-          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="#" class="elementor-item">About Us</a></li>
-          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10"><a href="#" class="elementor-item">Service</a>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="<?php echo site_url("/about"); ?>" class="elementor-item">About Us</a></li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10"><a href="<?php echo site_url("/services"); ?>" class="elementor-item">Service</a>
           </li>
-          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="#" class="elementor-item">Contact Us</a></li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="<?php echo site_url("/contact"); ?>" class="elementor-item">Contact Us</a></li>
          </ul>
         </nav>
        </div>
