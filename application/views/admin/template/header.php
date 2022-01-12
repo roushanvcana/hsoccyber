@@ -195,23 +195,7 @@
                                 <p>Manage Admin</p>
                             </a>
                         </li> -->
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-search"></i>
-                                <p>
-                                    Sidebar
-                                    <i class="fas fa-angle-left right"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview" style="display: none;">
-                                <li class="nav-item">
-                                    <a href="<?php echo base_url() ?>add-website-setting" class="nav-link">
-                                        <i class="far fa-user nav-icon"></i>
-                                        <p>Manage Website Setting</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
+                      
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-search"></i>
@@ -272,6 +256,12 @@
                                         <p>Articles</p>
                                     </a>
                                 </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>welcome-message" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Welcome Message</p>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
 
@@ -286,6 +276,24 @@
                                 <i class="far fa-user nav-icon"></i>
                                 <p>Manage Team</p>
                             </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-search"></i>
+                                <p>
+                                    Sidebar Menu
+                                    <i class="fas fa-angle-left right"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview" style="display: none;">
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>add-website-setting" class="nav-link">
+                                        <i class="far fa-user nav-icon"></i>
+                                        <p>Manage Website Setting</p>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         </li>
                     </ul>

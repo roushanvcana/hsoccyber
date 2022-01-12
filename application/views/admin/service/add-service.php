@@ -40,16 +40,32 @@
                                 </div>
                                
                                 <div class="form-group  col-md-6 col-lg-6">
-                                    <label for="icon_upload">Icon</label>
+                                    <label for="icon_upload">Icon
+
+                                         <?php if(!empty($getValue['icon_upload'])){?>
+                                        <a href="<?php echo base_url();?>uploads/gallery-image/<?php echo $getValue['icon_upload']; ?>" class="badge badge-success">Download Upload Image</a>
+                                        <?php }?>
+
+                                    </label>
                                     <input type="file" id="icon_upload" class="form-control" name="icon_upload">
                                     <?php echo form_error('icon_upload'); ?>
                                     <p style="color:#dc3545!important;" id="rename_buttonError"></p>
+                                    <span id="img_preview2" style="display:none">
+                                        <img id="imgPreview2" src="#" alt="pic" width="100" height="100" />
+                                    </span>
                                 </div> 
                                 <div class="form-group  col-md-6 col-lg-6">
-                                    <label for="image_upload">Image</label>
+                                    <label for="image_upload">Image
+                                    <?php if(!empty($getValue['image_upload'])){?>
+                                        <a href="<?php echo base_url();?>uploads/gallery-image/<?php echo $getValue['image_upload']; ?>" class="badge badge-success">Download Upload Image</a>
+                                        <?php }?>
+                                    </label>
                                     <input type="file" id="image_upload" class="form-control" name="image_upload" value="">
                                     <?php echo form_error('image_upload'); ?>
                                     <p style="color:#dc3545!important;" id="rename_buttonError"></p>
+                                    <span id="img_preview" style="display:none">
+                                        <img id="imgPreview" src="#" alt="pic" width="100" height="100" />
+                                    </span>
                                 </div> 
                                 <div class="form-group  col-md-12 col-lg-12">
                                     <label for="description">Description</label>                                   
@@ -71,6 +87,33 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
+<script>
+    $(document).ready(() => {
+        $("#icon_upload").change(function () {
+            $('#img_preview2').css('display','block');
+            const file = this.files[0];
+            if (file) {
+                let reader = new FileReader();
+                reader.onload = function (event) {
+                    $("#imgPreview2")
+                        .attr("src", event.target.result);
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+        $("#image_upload").change(function () {
+            $('#img_preview').css('display','block');
+            const file = this.files[0];
+            if (file) {
+                let reader = new FileReader();
+                reader.onload = function (event) {
+                    $("#imgPreview")
+                        .attr("src", event.target.result);
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    });
+</script>

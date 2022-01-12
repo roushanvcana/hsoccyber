@@ -50,10 +50,19 @@
                                     <p style="color:#dc3545!important;" id="nameError"></p>
                                 </div>
                                 <div class="form-group  col-md-4 col-lg-4">
-                                    <label for="image">Image</label>
+                                    <label for="image">Image
+
+                                    <?php if(!empty($getValue['image'])){?>
+                                        <a href="<?php echo base_url();?>uploads/gallery-image/<?php echo $getValue['image']; ?>" class="badge badge-success">Download Upload Image</a>
+                                        <?php }?>
+
+                                    </label>
                                     <input type="file" id="image" class="form-control" name="image" value="" >
                                     <?php echo form_error('image'); ?>
                                     <p style="color:#dc3545!important;" id="nameError"></p>
+                                    <span id="img_preview" style="display:none">
+                                        <img id="imgPreview" src="#" alt="pic" width="100" height="100" />
+                                    </span>
                                 </div>
                                 <div class="form-group  col-md-12 col-lg-12">
                                     <label for="design_by">Description</label>
@@ -75,6 +84,22 @@
             </div>
            
         </div>
-
     </div>
 </div>
+
+<script>
+    $(document).ready(() => {
+        $("#image").change(function () {
+            $('#img_preview').css('display','block');
+            const file = this.files[0];
+            if (file) {
+                let reader = new FileReader();
+                reader.onload = function (event) {
+                    $("#imgPreview")
+                        .attr("src", event.target.result);
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    });
+</script>

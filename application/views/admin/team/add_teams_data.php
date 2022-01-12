@@ -107,10 +107,17 @@
                                         </div>
 
                                         <div class="form-group  col-md-6 col-lg-6">
-                                            <label for="photo">Photo</label>
+                                            <label for="photo">Photo
+                                            <?php if(!empty($getValue['photo'])){?>
+                                                <a href="<?php echo base_url();?>uploads/gallery-image/<?php echo $getValue['photo']; ?>" class="badge badge-success">Download Upload Image</a>
+                                            <?php }?>
+                                            </label>
                                             <input type="file" id="photo" class="form-control" name="photo" value="">
                                             <?php echo form_error('photo'); ?>
                                             <p style="color:#dc3545!important;" id="rename_buttonError"></p>
+                                            <span id="img_preview" style="display:none">
+                                                <img id="imgPreview" src="#" alt="pic" width="100" height="100" />
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -133,12 +140,18 @@
 </div>
 </div>
 <script>
-$(document).ready(function() {
-    // $('#add_more').click(function() {
-    //     $('#team_section').append(
-    //         '<div class="row"><div class="form-group  col-md-6 col-lg-6"><label for="name">Name</label><input type="text" id="name" class="form-control" name="name[]"placeholder="Name"></div><div class="form-group  col-md-6 col-lg-6"><label for="designation">Designation</label><input type="text" id="designation" class="form-control" name="designation[]" placeholder="Designation"></div><div class="form-group col-md-4 col-lg-4"><label for="facebook_link">Facebook Link</label><input type="text" id="facebook_link" class="form-control" name="facebook_link[]" placeholder="Facebook Link"></div><div class="form-group  col-md-4 col-lg-4"><label for="twitter_link">Twitter Link</label><input type="text" id="twitter_link" class="form-control" name="twitter_link[]" placeholder="Twitter Link"></div><div class="form-group  col-md-4 col-lg-4"><label for="linkdin">Linkdin</label><input type="text" id="linkdin" class="form-control" name="linkdin[]" placeholder="Linkdin Link"></div><label for="photo">Photo</label><input type="file" id="photo" class="form-control" name="photo[]" /></div></div>'
-    //         );
-    // });
-
-});
+  $(document).ready(() => {
+        $("#photo").change(function () {
+            $('#img_preview').css('display','block');
+            const file = this.files[0];
+            if (file) {
+                let reader = new FileReader();
+                reader.onload = function (event) {
+                    $("#imgPreview")
+                        .attr("src", event.target.result);
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    });
 </script>

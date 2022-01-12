@@ -39,7 +39,7 @@
                                     <p style="color:#dc3545!important;" id="nameError"></p>
                                 </div>
                                 <div class="form-group  col-md-6 col-lg-6">
-                                    <label for="slider_text">Slider</label>
+                                    <label for="slider_text">Tagline</label>
                                     <input type="text" id="slider_text" class="form-control" name="slider_text" value="<?= !empty($getValue['slider_text']) ? $getValue['slider_text'] : set_value('slider_text') ?>" >
                                     <?php echo form_error('slider_text'); ?>
                                     <p style="color:#dc3545!important;" id="nameError"></p>
@@ -60,17 +60,25 @@
                                 </div>                            
                                
                                 <div class="form-group  col-md-6 col-lg-6">
-                                    <label for="design_by">Slider Image</label>
+                                    <label for="design_by">Slider Image
+
+                                    <?php if(!empty($getValue['slider_image'])){?>
+                                        <a href="<?php echo base_url();?>uploads/gallery-image/<?php echo $getValue['slider_image']; ?>" class="badge badge-success">Download Upload Image</a>
+                                        <?php }?>
+                                    </label>
                                     <input type="file" id="logo" class="form-control" name="slider_image" value="">
                                     <?php echo form_error('logo'); ?>
                                     <p style="color:#dc3545!important;" id="rename_buttonError"></p>
+                                    <span id="img_preview" style="display:none">
+                                        <img id="imgPreview" src="#" alt="pic" width="100" height="100" />
+                                    </span>
                                 </div> 
 
                                 <div class="form-group  col-md-6 col-lg-6">
                                     <label for="status">Status</label>
                                     <select name="status" class="form-control">
                                         <?php foreach ($status as $key => $value) : ?>
-                                            <option value="<?php echo $key; ?>"><?php echo $value; ?></option>
+                                            <option <?php if(!empty($getValue['status']) == $key){?> selected <?php }?> value="<?php echo $key; ?>"><?php echo $value; ?></option>
                                         <?php endforeach; ?>
 
                                     </select>
@@ -91,3 +99,20 @@
 
     </div>
 </div>
+
+<script>
+    $(document).ready(() => {
+        $("#logo").change(function () {
+            $('#img_preview').css('display','block');
+            const file = this.files[0];
+            if (file) {
+                let reader = new FileReader();
+                reader.onload = function (event) {
+                    $("#imgPreview")
+                        .attr("src", event.target.result);
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    });
+</script>

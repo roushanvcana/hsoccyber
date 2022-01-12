@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 10, 2022 at 03:08 PM
+-- Generation Time: Jan 12, 2022 at 08:08 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.10
 
@@ -176,7 +176,7 @@ CREATE TABLE `manage_service` (
 --
 
 INSERT INTO `manage_service` (`id`, `icon_upload`, `image_upload`, `title`, `description`, `status`, `ip_add`, `entry_by`, `updated_at`, `created_at`) VALUES
-(2, '', 'IMG-1690.3-protection-1.png', 'Self-Control', '<div>Completing tasks and projects without letting</div><div>distractors or bad habits get in the way (e.g.,</div><div>adaptability, self-awareness, self-confidence,</div><div>stress management)</div>', 1, '::1', 1, '2022-01-10 15:05:52', '2022-01-10 15:05:52'),
+(2, 'IMG-1690.3-protection-1.png', 'IMG-1690.3-protection-1.png', 'Self-Control', '<div>Completing tasks and projects without letting</div><div>distractors or bad habits get in the way (e.g.,</div><div>adaptability, self-awareness, self-confidence,</div><div>stress management)</div>', 1, '::1', 1, '2022-01-10 15:05:52', '2022-01-10 15:05:52'),
 (3, '', 'IMG-64170.2-database-1.png', 'Productivity', '<div>Completing tasks and projects without letting</div><div>distractors or bad habits get in the way (e.g.,</div><div>adaptability, self-awareness, self-confidence,</div><div>stress management)</div>', 1, '::1', 1, '2022-01-10 15:07:06', '2022-01-10 15:07:06'),
 (4, '', 'IMG-99371.4-payment-protection-1.png', 'Wisdom', '<div>Real-world skills applied based off experience,</div><div>knowledge, and good judgment (e.g., conflict</div><div>resolution instincts, creativity in the face of</div><div>challenges, critical thinking, supervising with</div><div>confidence)</div>', 1, '::1', 1, '2022-01-10 15:08:05', '2022-01-10 15:08:05'),
 (5, '', 'IMG-75567.10-server-1.png', 'Perception', '<div>Experience and practice that provide insight to point</div><div>things out with courage and without influence from</div><div>others (e.g., designing, mapping, judging people and</div><div>situations, strategic thinking)</div>                                                                         ', 1, '::1', 1, '2022-01-10 15:08:45', '2022-01-10 15:08:45'),
@@ -235,7 +235,7 @@ CREATE TABLE `manage_sliderbox` (
 --
 
 INSERT INTO `manage_sliderbox` (`id`, `title`, `description`, `background_color`, `hover_color`, `logo`, `image`, `ip_add`, `entry_by`, `status`, `created_at`) VALUES
-(1, 'Hsoc Securing Your Business', '                                    <span style=\"font-family: Heebo, sans-serif; text-align: justify; background-color: rgb(235, 235, 235);\">Whether you have a home-based business, a small- or medium-sized business, HSOC Cyber professional interns will consult with you to help you achieve your business objectives and provide the protection and defense you deserve. Contact us to learn more. We want to help you; therefore, we provide services at an extremely affordable rate</span>                                                                                                            ', '', '', 'IMG-71537.Comp_7.gif', 'IMG-51248.head_business.jpg', '::1', '1', '1', '2022-01-10 13:49:53'),
+(1, 'Hsoc Securing Your Business', '                                                                        <span style=\"font-family: Heebo, sans-serif; text-align: justify; background-color: rgb(235, 235, 235);\">Whether you have a home-based business, a small- or medium-sized business, HSOC Cyber professional interns will consult with you to help you achieve your business objectives and provide the protection and defense you deserve. Contact us to learn more. We want to help you; therefore, we provide services at an extremely affordable rate</span>                                                                                                                                                ', '#893434', '#5e2121', 'IMG-71537.Comp_7.gif', 'IMG-51248.head_business.jpg', '::1', '1', '2', '2022-01-10 13:49:53'),
 (2, 'Securing Your Home', '<span style=\"font-family: Heebo, sans-serif; text-align: justify; background-color: rgb(235, 235, 235);\">Gain real cybersecurity experience by building your own HSOC. Apply the same tools and techniques that protect and defend organizations in your home, and then take those new skills with you to your professional organization. Learn more about the HSOC Cyber Internship Program.</span>                                                                        ', '', '', 'IMG-1144.Comp_7.gif', 'IMG-75291.head_family.jpg', '::1', '1', '1', '2022-01-10 14:12:50');
 
 -- --------------------------------------------------------
@@ -317,7 +317,7 @@ CREATE TABLE `manage_trusted_brand` (
 --
 
 INSERT INTO `manage_trusted_brand` (`id`, `title`, `background_color`, `upload_logo`, `ip_add`, `entry_by`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'Trusted by International Brand', '', 'IMG-36418.logo_2.png', '::1', '1', 1, '2022-01-10 14:35:14', '0000-00-00 00:00:00'),
+(1, 'Trusted by International Brand', '', 'IMG-36418.logo_2.png', '::1', '1', 2, '2022-01-10 14:35:14', '0000-00-00 00:00:00'),
 (2, 'Trusted by International Brand', '', 'IMG-25883.logo_3.png', '::1', '1', 1, '2022-01-10 14:35:29', '0000-00-00 00:00:00'),
 (3, 'Trusted by International Brand', '', 'IMG-19351.logo_4.png', '::1', '1', 1, '2022-01-10 14:35:51', '0000-00-00 00:00:00'),
 (4, 'Trusted by International Brand', '', 'IMG-29344.logo_9.png', '::1', '1', 1, '2022-01-10 14:36:05', '0000-00-00 00:00:00'),
@@ -341,6 +341,13 @@ CREATE TABLE `manage_website_setting` (
   `embed_map` mediumtext NOT NULL,
   `copy_write` varchar(100) NOT NULL,
   `design_by` varchar(100) NOT NULL,
+  `facebook` varchar(200) NOT NULL,
+  `linkdin` varchar(200) NOT NULL,
+  `instagram` varchar(200) NOT NULL,
+  `twitter` varchar(200) NOT NULL,
+  `header_background_color` varchar(200) NOT NULL,
+  `footer_background_color` varchar(200) NOT NULL,
+  `footer_content` longtext NOT NULL,
   `status` int(11) NOT NULL,
   `ip_add` varchar(200) NOT NULL,
   `entry_by` varchar(100) NOT NULL,
@@ -352,8 +359,35 @@ CREATE TABLE `manage_website_setting` (
 -- Dumping data for table `manage_website_setting`
 --
 
-INSERT INTO `manage_website_setting` (`id`, `logo`, `address`, `email`, `phone`, `embed_map`, `copy_write`, `design_by`, `status`, `ip_add`, `entry_by`, `created_at`, `updated_at`) VALUES
-(1, 'IMG-10031.Comp_7.gif', 'Jln Cempaka Wangi No 22, Jakarta - Indonesia                                                                        ', 'support@mail.tld, business@mail.tld', '8877665544', 'https://maps.google.com/maps?q=Jakarta&amp;t=m&amp;z=12&amp;output=embed&amp;iwloc=near', 'Vcana Global', 'Anup Dubey', 1, '::1', '1', '2022-01-07 17:52:56', '2022-01-07 17:52:56');
+INSERT INTO `manage_website_setting` (`id`, `logo`, `address`, `email`, `phone`, `embed_map`, `copy_write`, `design_by`, `facebook`, `linkdin`, `instagram`, `twitter`, `header_background_color`, `footer_background_color`, `footer_content`, `status`, `ip_add`, `entry_by`, `created_at`, `updated_at`) VALUES
+(1, 'IMG-10031.Comp_7.gif', 'Jln Cempaka Wangi No 22, Jakarta - Indonesia                                                                        ', 'support@mail.tld, business@mail.tld', '8877665544', 'https://maps.google.com/maps?q=Jakarta&amp;t=m&amp;z=12&amp;output=embed&amp;iwloc=near', 'Vcana Global', 'Anup Dubey', '', '', '', '', '', '', '', 1, '::1', '1', '2022-01-07 17:52:56', '2022-01-07 17:52:56');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `manage_welcome_message`
+--
+
+CREATE TABLE `manage_welcome_message` (
+  `id` int(11) NOT NULL,
+  `title` varchar(200) NOT NULL,
+  `message` longtext NOT NULL,
+  `small_image` varchar(100) NOT NULL,
+  `full_width` varchar(100) NOT NULL,
+  `status` int(11) NOT NULL,
+  `entry_by` varchar(200) NOT NULL,
+  `ip_add` varchar(200) NOT NULL,
+  `created_at` datetime NOT NULL DEFAULT current_timestamp(),
+  `updated_at` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `manage_welcome_message`
+--
+
+INSERT INTO `manage_welcome_message` (`id`, `title`, `message`, `small_image`, `full_width`, `status`, `entry_by`, `ip_add`, `created_at`, `updated_at`) VALUES
+(1, 'Trusted by International Brand', 'lkjflsjdfljsfjsldf', 'IMG-31246.2-database-1.png', 'IMG-80216.10-server-1.png', 1, '1', '::1', '2022-01-12 12:36:37', '2022-01-12 12:36:37'),
+(2, '', '', '', '', 0, '', '', '2022-01-12 12:38:05', '2022-01-12 12:38:05');
 
 --
 -- Indexes for dumped tables
@@ -432,6 +466,12 @@ ALTER TABLE `manage_website_setting`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `manage_welcome_message`
+--
+ALTER TABLE `manage_welcome_message`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -506,6 +546,12 @@ ALTER TABLE `manage_trusted_brand`
 --
 ALTER TABLE `manage_website_setting`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `manage_welcome_message`
+--
+ALTER TABLE `manage_welcome_message`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

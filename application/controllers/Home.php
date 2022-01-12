@@ -21,7 +21,6 @@ class Home extends CI_Controller
     
   }
 
-
   public function logout()
 	{
 		$this->session->unset_userdata('admin_id');
