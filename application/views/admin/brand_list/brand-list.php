@@ -56,7 +56,7 @@
                   <td><?php echo $data['background_color']; ?></td>
                 
                   <td>
-                  <a href="<?php echo base_url()?>uploads/gallery-image/<?php echo $data['image']; ?>" 
+                  <a href="<?php echo base_url()?>uploads/gallery-image/<?php echo $data['upload_logo']; ?>" 
                   class="badge badge-primary" download>Download Image</a>  
                   </td>
                  

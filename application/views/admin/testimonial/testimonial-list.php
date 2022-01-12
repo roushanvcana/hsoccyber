@@ -61,8 +61,15 @@
                   <td><?php echo $data['heading2']; ?></td>
                   <td><?php echo $data['designation']; ?></td>
                   <td><?php echo $data['rating']; ?></td>                
-                  <td><?php echo $data['photo']; ?></td>
-                  <td><?php echo $data['backgroundimage']; ?></td>                 
+                  <td>
+                    <a href="<?php echo base_url()?>uploads/gallery-image/<?php echo $data['photo']; ?>" 
+                    class="badge badge-primary" download>Download Image</a>  
+                   
+                  </td>
+                  <td>
+                    <a href="<?php echo base_url()?>uploads/gallery-image/<?php echo $data['backgroundimage']; ?>" 
+                    class="badge badge-primary" download>Download Image</a>  
+                   </td>                 
                   <td><?php echo array_value(status(),$data['status']) ?></td>
                   <td class="project-actions text-center">
                       <a class="btn btn-info btn" href="<?= site_url() ?>edit-testimonial/<?= $data['id']; ?>">

@@ -39,10 +39,17 @@
                                     <p style="color:#dc3545!important;" id="nameError"></p>
                                 </div>
                                 <div class="form-group  col-md-6 col-lg-6">
-                                    <label for="icon">Icon</label>
+                                    <label for="icon">Icon
+                                        <?php if(!empty($getValue['icon'])){?>
+                                        <a href="<?php echo base_url();?>uploads/gallery-image/<?php echo $getValue['icon']; ?>" class="badge badge-success">Download Upload Image</a>
+                                        <?php }?>
+                                    </label>
                                     <input type="file" id="icon" class="form-control" name="icon" value="">
                                     <?php echo form_error('logo'); ?>
                                     <p style="color:#dc3545!important;" id="rename_buttonError"></p>
+                                    <span id="img_preview" style="display:none">
+                                        <img id="imgPreview" src="#" alt="pic" width="100" height="100" />
+                                    </span>
                                 </div> 
 
                                 <div class="form-group col-md-12 col-lg-12">
@@ -69,3 +76,19 @@
         </div>
     </div>
 </div>
+<script>
+    $(document).ready(() => {
+        $("#icon").change(function () {
+            $('#img_preview').css('display','block');
+            const file = this.files[0];
+            if (file) {
+                let reader = new FileReader();
+                reader.onload = function (event) {
+                    $("#imgPreview")
+                        .attr("src", event.target.result);
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    });
+</script>

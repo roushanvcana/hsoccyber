@@ -39,7 +39,7 @@
             <tr>
               <th>Sr. No</th>
               <th>Heading</th>
-              <th>Slider text</th>
+              <th>Tagline</th>
               <th>Rename Button</th>  
               <th>Slider Image</th>           
               <th>Status</th>
@@ -55,7 +55,7 @@
                   <td><?= $i; ?></td>
                   <td><?php echo $data['heading_text']; ?></td>
                   <td><?php echo $data['slider_text']; ?></td>
-                  <td><?php echo $data['heading_text']; ?></td>
+                  <td><?php echo $data['rename_button']; ?></td>
                   <td>
                   <a href="<?php echo base_url()?>uploads/gallery-image/<?php echo $data['slider_image']; ?>" 
                   class="badge badge-primary" download>Download Image</a>  

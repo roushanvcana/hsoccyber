@@ -105,8 +105,16 @@
                                     </textarea>
                                 </div>
                                 <div class="col-md-12">
-                                    <label for="design_by">Upload Biography</label>
+                                    <label for="design_by">Upload Biography
+                                    
+                                     <?php if(!empty($getValue['upload_biography'])){?>
+                                        <a href="<?php echo base_url();?>uploads/gallery-image/<?php echo $getValue['upload_biography']; ?>" class="badge badge-success">Download Upload Image</a>
+                                     <?php }?>
+                                    </label>
                                     <input type="file" name="upload_biography" id="upload_biography" class="form-control">
+                                    <span id="img_preview" style="display:none">
+                                        <img id="imgPreview" src="#" alt="pic" width="100" height="100" />
+                                    </span>
                                 </div>
 
                             </div>
@@ -143,6 +151,21 @@
                 </div>
             </div>
         </div>
-
 </div>
 </div>
+<script>
+    $(document).ready(() => {
+        $("#upload_biography").change(function () {
+            $('#img_preview').css('display','block');
+            const file = this.files[0];
+            if (file) {
+                let reader = new FileReader();
+                reader.onload = function (event) {
+                    $("#imgPreview")
+                        .attr("src", event.target.result);
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    });
+</script>

@@ -121,6 +121,9 @@ $route['team-delete/(:num)'] = 'Team/delete_team/$1';
 $route['team-edit/(:num)'] = 'Team/edit_team/$1';
 $route['blog-details/(:num)'] = 'Service/blog_details/$1';
 
+$route['welcome-message'] = 'Welcome_message/index';
+//$route['add-message'] = 'Home/add_message';
+
 
 
 
