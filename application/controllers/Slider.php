@@ -215,37 +215,38 @@
 
     public function add_brand()
     {
-        //$data['brandlist'] =  $this->db->query('select * from manage_trusted_brand')->result_array();   
         if($this->input->post()) {
             $brand = array(
                     "title" => $this->input->post('title'),
                     "background_color" => $this->input->post('background_color'),
-                    "status" => $this->input->post('status'),                 
+                    "description" => $this->input->post('description'),
+                    "status" => 1,                 
                     "entry_by" => 1,                 
                      "ip_add" => $this->input->ip_address(),
                 );
-
-            if (!empty($_FILES["image"]["name"])) {
-                $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["image"]["name"];
-                $tmp_name = $_FILES["image"]["tmp_name"];
-                $error = $_FILES["image"]["error"];
-                $path = 'uploads/gallery-image/'. $name;
-                move_uploaded_file($tmp_name, $path);
-                $brand['upload_logo'] = $name;
+            
+            $query = $this->db->query('select * from manage_trusted_brand where id=1');
+        
+            if($query->num_rows() > 0){
+                $insert = $this->db->update('manage_trusted_brand',$brand, array('id' => 1));  
+            }else {
+                $insert = $this->db->insert('manage_trusted_brand', $brand);  
             }
-
-            $insert = $this->db->insert('manage_trusted_brand', $brand);               
+            //$insert = $this->db->insert('manage_trusted_brand', $brand);               
             if ($insert) {
                 $this->session->set_flashdata('success', 'Brand Successfully Saved');
-                redirect(site_url().'brand-section');
+                redirect(site_url().'add-brand');
             } else {
                 $this->session->set_flashdata('success', 'Some error occured ');
-                redirect(site_url().'brand-section');
+                redirect(site_url().'add-brand');
             }
-        }   
+        }  
+        $data['getValue'] = $this->db->query('select * from manage_trusted_brand where id=1')->row_array();
+        $data['brand_photo'] = $this->db->query('select * from manage_trusted_brand where upload_logo != " "')->result_array();
         $data['status'] = status();    
         $data['main_content'] = 'admin/brand_list/add-trusted-brand';        
         $this->load->view('admin/template/template',$data);
+
     }
 
     public function edit_brand($id)

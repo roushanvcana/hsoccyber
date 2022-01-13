@@ -29,33 +29,26 @@ class Service extends CI_Controller {
                 "ip_add" => $this->input->ip_address(),
             );
 
-            if (!empty($_FILES["icon_upload"]["name"])) {
-                $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["icon_upload"]["name"];
-                $tmp_name = $_FILES["icon_upload"]["tmp_name"];
-                $error = $_FILES["icon_upload"]["error"];
+            if (!empty($_FILES["image"]["name"])) {
+                $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["image"]["name"];
+                $tmp_name = $_FILES["image"]["tmp_name"];
+                $error = $_FILES["image"]["error"];
                 $path = 'uploads/gallery-image/'. $name;
                 move_uploaded_file($tmp_name, $path);
-                $service['icon_upload'] = $name;
+                $service['image'] = $name;
             }
-
-            if (!empty($_FILES["image_upload"]["name"])) {
-                $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["image_upload"]["name"];
-                $tmp_name = $_FILES["image_upload"]["tmp_name"];
-                $error = $_FILES["image_upload"]["error"];
-                $path = 'uploads/gallery-image/'. $name;
-                move_uploaded_file($tmp_name, $path);
-                $service['image_upload'] = $name;
-            }
-
-            $insert = $this->db->insert('manage_service', $service); 
+            //manage_service is table ko remove krna hai
+            $insert = $this->db->insert('service_section', $service); 
             if ($insert) {
                 $this->session->set_flashdata('success', 'Service add Successfully Saved');
-                redirect(site_url().'service');
+                redirect(site_url().'add-service');
             } else {
                 $this->session->set_flashdata('success', 'Some error occured ');
-                redirect(site_url().'service');
+                redirect(site_url().'add-service');
             }
         }
+        $data['service'] =  $this->db->query('select * from service_section')->result_array();
+        $data['brand_photo'] =  $this->db->query('select * from service_details')->result_array(); 
         $data['main_content'] = 'admin/service/add-service';        
         $this->load->view('admin/template/template',$data);
     }
@@ -79,34 +72,27 @@ class Service extends CI_Controller {
                 "ip_add" => $this->input->ip_address(),
             );
 
-            if (!empty($_FILES["icon_upload"]["name"])) {
-                $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["icon_upload"]["name"];
-                $tmp_name = $_FILES["icon_upload"]["tmp_name"];
-                $error = $_FILES["icon_upload"]["error"];
+            if (!empty($_FILES["image"]["name"])) {
+                $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["image"]["name"];
+                $tmp_name = $_FILES["image"]["tmp_name"];
+                $error = $_FILES["image"]["error"];
                 $path = 'uploads/gallery-image/'. $name;
                 move_uploaded_file($tmp_name, $path);
-                $service['icon_upload'] = $name;
+                $service['image'] = $name;
             }
-
-            if (!empty($_FILES["image_upload"]["name"])) {
-                $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["image_upload"]["name"];
-                $tmp_name = $_FILES["image_upload"]["tmp_name"];
-                $error = $_FILES["image_upload"]["error"];
-                $path = 'uploads/gallery-image/'. $name;
-                move_uploaded_file($tmp_name, $path);
-                $service['image_upload'] = $name;
-            }
-
-            $insert = $this->db->update('manage_service',$service, array('id' => $id)); 
+           
+            $insert = $this->db->update('service_section',$service, array('id' => $id)); 
             if ($insert) {
                 $this->session->set_flashdata('success', 'Service add Successfully Saved');
-                redirect(site_url().'service');
+                redirect(site_url().'add-service');
             } else {
                 $this->session->set_flashdata('success', 'Some error occured ');
-                redirect(site_url().'service');
+                redirect(site_url().'add-service');
             }
         }
-        $data['getValue'] = $this->Common_Model->set_data('manage_service',$id);
+        $data['getValue'] = $this->Common_Model->set_data('service_section',$id);
+        $data['service'] =  $this->db->query('select * from service_section')->result_array(); 
+        $data['brand_photo'] =  $this->db->query('select * from service_details')->result_array(); 
         $data['main_content'] = 'admin/service/add-service';        
         $this->load->view('admin/template/template',$data);
     }

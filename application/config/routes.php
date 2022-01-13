@@ -122,6 +122,15 @@ $route['team-edit/(:num)'] = 'Team/edit_team/$1';
 $route['blog-details/(:num)'] = 'Service/blog_details/$1';
 
 $route['welcome-message'] = 'Welcome_message/index';
+$route['upload-brand'] = 'Welcome_message/brand_upload';
+$route['del-brand-photo/(:num)'] = 'Welcome_message/delete_photo/$1';
+$route['del-service-photo/(:num)'] = 'Welcome_message/delete_service_photo/$1';
+$route['upload-service'] = 'Welcome_message/add_serviceimg';
+$route['syllabus-list'] = 'Syllabus/index';
+$route['add-syllabus'] = 'Syllabus/add_syllabus';
+$route['edit-syllabus/(:num)'] = 'Syllabus/edit_syllabus/$1';
+$route['delete-syllabus/(:num)'] = 'Syllabus/delete_syllabus/$1';
+
 //$route['add-message'] = 'Home/add_message';
 
 
