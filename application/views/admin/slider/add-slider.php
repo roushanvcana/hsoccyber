@@ -86,7 +86,7 @@
                             </div>
                             <div class="form-group  col-md-6 col-lg-6">
                                 <?php if (empty($getValue['id'])) { ?>
-                                    <input type="submit" value="Save" class="btn btn-primary" name="submit" style="margin-top:30px">
+                                    <input type="submit" id="add_slider" value="Save" class="btn btn-primary" name="submit" style="margin-top:30px">
                                 <?php } else { ?>
                                     <input type="submit" value="Update" class="btn btn-primary" name="submit" style="margin-top:30px" id="btn">
                                 <?php } ?>
@@ -101,7 +101,7 @@
 </div>
 
 <script>
-    $(document).ready(() => {
+$(document).ready(() => {
         $("#logo").change(function () {
             $('#img_preview').css('display','block');
             const file = this.files[0];
@@ -114,5 +114,26 @@
                 reader.readAsDataURL(file);
             }
         });
+
+
+    $('#add_slider').click(function(){
+        var header = $('#heading_text').val();
+        if (header == '') {
+                document.getElementById("heading_text").style.borderColor = "#ff0000";
+                document.getElementById("heading_text").focus();
+                return false;
+            } else {
+                $("#heading_text").removeAttr("style");
+            }
+
+        var slidertext = $('#slider_text').val();
+        if (slidertext == '') {
+                document.getElementById("slider_text").style.borderColor = "#ff0000";
+                document.getElementById("slider_text").focus();
+                return false;
+            } else {
+                $("#slider_text").removeAttr("style");
+            }
     });
+});
 </script>

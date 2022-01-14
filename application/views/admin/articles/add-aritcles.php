@@ -29,27 +29,27 @@
                         <form class="form" method="post" enctype="multipart/form-data" id="form1" 
                         action="">
                             <div class="row">
-                                <div class="form-group  col-md-4 col-lg-4">
+                                <div class="form-group  col-md-6 col-lg-6">
                                     <label for="authorname">Title</label>
                                     <input type="text" id="title" class="form-control" name="title" 
                                     value="<?= !empty($getValue['title']) ? $getValue['title'] : set_value('title') ?>" >
                                     <?php echo form_error('title'); ?>
                                     <p style="color:#dc3545!important;" id="nameError"></p>
                                 </div>
-                                <div class="form-group  col-md-4 col-lg-4">
+                                <div class="form-group  col-md-6 col-lg-6">
                                     <label for="authorname">Author Name</label>
                                     <input type="text" id="authorname" class="form-control" name="authorname" 
                                     value="<?= !empty($getValue['authorname']) ? $getValue['authorname'] : set_value('authorname') ?>" >
                                     <?php echo form_error('authorname'); ?>
                                     <p style="color:#dc3545!important;" id="nameError"></p>
                                 </div>
-                                <div class="form-group  col-md-4 col-lg-4">
+                                <div class="form-group  col-md-6 col-lg-6">
                                     <label for="publishdate">Publish Date</label>
                                     <input type="date" id="publishdate" class="form-control" name="publishdate" value="<?= !empty($getValue['publishdate']) ? $getValue['publishdate'] : set_value('publishdate') ?>" >
                                     <?php echo form_error('publishdate'); ?>
                                     <p style="color:#dc3545!important;" id="nameError"></p>
                                 </div>
-                                <div class="form-group  col-md-4 col-lg-4">
+                                <div class="form-group  col-md-6 col-lg-6">
                                     <label for="image">Image
 
                                     <?php if(!empty($getValue['image'])){?>
