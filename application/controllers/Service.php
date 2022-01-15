@@ -108,19 +108,8 @@ class Service extends CI_Controller {
                 "entry_by" => 1,                 
                 "ip_add" => $this->input->ip_address(),
             );
-            // echo "<pre>";
-            // print_r($feature); die;
-            // $this->db->insert('manage_feature', $feature);
-            // echo $this->db->last_query();
-            // die;
-            $query = $this->db->query('select * from manage_feature where id=1');
-            
-            if($query->num_rows() > 0){
-                $insert = $this->db->update('manage_feature',$feature, array('id' => 1));  
-            }else {
-                $insert = $this->db->insert('manage_feature', $feature);  
-            }
            
+            $insert = $this->db->insert('manage_feature', $feature);  
             if ($insert) {
                 $this->session->set_flashdata('success', 'Data Successfully Saved');
                 redirect(site_url().'feature');
@@ -129,11 +118,51 @@ class Service extends CI_Controller {
                 redirect(site_url().'feature');
             }
         }
-        $data['getValue'] = $this->Common_Model->set_data('manage_feature',1);
+      
+        $data['featuresdata'] = $this->db->query('select * from manage_feature')->result_array();
         $data['status'] = status();
         $data['faturetype'] = feature_type();
         $data['main_content'] = 'admin/feature/features';        
         $this->load->view('admin/template/template',$data);
+    }
+
+    public function feature_edit($id)
+    {
+        if($this->input->post()){  
+
+            $feature = array(
+                "feature_type" => $this->input->post('featuretype'),
+                "feature_title" => $this->input->post('feature_title'),
+                "description" => $this->input->post('description'),
+                "status" => 1,                 
+                "entry_by" => 1,                 
+                "ip_add" => $this->input->ip_address(),
+            );
+           
+            $insert = $this->db->update('manage_feature',$feature, array('id' => $id));
+            if ($insert) {
+                $this->session->set_flashdata('success', 'Feature Successfully Updated....');
+                redirect(site_url().'feature');
+            } else {
+                $this->session->set_flashdata('success', 'Some error occured.please try again');
+                redirect(site_url().'feature');
+            }
+        }
+
+        $data['getValue'] = $this->Common_Model->set_data('manage_feature',$id);
+        $data['featuresdata'] = $this->db->query('select * from manage_feature')->result_array();      
+        $data['status'] = status();
+        $data['faturetype'] = feature_type();
+        $data['main_content'] = 'admin/feature/features';        
+        $this->load->view('admin/template/template',$data);
+    }
+
+    public function feature_delete($id)
+    {
+        $del = $this->db->delete('manage_feature', array('id' => $id));
+        if(!empty($del)){
+            redirect(site_url().'feature');
+        }
     }
 
     public function feature_details()   

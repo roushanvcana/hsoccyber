@@ -22,6 +22,7 @@
     public function add_slider()        
     {
         if($this->input->post()) {
+            
             $addSlider = array(
                     "heading_text" => $this->input->post('heading_text'),
                     "slider_text" => $this->input->post('slider_text'),

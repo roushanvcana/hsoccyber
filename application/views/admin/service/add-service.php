@@ -52,7 +52,7 @@
 
                                 <div class="form-group  col-md-6 col-lg-6">
                                     <?php if (empty($getValue['id'])) { ?>
-                                    <input type="submit" value="Save" class="btn btn-primary" name="submit"
+                                    <input type="submit" id="add_service" value="Save" class="btn btn-primary" name="submit"
                                         style="margin-top:30px">
                                     <?php } else { ?>
                                     <input type="submit" value="Update" class="btn btn-primary" name="submit"
@@ -215,6 +215,19 @@ $(document).ready(() => {
             };
             reader.readAsDataURL(file);
         }
+    });
+
+    $('#add_service').click(function(){
+
+        var title = $('#title').val();
+        if (title == '') {
+            document.getElementById("title").style.borderColor = "#ff0000";
+            document.getElementById("title").focus();
+            return false;
+        } else {
+            $("#title").removeAttr("style");
+        }
+
     });
 });
 </script>
