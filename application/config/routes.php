@@ -101,6 +101,9 @@ $route['service-delete/(:num)'] = 'Service/delete_service/$1';
 $route['service-edit/(:num)'] = 'Service/edit_service/$1';
 
 $route['feature']  = 'Service/feature';
+$route['feature-edit/(:num)']  = 'Service/feature_edit/$1';
+$route['feature-delete/(:num)']  = 'Service/feature_delete/$1';
+
 $route['feature-details'] = 'Service/feature_details';
 $route['add-feature-details'] = 'Service/add_feature_details';
 

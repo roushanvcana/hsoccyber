@@ -64,6 +64,52 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-12">
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Feature List</h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-striped projects">
+                            <thead>
+                                <tr>
+                                    <th>Sr. No</th>
+                                    <th>Feature Type</th>
+                                    <th>Title</th>
+                                    <th>Description</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php $i =1; foreach ($featuresdata as  $value) {?> 
+                                    <tr>
+                                        <td><?php echo $i++; ?></td>
+                                        <td><?php echo  array_value(feature_type(), $value['feature_type']); ?></td>
+                                        <td><?php echo $value['feature_title']; ?></td>
+                                        <td><?php echo $value['description']; ?></td>
+                                        <td><?php echo array_value(status(),$value['status']) ?></td>
+                                        <td class="project-actions text-center">
+                                            <a class="btn btn-info btn" href="<?= site_url() ?>feature-edit/<?= $value['id']; ?>">
+                                                <i class="fas fa-edit"></i>
+                                            </a>
+                                            <a class="btn btn-danger btn" href="<?php echo base_url()?>feature-delete/<?php echo $value['id']; ?>"
+                                                onclick="return   confirm('Are you sure ! you want to delete this record')">
+                                                <i class="fas fa-trash-alt"> </i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                <?php }?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
