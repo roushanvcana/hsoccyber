@@ -331,8 +331,38 @@
                     move_uploaded_file($tmp_name, $path);
                     $aboutme['upload_biography'] = $name;
                 }
-    
 
+                $data = [];
+   
+                $count = count($_FILES['image']['name']);
+              
+                for($i=0;$i<$count;$i++){    
+                  if(!empty($_FILES['image']['name'][$i])){    
+                    $_FILES['file']['name'] = $_FILES['image']['name'][$i];
+                    $_FILES['file']['type'] = $_FILES['image']['type'][$i];
+                    $_FILES['file']['tmp_name'] = $_FILES['image']['tmp_name'][$i];
+                    $_FILES['file']['error'] = $_FILES['image']['error'][$i];
+                    $_FILES['file']['size'] = $_FILES['image']['size'][$i];
+            
+                    $config['upload_path'] = 'uploads/gallery-image/'; 
+                    $config['allowed_types'] = 'jpg|jpeg|png|gif';
+                    $config['max_size'] = '5000';
+                    $config['file_name'] = $_FILES['image']['name'][$i];
+             
+                    $this->load->library('upload',$config); 
+              
+                    if($this->upload->do_upload('file')){
+                      $uploadData = $this->upload->data();
+                      $filename = $uploadData['file_name'];
+             
+                      $data['totalFiles'][] = $filename;
+                    }
+                  }
+             
+                }
+                $aboutme['image'] =  implode(",", $data['totalFiles']);
+                
+              
             $query = $this->db->query('select * from manage_about_us where id=1');
             
             if($query->num_rows() > 0){

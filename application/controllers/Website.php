@@ -13,13 +13,15 @@
     public function home()
     {   
         $data['brandSetion'] = $this->db->query('select * from manage_trusted_brand limit 0,4')->result_array();  
+        $data['brandrow'] = $this->db->query('select * from manage_trusted_brand where upload_logo = " "')->row_array();  
         $data['brandSetiontwo'] = $this->db->query('select * from manage_trusted_brand limit 4,8')->result_array();  
+        $data['syllabussection'] = $this->db->query('select * from manage_syllabus')->result_array();  
         $data['serviceAdd'] = $this->db->query('select * from manage_service')->result_array();  
         $data['slider'] = $this->db->query('select * from manage_slider')->result_array(); 
         $data['sliderBox'] = $this->db->query('select * from manage_sliderbox')->result_array();  
         $data['testimonial'] = $this->db->query('select * from manage_testimonial')->result_array();  
-        $data['articles'] = $this->db->query('select * from articles')->result_array();  
-
+        $data['articles'] = $this->db->query('select * from articles')->result_array();
+        $data['aboutsus'] = $this->db->query('select * from manage_about_us')->row_array();
         $this->load->view('frontend/home',$data);
     }
     public function about()

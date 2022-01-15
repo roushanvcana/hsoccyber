@@ -184,26 +184,28 @@
                         <div
                             class="elementor-element elementor-element-ce110fb ob-harakiri-inherit elementor-widget elementor-widget-heading">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">Trusted by International
-                                    Brand</h2>
+                                <h2 class="elementor-heading-title elementor-size-default">
+                                   <?php echo $brandrow['title']; ?>
+                                </h2>
                             </div>
                         </div>
                         <div
                             class="elementor-element elementor-element-9b48574 ob-harakiri-inherit elementor-widget elementor-widget-text-editor">
                             <div class="elementor-widget-container">
-                                <p>Erat morbi si adipiscing laoreet praesent. Adipiscing duis laoreet orci aliquet ex
-                                    dis auctor platea. Penatibus enim volutpat lectus curae ac porta etiam erat quam
-                                    justo.</p>
+                                <p><?php echo $brandrow['description']; ?></p>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-e32d116 elementor-widget">
                             <div class="client-slider">
-								<?php foreach ($brandSetion as $value) {?>
+								<?php
+                                 foreach ($brandSetion as $value) {
+                                   if(!empty($value['upload_logo'])){ 
+                                ?>
                                 <div class="slide"><img
                                         src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value['upload_logo']; ?>"
                                         alt="Logo Autokit" />
                                 </div>
-								<?php }?>
+								<?php }}?>
                             </div>
 							brandSetiontwo
                             <div class="client-slider1">
@@ -235,8 +237,9 @@
                         <div
                             class="elementor-element elementor-element-284da00 ob-harakiri-inherit elementor-widget elementor-widget-heading">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default" style="color: #fff;">We know
-                                    how to protect you. </h2>
+                                <h2 class="elementor-heading-title elementor-size-default" style="color: #fff;">
+                                    <?php echo $aboutsus['title']; ?>
+                                </h2>
                             </div>
                         </div>
                         <div
@@ -244,21 +247,16 @@
                             <div class="elementor-widget-container">
                                 <div class="live_img">
                                     <ul>
-                                        <li><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/live1.jpg"
+                                    <?php 
+                                        $imgCount =  explode(",",$aboutsus['image']);
+                                        foreach($imgCount as $value){
+                                    ?>
+                                        <li><img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value; ?>"
                                                 alt="Logo Autokit" /></li>
-                                        <li><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/live2.jpg"
-                                                alt="Logo Autokit" /></li>
+                                    <?php }?>
                                     </ul>
                                 </div>
-                                <p>HSOC Cyber, formerly Professional Certifications and Consulting Services, is a
-                                    service-disabled, veteran-owned small business (SDVOSB). Since 2016, HSOC Cyber has
-                                    provided certification and real skill training in information technology,
-                                    cybersecurity, and project management. As a result of COVID-19, HSOC Cyber altered
-                                    its business model from the live classroom training to live online training in the
-                                    form of an internship, and all from the comfort of your home. At HSOC Cyber, we work
-                                    on real projects and tasks that equate to real experience versus attending an online
-                                    class to complete assignments. </p>
-
+                                <p><?php echo $aboutsus['description']; ?></p>
                                 <div
                                     class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--move-up">
                                     <a class="elementor-cta__button elementor-button elementor-size-sm"
@@ -274,55 +272,18 @@
                 <section
                     class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-0ffd50b elementor-section-boxed elementor-section-height-default elementor-section-height-default col-lg-12">
                     <div class="row">
-                        <div class="col-lg-4">
-                            <div class="">
-                                <div class="single-challenges overly-one">
-                                    <img src="<?php echo base_url();?>/design/wp-content/uploads/sites/48/2021/06/nisttt.png"
-                                        alt="">
-                                    <h3>Information Security Learning Continuum</h3>
-                                    <ul>
-                                        <li><a href="https://www.nist.gov/system/files/documents/2021/09/29/FinalSlides_AwarenessWorkshop_28sep2021%20%28508%20Compliant%29.pdf"
-                                                target="_blank">Developing a Workforce for Security: A NICE Framework
-                                                Workshop</a>
-                                        </li>
-                                        <li><a href="https://niccs.cisa.gov/workforce-development/cyber-security-workforce-framework"
-                                                target="_blank">cyber-security-workforce-framework</a>
-                                        </li>
-                                    </ul>
+                        <?php foreach ($syllabussection as $value) {?>
+                            <div class="col-lg-4">
+                                <div class="">
+                                    <div class="single-challenges overly-one">
+                                        <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value['image'];?>"
+                                            alt="">
+                                        <h3><?php echo $value['title']; ?></h3>
+                                       <?php echo $value['description']; ?>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="">
-                                <div class="single-challenges overly-one">
-                                    <img src="<?php echo base_url();?>/design/wp-content/uploads/sites/48/2021/06/nistt.png"
-                                        alt="">
-                                    <h3>Infosec Wheel</h3>
-                                    <ul>
-                                        <li><a href="https://hackernoon.com/introducing-the-infosec-colour-wheel-blending-developers-with-red-and-blue-security-teams-6437c1a07700"
-                                                target="_blank">Introducing the InfoSec colour wheel- blending
-                                                developers with red and blue security teams</a>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="">
-                                <div class="single-challenges overly-one">
-                                    <img src="<?php echo base_url();?>/design/wp-content/uploads/sites/48/2021/06/nist.png"
-                                        alt="">
-                                    <h3>Risk Management Framework</h3>
-                                    <ul>
-                                        <li><a href="https://csrc.nist.gov/projects/risk-management/about-rmf"
-                                                target="_blank">NIST Risk Management Framework RMF</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
+                      <?php } ?>
                     </div>
                 </section>
 

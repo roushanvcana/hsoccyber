@@ -117,6 +117,22 @@
                                     </span>
                                 </div>
 
+                                <div class="col-md-12">
+                                    <label for="design_by">image
+
+                                     <?php 
+                                     $imgCount =  explode(",",$getValue['image']);
+                                     foreach($imgCount as $value){
+                                    ?>
+                                        <a href="<?php echo base_url();?>uploads/gallery-image/<?php echo $value; ?>" class="badge badge-success">Download Upload Image</a>
+                                     <?php }?>
+                                    </label>
+                                    <input type="file" name="image[]" id="image" class="form-control" multiple>
+                                    <span id="img_preview" style="display:none">
+                                        <img id="imgPreview" src="#" alt="pic" width="100" height="100" />
+                                    </span>
+                                </div>
+
                             </div>
                             <div class="form-group  col-md-6 col-lg-6">
                                 <?php if (empty($getValue['id'])) { ?>
