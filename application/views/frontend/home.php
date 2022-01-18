@@ -13,7 +13,7 @@
                             class="elementor-element elementor-element-422bab5 ob-harakiri-inherit elementor-widget elementor-widget-heading">
                             <div class="elementor-widget-container">
                                 <h4 class="elementor-heading-title elementor-size-default" style="color:#000;">
-                                    <?php echo $slider[0]['heading_text'];?>
+                                    <?php echo !empty($slider[0]['heading_text']) ? $slider[0]['heading_text'] : '';?>
                                 </h4>
                             </div>
                         </div>
@@ -21,7 +21,7 @@
                             class="elementor-element elementor-element-e938824 ob-harakiri-inherit elementor-widget elementor-widget-heading">
                             <div class="elementor-widget-container">
                                 <h5 class="elementor-heading-title elementor-size-default">
-                                    <?php echo $slider[0]['slider_text'];?>
+                                    <?php echo !empty($slider[0]['slider_text']) ? $slider[0]['slider_text'] : '';?>
                                 </h5>
                             </div>
                         </div>
@@ -32,7 +32,7 @@
                                         class="elementor-button-link elementor-button elementor-size-lg" role="button">
                                         <span class="elementor-button-content-wrapper"> <span
                                                 class="elementor-button-text">
-                                                <?php echo $slider[0]['rename_button'];?>
+                                                <?php echo !empty($slider[0]['rename_button']) ? $slider[0]['rename_button'] : '';?>
                                             </span>
                                         </span>
                                     </a>
@@ -66,23 +66,24 @@
                                                 <div class="elementor-cta">
                                                     <div class="elementor-cta__bg-wrapper">
                                                         <div class="elementor-cta__bg elementor-bg bg-white"
-                                                            style="background-image: url(<?php echo base_url();?>uploads/gallery-image/<?php echo $value['image']; ?>">
+                                                            style="background-image: url(<?php echo base_url();?>uploads/gallery-image/<?php echo !empty($value['image']) ? $value['image'] : '' ; ?>">
                                                         </div>
                                                         <div class="elementor-cta__bg-overlay"></div>
                                                     </div>
                                                     <div class="elementor-cta__content">
                                                         <div
                                                             class="logo_ elementor-content-item elementor-cta__content-item elementor-cta__image elementor-animated-item--move-up">
-                                                            <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value['logo']; ?>"
+                                                            <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo 
+                                                            !empty($value['logo']) ? $value['logo'] : '';?>"
                                                                 title="Hsoc" alt="Hsoc" />
                                                         </div>
                                                         <h4
                                                             class="elementor-cta__title elementor-cta__content-item elementor-content-item elementor-animated-item--move-up heading_h4">
-															<?php echo $value['title']; ?>
+															<?php echo !empty($value['title']) ? $value['title'] : ''; ?>
 														</h4>
                                                         <div
                                                             class="elementor-cta__description elementor-cta__content-item elementor-content-item elementor-animated-item--move-up">
-                                                            <p class="space_desc"><?php echo $value['description']; ?></p>
+                                                            <p class="space_desc"><?php echo !empty($value['description']) ? $value['description'] : ''; ?> anup </p>
                                                         </div>
                                                         <div
                                                             class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--move-up">
@@ -117,34 +118,23 @@
                                     <div class="col-lg-7">
                                         <div class="main_left_img">
                                             <div class="row">
+                                            <?php
+                                                $smallImg = explode(",",$welcomemsg_data['small_image']);
+                                                foreach ($smallImg as $smallimgvalue) {
+                                             ?>
                                                 <div class="col-lg-4">
                                                     <div class="abt_mg_box">
                                                         <img class="swiper-slide-image"
-                                                            src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/abt1.jpg"
+                                                            src="<?php echo base_url();?>uploads/gallery-image/<?php echo !empty($smallimgvalue) ? $smallimgvalue : ''; ?>"
                                                             alt="logo-bikepro_" />
                                                     </div>
-
                                                 </div>
-                                                <div class="col-lg-4">
-                                                    <div class="abt_mg_box">
-                                                        <img class="swiper-slide-image"
-                                                            src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/abt2.jpg"
-                                                            alt="logo-bikepro_" />
-                                                    </div>
-
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <div class="abt_mg_box">
-                                                        <img class="swiper-slide-image"
-                                                            src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/abt3.jpg"
-                                                            alt="logo-bikepro_" />
-                                                    </div>
-
-                                                </div>
+                                              <?php }?>  
+                                                
                                                 <div class="col-lg-12">
                                                     <div class="abt_mg_box">
                                                         <img class="swiper-slide-image"
-                                                            src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/abt4.jpg"
+                                                            src="<?php echo base_url();?>uploads/gallery-image/<?php echo !empty($welcomemsg_data['full_width']) ? $welcomemsg_data['full_width'] : ''; ?>"
                                                             alt="logo-bikepro_" />
                                                     </div>
                                                 </div>
@@ -154,18 +144,12 @@
                                     <div class="col-lg-5">
                                         <div class="main_right_cnt">
                                             <div class="heading_">
-                                                <h4>Welcome to HOSC Security</h4>
+                                                <h4><?php echo !empty($welcomemsg_data['title']) ? $welcomemsg_data['title'] : ''; ?></h4>
                                             </div>
                                             <div class="heading_desc">
-                                                <p>At HSOC Cyber, security starts at home! Our voluntary, non-paid
-                                                    internship program is designed to help you gain quality,
-                                                    resume-building cybersecurity experience quickly. We empower you to
-                                                    change your life with a proven, real-time, live, hands-on training
-                                                    system that contributes to ethics and national security within the
-                                                    cybersecurity profession. Contact us to learn more about the HSOC
-                                                    Cyber Internship Program. Join us on Patreon today! </p>
+                                                <p><?php echo !empty($welcomemsg_data['message']) ? $welcomemsg_data['message'] :''; ?></p>
                                             </div>
-                                        </div </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -184,26 +168,28 @@
                         <div
                             class="elementor-element elementor-element-ce110fb ob-harakiri-inherit elementor-widget elementor-widget-heading">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">Trusted by International
-                                    Brand</h2>
+                                <h2 class="elementor-heading-title elementor-size-default">
+                                   <?php echo !empty($brandrow['title']) ? $brandrow['title'] : ''; ?>
+                                </h2>
                             </div>
                         </div>
                         <div
                             class="elementor-element elementor-element-9b48574 ob-harakiri-inherit elementor-widget elementor-widget-text-editor">
                             <div class="elementor-widget-container">
-                                <p>Erat morbi si adipiscing laoreet praesent. Adipiscing duis laoreet orci aliquet ex
-                                    dis auctor platea. Penatibus enim volutpat lectus curae ac porta etiam erat quam
-                                    justo.</p>
+                                <p><?php echo !empty($brandrow['description']) ? $brandrow['description'] : ''; ?></p>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-e32d116 elementor-widget">
                             <div class="client-slider">
-								<?php foreach ($brandSetion as $value) {?>
+								<?php
+                                 foreach ($brandSetion as $value) {
+                                   if(!empty($value['upload_logo'])){ 
+                                ?>
                                 <div class="slide"><img
                                         src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value['upload_logo']; ?>"
                                         alt="Logo Autokit" />
                                 </div>
-								<?php }?>
+								<?php }}?>
                             </div>
 							brandSetiontwo
                             <div class="client-slider1">
@@ -235,8 +221,9 @@
                         <div
                             class="elementor-element elementor-element-284da00 ob-harakiri-inherit elementor-widget elementor-widget-heading">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default" style="color: #fff;">We know
-                                    how to protect you. </h2>
+                                <h2 class="elementor-heading-title elementor-size-default" style="color: #fff;">
+                                    <?php echo $aboutsus['title']; ?>
+                                </h2>
                             </div>
                         </div>
                         <div
@@ -244,85 +231,40 @@
                             <div class="elementor-widget-container">
                                 <div class="live_img">
                                     <ul>
-                                        <li><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/live1.jpg"
+                                    <?php 
+                                        $imgCount =  explode(",",$aboutsus['image']);
+                                        foreach($imgCount as $value){
+                                    ?>
+                                        <li><img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value; ?>"
                                                 alt="Logo Autokit" /></li>
-                                        <li><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/live2.jpg"
-                                                alt="Logo Autokit" /></li>
+                                    <?php }?>
                                     </ul>
                                 </div>
-                                <p>HSOC Cyber, formerly Professional Certifications and Consulting Services, is a
-                                    service-disabled, veteran-owned small business (SDVOSB). Since 2016, HSOC Cyber has
-                                    provided certification and real skill training in information technology,
-                                    cybersecurity, and project management. As a result of COVID-19, HSOC Cyber altered
-                                    its business model from the live classroom training to live online training in the
-                                    form of an internship, and all from the comfort of your home. At HSOC Cyber, we work
-                                    on real projects and tasks that equate to real experience versus attending an online
-                                    class to complete assignments. </p>
-
+                                <p><?php echo $aboutsus['description']; ?></p>
                                 <div
                                     class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--move-up">
                                     <a class="elementor-cta__button elementor-button elementor-size-sm"
                                         href="<?php echo site_url("/ about "); ?>"> Read More</a>
                                 </div>
-
-
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <section
                     class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-0ffd50b elementor-section-boxed elementor-section-height-default elementor-section-height-default col-lg-12">
                     <div class="row">
-                        <div class="col-lg-4">
-                            <div class="">
-                                <div class="single-challenges overly-one">
-                                    <img src="<?php echo base_url();?>/design/wp-content/uploads/sites/48/2021/06/nisttt.png"
-                                        alt="">
-                                    <h3>Information Security Learning Continuum</h3>
-                                    <ul>
-                                        <li><a href="https://www.nist.gov/system/files/documents/2021/09/29/FinalSlides_AwarenessWorkshop_28sep2021%20%28508%20Compliant%29.pdf"
-                                                target="_blank">Developing a Workforce for Security: A NICE Framework
-                                                Workshop</a>
-                                        </li>
-                                        <li><a href="https://niccs.cisa.gov/workforce-development/cyber-security-workforce-framework"
-                                                target="_blank">cyber-security-workforce-framework</a>
-                                        </li>
-                                    </ul>
+                        <?php foreach ($syllabussection as $value) {?>
+                            <div class="col-lg-4">
+                                <div class="">
+                                    <div class="single-challenges overly-one">
+                                        <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value['image'];?>"
+                                            alt="">
+                                        <h3><?php echo $value['title']; ?></h3>
+                                       <?php echo $value['description']; ?>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="">
-                                <div class="single-challenges overly-one">
-                                    <img src="<?php echo base_url();?>/design/wp-content/uploads/sites/48/2021/06/nistt.png"
-                                        alt="">
-                                    <h3>Infosec Wheel</h3>
-                                    <ul>
-                                        <li><a href="https://hackernoon.com/introducing-the-infosec-colour-wheel-blending-developers-with-red-and-blue-security-teams-6437c1a07700"
-                                                target="_blank">Introducing the InfoSec colour wheel- blending
-                                                developers with red and blue security teams</a>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="">
-                                <div class="single-challenges overly-one">
-                                    <img src="<?php echo base_url();?>/design/wp-content/uploads/sites/48/2021/06/nist.png"
-                                        alt="">
-                                    <h3>Risk Management Framework</h3>
-                                    <ul>
-                                        <li><a href="https://csrc.nist.gov/projects/risk-management/about-rmf"
-                                                target="_blank">NIST Risk Management Framework RMF</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
+                      <?php } ?>
                     </div>
                 </section>
 
@@ -373,14 +315,14 @@
                                                                 <div class="elementskit-info-box-icon text-center"> <img
                                                                         style="filter: brightness(0) invert(1);"
                                                                         width="512" height="512"
-                                                                        src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value['image_upload']; ?>"
+                                                                        src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value['image']; ?>"
                                                                         class="attachment- size-" alt=""
                                                                         loading="lazy" /> </div>
                                                             </div>
                                                             <div class="box-body">
                                                                 <h3 class="elementskit-info-box-title"
                                                                     style="color: #fff"><?php echo $value['title']; ?></h3>
-                                                                <p><?php echo $value['description']; ?></p>
+                                                                <p style="color:#fff"><?php echo $value['description']; ?></p>
                                                             </div>
                                                         </div>
                                                     </a>
@@ -775,7 +717,6 @@
 <?php $this->load->view('frontend/layout/footer'); ?>
 
 <div id="myModal" class="modalcstm fade-in one">
-
     <div class="modal-content">
         <div class="border_line">
             <div class="hide_box" id="Menu1">

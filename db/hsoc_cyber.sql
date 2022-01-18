@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 12, 2022 at 08:08 AM
+-- Generation Time: Jan 18, 2022 at 08:55 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.10
 
@@ -46,10 +46,10 @@ CREATE TABLE `articles` (
 --
 
 INSERT INTO `articles` (`id`, `title`, `image`, `description`, `authorname`, `publishdate`, `status`, `ip_add`, `entry_by`, `updated_at`, `created_at`) VALUES
-(1, 'COMPUTER VIRUS', 'IMG-6266.happy-female-surfing-internet-on-laptop-at-home.jpg', '<div style=\"margin: 0px 14.4px 0px 28.8px; padding: 0px; width: 436.8px; float: left; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px;\"><h2 style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-family: DauphinPlain; font-size: 24px; line-height: 24px;\">What is Lorem Ipsum?</h2><p style=\"margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; text-align: justify;\"><strong style=\"margin: 0px; padding: 0px;\">Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div><div style=\"margin: 0px 28.8px 0px 14.4px; padding: 0px; width: 436.8px; float: right; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px;\"><h2 style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-family: DauphinPlain; font-size: 24px; line-height: 24px;\">Why do we use it?</h2><p style=\"margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; text-align: justify;\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for \'lorem ipsum\' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p></div><br style=\"margin: 0px; padding: 0px; clear: both; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: center;\"><div style=\"margin: 0px 14.4px 0px 28.8px; padding: 0px; width: 436.8px; float: left; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px;\"><h2 style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-family: DauphinPlain; font-size: 24px; line-height: 24px;\">Where does it come from?</h2><p style=\"margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; text-align: justify;\">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.</p><p style=\"margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; text-align: justify;\">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p></div><div style=\"margin: 0px 28.8px 0px 14.4px; padding: 0px; width: 436.8px; float: right; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px;\"><h2 style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-family: DauphinPlain; font-size: 24px; line-height: 24px;\">Where can I get some?</h2><p style=\"margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding: 0px; text-align: justify;\">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p></div>', 'Anup Dubey', '2022-01-06', 1, '::1', '1', '2022-01-10 17:35:45', '2022-01-10 17:35:45'),
-(2, 'FEATURED', 'IMG-55652.happy-female-surfing-internet-on-laptop-at-home.jpg', '<span style=\"font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</span>                                                                        ', 'Anup Dubey', '2022-01-14', 1, '::1', '1', '2022-01-10 17:37:32', '2022-01-10 17:37:32'),
-(3, 'Programmer', 'IMG-39019.happy-young-colleagues-sitting-in-office-coworking-using-laptop.jpg', '<span style=\"font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</span>                                                                        ', 'Rakesh Kumar', '2022-01-05', 1, '::1', '1', '2022-01-10 17:38:10', '2022-01-10 17:38:10'),
-(4, 'Cyber Set', 'IMG-18205.happy-young-colleagues-sitting-in-office-coworking-using-laptop.jpg', '<span style=\"font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</span>                                                                        ', 'Vishal sud', '2022-01-21', 1, '::1', '1', '2022-01-10 17:43:01', '2022-01-10 17:43:01');
+(1, 'COMPUTER VIRUS', 'IMG-28475.cropped-view-of-african-american-businessman-using-laptop-and-smartphone-in-car-with-cyber-security-e1624634401494.jpg', 'City of Liège hit by ransomware, Ryuk suspected', 'City of Liège hit by ransomware, Ryuk suspected', '2022-01-18', 1, '::1', '1', '2022-01-18 12:33:10', '2022-01-18 12:33:10'),
+(2, 'FEATURED', 'IMG-99170.woman-working-on-computer-outdoors-e1624634377985.jpg', 'Make the Internet a Better, Safer Place on Stop Cyberbullying Day', '', '2022-01-18', 1, '::1', '1', '2022-01-18 12:34:58', '2022-01-18 12:34:58'),
+(3, 'CYBER SECURITY', 'IMG-59320.male-teenage-hacker-with-data-reflected-from-computer-screen.jpg', 'Threat Actors Spread Agent Tesla Disguised as COVID-19 Vaccination Registration                                                                        ', '', '2022-01-20', 1, '::1', '1', '2022-01-18 13:06:45', '2022-01-18 13:06:45'),
+(4, 'CRIMINAL', 'IMG-51892.computer-equipment-in-dark.jpg', 'Repairmen suspected of installing ransomware on customers’ PCs. Arrests in South Korea                                                                        ', '', '2022-01-20', 1, '::1', '1', '2022-01-18 13:08:20', '2022-01-18 13:08:20');
 
 -- --------------------------------------------------------
 
@@ -71,6 +71,7 @@ CREATE TABLE `manage_about_us` (
   `moto` longtext NOT NULL,
   `biography` longtext NOT NULL,
   `upload_biography` varchar(200) NOT NULL,
+  `image` varchar(100) NOT NULL,
   `ip_add` varchar(200) NOT NULL,
   `entry_by` varchar(200) NOT NULL,
   `status` varchar(200) NOT NULL,
@@ -82,8 +83,8 @@ CREATE TABLE `manage_about_us` (
 -- Dumping data for table `manage_about_us`
 --
 
-INSERT INTO `manage_about_us` (`id`, `title`, `description`, `year_of_experience`, `number_of_employee`, `number_of_partners`, `background_color`, `heading`, `mission`, `vision`, `moto`, `biography`, `upload_biography`, `ip_add`, `entry_by`, `status`, `updated_at`, `created_at`) VALUES
-(1, 'About us', '<p style=\"margin-bottom: 0.9rem; text-align: justify; color: rgb(51, 51, 51); font-family: Heebo, sans-serif;\">HSOC Cyber, formerly Professional Certifications and Consulting Services, is a service-disabled, veteran-owned small business (SDVOSB). Since 2016, HSOC Cyber has provided certification and real skill training in information technology, cybersecurity, and project management. As a result of COVID-19, HSOC Cyber altered its business model from the live classroom training to live online training in the form of an internship, and all from the comfort of your home. At HSOC Cyber, we work on real projects and tasks that equate to real experience versus attending an online class to complete assignments.</p><p style=\"margin-bottom: 0.9rem; text-align: justify; color: rgb(51, 51, 51); font-family: Heebo, sans-serif;\">Whether new to the industry or experienced, each HSOC Cyber team member is considered a cybersecurity intern from day one. We practice with a variety of real industry tools and techniques used in federal agencies, and small to large businesses. We work in a peer-supported environment, where team members conduct a myriad of tasks and projects related to popular cybersecurity roles within the National Initiative for Cybersecurity Education (NICE) Workforce Framework, the INFOSEC Wheel, and the National Institute of Standards and Technology (NIST) Risk Management Framework.</p>                                                                             \r\n                                    ', '', '', '', '', '', '<span style=\"font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</span>', '<span style=\"font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</span>                                         \r\n                                    ', '<span style=\"font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</span>                                                                                \r\n                                    ', '<span style=\"color: rgb(51, 51, 51); font-family: Heebo, sans-serif; text-align: justify;\">Accomplished cybersecurity professional with over 20 years of combined law enforcement, physical security, network security, risk management, and executive protection experience. Over 16 years specific counterintelligence, technical surveillance countermeasures, and cybersecurity experience focused on proactively protecting the infrastructure and security of company resources and data. Proven project manager, strategist, educator, and technologist with demonstrated leadership ability to set strategic direction, align teams and their performance, and achieve desired results with greater efficiency and effectiveness. Collaborative team leader, college instructor, certification instructor, skill-based instruction, and effective communicator with the ability to work well both independently and in group settings, as well as the ability to engage with others throughout the organization to set and achieve common goals.</span>                                                                                \r\n                                    ', 'IMG-53878.about_1.png', '::1', '1', '1', '2022-01-07 19:38:52', '2022-01-07 19:38:52');
+INSERT INTO `manage_about_us` (`id`, `title`, `description`, `year_of_experience`, `number_of_employee`, `number_of_partners`, `background_color`, `heading`, `mission`, `vision`, `moto`, `biography`, `upload_biography`, `image`, `ip_add`, `entry_by`, `status`, `updated_at`, `created_at`) VALUES
+(1, 'We know how to protect you.', '<p><span style=\"font-family: &quot;Source Sans Pro&quot;;\">﻿</span><font face=\"Source Sans Pro\">HSOC Cyber, formerly Professional Certifications and Consulting Services,&nbsp;<br></font></p><p><font face=\"Source Sans Pro\">is a service-disabled, veteran-owned small business (SDVOSB).&nbsp;</font></p><p><font face=\"Source Sans Pro\">Since 2016,&nbsp;</font></p><p><font face=\"Source Sans Pro\">HSOC Cyber has provided certification and real skill training in information technology, cybersecurity, and project management.&nbsp;</font></p><p><font face=\"Source Sans Pro\">As a result of COVID-19, HSOC Cyber altered its business model from the live classroom training to live online training in the form of an internship,&nbsp;</font></p><p><font face=\"Source Sans Pro\">and all from the comfort of your home. At HSOC Cyber, we work on real projects and tasks that equate to real experience versus attending an online class to complete assignments.</font></p>', '', '', '', '', '', '<br>', '', '                                                                                \r\n                                    ', '<span style=\"color: rgb(51, 51, 51); font-family: Heebo, sans-serif; text-align: justify;\">Accomplished cybersecurity professional with over 20 years of combined law enforcement, physical security, network security, risk management, and executive protection experience. Over 16 years specific counterintelligence, technical surveillance countermeasures, and cybersecurity experience focused on proactively protecting the infrastructure and security of company resources and data. Proven project manager, strategist, educator, and technologist with demonstrated leadership ability to set strategic direction, align teams and their performance, and achieve desired results with greater efficiency and effectiveness. Collaborative team leader, college instructor, certification instructor, skill-based instruction, and effective communicator with the ability to work well both independently and in group settings, as well as the ability to engage with others throughout the organization to set and achieve common goals.</span>                                                                                \r\n                                    ', 'IMG-68489.about_1.png', 'about_1.png', '::1', '1', '1', '2022-01-17 15:57:51', '2022-01-17 15:57:51');
 
 -- --------------------------------------------------------
 
@@ -171,18 +172,6 @@ CREATE TABLE `manage_service` (
   `created_at` datetime DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `manage_service`
---
-
-INSERT INTO `manage_service` (`id`, `icon_upload`, `image_upload`, `title`, `description`, `status`, `ip_add`, `entry_by`, `updated_at`, `created_at`) VALUES
-(2, 'IMG-1690.3-protection-1.png', 'IMG-1690.3-protection-1.png', 'Self-Control', '<div>Completing tasks and projects without letting</div><div>distractors or bad habits get in the way (e.g.,</div><div>adaptability, self-awareness, self-confidence,</div><div>stress management)</div>', 1, '::1', 1, '2022-01-10 15:05:52', '2022-01-10 15:05:52'),
-(3, '', 'IMG-64170.2-database-1.png', 'Productivity', '<div>Completing tasks and projects without letting</div><div>distractors or bad habits get in the way (e.g.,</div><div>adaptability, self-awareness, self-confidence,</div><div>stress management)</div>', 1, '::1', 1, '2022-01-10 15:07:06', '2022-01-10 15:07:06'),
-(4, '', 'IMG-99371.4-payment-protection-1.png', 'Wisdom', '<div>Real-world skills applied based off experience,</div><div>knowledge, and good judgment (e.g., conflict</div><div>resolution instincts, creativity in the face of</div><div>challenges, critical thinking, supervising with</div><div>confidence)</div>', 1, '::1', 1, '2022-01-10 15:08:05', '2022-01-10 15:08:05'),
-(5, '', 'IMG-75567.10-server-1.png', 'Perception', '<div>Experience and practice that provide insight to point</div><div>things out with courage and without influence from</div><div>others (e.g., designing, mapping, judging people and</div><div>situations, strategic thinking)</div>                                                                         ', 1, '::1', 1, '2022-01-10 15:08:45', '2022-01-10 15:08:45'),
-(6, '', 'IMG-26073.18-laptop-1.png', 'Influence', '<div>The skills needed to inspire others to act (e.g.,</div><div>constructive criticism, presentation skills, team</div><div>building, writing for impact)</div>                                                                         ', 1, '::1', 1, '2022-01-10 15:15:25', '2022-01-10 15:15:25'),
-(7, '', 'IMG-9232.25-shopping-online-1.png', 'Secure Transactions', '<div>The skills needed to inspire others to act (e.g.,</div><div>constructive criticism, presentation skills, team</div><div>building, writing for impact)</div>                                                                         ', 1, '::1', 1, '2022-01-10 15:17:08', '2022-01-10 15:17:08');
-
 -- --------------------------------------------------------
 
 --
@@ -208,7 +197,7 @@ CREATE TABLE `manage_slider` (
 --
 
 INSERT INTO `manage_slider` (`id`, `heading_text`, `slider_text`, `rename_button`, `link_pageon_button`, `slider_image`, `ip_add`, `entry_by`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'Welcome to Home Security Operations Center (HSOC) Cyber!', 'Securing Your Home Beyond the Physical', 'Discover More', '', 'IMG-3459.banner.jpg', '::1', '1', '1', '2022-01-10 13:02:26', '2022-01-10 13:02:26');
+(1, 'Welcome to Home Security Operations Center (HSOC) Cyber!', 'Securing Your Home Beyond the Physical', 'Discover More', '', '', '::1', '1', '1', '2022-01-17 14:42:30', '2022-01-17 14:42:30');
 
 -- --------------------------------------------------------
 
@@ -235,8 +224,35 @@ CREATE TABLE `manage_sliderbox` (
 --
 
 INSERT INTO `manage_sliderbox` (`id`, `title`, `description`, `background_color`, `hover_color`, `logo`, `image`, `ip_add`, `entry_by`, `status`, `created_at`) VALUES
-(1, 'Hsoc Securing Your Business', '                                                                        <span style=\"font-family: Heebo, sans-serif; text-align: justify; background-color: rgb(235, 235, 235);\">Whether you have a home-based business, a small- or medium-sized business, HSOC Cyber professional interns will consult with you to help you achieve your business objectives and provide the protection and defense you deserve. Contact us to learn more. We want to help you; therefore, we provide services at an extremely affordable rate</span>                                                                                                                                                ', '#893434', '#5e2121', 'IMG-71537.Comp_7.gif', 'IMG-51248.head_business.jpg', '::1', '1', '2', '2022-01-10 13:49:53'),
-(2, 'Securing Your Home', '<span style=\"font-family: Heebo, sans-serif; text-align: justify; background-color: rgb(235, 235, 235);\">Gain real cybersecurity experience by building your own HSOC. Apply the same tools and techniques that protect and defend organizations in your home, and then take those new skills with you to your professional organization. Learn more about the HSOC Cyber Internship Program.</span>                                                                        ', '', '', 'IMG-1144.Comp_7.gif', 'IMG-75291.head_family.jpg', '::1', '1', '1', '2022-01-10 14:12:50');
+(1, 'Securing Your Business', '                                    <div>Whether you have a home-based business, a small- or medium-sized business, HSOC Cyber professional interns will consult with you to help </div><div>you achieve your business objectives and provide the protection and defense you deserve. Contact us to learn more. We want to help you; </div><div>therefore, we provide services at an extremely affordable rate</div>                                                                                                            ', '#000000', '#000000', 'IMG-83820.Comp_7.gif', 'IMG-70857.head_business.jpg', '::1', '1', '1', '2022-01-17 14:56:24'),
+(2, 'Securing Your Home', '                                    <div>Gain real cybersecurity experience by building your own HSOC. </div><div>Apply the same tools and techniques that protect and defend organizations in your home, </div><div>and then take those new skills with you to your professional organization.</div><div> Learn more about the HSOC Cyber Internship Program.</div>                                                                                                            ', '#000000', '#000000', 'IMG-29869.Comp_7.gif', 'IMG-48201.head_family.jpg', '::1', '1', '1', '2022-01-17 14:59:48');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `manage_syllabus`
+--
+
+CREATE TABLE `manage_syllabus` (
+  `id` int(11) NOT NULL,
+  `title` varchar(200) NOT NULL,
+  `description` longtext NOT NULL,
+  `image` varchar(200) NOT NULL,
+  `ip_add` varchar(200) NOT NULL,
+  `entry_by` varchar(200) NOT NULL,
+  `status` varchar(11) NOT NULL,
+  `created_at` datetime NOT NULL DEFAULT current_timestamp(),
+  `updated_at` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `manage_syllabus`
+--
+
+INSERT INTO `manage_syllabus` (`id`, `title`, `description`, `image`, `ip_add`, `entry_by`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'Information Security Learning Continuum', '<ul style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: rgb(51, 51, 51); font-family: Heebo, sans-serif;\"><li style=\"margin-top: 0px; margin-bottom: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; line-height: 22px; padding: 0px 0px 6px;\"><a href=\"https://www.nist.gov/system/files/documents/2021/09/29/FinalSlides_AwarenessWorkshop_28sep2021%20%28508%20Compliant%29.pdf\" target=\"_blank\" style=\"color: rgb(5, 18, 42); box-shadow: none;\">Developing a Workforce for Security: A NICE Framework Workshop</a></li><li style=\"margin-top: 0px; margin-bottom: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; line-height: 22px; padding: 0px 0px 6px;\"><a href=\"https://niccs.cisa.gov/workforce-development/cyber-security-workforce-framework\" target=\"_blank\" style=\"color: rgb(5, 18, 42); box-shadow: none;\">cyber-security-workforce-framework</a></li></ul>                                                                        ', 'IMG-84261.nisttt.png', '::1', '1', '1', '2022-01-17 15:38:35', '2022-01-17 15:38:35'),
+(2, 'Infosec Wheel', '<ul style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: rgb(51, 51, 51); font-family: Heebo, sans-serif;\"><li style=\"margin-top: 0px; margin-bottom: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; line-height: 22px; padding: 0px 0px 6px;\"><a href=\"https://hackernoon.com/introducing-the-infosec-colour-wheel-blending-developers-with-red-and-blue-security-teams-6437c1a07700\" target=\"_blank\" style=\"color: rgb(5, 18, 42); box-shadow: none;\">Introducing the InfoSec colour wheel- blending developers with red and blue security teams</a></li></ul>                                                                        ', 'IMG-10295.nistt.png', '::1', '1', '1', '2022-01-17 15:39:32', '2022-01-17 15:39:32'),
+(3, 'Risk Management Framework', '<ul style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: rgb(51, 51, 51); font-family: Heebo, sans-serif;\"><li style=\"margin-top: 0px; margin-bottom: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; line-height: 22px; padding: 0px 0px 6px;\"><a href=\"https://csrc.nist.gov/projects/risk-management/about-rmf\" target=\"_blank\" style=\"color: rgb(5, 18, 42); box-shadow: none;\">NIST Risk Management Framework RMF</a></li></ul>                                                                        ', 'IMG-9894.nist.png', '::1', '1', '1', '2022-01-17 15:40:46', '2022-01-17 15:40:46');
 
 -- --------------------------------------------------------
 
@@ -290,9 +306,8 @@ CREATE TABLE `manage_testimonial` (
 --
 
 INSERT INTO `manage_testimonial` (`id`, `heading1`, `heading2`, `rating`, `name`, `designation`, `description`, `photo`, `backgroundimage`, `status`, `ip_add`, `entry_by`, `updated_at`, `created_at`) VALUES
-(1, '', '', '2', 'Anup Dubey', 'React Developer', '<span style=\"font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</span>                                                                        ', 'IMG-25466.2-database-1.png', '', 1, '::1', '1', '2022-01-10 16:07:27', '2022-01-10 16:07:27'),
-(2, '', '', '4', 'Roushan Singh', 'Node Js Developer', '<span style=\"font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</span>                                                                        ', 'IMG-56901.4-payment-protection-1.png', '', 1, '::1', '1', '2022-01-10 16:09:40', '2022-01-10 16:09:40'),
-(3, '', '', '5', 'Rahul kumar dubey', 'PHP Developer', '<span style=\"font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</span>                                                                        ', 'IMG-12875.18-laptop-1.png', '', 1, '::1', '1', '2022-01-10 16:10:14', '2022-01-10 16:10:14');
+(1, 'What they say about us.', '', '5', 'Amber White', 'Biologist', '<span style=\"color: rgb(32, 33, 36); font-family: &quot;Source Sans Pro&quot;; font-size: 12px; white-space: pre-wrap;\">Quam auctor inceptos purus nec elementum consectetur. Faucibus nullam gravida quisque class a metus vitae venenatis ornare. Tempus ut accumsan natoque mattis porttitor aliquam felis taciti. Sagittis primis at nibh sociosqu platea turpis suscipit. Sociosqu nostra eget magnis viverra eleifend netus.</span>                                                                        ', 'IMG-48927.test3.png', '', 1, '::1', '1', '2022-01-18 12:25:35', '2022-01-18 12:25:35'),
+(2, 'What they say about us.', '', '4', 'Andre Harris', 'Biologist', '<span style=\"color: rgb(32, 33, 36); font-family: &quot;Source Sans Pro&quot;; font-size: 12px; white-space: pre-wrap;\">Quam auctor inceptos purus nec elementum consectetur. Faucibus nullam gravida quisque class a metus vitae venenatis ornare. Tempus ut accumsan natoque mattis porttitor aliquam felis taciti. Sagittis primis at nibh sociosqu platea turpis suscipit. Sociosqu nostra eget magnis viverra eleifend netus.</span>                                                                        ', 'IMG-21623.test1.png', '', 1, '::1', '1', '2022-01-18 12:28:25', '2022-01-18 12:28:25');
 
 -- --------------------------------------------------------
 
@@ -305,6 +320,7 @@ CREATE TABLE `manage_trusted_brand` (
   `title` varchar(200) NOT NULL,
   `background_color` varchar(200) NOT NULL,
   `upload_logo` varchar(200) NOT NULL,
+  `description` longtext NOT NULL,
   `ip_add` varchar(200) NOT NULL,
   `entry_by` varchar(200) NOT NULL,
   `status` int(11) NOT NULL,
@@ -316,15 +332,16 @@ CREATE TABLE `manage_trusted_brand` (
 -- Dumping data for table `manage_trusted_brand`
 --
 
-INSERT INTO `manage_trusted_brand` (`id`, `title`, `background_color`, `upload_logo`, `ip_add`, `entry_by`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'Trusted by International Brand', '', 'IMG-36418.logo_2.png', '::1', '1', 2, '2022-01-10 14:35:14', '0000-00-00 00:00:00'),
-(2, 'Trusted by International Brand', '', 'IMG-25883.logo_3.png', '::1', '1', 1, '2022-01-10 14:35:29', '0000-00-00 00:00:00'),
-(3, 'Trusted by International Brand', '', 'IMG-19351.logo_4.png', '::1', '1', 1, '2022-01-10 14:35:51', '0000-00-00 00:00:00'),
-(4, 'Trusted by International Brand', '', 'IMG-29344.logo_9.png', '::1', '1', 1, '2022-01-10 14:36:05', '0000-00-00 00:00:00'),
-(5, 'Trusted by International Brand', '', 'IMG-12946.logo_10.png', '::1', '1', 1, '2022-01-10 14:36:18', '0000-00-00 00:00:00'),
-(6, 'Trusted by International Brand', '', 'IMG-61289.logo_11.png', '::1', '1', 1, '2022-01-10 14:36:30', '0000-00-00 00:00:00'),
-(7, 'Trusted by International Brand', '', 'IMG-21414.logo_12.png', '::1', '1', 1, '2022-01-10 14:36:46', '0000-00-00 00:00:00'),
-(8, 'Trusted by International Brand', '', 'IMG-15889.logo_12.png', '::1', '1', 1, '2022-01-10 14:37:55', '0000-00-00 00:00:00');
+INSERT INTO `manage_trusted_brand` (`id`, `title`, `background_color`, `upload_logo`, `description`, `ip_add`, `entry_by`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'Trusted by International Brand', '#000000', '', '<div>Erat morbi si adipiscing laoreet praesent.</div><div>&nbsp;Adipiscing duis laoreet orci aliquet ex dis</div><div>&nbsp;auctor platea. Penatibus enim volutpat&nbsp;</div><div>&nbsp;lectus curae ac porta etiam erat quam justo.</div>                                                                         ', '::1', '1', 1, '2022-01-17 15:23:59', '0000-00-00 00:00:00'),
+(2, '', '', 'logo_2.png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00'),
+(3, '', '', 'logo_3.png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00'),
+(4, '', '', 'logo_4_(1).png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00'),
+(5, '', '', 'logo_4.png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00'),
+(6, '', '', 'logo_9.png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00'),
+(7, '', '', 'logo_10.png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00'),
+(8, '', '', 'logo_11.png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00'),
+(9, '', '', 'logo_12.png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -360,7 +377,7 @@ CREATE TABLE `manage_website_setting` (
 --
 
 INSERT INTO `manage_website_setting` (`id`, `logo`, `address`, `email`, `phone`, `embed_map`, `copy_write`, `design_by`, `facebook`, `linkdin`, `instagram`, `twitter`, `header_background_color`, `footer_background_color`, `footer_content`, `status`, `ip_add`, `entry_by`, `created_at`, `updated_at`) VALUES
-(1, 'IMG-10031.Comp_7.gif', 'Jln Cempaka Wangi No 22, Jakarta - Indonesia                                                                        ', 'support@mail.tld, business@mail.tld', '8877665544', 'https://maps.google.com/maps?q=Jakarta&amp;t=m&amp;z=12&amp;output=embed&amp;iwloc=near', 'Vcana Global', 'Anup Dubey', '', '', '', '', '', '', '', 1, '::1', '1', '2022-01-07 17:52:56', '2022-01-07 17:52:56');
+(1, 'IMG-56237.Comp_7.gif', '                                    Jln Cempaka Wangi No 22, Jakarta - Indonesia                                                                                                            ', 'support@mail.tld, business@mail.tld', '8877665544', 'https://maps.google.com/maps?q=Jakarta&t=m&z=12&output=embed&iwloc=near', 'Vcana Global', 'Anup Dubey', '', '', '', '', '#000000', '#000000', '', 1, '::1', '1', '2022-01-07 17:52:56', '2022-01-07 17:52:56');
 
 -- --------------------------------------------------------
 
@@ -386,8 +403,55 @@ CREATE TABLE `manage_welcome_message` (
 --
 
 INSERT INTO `manage_welcome_message` (`id`, `title`, `message`, `small_image`, `full_width`, `status`, `entry_by`, `ip_add`, `created_at`, `updated_at`) VALUES
-(1, 'Trusted by International Brand', 'lkjflsjdfljsfjsldf', 'IMG-31246.2-database-1.png', 'IMG-80216.10-server-1.png', 1, '1', '::1', '2022-01-12 12:36:37', '2022-01-12 12:36:37'),
-(2, '', '', '', '', 0, '', '', '2022-01-12 12:38:05', '2022-01-12 12:38:05');
+(1, 'Welcome to HOSC Security', '<span style=\"color: rgb(51, 51, 51); font-family: Heebo, sans-serif; text-align: justify;\">At HSOC Cyber, security starts at home! Our voluntary, non-paid internship program is designed to help you gain quality, resume-building cybersecurity experience quickly. We empower you to change your life with a proven, real-time, live, hands-on training system that contributes to ethics and national security within the cybersecurity profession. Contact us to learn more about the HSOC Cyber Internship Program. Join us on Patreon today!</span>                                                                             \r\n                                    ', 'abt1.jpg,abt11.jpg,abt12.jpg', 'IMG-78357.abt4.jpg', 1, '1', '::1', '2022-01-17 15:19:52', '2022-01-17 15:19:52');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `service_details`
+--
+
+CREATE TABLE `service_details` (
+  `id` int(11) NOT NULL,
+  `title` varchar(200) NOT NULL,
+  `description` longtext NOT NULL,
+  `logo` varchar(200) NOT NULL,
+  `ip_add` varchar(200) NOT NULL,
+  `entry_by` varchar(200) NOT NULL,
+  `status` varchar(11) NOT NULL,
+  `updated_at` datetime NOT NULL DEFAULT current_timestamp(),
+  `created_at` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `service_section`
+--
+
+CREATE TABLE `service_section` (
+  `id` int(11) NOT NULL,
+  `title` varchar(200) NOT NULL,
+  `description` longtext NOT NULL,
+  `image` varchar(200) NOT NULL,
+  `ip_add` varchar(200) NOT NULL,
+  `entry_by` varchar(200) NOT NULL,
+  `status` varchar(11) NOT NULL,
+  `created_at` datetime NOT NULL DEFAULT current_timestamp(),
+  `updated_at` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `service_section`
+--
+
+INSERT INTO `service_section` (`id`, `title`, `description`, `image`, `ip_add`, `entry_by`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'Self-Control', '<p><span style=\"font-family: &quot;Source Sans Pro&quot;;\">Completing tasks and projects without letting distractors or bad habits get in the way (e.g., adaptability, self-awareness, self-confidence, stress management)</span><span style=\"font-family: &quot;Source Sans Pro&quot;;\">﻿</span></p>', 'IMG-5149.3-protection-1 - Copy.png', '::1', '1', '1', '2022-01-17 16:06:42', '2022-01-17 16:06:42'),
+(2, 'Productivity ', '                                     <span style=\"color: rgb(32, 33, 36); font-family: &quot;Source Sans Pro&quot;; font-size: 12px; white-space: pre-wrap;\">Using your non-vocational skills and commitment to complete tasks (e.g., attention to detail, crisis management, effective decision making, troubleshooting) </span>                                                                                                             ', 'IMG-65825.10-server-1.png', '::1', '1', '1', '2022-01-18 12:04:52', '2022-01-18 12:04:52'),
+(3, 'Wisdom', '<span style=\"color: rgb(32, 33, 36); font-family: consolas, &quot;lucida console&quot;, &quot;courier new&quot;, monospace; font-size: 12px; white-space: pre-wrap;\">Real-world skills applied based off experience, knowledge, and good judgment (e.g., conflict resolution instincts, creativity in the face of challenges, critical thinking, supervising with confidence)</span>                                                                         ', 'IMG-4636.2-database-1.png', '::1', '1', '1', '2022-01-18 12:06:49', '2022-01-18 12:06:49'),
+(4, 'Perception', '<span style=\"color: rgb(32, 33, 36); font-family: &quot;Source Sans Pro&quot;; font-size: 12px; white-space: pre-wrap;\">Experience and practice that provide insight to point things out with courage and without influence from others (e.g., designing, mapping, judging people and situations, strategic thinking)</span>                                                                         ', 'IMG-90314.16-antivirus-1.png', '::1', '1', '1', '2022-01-18 12:10:23', '2022-01-18 12:10:23'),
+(5, 'Influence', '<span style=\"color: rgb(32, 33, 36); font-family: consolas, &quot;lucida console&quot;, &quot;courier new&quot;, monospace; font-size: 12px; white-space: pre-wrap;\">The skills needed to inspire others to act (e.g., constructive criticism, presentation skills, team building, writing for impact)</span>                                                                         ', 'IMG-59136.4-payment-protection-1.png', '::1', '1', '1', '2022-01-18 12:12:29', '2022-01-18 12:12:29'),
+(6, ' Secure Transactions ', '                                     <span style=\"color: rgb(32, 33, 36); font-family: consolas, \" lucida=\"\" console\",=\"\" \"courier=\"\" new\",=\"\" monospace;=\"\" font-size:=\"\" 12px;=\"\" white-space:=\"\" pre-wrap;\"=\"\"><b>Quis neque fringilla duis auctor nam laoreet porttitor morbi diam suscipit montes </b></span>                                                                                                             ', 'IMG-60327.25-shopping-online-1.png', '::1', '1', '1', '2022-01-18 12:13:19', '2022-01-18 12:13:19');
 
 --
 -- Indexes for dumped tables
@@ -442,6 +506,12 @@ ALTER TABLE `manage_sliderbox`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `manage_syllabus`
+--
+ALTER TABLE `manage_syllabus`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `manage_team`
 --
 ALTER TABLE `manage_team`
@@ -469,6 +539,18 @@ ALTER TABLE `manage_website_setting`
 -- Indexes for table `manage_welcome_message`
 --
 ALTER TABLE `manage_welcome_message`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `service_details`
+--
+ALTER TABLE `service_details`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `service_section`
+--
+ALTER TABLE `service_section`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -509,7 +591,7 @@ ALTER TABLE `manage_feature_details`
 -- AUTO_INCREMENT for table `manage_service`
 --
 ALTER TABLE `manage_service`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `manage_slider`
@@ -524,6 +606,12 @@ ALTER TABLE `manage_sliderbox`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
+-- AUTO_INCREMENT for table `manage_syllabus`
+--
+ALTER TABLE `manage_syllabus`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
 -- AUTO_INCREMENT for table `manage_team`
 --
 ALTER TABLE `manage_team`
@@ -533,13 +621,13 @@ ALTER TABLE `manage_team`
 -- AUTO_INCREMENT for table `manage_testimonial`
 --
 ALTER TABLE `manage_testimonial`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `manage_trusted_brand`
 --
 ALTER TABLE `manage_trusted_brand`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `manage_website_setting`
@@ -551,7 +639,19 @@ ALTER TABLE `manage_website_setting`
 -- AUTO_INCREMENT for table `manage_welcome_message`
 --
 ALTER TABLE `manage_welcome_message`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `service_details`
+--
+ALTER TABLE `service_details`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `service_section`
+--
+ALTER TABLE `service_section`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
