@@ -145,7 +145,7 @@
 	
 <link rel='stylesheet' id='e-animations-css'  href='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/lib/animations/animations.mina7da.css?ver=3.4.7' type='text/css' media='all' />
 	
-<!--<script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.minf269.js?ver=1.0.1' id='smartmenus-js'></script> -->
+<?php /*?><script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.minf269.js?ver=1.0.1' id='smartmenus-js'></script> <?php */?>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/js/webpack.runtime.mina7da.js?ver=3.4.7' id='elementor-webpack-runtime-js'></script> 
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/js/frontend-modules.mina7da.js?ver=3.4.7' id='elementor-frontend-modules-js'></script> 
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/lib/swiper/swiper.min48f5.js?ver=5.3.6' id='swiper-js'></script> 
