@@ -157,31 +157,7 @@
 </head>
 
 <body class="envato_tk_templates-template envato_tk_templates-template-elementor_header_footer single single-envato_tk_templates postid-798 elementor-default elementor-template-full-width elementor-kit-3 elementor-page elementor-page-798">
-<<<<<<< HEAD
-		<div data-elementor-type="header" data-elementor-id="53" class="elementor elementor-53 elementor-location-header" data-elementor-settings="[]">
- <div class="elementor-section-wrap">
-  <section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-677e228 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default">
-   <div class="elementor-container elementor-column-gap-default">
-    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-d9b0db1">
-     <div class="elementor-widget-wrap elementor-element-populated">
-      <div class="elementor-element elementor-element-767c95b elementor-widget elementor-widget-image" data-id="767c95b" data-element_type="widget" data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="image.default">
-       <div class="elementor-widget-container header-logo"> <a href="index.html"> <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $websitedata[0]['logo']; ?>" title="Hsoc" alt="Hsoc" /> </a> </div>
-      </div>
-     </div>
-    </div>
-    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c95780e" data-id="c95780e" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-     <div class="elementor-widget-wrap elementor-element-populated">
-      <div class="elementor-element elementor-element-0f887b0 elementor-nav-menu__align-right elementor-nav-menu--indicator-angle elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="0f887b0" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="nav-menu.default">
-       <div class="elementor-widget-container">
-        <nav role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
-         <ul id="menu-1-0f887b0" class="elementor-nav-menu">
-          <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-6 res-hover-clr"><a href="<?php echo site_url("/home"); ?>" aria-current="page" class="elementor-item elementor-item-active">Home</a></li>
-          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="<?php echo site_url("/about"); ?>" class="elementor-item">About Us</a></li>
-          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10"><a href="<?php echo site_url("/services"); ?>" class="elementor-item">Service</a>
-        
-          </li>
-          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="<?php echo site_url("/contact"); ?>" class="elementor-item">Contact Us</a></li>
-=======
+		
 	<div data-elementor-type="header" data-elementor-id="53" class="elementor elementor-53 elementor-location-header" data-elementor-settings="[]">
 		<div class="elementor-section-wrap">
 			<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-677e228 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default">
@@ -208,9 +184,7 @@
 							</ul>
 						</nav>
 					</header>
->>>>>>> origin/prashant
 
-				</div>
 			</section>
 		</div>
 	</div>
