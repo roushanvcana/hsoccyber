@@ -50,8 +50,8 @@
                         <div class="col-lg-6">
                             <div class="about-img mb_30">
                                 
-                                <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $service[0]['image_upload']; ?>"
-                                    alt="icon" /></div>
+                                <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $service[0]['image']; ?>"
+                                    alt="icon" height="200" width="200" /></div>
                         </div>
                         <div class="col-lg-6">
                             <div class="about-content">

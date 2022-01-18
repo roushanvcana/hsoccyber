@@ -246,11 +246,8 @@
                                     <a class="elementor-cta__button elementor-button elementor-size-sm"
                                         href="<?php echo site_url("/ about "); ?>"> Read More</a>
                                 </div>
-
-
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <section
@@ -318,14 +315,14 @@
                                                                 <div class="elementskit-info-box-icon text-center"> <img
                                                                         style="filter: brightness(0) invert(1);"
                                                                         width="512" height="512"
-                                                                        src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value['image_upload']; ?>"
+                                                                        src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value['image']; ?>"
                                                                         class="attachment- size-" alt=""
                                                                         loading="lazy" /> </div>
                                                             </div>
                                                             <div class="box-body">
                                                                 <h3 class="elementskit-info-box-title"
                                                                     style="color: #fff"><?php echo $value['title']; ?></h3>
-                                                                <p><?php echo $value['description']; ?></p>
+                                                                <p style="color:#fff"><?php echo $value['description']; ?></p>
                                                             </div>
                                                         </div>
                                                     </a>
