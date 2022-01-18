@@ -13,7 +13,7 @@
                             class="elementor-element elementor-element-422bab5 ob-harakiri-inherit elementor-widget elementor-widget-heading">
                             <div class="elementor-widget-container">
                                 <h4 class="elementor-heading-title elementor-size-default" style="color:#000;">
-                                    <?php echo $slider[0]['heading_text'];?>
+                                    <?php echo !empty($slider[0]['heading_text']) ? $slider[0]['heading_text'] : '';?>
                                 </h4>
                             </div>
                         </div>
@@ -21,7 +21,7 @@
                             class="elementor-element elementor-element-e938824 ob-harakiri-inherit elementor-widget elementor-widget-heading">
                             <div class="elementor-widget-container">
                                 <h5 class="elementor-heading-title elementor-size-default">
-                                    <?php echo $slider[0]['slider_text'];?>
+                                    <?php echo !empty($slider[0]['slider_text']) ? $slider[0]['slider_text'] : '';?>
                                 </h5>
                             </div>
                         </div>
@@ -32,7 +32,7 @@
                                         class="elementor-button-link elementor-button elementor-size-lg" role="button">
                                         <span class="elementor-button-content-wrapper"> <span
                                                 class="elementor-button-text">
-                                                <?php echo $slider[0]['rename_button'];?>
+                                                <?php echo !empty($slider[0]['rename_button']) ? $slider[0]['rename_button'] : '';?>
                                             </span>
                                         </span>
                                     </a>
@@ -66,23 +66,24 @@
                                                 <div class="elementor-cta">
                                                     <div class="elementor-cta__bg-wrapper">
                                                         <div class="elementor-cta__bg elementor-bg bg-white"
-                                                            style="background-image: url(<?php echo base_url();?>uploads/gallery-image/<?php echo $value['image']; ?>">
+                                                            style="background-image: url(<?php echo base_url();?>uploads/gallery-image/<?php echo !empty($value['image']) ? $value['image'] : '' ; ?>">
                                                         </div>
                                                         <div class="elementor-cta__bg-overlay"></div>
                                                     </div>
                                                     <div class="elementor-cta__content">
                                                         <div
                                                             class="logo_ elementor-content-item elementor-cta__content-item elementor-cta__image elementor-animated-item--move-up">
-                                                            <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value['logo']; ?>"
+                                                            <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo 
+                                                            !empty($value['logo']) ? $value['logo'] : '';?>"
                                                                 title="Hsoc" alt="Hsoc" />
                                                         </div>
                                                         <h4
                                                             class="elementor-cta__title elementor-cta__content-item elementor-content-item elementor-animated-item--move-up heading_h4">
-															<?php echo $value['title']; ?>
+															<?php echo !empty($value['title']) ? $value['title'] : ''; ?>
 														</h4>
                                                         <div
                                                             class="elementor-cta__description elementor-cta__content-item elementor-content-item elementor-animated-item--move-up">
-                                                            <p class="space_desc"><?php echo $value['description']; ?></p>
+                                                            <p class="space_desc"><?php echo !empty($value['description']) ? $value['description'] : ''; ?> anup </p>
                                                         </div>
                                                         <div
                                                             class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--move-up">
@@ -117,34 +118,23 @@
                                     <div class="col-lg-7">
                                         <div class="main_left_img">
                                             <div class="row">
+                                            <?php
+                                                $smallImg = explode(",",$welcomemsg_data['small_image']);
+                                                foreach ($smallImg as $smallimgvalue) {
+                                             ?>
                                                 <div class="col-lg-4">
                                                     <div class="abt_mg_box">
                                                         <img class="swiper-slide-image"
-                                                            src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/abt1.jpg"
+                                                            src="<?php echo base_url();?>uploads/gallery-image/<?php echo !empty($smallimgvalue) ? $smallimgvalue : ''; ?>"
                                                             alt="logo-bikepro_" />
                                                     </div>
-
                                                 </div>
-                                                <div class="col-lg-4">
-                                                    <div class="abt_mg_box">
-                                                        <img class="swiper-slide-image"
-                                                            src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/abt2.jpg"
-                                                            alt="logo-bikepro_" />
-                                                    </div>
-
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <div class="abt_mg_box">
-                                                        <img class="swiper-slide-image"
-                                                            src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/abt3.jpg"
-                                                            alt="logo-bikepro_" />
-                                                    </div>
-
-                                                </div>
+                                              <?php }?>  
+                                                
                                                 <div class="col-lg-12">
                                                     <div class="abt_mg_box">
                                                         <img class="swiper-slide-image"
-                                                            src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/abt4.jpg"
+                                                            src="<?php echo base_url();?>uploads/gallery-image/<?php echo !empty($welcomemsg_data['full_width']) ? $welcomemsg_data['full_width'] : ''; ?>"
                                                             alt="logo-bikepro_" />
                                                     </div>
                                                 </div>
@@ -154,18 +144,12 @@
                                     <div class="col-lg-5">
                                         <div class="main_right_cnt">
                                             <div class="heading_">
-                                                <h4>Welcome to HOSC Security</h4>
+                                                <h4><?php echo !empty($welcomemsg_data['title']) ? $welcomemsg_data['title'] : ''; ?></h4>
                                             </div>
                                             <div class="heading_desc">
-                                                <p>At HSOC Cyber, security starts at home! Our voluntary, non-paid
-                                                    internship program is designed to help you gain quality,
-                                                    resume-building cybersecurity experience quickly. We empower you to
-                                                    change your life with a proven, real-time, live, hands-on training
-                                                    system that contributes to ethics and national security within the
-                                                    cybersecurity profession. Contact us to learn more about the HSOC
-                                                    Cyber Internship Program. Join us on Patreon today! </p>
+                                                <p><?php echo !empty($welcomemsg_data['message']) ? $welcomemsg_data['message'] :''; ?></p>
                                             </div>
-                                        </div </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -185,14 +169,14 @@
                             class="elementor-element elementor-element-ce110fb ob-harakiri-inherit elementor-widget elementor-widget-heading">
                             <div class="elementor-widget-container">
                                 <h2 class="elementor-heading-title elementor-size-default">
-                                   <?php echo $brandrow['title']; ?>
+                                   <?php echo !empty($brandrow['title']) ? $brandrow['title'] : ''; ?>
                                 </h2>
                             </div>
                         </div>
                         <div
                             class="elementor-element elementor-element-9b48574 ob-harakiri-inherit elementor-widget elementor-widget-text-editor">
                             <div class="elementor-widget-container">
-                                <p><?php echo $brandrow['description']; ?></p>
+                                <p><?php echo !empty($brandrow['description']) ? $brandrow['description'] : ''; ?></p>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-e32d116 elementor-widget">
@@ -736,7 +720,6 @@
 <?php $this->load->view('frontend/layout/footer'); ?>
 
 <div id="myModal" class="modalcstm fade-in one">
-
     <div class="modal-content">
         <div class="border_line">
             <div class="hide_box" id="Menu1">

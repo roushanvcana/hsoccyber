@@ -22,6 +22,8 @@
         $data['testimonial'] = $this->db->query('select * from manage_testimonial')->result_array();  
         $data['articles'] = $this->db->query('select * from articles')->result_array();
         $data['aboutsus'] = $this->db->query('select * from manage_about_us')->row_array();
+        $data['welcomemsg_data'] = $this->db->query('select * from manage_welcome_message')->row_array();
+       
         $this->load->view('frontend/home',$data);
     }
     public function about()

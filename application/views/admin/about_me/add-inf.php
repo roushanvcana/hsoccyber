@@ -117,15 +117,17 @@
                                     </span>
                                 </div>
 
-                                <div class="col-md-12">
-                                    <label for="design_by">image
+                                <div class="col-md-12 mt-3">
+                                    <label for="design_by">Image
 
                                      <?php 
+                                     if(!empty($getValue['image'])){
                                      $imgCount =  explode(",",$getValue['image']);
                                      foreach($imgCount as $value){
                                     ?>
-                                        <a href="<?php echo base_url();?>uploads/gallery-image/<?php echo $value; ?>" class="badge badge-success">Download Upload Image</a>
-                                     <?php }?>
+                                        <a href="<?php echo base_url();?>uploads/gallery-image/<?php echo !empty($value) ? $value : ''; ?>"
+                                         class="badge badge-success">Download Upload Image</a>
+                                     <?php }}?>
                                     </label>
                                     <input type="file" name="image[]" id="image" class="form-control" multiple>
                                     <span id="img_preview" style="display:none">
