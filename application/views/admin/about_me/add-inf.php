@@ -116,6 +116,18 @@
                                         <img id="imgPreview" src="#" alt="pic" width="100" height="100" />
                                     </span>
                                 </div>
+                                <div class="col-md-12 mt-1">
+                                    <label for="design_by">Small Biography Image
+                                    
+                                     <?php if(!empty($getValue['smaill_bio_img'])){?>
+                                        <a href="<?php echo base_url();?>uploads/gallery-image/<?php echo $getValue['smaill_bio_img']; ?>" class="badge badge-success">Download Image</a>
+                                     <?php }?>
+                                    </label>
+                                    <input type="file" name="smaill_bio_img" id="smaill_bio_img" class="form-control">
+                                    <span id="img_previewss" style="display:none">
+                                        <img id="imgPreviewss" src="#" alt="pic" width="100" height="100" />
+                                    </span>
+                                </div>
 
                                 <div class="col-md-12 mt-3">
                                     <label for="design_by">Image

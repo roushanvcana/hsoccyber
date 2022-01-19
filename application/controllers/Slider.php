@@ -378,7 +378,7 @@
                 $this->session->set_flashdata('success', 'Some error occured. Please try again...');
                 redirect(site_url().'add-about');
             }
-        }   
+        } 
         $data['getValue'] = $this->Common_Model->set_data('manage_about_us',1);  
         $data['status'] = status();    
         $data['main_content'] = 'admin/about_me/add-inf';        
