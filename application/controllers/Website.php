@@ -12,7 +12,8 @@
 
     public function home()
     {   
-        $data['brandSetion'] = $this->db->query('select * from manage_trusted_brand limit 0,4')->result_array();  
+        $data['brandSetion'] = $this->db->query('select * from manage_trusted_brand limit 1,4')->result_array();  
+        $data['webmodel'] = $this->db->query('select * from manage_webmodel where id=1')->row_array(); 
         $data['brandrow'] = $this->db->query('select * from manage_trusted_brand where upload_logo = " "')->row_array();  
         $data['brandSetiontwo'] = $this->db->query('select * from manage_trusted_brand limit 4,8')->result_array();  
         $data['syllabussection'] = $this->db->query('select * from manage_syllabus')->result_array();  
@@ -23,7 +24,7 @@
         $data['articles'] = $this->db->query('select * from articles')->result_array();
         $data['aboutsus'] = $this->db->query('select * from manage_about_us')->row_array();
         $data['welcomemsg_data'] = $this->db->query('select * from manage_welcome_message')->row_array();
-       
+      
         $this->load->view('frontend/home',$data);
     }
     public function about()
@@ -44,7 +45,22 @@
          
         $this->load->view('frontend/contact',$data);
     }
+
+    public function privacy_policy()
+    {
+         
+        $this->load->view('frontend/privacy_policy');
+    }
+
+    public function cookie_policy()
+    {
+        $this->load->view('frontend/cookie_policy'); 
+    }
  
+    public function term_of_use()
+    {
+        $this->load->view('frontend/term_of_use'); 
+    }
  }
  
  /* End of file Slider.php */

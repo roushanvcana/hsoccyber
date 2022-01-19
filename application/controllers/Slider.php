@@ -332,6 +332,17 @@
                     $aboutme['upload_biography'] = $name;
                 }
 
+                if (!empty($_FILES["small_bio_img"]["name"])) {
+                    $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["small_bio_img"]["name"];
+                    $tmp_name = $_FILES["small_bio_img"]["tmp_name"];
+                    $error = $_FILES["small_bio_img"]["error"];
+                    $path = 'uploads/gallery-image/'. $name;
+                    move_uploaded_file($tmp_name, $path);
+                    $aboutme['small_bio_img'] = $name;
+                }
+
+
+                
                 $data = [];
    
                 $count = count($_FILES['image']['name']);
@@ -382,6 +393,44 @@
         $data['getValue'] = $this->Common_Model->set_data('manage_about_us',1);  
         $data['status'] = status();    
         $data['main_content'] = 'admin/about_me/add-inf';        
+        $this->load->view('admin/template/template',$data);
+    }
+
+
+    public function add_webmodel()
+    {
+        if(!empty($this->input->post())){
+
+            $webmodel = array(
+                    "heading" => $this->input->post('heading'),
+                    "description" => $this->input->post('description'),
+                    "model_button" => $this->input->post('model_button'),                   
+                    "prerequisites" => $this->input->post('prerequisites'),                   
+                    "system_requirements" => $this->input->post('system_requirements'),                   
+                    "status" => 1,                 
+                    "entry_by" => 1,                 
+                    "ip_add" => $this->input->ip_address(),
+                );
+
+            $query = $this->db->query('select * from manage_webmodel where id=1');
+            
+            if($query->num_rows() > 0){
+                $insert = $this->db->update('manage_webmodel',$webmodel, array('id' => 1));  
+            }else {
+                $insert = $this->db->insert('manage_webmodel', $webmodel);  
+            }
+
+            if($insert) {
+                $this->session->set_flashdata('success', 'Web model Successfully Saved');
+                redirect(site_url().'add-webmodel');
+            } else {
+                $this->session->set_flashdata('success', 'Some error occured. Please try again...');
+                redirect(site_url().'add-webmodel');
+            }
+        } 
+      
+        $data['getValue'] = $this->Common_Model->set_data('manage_webmodel',1);  
+        $data['main_content'] = 'admin/web_model/add_web_model';        
         $this->load->view('admin/template/template',$data);
     }
 
