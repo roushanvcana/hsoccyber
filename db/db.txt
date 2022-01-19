@@ -6,3 +6,16 @@ ALTER TABLE `manage_website_setting` ADD `facebook` VARCHAR(200) NOT NULL AFTER 
 #12-01-2022
 
 ALTER TABLE `manage_trusted_brand` ADD `description` LONGTEXT NOT NULL AFTER `upload_logo`;
+
+
+service section
+
+service details
+
+syllaubs
+
+title
+logo
+description
+
+bubble keyboard

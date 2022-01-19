@@ -83,7 +83,7 @@
 														</h4>
                                                         <div
                                                             class="elementor-cta__description elementor-cta__content-item elementor-content-item elementor-animated-item--move-up">
-                                                            <p class="space_desc"><?php echo !empty($value['description']) ? $value['description'] : ''; ?> anup </p>
+                                                            <p class="space_desc" style="text-align:right;"><?php echo !empty($value['description']) ? $value['description'] : ''; ?></p>
                                                         </div>
                                                         <div
                                                             class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--move-up">
@@ -322,7 +322,7 @@
                                                             <div class="box-body">
                                                                 <h3 class="elementskit-info-box-title"
                                                                     style="color: #fff"><?php echo $value['title']; ?></h3>
-                                                                <p style="color:#fff"><?php echo $value['description']; ?></p>
+                                                                <?php echo $value['description']; ?>
                                                             </div>
                                                         </div>
                                                     </a>

@@ -61,7 +61,7 @@
                     </div>
                 <div class="col-lg-5">
                     <div class="thumb">
-                        <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $about[0]['upload_biography'];?>" alt="">
+                        <img src="<?php echo base_url();?>uploads/gallery-image/drwec.jpg" alt="">
                         <div class="overlay">
                             <div class="content">
                                 <h4>Doc Wes is the recipient of the 2021 Blacks in Cyber Outstanding Cybersecurity Training & Curriculum Award</h4>
