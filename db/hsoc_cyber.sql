@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 18, 2022 at 08:55 AM
+-- Generation Time: Jan 19, 2022 at 01:07 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.10
 
@@ -71,6 +71,7 @@ CREATE TABLE `manage_about_us` (
   `moto` longtext NOT NULL,
   `biography` longtext NOT NULL,
   `upload_biography` varchar(200) NOT NULL,
+  `small_bio_img` varchar(100) NOT NULL,
   `image` varchar(100) NOT NULL,
   `ip_add` varchar(200) NOT NULL,
   `entry_by` varchar(200) NOT NULL,
@@ -83,8 +84,8 @@ CREATE TABLE `manage_about_us` (
 -- Dumping data for table `manage_about_us`
 --
 
-INSERT INTO `manage_about_us` (`id`, `title`, `description`, `year_of_experience`, `number_of_employee`, `number_of_partners`, `background_color`, `heading`, `mission`, `vision`, `moto`, `biography`, `upload_biography`, `image`, `ip_add`, `entry_by`, `status`, `updated_at`, `created_at`) VALUES
-(1, 'We know how to protect you.', '<p><span style=\"font-family: &quot;Source Sans Pro&quot;;\">﻿</span><font face=\"Source Sans Pro\">HSOC Cyber, formerly Professional Certifications and Consulting Services,&nbsp;<br></font></p><p><font face=\"Source Sans Pro\">is a service-disabled, veteran-owned small business (SDVOSB).&nbsp;</font></p><p><font face=\"Source Sans Pro\">Since 2016,&nbsp;</font></p><p><font face=\"Source Sans Pro\">HSOC Cyber has provided certification and real skill training in information technology, cybersecurity, and project management.&nbsp;</font></p><p><font face=\"Source Sans Pro\">As a result of COVID-19, HSOC Cyber altered its business model from the live classroom training to live online training in the form of an internship,&nbsp;</font></p><p><font face=\"Source Sans Pro\">and all from the comfort of your home. At HSOC Cyber, we work on real projects and tasks that equate to real experience versus attending an online class to complete assignments.</font></p>', '', '', '', '', '', '<br>', '', '                                                                                \r\n                                    ', '<span style=\"color: rgb(51, 51, 51); font-family: Heebo, sans-serif; text-align: justify;\">Accomplished cybersecurity professional with over 20 years of combined law enforcement, physical security, network security, risk management, and executive protection experience. Over 16 years specific counterintelligence, technical surveillance countermeasures, and cybersecurity experience focused on proactively protecting the infrastructure and security of company resources and data. Proven project manager, strategist, educator, and technologist with demonstrated leadership ability to set strategic direction, align teams and their performance, and achieve desired results with greater efficiency and effectiveness. Collaborative team leader, college instructor, certification instructor, skill-based instruction, and effective communicator with the ability to work well both independently and in group settings, as well as the ability to engage with others throughout the organization to set and achieve common goals.</span>                                                                                \r\n                                    ', 'IMG-68489.about_1.png', 'about_1.png', '::1', '1', '1', '2022-01-17 15:57:51', '2022-01-17 15:57:51');
+INSERT INTO `manage_about_us` (`id`, `title`, `description`, `year_of_experience`, `number_of_employee`, `number_of_partners`, `background_color`, `heading`, `mission`, `vision`, `moto`, `biography`, `upload_biography`, `small_bio_img`, `image`, `ip_add`, `entry_by`, `status`, `updated_at`, `created_at`) VALUES
+(1, 'We know how to protect you.', '<span style=\"sans-serif;\">HSOC Cyber, formerly Professional Certifications and Consulting Services, is a service-disabled, veteran-owned small business (SDVOSB). Since 2016, HSOC Cyber has provided certification and real skill training in information technology, cybersecurity, and project management. As a result of COVID-19, HSOC Cyber altered its business model from the live classroom training to live online training in the form of an internship, and all from the comfort of your home. At HSOC Cyber, we work on real projects and tasks that equate to real experience versus attending an online class to complete assignments.</span><br>', '', '', '', '', '', '                                     <strong style=\"margin: 0px; padding: 0px; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">Lorem Ipsum</strong><span style=\"font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span><br> \r\n                                    ', '<strong style=\"margin: 0px; padding: 0px; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">Lorem Ipsum</strong><span style=\"font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>                                         \n                                    ', '<strong style=\"margin: 0px; padding: 0px; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">Lorem Ipsum</strong><span style=\"font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>                                                                                                                        \r\n                                                                            \r\n                                    ', '                                        <span style=\"color: rgb(51, 51, 51); font-family: Heebo, sans-serif; text-align: justify;\">Accomplished cybersecurity professional with over 20 years of combined law enforcement, physical security, network security, risk management, and executive protection experience. Over 16 years specific counterintelligence, technical surveillance countermeasures, and cybersecurity experience focused on proactively protecting the infrastructure and security of company resources and data. Proven project manager, strategist, educator, and technologist with demonstrated leadership ability to set strategic direction, align teams and their performance, and achieve desired results with greater efficiency and effectiveness. Collaborative team leader, college instructor, certification instructor, skill-based instruction, and effective communicator with the ability to work well both independently and in group settings, as well as the ability to engage with others throughout the organization to set and achieve common goals.</span>                                                                                \r\n                                                                            \r\n                                    ', 'IMG-68489.about_1.png', '', 'live1.jpg,live11.jpg', '::1', '1', '1', '2022-01-17 15:57:51', '2022-01-17 15:57:51');
 
 -- --------------------------------------------------------
 
@@ -224,8 +225,8 @@ CREATE TABLE `manage_sliderbox` (
 --
 
 INSERT INTO `manage_sliderbox` (`id`, `title`, `description`, `background_color`, `hover_color`, `logo`, `image`, `ip_add`, `entry_by`, `status`, `created_at`) VALUES
-(1, 'Securing Your Business', '                                    <div>Whether you have a home-based business, a small- or medium-sized business, HSOC Cyber professional interns will consult with you to help </div><div>you achieve your business objectives and provide the protection and defense you deserve. Contact us to learn more. We want to help you; </div><div>therefore, we provide services at an extremely affordable rate</div>                                                                                                            ', '#000000', '#000000', 'IMG-83820.Comp_7.gif', 'IMG-70857.head_business.jpg', '::1', '1', '1', '2022-01-17 14:56:24'),
-(2, 'Securing Your Home', '                                    <div>Gain real cybersecurity experience by building your own HSOC. </div><div>Apply the same tools and techniques that protect and defend organizations in your home, </div><div>and then take those new skills with you to your professional organization.</div><div> Learn more about the HSOC Cyber Internship Program.</div>                                                                                                            ', '#000000', '#000000', 'IMG-29869.Comp_7.gif', 'IMG-48201.head_family.jpg', '::1', '1', '1', '2022-01-17 14:59:48');
+(1, 'Securing Your Business', '                                                                        <div>Whether you have a home-based business, a </div><div>small- or medium-sized business, HSOC </div><div>Cyber professional interns will consult with</div><div> you to help&nbsp;<span style=\"font-size: 1rem;\">you achieve your business</span></div><div><span style=\"font-size: 1rem;\"> objectives and provide the protection and </span></div><div><span style=\"font-size: 1rem;\">defense you deserve. Contact us to learn</span></div><div><span style=\"font-size: 1rem;\"> more. We want to help you;&nbsp;&nbsp;</span><span style=\"font-size: 1rem;\">therefore, we </span></div><div><span style=\"font-size: 1rem;\">provide services at an extremely affordable rate</span></div>                                                                                                                                                ', '#000000', '#000000', 'IMG-83820.Comp_7.gif', 'IMG-70857.head_business.jpg', '::1', '1', '1', '2022-01-17 14:56:24'),
+(2, 'Securing Your Home', '                                                                        <div style=\"text-align: left;\">Gain real cybersecurity experience by building </div><div style=\"text-align: left;\">your own HSOC.&nbsp;<span style=\"font-size: 1rem;\">Apply the same tools and </span></div><div style=\"text-align: left;\"><span style=\"font-size: 1rem;\">techniques that protect and defend </span></div><div style=\"text-align: left;\"><span style=\"font-size: 1rem;\">organizations in your home,&nbsp;</span><span style=\"font-size: 1rem;\">and then take </span></div><div style=\"text-align: left;\"><span style=\"font-size: 1rem;\">those new skills with you to your professional</span></div><div style=\"text-align: left;\"><span style=\"font-size: 1rem;\"> organization.</span><span style=\"font-size: 1rem;\">&nbsp;Learn more about the HSOC</span></div><div style=\"text-align: left;\"><span style=\"font-size: 1rem;\"> Cyber Internship Program.</span></div>                                                                                                                                                ', '#000000', '#000000', 'IMG-29869.Comp_7.gif', 'IMG-48201.head_family.jpg', '::1', '1', '1', '2022-01-17 14:59:48');
 
 -- --------------------------------------------------------
 
@@ -306,8 +307,8 @@ CREATE TABLE `manage_testimonial` (
 --
 
 INSERT INTO `manage_testimonial` (`id`, `heading1`, `heading2`, `rating`, `name`, `designation`, `description`, `photo`, `backgroundimage`, `status`, `ip_add`, `entry_by`, `updated_at`, `created_at`) VALUES
-(1, 'What they say about us.', '', '5', 'Amber White', 'Biologist', '<span style=\"color: rgb(32, 33, 36); font-family: &quot;Source Sans Pro&quot;; font-size: 12px; white-space: pre-wrap;\">Quam auctor inceptos purus nec elementum consectetur. Faucibus nullam gravida quisque class a metus vitae venenatis ornare. Tempus ut accumsan natoque mattis porttitor aliquam felis taciti. Sagittis primis at nibh sociosqu platea turpis suscipit. Sociosqu nostra eget magnis viverra eleifend netus.</span>                                                                        ', 'IMG-48927.test3.png', '', 1, '::1', '1', '2022-01-18 12:25:35', '2022-01-18 12:25:35'),
-(2, 'What they say about us.', '', '4', 'Andre Harris', 'Biologist', '<span style=\"color: rgb(32, 33, 36); font-family: &quot;Source Sans Pro&quot;; font-size: 12px; white-space: pre-wrap;\">Quam auctor inceptos purus nec elementum consectetur. Faucibus nullam gravida quisque class a metus vitae venenatis ornare. Tempus ut accumsan natoque mattis porttitor aliquam felis taciti. Sagittis primis at nibh sociosqu platea turpis suscipit. Sociosqu nostra eget magnis viverra eleifend netus.</span>                                                                        ', 'IMG-21623.test1.png', '', 1, '::1', '1', '2022-01-18 12:28:25', '2022-01-18 12:28:25');
+(1, 'What they say about us.', '', '5', 'Amber White', 'Biologist', '<p style=\"color: #fff\">Quam auctor inceptos purus nec elementum consectetur. Faucibus nullam gravida quisque class a metus vitae venenatis ornare. Tempus ut accumsan natoque mattis porttitor aliquam felis taciti. Sagittis primis at nibh sociosqu platea turpis suscipit. Sociosqu nostra eget magnis viverra eleifend netus.</p>                                                                        ', 'IMG-48927.test3.png', '', 1, '::1', '1', '2022-01-18 12:25:35', '2022-01-18 12:25:35'),
+(2, 'What they say about us.', '', '4', 'Andre Harris', 'Biologist', '<p style=\"color: #fff\">Quam auctor inceptos purus nec elementum consectetur. Faucibus nullam gravida quisque class a metus vitae venenatis ornare. Tempus ut accumsan natoque mattis porttitor aliquam felis taciti. Sagittis primis at nibh sociosqu platea turpis suscipit. Sociosqu nostra eget magnis viverra eleifend netus.</p>                                                                        ', 'IMG-21623.test1.png', '', 1, '::1', '1', '2022-01-18 12:28:25', '2022-01-18 12:28:25');
 
 -- --------------------------------------------------------
 
@@ -333,15 +334,46 @@ CREATE TABLE `manage_trusted_brand` (
 --
 
 INSERT INTO `manage_trusted_brand` (`id`, `title`, `background_color`, `upload_logo`, `description`, `ip_add`, `entry_by`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'Trusted by International Brand', '#000000', '', '<div>Erat morbi si adipiscing laoreet praesent.</div><div>&nbsp;Adipiscing duis laoreet orci aliquet ex dis</div><div>&nbsp;auctor platea. Penatibus enim volutpat&nbsp;</div><div>&nbsp;lectus curae ac porta etiam erat quam justo.</div>                                                                         ', '::1', '1', 1, '2022-01-17 15:23:59', '0000-00-00 00:00:00'),
-(2, '', '', 'logo_2.png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00'),
-(3, '', '', 'logo_3.png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00'),
-(4, '', '', 'logo_4_(1).png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00'),
-(5, '', '', 'logo_4.png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00'),
-(6, '', '', 'logo_9.png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00'),
-(7, '', '', 'logo_10.png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00'),
-(8, '', '', 'logo_11.png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00'),
-(9, '', '', 'logo_12.png', '', '', '', 0, '2022-01-17 15:27:00', '0000-00-00 00:00:00');
+(1, 'Trusted by International Brand', '#000000', '', 'Erat morbi si adipiscing laoreet praesent. Adipiscing duis laoreet orci aliquet ex dis auctor platea. Penatibus enim volutpat lectus curae ac porta etiam erat quam justo.', '::1', '1', 1, '2022-01-17 15:23:59', '0000-00-00 00:00:00'),
+(10, '', '', 'logo_1.png', '', '', '', 0, '2022-01-18 18:34:12', '0000-00-00 00:00:00'),
+(11, '', '', 'logo_21.png', '', '', '', 0, '2022-01-18 18:34:12', '0000-00-00 00:00:00'),
+(12, '', '', 'logo_31.png', '', '', '', 0, '2022-01-18 18:34:12', '0000-00-00 00:00:00'),
+(13, '', '', 'logo_41.png', '', '', '', 0, '2022-01-18 18:34:12', '0000-00-00 00:00:00'),
+(14, '', '', 'logo_5.png', '', '', '', 0, '2022-01-18 18:34:12', '0000-00-00 00:00:00'),
+(15, '', '', 'logo_6.png', '', '', '', 0, '2022-01-18 18:34:12', '0000-00-00 00:00:00'),
+(16, '', '', 'logo_7.png', '', '', '', 0, '2022-01-18 18:37:05', '0000-00-00 00:00:00'),
+(17, '', '', 'logo_8.png', '', '', '', 0, '2022-01-18 18:37:05', '0000-00-00 00:00:00'),
+(18, '', '', 'logo_91.png', '', '', '', 0, '2022-01-18 18:37:05', '0000-00-00 00:00:00'),
+(19, '', '', 'logo_101.png', '', '', '', 0, '2022-01-18 18:37:05', '0000-00-00 00:00:00'),
+(20, '', '', 'logo_111.png', '', '', '', 0, '2022-01-18 18:37:05', '0000-00-00 00:00:00'),
+(21, '', '', 'logo_121.png', '', '', '', 0, '2022-01-18 18:37:05', '0000-00-00 00:00:00');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `manage_webmodel`
+--
+
+CREATE TABLE `manage_webmodel` (
+  `id` int(11) NOT NULL,
+  `heading` varchar(200) NOT NULL,
+  `description` longtext NOT NULL,
+  `model_button` varchar(200) NOT NULL,
+  `prerequisites` longtext NOT NULL,
+  `system_requirements` longtext NOT NULL,
+  `status` int(11) NOT NULL,
+  `ip_add` varchar(200) NOT NULL,
+  `entry_by` varchar(200) NOT NULL,
+  `created_at` datetime NOT NULL DEFAULT current_timestamp(),
+  `updated_at` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `manage_webmodel`
+--
+
+INSERT INTO `manage_webmodel` (`id`, `heading`, `description`, `model_button`, `prerequisites`, `system_requirements`, `status`, `ip_add`, `entry_by`, `created_at`, `updated_at`) VALUES
+(1, 'Your Cybersecurity Coach', '                                     <p class=\"pup_txt\" style=\"margin-right: 0px; margin-bottom: 20px; margin-left: 0px; text-align: center; color: rgb(51, 51, 51); font-family: \"Hina Mincho\", sans-serif; font-size: 20px; line-height: 24px; padding: 0px; background-color: rgb(254, 254, 254);\">Hey! Are you new to cybersecurity or interested in transitioning into the profession?</p><p class=\"pup_txt\" style=\"margin-right: 0px; margin-bottom: 20px; margin-left: 0px; text-align: center; color: rgb(51, 51, 51); font-family: \"Hina Mincho\", sans-serif; font-size: 20px; line-height: 24px; padding: 0px; background-color: rgb(254, 254, 254);\">Great! You’re in the right place.</p><p class=\"pup_txt\" style=\"margin-right: 0px; margin-bottom: 20px; margin-left: 0px; text-align: center; color: rgb(51, 51, 51); font-family: \"Hina Mincho\", sans-serif; font-size: 20px; line-height: 24px; padding: 0px; background-color: rgb(254, 254, 254);\">Gain experience and confidence now every Tuesday and Thursday from 6:30pm to 8:30pm.</p>                                                                                                             ', 'Join me on Patreon', '<ul style=\"margin-bottom: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: rgb(254, 254, 254); color: rgb(51, 51, 51); font-family: Heebo, sans-serif; text-align: center;\"><li style=\"margin-top: 0px; margin-bottom: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; text-align: left; line-height: 22px; padding: 0px 0px 10px;\">No previous information technology or cybersecurity knowledge required</li><li style=\"margin-top: 0px; margin-bottom: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; text-align: left; line-height: 22px; padding: 0px 0px 10px;\">Willing to learn</li><li style=\"margin-top: 0px; margin-bottom: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; text-align: left; line-height: 22px; padding: 0px 0px 10px;\">The ability to work independently and as a team</li><li style=\"margin-top: 0px; margin-bottom: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; text-align: left; line-height: 22px; padding: 0px 0px 10px;\">Complete the&nbsp;<a href=\"https://curiosity.britannica.com/curiosity-personality-quiz.html\" target=\"_blank\" style=\"color: rgb(33, 102, 168) !important;\">Britannica Curiosity Compass</a>&nbsp;(3-minute quiz)</li><li style=\"margin-top: 0px; margin-bottom: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; text-align: left; line-height: 22px; padding: 0px 0px 10px;\">Complete the&nbsp;<a href=\"http://www.humanmetrics.com/personality\" target=\"_blank\" style=\"color: rgb(33, 102, 168) !important;\">Personality Test</a>&nbsp;(10-minute quiz)</li></ul>                                                                         ', '<h2 style=\"margin-top: 0.5rem; margin-bottom: 1rem; font-weight: var( --e-global-typography-9f2a5a0-font-weight ); line-height: var( --e-global-typography-9f2a5a0-line-height ); font-size: var( --e-global-typography-9f2a5a0-font-size ); font-family: var( --e-global-typography-9f2a5a0-font-family ), Sans-serif; color: rgb(255, 255, 255); background-color: rgb(254, 254, 254);\"></h2><ul style=\"margin-bottom: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: rgb(254, 254, 254); color: rgb(51, 51, 51); font-family: Heebo, sans-serif; text-align: center;\"><li style=\"margin-top: 0px; margin-bottom: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; text-align: left; line-height: 22px; padding: 0px 0px 10px;\">Laptop/Desktop</li><li style=\"margin-top: 0px; margin-bottom: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; text-align: left; line-height: 22px; padding: 0px 0px 10px;\">8GB of RAM minimum</li><li style=\"margin-top: 0px; margin-bottom: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; text-align: left; line-height: 22px; padding: 0px 0px 10px;\">256GB hard drive minimum</li></ul>                                                                         ', 1, '::1', '1', '2022-01-19 14:21:49', '2022-01-19 14:21:49');
 
 -- --------------------------------------------------------
 
@@ -446,12 +478,12 @@ CREATE TABLE `service_section` (
 --
 
 INSERT INTO `service_section` (`id`, `title`, `description`, `image`, `ip_add`, `entry_by`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'Self-Control', '<p><span style=\"font-family: &quot;Source Sans Pro&quot;;\">Completing tasks and projects without letting distractors or bad habits get in the way (e.g., adaptability, self-awareness, self-confidence, stress management)</span><span style=\"font-family: &quot;Source Sans Pro&quot;;\">﻿</span></p>', 'IMG-5149.3-protection-1 - Copy.png', '::1', '1', '1', '2022-01-17 16:06:42', '2022-01-17 16:06:42'),
-(2, 'Productivity ', '                                     <span style=\"color: rgb(32, 33, 36); font-family: &quot;Source Sans Pro&quot;; font-size: 12px; white-space: pre-wrap;\">Using your non-vocational skills and commitment to complete tasks (e.g., attention to detail, crisis management, effective decision making, troubleshooting) </span>                                                                                                             ', 'IMG-65825.10-server-1.png', '::1', '1', '1', '2022-01-18 12:04:52', '2022-01-18 12:04:52'),
-(3, 'Wisdom', '<span style=\"color: rgb(32, 33, 36); font-family: consolas, &quot;lucida console&quot;, &quot;courier new&quot;, monospace; font-size: 12px; white-space: pre-wrap;\">Real-world skills applied based off experience, knowledge, and good judgment (e.g., conflict resolution instincts, creativity in the face of challenges, critical thinking, supervising with confidence)</span>                                                                         ', 'IMG-4636.2-database-1.png', '::1', '1', '1', '2022-01-18 12:06:49', '2022-01-18 12:06:49'),
-(4, 'Perception', '<span style=\"color: rgb(32, 33, 36); font-family: &quot;Source Sans Pro&quot;; font-size: 12px; white-space: pre-wrap;\">Experience and practice that provide insight to point things out with courage and without influence from others (e.g., designing, mapping, judging people and situations, strategic thinking)</span>                                                                         ', 'IMG-90314.16-antivirus-1.png', '::1', '1', '1', '2022-01-18 12:10:23', '2022-01-18 12:10:23'),
-(5, 'Influence', '<span style=\"color: rgb(32, 33, 36); font-family: consolas, &quot;lucida console&quot;, &quot;courier new&quot;, monospace; font-size: 12px; white-space: pre-wrap;\">The skills needed to inspire others to act (e.g., constructive criticism, presentation skills, team building, writing for impact)</span>                                                                         ', 'IMG-59136.4-payment-protection-1.png', '::1', '1', '1', '2022-01-18 12:12:29', '2022-01-18 12:12:29'),
-(6, ' Secure Transactions ', '                                     <span style=\"color: rgb(32, 33, 36); font-family: consolas, \" lucida=\"\" console\",=\"\" \"courier=\"\" new\",=\"\" monospace;=\"\" font-size:=\"\" 12px;=\"\" white-space:=\"\" pre-wrap;\"=\"\"><b>Quis neque fringilla duis auctor nam laoreet porttitor morbi diam suscipit montes </b></span>                                                                                                             ', 'IMG-60327.25-shopping-online-1.png', '::1', '1', '1', '2022-01-18 12:13:19', '2022-01-18 12:13:19');
+(1, 'Self-Control', '                                                                          <p></p><p>Completing tasks and projects without letting distractors or bad habits get in the way (e.g., adaptability, self-awareness, self-confidence, stress management)</p><p></p>                                                                        ', 'IMG-5149.3-protection-1 - Copy.png', '::1', '1', '1', '2022-01-17 16:06:42', '2022-01-17 16:06:42'),
+(2, 'Productivity ', '<p>Using your non-vocational skills and commitment to complete tasks (e.g., attention to detail, crisis management, effective decision making, troubleshooting)</p>', 'IMG-65825.10-server-1.png', '::1', '1', '1', '2022-01-18 12:04:52', '2022-01-18 12:04:52'),
+(3, 'Wisdom', '<p>Real-world skills applied based off experience, knowledge, and good judgment (e.g., conflict resolution instincts, creativity in the face of challenges, critical thinking, supervising with confidence)</p>                                                                         ', 'IMG-4636.2-database-1.png', '::1', '1', '1', '2022-01-18 12:06:49', '2022-01-18 12:06:49'),
+(4, 'Perception', '<p>Experience and practice that provide insight to point things out with courage and without influence from others (e.g., designing, mapping, judging people and situations, strategic thinking)</p>                                                                         ', 'IMG-90314.16-antivirus-1.png', '::1', '1', '1', '2022-01-18 12:10:23', '2022-01-18 12:10:23'),
+(5, 'Influence', '<p>The skills needed to inspire others to act (e.g., constructive criticism, presentation skills, team building, writing for impact)</p>                                                                         ', 'IMG-59136.4-payment-protection-1.png', '::1', '1', '1', '2022-01-18 12:12:29', '2022-01-18 12:12:29'),
+(6, ' Secure Transactions ', '                                     <p>Quis neque fringilla duis auctor nam laoreet porttitor morbi diam suscipit montes </p>                                                                                                             ', 'IMG-60327.25-shopping-online-1.png', '::1', '1', '1', '2022-01-18 12:13:19', '2022-01-18 12:13:19');
 
 --
 -- Indexes for dumped tables
@@ -527,6 +559,12 @@ ALTER TABLE `manage_testimonial`
 -- Indexes for table `manage_trusted_brand`
 --
 ALTER TABLE `manage_trusted_brand`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `manage_webmodel`
+--
+ALTER TABLE `manage_webmodel`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -627,7 +665,13 @@ ALTER TABLE `manage_testimonial`
 -- AUTO_INCREMENT for table `manage_trusted_brand`
 --
 ALTER TABLE `manage_trusted_brand`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+
+--
+-- AUTO_INCREMENT for table `manage_webmodel`
+--
+ALTER TABLE `manage_webmodel`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `manage_website_setting`

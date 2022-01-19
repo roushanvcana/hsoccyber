@@ -134,6 +134,11 @@ $route['add-syllabus'] = 'Syllabus/add_syllabus';
 $route['edit-syllabus/(:num)'] = 'Syllabus/edit_syllabus/$1';
 $route['delete-syllabus/(:num)'] = 'Syllabus/delete_syllabus/$1';
 
+$route['add-webmodel'] = 'Slider/add_webmodel';
+$route['privacy-policy'] = 'Website/privacy_policy';
+$route['cookie'] = 'Website/cookie_policy';
+$route['term-of-use'] = 'Website/term_of_use';
+
 //$route['add-message'] = 'Home/add_message';
 
 

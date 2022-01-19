@@ -13,7 +13,7 @@
 								<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-ea7a810">
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-276c298 elementor-widget elementor-widget-image">
-											<div class="elementor-widget-container footer-logo"> <a href="<?php echo site_url("/ home "); ?>"> <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $websitedata[0]['logo']; ?>" title="Hsoc Grey" alt="Hsoc Grey" /> </a> </div>
+											<div class="elementor-widget-container footer-logo"> <a href="<?php echo site_url("/home "); ?>"> <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $websitedata[0]['logo']; ?>" title="Hsoc Grey" alt="Hsoc Grey" /> </a> </div>
 										</div>
 										<div class="elementor-element elementor-element-24b80df ob-harakiri-inherit elementor-widget elementor-widget-text-editor" >
 											<div class="elementor-widget-container">
@@ -32,9 +32,9 @@
 										<div class="elementor-element elementor-element-2d943e8 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list">
 											<div class="elementor-widget-container">
 												<ul class="elementor-icon-list-items">
-													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/ about "); ?>"> <span class="elementor-icon-list-text">About Us</span> </a> </li>
-													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/ services "); ?>"> <span class="elementor-icon-list-text">Service</span> </a> </li>
-													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/ contact "); ?>"> <span class="elementor-icon-list-text">Contact</span> </a> </li>
+													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/about"); ?>"> <span class="elementor-icon-list-text">About Us</span> </a> </li>
+													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/services"); ?>"> <span class="elementor-icon-list-text">Service</span> </a> </li>
+													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/contact"); ?>"> <span class="elementor-icon-list-text">Contact</span> </a> </li>
 
 												</ul>
 											</div>
@@ -103,9 +103,9 @@
 										<div class="elementor-element elementor-element-0cec0b8 elementor-icon-list--layout-inline elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list">
 											<div class="elementor-widget-container">
 												<ul class="elementor-icon-list-items elementor-inline-items">
-													<li class="elementor-icon-list-item elementor-inline-item"> <a href="#"> <span class="elementor-icon-list-text">Privacy Policy</span> </a> </li>
-													<li class="elementor-icon-list-item elementor-inline-item"> <a href="#"> <span class="elementor-icon-list-text">Cookie Policy</span> </a> </li>
-													<li class="elementor-icon-list-item elementor-inline-item"> <a href="#"> <span class="elementor-icon-list-text">Terms of Use</span> </a> </li>
+													<li class="elementor-icon-list-item elementor-inline-item"> <a href="<?php echo base_url(); ?>privacy-policy"> <span class="elementor-icon-list-text">Privacy Policy</span> </a> </li>
+													<li class="elementor-icon-list-item elementor-inline-item"> <a href="<?php echo base_url(); ?>cookie"> <span class="elementor-icon-list-text">Cookie Policy</span> </a> </li>
+													<li class="elementor-icon-list-item elementor-inline-item"> <a href="<?php echo base_url(); ?>term-of-use"> <span class="elementor-icon-list-text">Terms of Use</span> </a> </li>
 													<li class="elementor-icon-list-item elementor-inline-item"> <a href="#"> <span class="elementor-icon-list-text">Site Map</span> </a> </li>
 												</ul>
 											</div>
@@ -207,211 +207,12 @@
 	};
 	/* ]]> */
 </script>
-<!--<script type='text/javascript' id='elementor-frontend-js-before'>
-	var elementorFrontendConfig = {
-		"environmentMode": {
-			"edit": false,
-			"wpPreview": false,
-			"isScriptDebug": false
-		},
-		"i18n": {
-			"shareOnFacebook": "Share on Facebook",
-			"shareOnTwitter": "Share on Twitter",
-			"pinIt": "Pin it",
-			"download": "Download",
-			"downloadImage": "Download image",
-			"fullscreen": "Fullscreen",
-			"zoom": "Zoom",
-			"share": "Share",
-			"playVideo": "Play Video",
-			"previous": "Previous",
-			"next": "Next",
-			"close": "Close"
-		},
-		"is_rtl": false,
-		"breakpoints": {
-			"xs": 0,
-			"sm": 480,
-			"md": 768,
-			"lg": 1025,
-			"xl": 1440,
-			"xxl": 1600
-		},
-		"responsive": {
-			"breakpoints": {
-				"mobile": {
-					"label": "Mobile",
-					"value": 767,
-					"default_value": 767,
-					"direction": "max",
-					"is_enabled": true
-				},
-				"mobile_extra": {
-					"label": "Mobile Extra",
-					"value": 880,
-					"default_value": 880,
-					"direction": "max",
-					"is_enabled": false
-				},
-				"tablet": {
-					"label": "Tablet",
-					"value": 1024,
-					"default_value": 1024,
-					"direction": "max",
-					"is_enabled": true
-				},
-				"tablet_extra": {
-					"label": "Tablet Extra",
-					"value": 1200,
-					"default_value": 1200,
-					"direction": "max",
-					"is_enabled": false
-				},
-				"laptop": {
-					"label": "Laptop",
-					"value": 1366,
-					"default_value": 1366,
-					"direction": "max",
-					"is_enabled": false
-				},
-				"widescreen": {
-					"label": "Widescreen",
-					"value": 2400,
-					"default_value": 2400,
-					"direction": "min",
-					"is_enabled": false
-				}
-			}
-		},
-		"version": "3.4.7",
-		"is_static": false,
-		"experimentalFeatures": {
-			"e_dom_optimization": true,
-			"a11y_improvements": true,
-			"e_import_export": true,
-			"landing-pages": true,
-			"elements-color-picker": true,
-			"admin-top-bar": true,
-			"form-submissions": true
-		},
-		"urls": {
-			"assets": ""
-		},
-		"settings": {
-			"page": [],
-			"editorPreferences": []
-		},
-		"kit": {
-			"body_background_background": "classic",
-			"active_breakpoints": [ "viewport_mobile", "viewport_tablet" ],
-			"global_image_lightbox": "yes",
-			"lightbox_enable_counter": "yes",
-			"lightbox_enable_fullscreen": "yes",
-			"lightbox_enable_zoom": "yes",
-			"lightbox_enable_share": "yes",
-			"lightbox_title_src": "title",
-			"lightbox_description_src": "description"
-		},
-		"post": {
-			"id": 798,
-			"title": "",
-			"excerpt": "",
-			"featuredImage": ""
-		}
-	};
-</script>-->
+
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/bdthemes-element-pack-lite/assets/js/element-pack-site.min3d36.js?ver=3.3.1' id='element-pack-site-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/bdthemes-prime-slider-lite/assets/js/prime-slider-site.min3c94.js?ver=2.1.0' id='prime-slider-site-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.minee9a.js?ver=3.2.2' id='elementor-pro-webpack-runtime-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.minee9a.js?ver=3.2.2' id='elementor-sticky-js'></script>
-<!--<script type='text/javascript' id='elementor-pro-frontend-js-before'>
-	var ElementorProFrontendConfig = {
-		"ajaxurl": "",
-		"nonce": "4fe4417b60",
-		"urls": {
-			"assets": ""
-		},
-		"i18n": {
-			"toc_no_headings_found": "No headings were found on this page."
-		},
-		"shareButtonsNetworks": {
-			"facebook": {
-				"title": "Facebook",
-				"has_counter": true
-			},
-			"twitter": {
-				"title": "Twitter"
-			},
-			"google": {
-				"title": "Google+",
-				"has_counter": true
-			},
-			"linkedin": {
-				"title": "LinkedIn",
-				"has_counter": true
-			},
-			"pinterest": {
-				"title": "Pinterest",
-				"has_counter": true
-			},
-			"reddit": {
-				"title": "Reddit",
-				"has_counter": true
-			},
-			"vk": {
-				"title": "VK",
-				"has_counter": true
-			},
-			"odnoklassniki": {
-				"title": "OK",
-				"has_counter": true
-			},
-			"tumblr": {
-				"title": "Tumblr"
-			},
-			"digg": {
-				"title": "Digg"
-			},
-			"skype": {
-				"title": "Skype"
-			},
-			"stumbleupon": {
-				"title": "StumbleUpon",
-				"has_counter": true
-			},
-			"mix": {
-				"title": "Mix"
-			},
-			"telegram": {
-				"title": "Telegram"
-			},
-			"pocket": {
-				"title": "Pocket",
-				"has_counter": true
-			},
-			"xing": {
-				"title": "XING",
-				"has_counter": true
-			},
-			"whatsapp": {
-				"title": "WhatsApp"
-			},
-			"email": {
-				"title": "Email"
-			},
-			"print": {
-				"title": "Print"
-			}
-		},
-		"facebook_sdk": {
-			"lang": "en_US",
-			"app_id": ""
-		},
-		"lottie": {
-			"defaultAnimationUrl": ""
-		}
-	};
-</script>-->
+
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/frontend.minee9a.js?ver=3.2.2' id='elementor-pro-frontend-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.minee9a.js?ver=3.2.2' id='pro-preloaded-elements-handlers-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle8d5a.js?ver=2.4.0' id='animate-circle-js'></script>
@@ -471,94 +272,7 @@
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/bdthemes-prime-slider-lite/assets/js/prime-slider-site.min3c94.js?ver=2.1.0' id='prime-slider-site-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.minee9a.js?ver=3.2.2' id='elementor-pro-webpack-runtime-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.minee9a.js?ver=3.2.2' id='elementor-sticky-js'></script>
-<!--<script type='text/javascript' id='elementor-pro-frontend-js-before'>
-	var ElementorProFrontendConfig = {
-		"ajaxurl": "",
-		"nonce": "4fe4417b60",
-		"urls": {
-			"assets": ""
-		},
-		"i18n": {
-			"toc_no_headings_found": "No headings were found on this page."
-		},
-		"shareButtonsNetworks": {
-			"facebook": {
-				"title": "Facebook",
-				"has_counter": true
-			},
-			"twitter": {
-				"title": "Twitter"
-			},
-			"google": {
-				"title": "Google+",
-				"has_counter": true
-			},
-			"linkedin": {
-				"title": "LinkedIn",
-				"has_counter": true
-			},
-			"pinterest": {
-				"title": "Pinterest",
-				"has_counter": true
-			},
-			"reddit": {
-				"title": "Reddit",
-				"has_counter": true
-			},
-			"vk": {
-				"title": "VK",
-				"has_counter": true
-			},
-			"odnoklassniki": {
-				"title": "OK",
-				"has_counter": true
-			},
-			"tumblr": {
-				"title": "Tumblr"
-			},
-			"digg": {
-				"title": "Digg"
-			},
-			"skype": {
-				"title": "Skype"
-			},
-			"stumbleupon": {
-				"title": "StumbleUpon",
-				"has_counter": true
-			},
-			"mix": {
-				"title": "Mix"
-			},
-			"telegram": {
-				"title": "Telegram"
-			},
-			"pocket": {
-				"title": "Pocket",
-				"has_counter": true
-			},
-			"xing": {
-				"title": "XING",
-				"has_counter": true
-			},
-			"whatsapp": {
-				"title": "WhatsApp"
-			},
-			"email": {
-				"title": "Email"
-			},
-			"print": {
-				"title": "Print"
-			}
-		},
-		"facebook_sdk": {
-			"lang": "en_US",
-			"app_id": ""
-		},
-		"lottie": {
-			"defaultAnimationUrl": ""
-		}
-	};
-</script>-->
+
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/frontend.minee9a.js?ver=3.2.2' id='elementor-pro-frontend-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.minee9a.js?ver=3.2.2' id='pro-preloaded-elements-handlers-js'></script>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle8d5a.js?ver=2.4.0' id='animate-circle-js'></script>
