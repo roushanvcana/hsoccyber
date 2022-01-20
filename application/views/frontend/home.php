@@ -518,7 +518,9 @@
                             data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
                             data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">Request an evaluation.</h2>
+                                <h2 class="elementor-heading-title elementor-size-default">
+                                    <?php echo $evaluation['heading']; ?>
+                                </h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-f1637d1 ob-harakiri-inherit elementor-widget elementor-widget-text-editor"
@@ -526,8 +528,7 @@
                             data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
                             data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                                    ullamcorper mattis, pulvinar dapibus leo.</p>
+                                <p><?php echo $evaluation['description']; ?></p>
                             </div>
                         </div>
                     </div>
@@ -546,7 +547,7 @@
                                         <span class="elementor-button-content-wrapper"> <span
                                                 class="elementor-button-icon elementor-align-icon-right"> <i
                                                     class="fal fa-arrow-right"></i> </span> <span
-                                                class="elementor-button-text">Evaluate Now</span> </span> </a> </div>
+                                                class="elementor-button-text"><?php echo $evaluation['button_rename']; ?></span> </span> </a> </div>
                             </div>
                         </div>
                     </div>

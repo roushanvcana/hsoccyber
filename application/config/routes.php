@@ -138,6 +138,7 @@ $route['add-webmodel'] = 'Slider/add_webmodel';
 $route['privacy-policy'] = 'Website/privacy_policy';
 $route['cookie'] = 'Website/cookie_policy';
 $route['term-of-use'] = 'Website/term_of_use';
+$route['evaluation-add'] = 'Slider/add_evaluation';
 
 //$route['add-message'] = 'Home/add_message';
 
