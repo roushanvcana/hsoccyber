@@ -23,8 +23,8 @@
         $data['testimonial'] = $this->db->query('select * from manage_testimonial')->result_array();  
         $data['articles'] = $this->db->query('select * from articles')->result_array();
         $data['aboutsus'] = $this->db->query('select * from manage_about_us')->row_array();
-        $data['welcomemsg_data'] = $this->db->query('select * from manage_welcome_message')->row_array();
-      
+        $data['welcomemsg_data'] = $this->db->query('select * from manage_welcome_message')->row_array();      
+        $data['evaluation'] = $this->db->query('select * from manage_evaluation')->row_array();      
         $this->load->view('frontend/home',$data);
     }
     public function about()
@@ -41,8 +41,7 @@
     public function contact()
     {   
         
-        $data['websitedata'] = $this->db->query('select * from manage_website_setting')->result_array();
-         
+        $data['websitedata'] = $this->db->query('select * from manage_website_setting')->result_array();                                                                                                                                                                 
         $this->load->view('frontend/contact',$data);
     }
 

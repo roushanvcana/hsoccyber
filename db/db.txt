@@ -8,14 +8,11 @@ ALTER TABLE `manage_website_setting` ADD `facebook` VARCHAR(200) NOT NULL AFTER 
 ALTER TABLE `manage_trusted_brand` ADD `description` LONGTEXT NOT NULL AFTER `upload_logo`;
 
 
-service section
 
-service details
 
-syllaubs
+add member 
 
-title
-logo
-description
 
-bubble keyboard
+
+bvm.scaleneworks.com
+

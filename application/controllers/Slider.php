@@ -434,6 +434,40 @@
         $this->load->view('admin/template/template',$data);
     }
 
+    public function add_evaluation()
+    {
+        if (!empty($this->input->post())) {
+            $webmodel = array(
+                "heading" => $this->input->post('heading'),
+                "description" => $this->input->post('description'),
+                "button_rename" => $this->input->post('button_rename'),                    
+                "status" => 1,                 
+                "entry_by" => 1,                 
+                "ip_add" => $this->input->ip_address(),
+            );
+
+            $query = $this->db->query('select * from manage_evaluation where id=1');
+            
+            if($query->num_rows() > 0){
+                $insert = $this->db->update('manage_evaluation',$webmodel, array('id' => 1));  
+            }else {
+                $insert = $this->db->insert('manage_evaluation', $webmodel);  
+            }
+
+            if($insert) {
+                $this->session->set_flashdata('success', 'Data add Successfully Saved');
+                redirect(site_url().'evaluation-add');
+            } else {
+                $this->session->set_flashdata('success', 'Some error occured. Please try again...');
+                redirect(site_url().'evaluation-add');
+            }
+        }
+
+        $data['getValue'] = $this->Common_Model->set_data('manage_evaluation',1);  
+        $data['main_content'] = 'admin/evaluation/add_evaluation';        
+        $this->load->view('admin/template/template',$data);
+    }
+
  
  }
  
