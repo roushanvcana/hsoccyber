@@ -136,7 +136,7 @@
 			<div class="elementor-container elementor-column-gap-default">
 				
 			</div>
-			<div class="col-lg-5 ml-lg-auto mr-lg-auto space_tb">
+			<div class="col-lg-6 offset-3">
 				<div class="elementor-widget-wrap elementor-element-populated">
 					<div class="elementor-element elementor-element-fcda1a9 ob-harakiri-inherit elementor-widget elementor-widget-heading">
 						<div class="elementor-widget-container">
