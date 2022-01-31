@@ -23,7 +23,7 @@ class Website_setting extends CI_Controller {
     public function add_websetting()
     {
        
-        if($this->input->post()){
+        if(!empty($this->input->post())){
             
             $webValue = array(
                 "address" => $this->input->post('address'),
@@ -32,6 +32,13 @@ class Website_setting extends CI_Controller {
                 "embed_map" => $this->input->post('embed_map'),
                 "copy_write" => $this->input->post('copy_write'),
                 "design_by" =>  $this->input->post('design_by'),
+                "facebook" =>  $this->input->post('facebook'),
+                "linkdin" =>  $this->input->post('linkdin'),
+                "instagram" =>  $this->input->post('instagram'),
+                "twitter" =>  $this->input->post('twitter'),
+                "header_background_color" =>  $this->input->post('header_background_color'),
+                "footer_background_color" =>  $this->input->post('footer_background_color'),
+                "footer_content" =>  $this->input->post('footer_content'),
                 "status" => 1,                 
                 "entry_by" => 1,                 
                 "ip_add" => $this->input->ip_address(),
@@ -65,7 +72,7 @@ class Website_setting extends CI_Controller {
         }
         $data['getValue'] = $this->Common_Model->set_data('manage_website_setting',1);
         $data['status'] = status();
-        $data['main_content'] = 'admin/manage_website/add-website-setting';        
+        $data['main_content'] = 'admin/manage_website/add_website_setting';        
         $this->load->view('admin/template/template',$data);
     }
   

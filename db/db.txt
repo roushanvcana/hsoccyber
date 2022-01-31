@@ -1,0 +1,18 @@
+#11-01-2022
+
+ALTER TABLE `manage_website_setting` ADD `facebook` VARCHAR(200) NOT NULL AFTER `design_by`, ADD `linkdin` VARCHAR(200) NOT NULL AFTER `facebook`, ADD `instagram` VARCHAR(200) NOT NULL AFTER `linkdin`, ADD `twitter` VARCHAR(200) NOT NULL AFTER `instagram`, ADD `header_background_color` VARCHAR(200) NOT NULL AFTER `twitter`, ADD `footer_background_color` VARCHAR(200) NOT NULL AFTER `header_background_color`, ADD `footer_content` LONGTEXT NOT NULL AFTER `footer_background_color`;
+
+
+#12-01-2022
+
+ALTER TABLE `manage_trusted_brand` ADD `description` LONGTEXT NOT NULL AFTER `upload_logo`;
+
+
+
+
+add member 
+
+
+
+bvm.scaleneworks.com
+

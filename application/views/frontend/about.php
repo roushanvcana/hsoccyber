@@ -1,5 +1,7 @@
 
-<?php $this->load->view('frontend/layout/header'); ?>
+<?php $this->load->view('frontend/layout/header');
+//print_r($about);
+?>
 <div data-elementor-type="wp-post" data-elementor-id="469" class="elementor elementor-469" data-elementor-settings="[]">
  <div class="elementor-section-wrap">
   <section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-7e90c9e elementor-section-boxed elementor-section-height-default elementor-section-height-default">
@@ -32,9 +34,8 @@
             <div class="works-about-items default-padding">
                 <div class="row align-center">
                     <div class="col-lg-6 info">
-                        <h2>About us</h2>
-                        <p>HSOC Cyber, formerly Professional Certifications and Consulting Services, is a service-disabled, veteran-owned small business (SDVOSB). Since 2016, HSOC Cyber has provided certification and real skill training in information technology, cybersecurity, and project management. As a result of COVID-19, HSOC Cyber altered its business model from the live classroom training to live online training in the form of an internship, and all from the comfort of your home. At HSOC Cyber, we work on real projects and tasks that equate to real experience versus attending an online class to complete assignments.</p>
-                        <p>Whether new to the industry or experienced, each HSOC Cyber team member is considered a cybersecurity intern from day one. We practice with a variety of real industry tools and techniques used in federal agencies, and small to large businesses. We work in a peer-supported environment, where team members conduct a myriad of tasks and projects related to popular cybersecurity roles within the National Initiative for Cybersecurity Education (NICE) Workforce Framework, the INFOSEC Wheel, and the National Institute of Standards and Technology (NIST) Risk Management Framework.</p>
+                        <h2><?php echo $about[0]['title']; ?></h2>
+                        <p><?php echo $about[0]['description']; ?></p>
                     </div>
                     <div class="col-lg-6">
                         <div class="thumb">
@@ -53,13 +54,14 @@
             <div class="row">
 							<div class="col-lg-7 info">
                         <h2 class="elementor-heading-title elementor-size-default color-black">Biography</h2>
-     <p class="sp">Dr. <a href="https://www.linkedin.com/in/drwesleyphillips/" target="_blank" style="color:#000;"> Wesley Phillips</a> (Doc Wes)</p>
-<p class="drdc">Accomplished cybersecurity professional with over 20 years of combined law enforcement, physical security, network security, risk management, and executive protection experience.  Over 16 years specific counterintelligence, technical surveillance countermeasures, and cybersecurity experience focused on proactively protecting the infrastructure and security of company resources and data.  Proven project manager, strategist, educator, and technologist with demonstrated leadership ability to set strategic direction, align teams and their performance, and achieve desired results with greater efficiency and effectiveness.  Collaborative team leader, college instructor, certification instructor, skill-based instruction, and effective communicator with the ability to work well both independently and in group settings, as well as the ability to engage with others throughout the organization to set and achieve common goals.  
-</p>
+                    <p class="sp">Dr. <a href="https://www.linkedin.com/in/drwesleyphillips/" target="_blank" style="color:#000;"> Wesley Phillips</a> (Doc Wes)</p>
+                        <p class="drdc">
+                        <?php echo $about[0]['biography']; ?>
+                        </p>
                     </div>
                 <div class="col-lg-5">
                     <div class="thumb">
-                        <img src="<?php echo base_url();?>/design/wp-content/uploads/sites/48/2021/06/drwec.jpg" alt="">
+                        <img src="<?php echo base_url();?>uploads/gallery-image/drwec.jpg" alt="">
                         <div class="overlay">
                             <div class="content">
                                 <h4>Doc Wes is the recipient of the 2021 Blacks in Cyber Outstanding Cybersecurity Training & Curriculum Award</h4>
@@ -69,67 +71,13 @@
                 </div>
 
 							<div class="col-lg-12"><div class="doc_img">
-			<img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/about_1.png" alt="icon" />
+			<img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $about[0]['upload_biography'];?>" alt="icon" />
 			</div></div>
 
             </div>
         </div>
     </div>
 	 
-    <!-- End About Area -->
-  <!--<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-50df6d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="50df6d0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
-   <div class="elementor-container elementor-column-gap-no about-pd">
-   <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-df9ecc3" data-id="df9ecc3" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-     <div class="elementor-widget-wrap elementor-element-populated">
-     <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/cropped-view-of-african-american-businessman-using-laptop-and-smartphone-in-car-with-cyber-security-e1624634401494.jpg" alt="icon" />
-     </div>
-    </div>
-    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-925752d mt" data-id="925752d" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-     <div class="elementor-widget-wrap elementor-element-populated">
-     <h2 class="elementor-heading-title elementor-size-default color-black mb">About us</h2>
-
-     <p>HSOC Cyber, formerly Professional Certifications and Consulting Services, is a service-disabled, veteran-owned small business (SDVOSB).  Since 2016, HSOC Cyber has provided certification and real skill training in information technology, cybersecurity, and project management.  As a result of COVID-19, HSOC Cyber altered its business model from the live classroom training to live online training in the form of an internship, and all from the comfort of your home.  At HSOC Cyber, we work on real projects and tasks that equate to real experience versus attending an online class to complete assignments. </p>
-
-<p>Whether new to the industry or experienced, each HSOC Cyber team member is considered a cybersecurity intern from day one.  We practice with a variety of real industry tools and techniques used in federal agencies, and small to large businesses.  We work in a peer-supported environment, where team members conduct a myriad of tasks and projects related to popular cybersecurity roles within the National Initiative for Cybersecurity Education (NICE) Workforce Framework, the INFOSEC Wheel, and the National Institute of Standards and Technology (NIST) Risk Management Framework. </p>
-     </div>
-    </div>
-    
-   </div>
-  </section>-->
-
-  <!--<section class="bgcolor ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-50df6d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default ab-pd">
-   <div class="elementor-container elementor-column-gap-no">
-    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-925752d" data-id="925752d" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-     <div class="elementor-widget-wrap elementor-element-populated sp">
-     <h2 class="elementor-heading-title elementor-size-default color-black">Biography</h2>
-     <p class="sp">Dr. <a href="https://www.linkedin.com/in/drwesleyphillips/" target="_blank" style="color:#000;"> Wesley Phillips</a> (Doc Wes)</p>
-<p class="drdc">Accomplished cybersecurity professional with over 20 years of combined law enforcement, physical security, network security, risk management, and executive protection experience.  Over 16 years specific counterintelligence, technical surveillance countermeasures, and cybersecurity experience focused on proactively protecting the infrastructure and security of company resources and data.  Proven project manager, strategist, educator, and technologist with demonstrated leadership ability to set strategic direction, align teams and their performance, and achieve desired results with greater efficiency and effectiveness.  Collaborative team leader, college instructor, certification instructor, skill-based instruction, and effective communicator with the ability to work well both independently and in group settings, as well as the ability to engage with others throughout the organization to set and achieve common goals.  
-</p>
-     </div>
-    </div>
-    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-df9ecc3" data-id="df9ecc3" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-			<div class="doc_img">
-			<img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/about_1.png" alt="icon" />
-			</div>
-     
-    </div>
-   </div>
-  </section>-->
-<!-- <section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-50df6d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default bgcolordw">
-   <div class="elementor-container elementor-column-gap-no">
-    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-925752d">
-     <div class="elementor-widget-wrap elementor-element-populated sp">
-			 <div class="title_">
-<div class="left_img"><img src="<?php echo base_url();?>/design/wp-content/uploads/sites/48/2021/06/drwec.jpg" alt=""></div>
-<div class="left_cnt"><h3>Doc Wes is the recipient of the 2021 Blacks in Cyber Outstanding Cybersecurity Training & Curriculum Award</h3></div>
-</div>
-     
-     </div>
-    </div>
-    
-   </div>
-  </section>-->
-  
   <section class="bg-dark-blue ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-b2805a7 elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default" data-id="b2805a7" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
    <div class="elementor-container elementor-column-gap-no">
     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-925752d" data-id="925752d" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
@@ -170,7 +118,7 @@
                </div>
                <div class="eael-feature-list-content-box">
                 <h5 class="eael-feature-list-title color-white">Vision</h5>
-                <p class="eael-feature-list-content color-white">Lorem ipsum dolor sit amet, consectetur adipisi cing elit, sed do eiusmod tempor incididunt ut abore et dolore magna</p>
+                <p class="eael-feature-list-content color-white"><?php echo $about[0]['vision'];?></p>
                </div>
               </li>
               <li class="eael-feature-list-item elementor-repeater-item-9262403 icon-align">
@@ -179,7 +127,7 @@
                </div>
                <div class="eael-feature-list-content-box color-white">
                 <h5 class="eael-feature-list-title">Mission</h5>
-                <p class="eael-feature-list-content">Lorem ipsum dolor sit amet, consectetur adipisi cing elit, sed do eiusmod tempor incididunt ut abore et dolore magna</p>
+                <p class="eael-feature-list-content"><?php echo $about[0]['mission'];?></p>
                </div>
               </li>
               <li class="eael-feature-list-item elementor-repeater-item-96f0f9d icon-align">
@@ -187,8 +135,8 @@
                 <div class="eael-feature-list-icon-inner bg-none"> <span class="eael-feature-list-icon fl-icon-2 bg-none"> <i class="fas fa-paw font-awesome-free"></i> </span> </div>
                </div>
                <div class="eael-feature-list-content-box color-white">
-                <h5 class="eael-feature-list-title"							>Motto</h5						>
-                <p class="eael-feature-list-content">Lorem ipsum dolor sit amet, consectetur adipisi cing elit, sed do eiusmod tempor incididunt ut abore et dolore magna</p>
+                <h5 class="eael-feature-list-title">Motto</h5>
+                <p class="eael-feature-list-content"><?php echo $about[0]['moto'];?></p>
                </div>
               </li>
              </ul>

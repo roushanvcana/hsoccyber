@@ -54,8 +54,15 @@
                   <td><?= $i; ?></td>
                   <td><?php echo $data['title']; ?></td>                 
                   <td>
-                  <a href="<?php echo base_url()?>uploads/gallery-image/<?php echo $data['icon_upload']; ?>" 
-                  class="badge badge-primary" download>Download Icon</a>  
+                    <?php 
+                      if(!empty($data['icon_upload'])){
+                    ?>
+                        <a href="<?php echo base_url()?>uploads/gallery-image/<?php echo $data['icon_upload']; ?>" 
+                        class="badge badge-primary" download>Download Icon</a>  
+                    <?php }else{?>
+                      <a href="javascript:void(0)" 
+                        class="badge badge-primary" download>No Image Upload</a> 
+                    <?php }?>
                   </td>
                   <td>
                   <a href="<?php echo base_url()?>uploads/gallery-image/<?php echo $data['image_upload']; ?>" 

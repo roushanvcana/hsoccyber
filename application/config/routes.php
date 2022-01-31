@@ -55,6 +55,12 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
+/////////////////frontend/////////////////
+$route['home'] = 'Website/home';
+$route['about'] = 'Website/about';
+$route['services'] = 'Website/services';
+$route['contact'] = 'Website/contact';
+$route['prerequest'] = 'Website/prerequest';
 
 /////////////////Admin panel////////////////////
 $route['admin'] = 'Login/index';
@@ -95,18 +101,49 @@ $route['service-delete/(:num)'] = 'Service/delete_service/$1';
 $route['service-edit/(:num)'] = 'Service/edit_service/$1';
 
 $route['feature']  = 'Service/feature';
+$route['feature-edit/(:num)']  = 'Service/feature_edit/$1';
+$route['feature-delete/(:num)']  = 'Service/feature_delete/$1';
+
 $route['feature-details'] = 'Service/feature_details';
 $route['add-feature-details'] = 'Service/add_feature_details';
 
 $route['feature-details-delete/(:num)'] = 'Service/delete_feature/$1';
 $route['feature-details-edit/(:num)'] = 'Service/feature_edit_details/$1';
 
+$route['testimonial'] = 'Service/testimonial_list';
+$route['add-testimonial'] = 'Service/add_testimonial';
+$route['edit-testimonial/(:num)'] = 'Service/edit_testimonial/$1';
+$route['delete-testimonial/(:num)'] = 'Service/delete_testimonial/$1';
+$route['articles'] = 'Service/articles';
+$route['add-article'] = 'Service/add_articles';
+$route['edit-article/(:num)'] = 'Service/edit_articles/$1';
+$route['delete-article/(:num)'] = 'Service/delete_articles/$1';
+$route['add-team'] = 'Team/add_team';
+$route['team-list'] = 'Team/index';
+$route['team-delete/(:num)'] = 'Team/delete_team/$1';
+$route['team-edit/(:num)'] = 'Team/edit_team/$1';
+$route['blog-details/(:num)'] = 'Service/blog_details/$1';
 
-$route['home'] = 'Website/home';
-$route['about'] = 'Website/about';
-$route['services'] = 'Website/services';
-$route['contact'] = 'Website/contact';
-$route['prerequest'] = 'Website/prerequest';
+$route['welcome-message'] = 'Welcome_message/index';
+$route['upload-brand'] = 'Welcome_message/brand_upload';
+$route['del-brand-photo/(:num)'] = 'Welcome_message/delete_photo/$1';
+$route['del-service-photo/(:num)'] = 'Welcome_message/delete_service_photo/$1';
+$route['upload-service'] = 'Welcome_message/add_serviceimg';
+$route['syllabus-list'] = 'Syllabus/index';
+$route['add-syllabus'] = 'Syllabus/add_syllabus';
+$route['edit-syllabus/(:num)'] = 'Syllabus/edit_syllabus/$1';
+$route['delete-syllabus/(:num)'] = 'Syllabus/delete_syllabus/$1';
+
+$route['add-webmodel'] = 'Slider/add_webmodel';
+$route['privacy-policy'] = 'Website/privacy_policy';
+$route['cookie'] = 'Website/cookie_policy';
+$route['term-of-use'] = 'Website/term_of_use';
+$route['evaluation-add'] = 'Slider/add_evaluation';
+
+//$route['add-message'] = 'Home/add_message';
+
+
+
 
 
 

@@ -22,6 +22,7 @@
     public function add_slider()        
     {
         if($this->input->post()) {
+            
             $addSlider = array(
                     "heading_text" => $this->input->post('heading_text'),
                     "slider_text" => $this->input->post('slider_text'),
@@ -215,37 +216,38 @@
 
     public function add_brand()
     {
-        //$data['brandlist'] =  $this->db->query('select * from manage_trusted_brand')->result_array();   
         if($this->input->post()) {
             $brand = array(
                     "title" => $this->input->post('title'),
                     "background_color" => $this->input->post('background_color'),
-                    "status" => $this->input->post('status'),                 
+                    "description" => $this->input->post('description'),
+                    "status" => 1,                 
                     "entry_by" => 1,                 
                      "ip_add" => $this->input->ip_address(),
                 );
-
-            if (!empty($_FILES["image"]["name"])) {
-                $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["image"]["name"];
-                $tmp_name = $_FILES["image"]["tmp_name"];
-                $error = $_FILES["image"]["error"];
-                $path = 'uploads/gallery-image/'. $name;
-                move_uploaded_file($tmp_name, $path);
-                $brand['upload_logo'] = $name;
+            
+            $query = $this->db->query('select * from manage_trusted_brand where id=1');
+        
+            if($query->num_rows() > 0){
+                $insert = $this->db->update('manage_trusted_brand',$brand, array('id' => 1));  
+            }else {
+                $insert = $this->db->insert('manage_trusted_brand', $brand);  
             }
-
-            $insert = $this->db->insert('manage_trusted_brand', $brand);               
+            //$insert = $this->db->insert('manage_trusted_brand', $brand);               
             if ($insert) {
                 $this->session->set_flashdata('success', 'Brand Successfully Saved');
-                redirect(site_url().'brand-section');
+                redirect(site_url().'add-brand');
             } else {
                 $this->session->set_flashdata('success', 'Some error occured ');
-                redirect(site_url().'brand-section');
+                redirect(site_url().'add-brand');
             }
-        }   
+        }  
+        $data['getValue'] = $this->db->query('select * from manage_trusted_brand where id=1')->row_array();
+        $data['brand_photo'] = $this->db->query('select * from manage_trusted_brand where upload_logo != " "')->result_array();
         $data['status'] = status();    
         $data['main_content'] = 'admin/brand_list/add-trusted-brand';        
         $this->load->view('admin/template/template',$data);
+
     }
 
     public function edit_brand($id)
@@ -312,11 +314,66 @@
                     "number_of_partners" => $this->input->post('number_of_partners'),
                     "background_color" => $this->input->post('background_color'),
                     "heading" => $this->input->post('heading'),
+                    "mission" => $this->input->post('mission'),
+                    "vision" => $this->input->post('vision'),
+                    "moto" => $this->input->post('moto'),
+                    "biography" => $this->input->post('biography'),
                     "status" => 1,                 
                     "entry_by" => 1,                 
                     "ip_add" => $this->input->ip_address(),
                 );
 
+                if (!empty($_FILES["upload_biography"]["name"])) {
+                    $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["upload_biography"]["name"];
+                    $tmp_name = $_FILES["upload_biography"]["tmp_name"];
+                    $error = $_FILES["upload_biography"]["error"];
+                    $path = 'uploads/gallery-image/'. $name;
+                    move_uploaded_file($tmp_name, $path);
+                    $aboutme['upload_biography'] = $name;
+                }
+
+                if (!empty($_FILES["small_bio_img"]["name"])) {
+                    $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["small_bio_img"]["name"];
+                    $tmp_name = $_FILES["small_bio_img"]["tmp_name"];
+                    $error = $_FILES["small_bio_img"]["error"];
+                    $path = 'uploads/gallery-image/'. $name;
+                    move_uploaded_file($tmp_name, $path);
+                    $aboutme['small_bio_img'] = $name;
+                }
+
+
+                
+                $data = [];
+   
+                $count = count($_FILES['image']['name']);
+              
+                for($i=0;$i<$count;$i++){    
+                  if(!empty($_FILES['image']['name'][$i])){    
+                    $_FILES['file']['name'] = $_FILES['image']['name'][$i];
+                    $_FILES['file']['type'] = $_FILES['image']['type'][$i];
+                    $_FILES['file']['tmp_name'] = $_FILES['image']['tmp_name'][$i];
+                    $_FILES['file']['error'] = $_FILES['image']['error'][$i];
+                    $_FILES['file']['size'] = $_FILES['image']['size'][$i];
+            
+                    $config['upload_path'] = 'uploads/gallery-image/'; 
+                    $config['allowed_types'] = 'jpg|jpeg|png|gif';
+                    $config['max_size'] = '5000';
+                    $config['file_name'] = $_FILES['image']['name'][$i];
+             
+                    $this->load->library('upload',$config); 
+              
+                    if($this->upload->do_upload('file')){
+                      $uploadData = $this->upload->data();
+                      $filename = $uploadData['file_name'];
+             
+                      $data['totalFiles'][] = $filename;
+                    }
+                  }
+             
+                }
+                $aboutme['image'] =  implode(",", $data['totalFiles']);
+                
+              
             $query = $this->db->query('select * from manage_about_us where id=1');
             
             if($query->num_rows() > 0){
@@ -325,17 +382,89 @@
                 $insert = $this->db->insert('manage_about_us', $aboutme);  
             }
 
-            if ($insert) {
+            if($insert) {
                 $this->session->set_flashdata('success', 'About me Successfully Saved');
                 redirect(site_url().'add-about');
             } else {
                 $this->session->set_flashdata('success', 'Some error occured. Please try again...');
                 redirect(site_url().'add-about');
             }
-        }   
+        } 
         $data['getValue'] = $this->Common_Model->set_data('manage_about_us',1);  
         $data['status'] = status();    
         $data['main_content'] = 'admin/about_me/add-inf';        
+        $this->load->view('admin/template/template',$data);
+    }
+
+
+    public function add_webmodel()
+    {
+        if(!empty($this->input->post())){
+
+            $webmodel = array(
+                    "heading" => $this->input->post('heading'),
+                    "description" => $this->input->post('description'),
+                    "model_button" => $this->input->post('model_button'),                   
+                    "prerequisites" => $this->input->post('prerequisites'),                   
+                    "system_requirements" => $this->input->post('system_requirements'),                   
+                    "status" => 1,                 
+                    "entry_by" => 1,                 
+                    "ip_add" => $this->input->ip_address(),
+                );
+
+            $query = $this->db->query('select * from manage_webmodel where id=1');
+            
+            if($query->num_rows() > 0){
+                $insert = $this->db->update('manage_webmodel',$webmodel, array('id' => 1));  
+            }else {
+                $insert = $this->db->insert('manage_webmodel', $webmodel);  
+            }
+
+            if($insert) {
+                $this->session->set_flashdata('success', 'Web model Successfully Saved');
+                redirect(site_url().'add-webmodel');
+            } else {
+                $this->session->set_flashdata('success', 'Some error occured. Please try again...');
+                redirect(site_url().'add-webmodel');
+            }
+        } 
+      
+        $data['getValue'] = $this->Common_Model->set_data('manage_webmodel',1);  
+        $data['main_content'] = 'admin/web_model/add_web_model';        
+        $this->load->view('admin/template/template',$data);
+    }
+
+    public function add_evaluation()
+    {
+        if (!empty($this->input->post())) {
+            $webmodel = array(
+                "heading" => $this->input->post('heading'),
+                "description" => $this->input->post('description'),
+                "button_rename" => $this->input->post('button_rename'),                    
+                "status" => 1,                 
+                "entry_by" => 1,                 
+                "ip_add" => $this->input->ip_address(),
+            );
+
+            $query = $this->db->query('select * from manage_evaluation where id=1');
+            
+            if($query->num_rows() > 0){
+                $insert = $this->db->update('manage_evaluation',$webmodel, array('id' => 1));  
+            }else {
+                $insert = $this->db->insert('manage_evaluation', $webmodel);  
+            }
+
+            if($insert) {
+                $this->session->set_flashdata('success', 'Data add Successfully Saved');
+                redirect(site_url().'evaluation-add');
+            } else {
+                $this->session->set_flashdata('success', 'Some error occured. Please try again...');
+                redirect(site_url().'evaluation-add');
+            }
+        }
+
+        $data['getValue'] = $this->Common_Model->set_data('manage_evaluation',1);  
+        $data['main_content'] = 'admin/evaluation/add_evaluation';        
         $this->load->view('admin/template/template',$data);
     }
 

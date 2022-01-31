@@ -35,45 +35,38 @@
     <div class="card">
       <div class="card-body p-0">
         <table class="table table-striped projects">
-          <thead>
-            <tr>
-              <th>Sr. No</th>
-              <th>Title</th>
-              <th>Background Color</th>             
-              <th>Image</th>     
-              <th>Status</th>
-              <th class="text-center"> Action</th>
-            </tr>
-          </thead>
-          <tbody>
-          <?php $i = 1;
-         
-            foreach ($brandlist as $data){            
-              ?>
-              <tr id="tbl_<?php echo $data['id']; ?>">
-                  <td><?= $i; ?></td>
-                  <td><?php echo $data['title']; ?></td>
-                  <td><?php echo $data['background_color']; ?></td>
-                
-                  <td>
-                  <a href="<?php echo base_url()?>uploads/gallery-image/<?php echo $data['image']; ?>" 
-                  class="badge badge-primary" download>Download Image</a>  
-                  </td>
-                 
-                  <td><?php echo array_value(status(),$data['status']) ?></td>
-                  <td class="project-actions text-center">
-                      <a class="btn btn-info btn" href="<?= site_url() ?>edit-brand/<?= $data['id']; ?>">
-                          <i class="fas fa-edit"></i>
-                      </a>
-                      <a class="btn btn-danger btn" href="<?php echo base_url()?>brand-delete/<?php echo $data['id']; ?>"
-                          onclick="return   confirm('Are you sure ! you want to delete this record')">
-                          <i class="fas fa-trash-alt"> </i>
-                      </a>
-                  </td>
-                </tr>
-            <?php $i++;  } ?>
-          </tbody>
+          <tr>
+            <td>Title</td>
+            <td>Hello Title</td>
+          </tr>         
+          <tr>
+            <td>Background Color</td>
+            <td>#22222</td>
+          </tr>         
+          <tr>
+            <td>Description</td>
+            <td>#22222</td>
+          </tr> 
+
         </table>
+
+        <div class="row">
+            <div class="col-md-12">
+            <div class="form-group  col-md-6 col-lg-6">
+                                    <label for="design_by">Upload Image
+                                    <?php if(!empty($getValue['upload_logo'])){?>
+                                        <a href="<?php echo base_url();?>uploads/gallery-image/<?php echo $getValue['upload_logo']; ?>" class="badge badge-success">Download Upload Image</a>
+                                        <?php }?>
+                                    </label>
+                                    <input type="file" id="image" class="form-control" name="image" value="">
+                                    <?php echo form_error('image'); ?>
+                                    <p style="color:#dc3545!important;" id="hover_colorError"></p>
+                                    <span id="img_preview" style="display:none">
+                                        <img id="imgPreview" src="#" alt="pic" width="100" height="100" />
+                                    </span>
+                                </div> 
+            </div>
+        </div>
           </div>
     </div>
    

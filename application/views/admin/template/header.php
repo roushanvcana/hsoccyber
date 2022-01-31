@@ -116,6 +116,32 @@
     label:not(.form-check-label):not(.custom-file-label) {
         font-weight: 400;
     }
+
+    .img-wrap {
+    position: relative;
+    display: inline-block;
+  
+    font-size: 0;
+}
+.img-wrap .close {
+    position: absolute;
+    top: -10px;
+    right: 90px;
+    z-index: 100;
+    background-color: #500707;
+    padding: 5px 2px 2px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: .2;
+    text-align: center;
+    font-size: 22px;
+    line-height: 10px;
+    border-radius: 50%;
+}
+.img-wrap:hover .close {
+    opacity: 1;
+}
     </style>
 
 </head>
@@ -195,23 +221,7 @@
                                 <p>Manage Admin</p>
                             </a>
                         </li> -->
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-search"></i>
-                                <p>
-                                    Sidebar
-                                    <i class="fas fa-angle-left right"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview" style="display: none;">
-                                <li class="nav-item">
-                                    <a href="<?php echo base_url() ?>add-website-setting" class="nav-link">
-                                        <i class="far fa-user nav-icon"></i>
-                                        <p>Manage Website Setting</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
+                      
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-search"></i>
@@ -230,20 +240,69 @@
 
                                 <li class="nav-item">
                                     <a href="<?php echo base_url() ?>slider-box" class="nav-link">
-                                    <i class="far fa-circle nav-icon"></i>
+                                        <i class="far fa-circle nav-icon"></i>
                                         <p>Slider Box</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="<?php echo base_url() ?>brand-section" class="nav-link">
-                                    <i class="far fa-circle nav-icon"></i>
+                                    <a href="<?php echo base_url() ?>add-brand" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
                                         <p>Brand Section</p>
                                     </a>
                                 </li>
 
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>add-service" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Manage Service</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>feature" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Feature</p>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>feature-details" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Feature Details</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>testimonial" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Testimonial</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>articles" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Articles</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>welcome-message" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Welcome Message</p>
+                                    </a>
+                                </li>
+                                 
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>syllabus-list" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Syllabus</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo base_url() ?>evaluation-add" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Evaluation</p>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
-
 
                         <li class="nav-item">
                             <a href="<?php echo base_url() ?>add-about" class="nav-link">
@@ -252,25 +311,24 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?php echo base_url() ?>service" class="nav-link">
+                            <a href="<?php echo base_url() ?>team-list" class="nav-link">
                                 <i class="far fa-user nav-icon"></i>
-                                <p>Manage Service</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="<?php echo base_url() ?>feature" class="nav-link">
-                                <i class="far fa-user nav-icon"></i>
-                                <p>Feature</p>
+                                <p>Manage Team</p>
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="<?php echo base_url() ?>feature-details" class="nav-link">
+                            <a href="<?php echo base_url() ?>add-website-setting" class="nav-link">
                                 <i class="far fa-user nav-icon"></i>
-                                <p>Feature Details</p>
+                                <p>Manage Website Setting</p>
                             </a>
                         </li>
-
+                        <li class="nav-item">
+                            <a href="<?php echo base_url() ?>add-webmodel" class="nav-link">
+                                <i class="far fa-user nav-icon"></i>
+                                <p>Manage Web Model</p>
+                            </a>
+                        </li>
                         </li>
                     </ul>
                 </nav>
