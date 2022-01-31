@@ -138,30 +138,30 @@
 	</div>
 </div>
 
-<link rel='stylesheet' id='premium-addons-css'  href='<?php echo base_url();?>design/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/premium-addons.min1c9b.css?ver=4.6.1' type='text/css' media='all' />
+<?php /*?><link rel='stylesheet' id='premium-addons-css'  href='<?php echo base_url();?>design/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/premium-addons.min1c9b.css?ver=4.6.1' type='text/css' media='all' /><?php */?>
 	
 <link rel='stylesheet' id='e-animations-css'  href='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/lib/animations/animations.mina7da.css?ver=3.4.7' type='text/css' media='all' />
 	
 <?php /*?><script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.minf269.js?ver=1.0.1' id='smartmenus-js'></script> <?php */?>
-<script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/js/webpack.runtime.mina7da.js?ver=3.4.7' id='elementor-webpack-runtime-js'></script> 
+<?php /*?><script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/js/webpack.runtime.mina7da.js?ver=3.4.7' id='elementor-webpack-runtime-js'></script> <?php */?>
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/js/frontend-modules.mina7da.js?ver=3.4.7' id='elementor-frontend-modules-js'></script> 
-<script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/lib/swiper/swiper.min48f5.js?ver=5.3.6' id='swiper-js'></script> 
+<?php /*?><script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/lib/swiper/swiper.min48f5.js?ver=5.3.6' id='swiper-js'></script> 
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/lib/share-link/share-link.mina7da.js?ver=3.4.7' id='share-link-js'></script> 
-<script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/lib/dialog/dialog.mina288.js?ver=4.8.1' id='elementor-dialog-js'></script> 
+<script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/lib/dialog/dialog.mina288.js?ver=4.8.1' id='elementor-dialog-js'></script><?php */?> 
 <!--<script type='text/javascript' id='elementor-frontend-js-extra'>
 /* <![CDATA[ */
 var PaModulesSettings = {"equalHeight_url":""};
 /* ]]> */
 </script>--> 
-<script type='text/javascript' id='elementor-frontend-js-before'>
+<!--<script type='text/javascript' id='elementor-frontend-js-before'>
 var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.4.7","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"e_import_export":true,"landing-pages":true,"elements-color-picker":true,"admin-top-bar":true,"form-submissions":true},"urls":{"assets":""},"settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":798,"title":"","excerpt":"","featuredImage":""}};
-</script> 
-<script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/js/frontend.mina7da.js?ver=3.4.7' id='elementor-frontend-js'></script> 
+</script>--> 
+<?php /*?><script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/js/frontend.mina7da.js?ver=3.4.7' id='elementor-frontend-js'></script> 
 
-<script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.minee9a.js?ver=3.2.2' id='elementor-pro-webpack-runtime-js'></script> 
+<script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.minee9a.js?ver=3.2.2' id='elementor-pro-webpack-runtime-js'></script><?php */?> 
 
-<script type='text/javascript' id='elementor-pro-frontend-js-before'>
+<!--<script type='text/javascript' id='elementor-pro-frontend-js-before'>
 var ElementorProFrontendConfig = {"ajaxurl":"","nonce":"4fe4417b60","urls":{"assets":""},"shareButtonsNetworks":{"app_id":""}};
-</script> 
+</script> -->
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/frontend.minee9a.js?ver=3.2.2' id='elementor-pro-frontend-js'></script> 
-<script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.minee9a.js?ver=3.2.2' id='pro-preloaded-elements-handlers-js'></script> 
+<?php /*?><script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.minee9a.js?ver=3.2.2' id='pro-preloaded-elements-handlers-js'></script><?php */?> 

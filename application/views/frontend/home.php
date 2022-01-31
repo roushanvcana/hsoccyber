@@ -163,7 +163,7 @@
 								<h2 class="elementor-heading-title elementor-size-default">Trusted by International Brand</h2>
 							</div>
 						</div>
-						<div class="elementor-element elementor-element-9b48574 ob-harakiri-inherit elementor-widget elementor-widget-text-editor" >
+						<div class="elementor-element elementor-element-9b48574 ob-harakiri-inherit elementor-widget elementor-widget-text-editor">
 							<div class="elementor-widget-container">
 								<p>Erat morbi si adipiscing laoreet praesent. Adipiscing duis laoreet orci aliquet ex dis auctor platea. Penatibus enim volutpat lectus curae ac porta etiam erat quam justo.</p>
 							</div>
@@ -199,11 +199,6 @@
 								</div>
 							</div>
 						</div>
-
-
-
-
-
 						<!--  <div class="elementor-element elementor-element-e32d116 elementor-widget elementor-widget-image-carousel">
        <div class="elementor-widget-container">
         <div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
@@ -276,14 +271,16 @@
 						<div class="elementor-element elementor-element-09d5b82 ob-harakiri-inherit elementor-widget elementor-widget-text-editor">
 							<div class="elementor-widget-container">
 								<div class="live_img">
-								<ul>
-									<li><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/live1.jpg" alt="Logo Autokit"/></li>
-									<li><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/live2.jpg" alt="Logo Autokit"/></li>
+									<ul>
+										<li><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/live1.jpg" alt="Logo Autokit"/>
+										</li>
+										<li><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/live2.jpg" alt="Logo Autokit"/>
+										</li>
 									</ul>
 								</div>
 								<p>HSOC Cyber, formerly Professional Certifications and Consulting Services, is a service-disabled, veteran-owned small business (SDVOSB). Since 2016, HSOC Cyber has provided certification and real skill training in information technology, cybersecurity, and project management. As a result of COVID-19, HSOC Cyber altered its business model from the live classroom training to live online training in the form of an internship, and all from the comfort of your home. At HSOC Cyber, we work on real projects and tasks that equate to real experience versus attending an online class to complete assignments. </p>
 
-								<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--move-up"> <a class="elementor-cta__button elementor-button elementor-size-sm" href="<?php echo site_url("/ about "); ?>"> Read More</a> </div>
+								<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--move-up"> <a class="elementor-cta__button elementor-button elementor-size-sm" href="<?php echo site_url("/about "); ?>"> Read More</a> </div>
 
 
 							</div>
@@ -387,10 +384,8 @@
 								</div>
 							</div>
 						</div>
-						
 					</div>
 				</section>
-
 			</div>
 		</section>
 		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-63ce778 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
@@ -422,7 +417,7 @@
 
 														<div class="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation-float media  ">
 															<div class="elementskit-box-header">
-																<div class="elementskit-info-box-icon text-center"> <img style="filter: brightness(0) invert(1);" width="512" height="512" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/3-protection-1.png" class="attachment- size-" alt="" loading="lazy" /> </div>
+																<div class="elementskit-info-box-icon text-center"> <img style="filter: brightness(0) invert(1);" width="512" height="512" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/3-protection-1.png" class="attachment- size-" alt="" loading="lazy"/> </div>
 															</div>
 															<div class="box-body">
 																<h3 class="elementskit-info-box-title" style="color: #fff">Self-Control </h3>
@@ -721,7 +716,7 @@
 				</div>
 			</div>
 		</section>
-	
+
 
 		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-62d0906 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 			<div class="elementor-background-overlay"></div>
@@ -741,86 +736,86 @@
 						<div class="elementor-element elementor-element-c3f4f5e elementor-widget">
 							<div class="elementor-widget-container">
 
-							<div class="testimonial-slider">
-								<div class="slide">
-									<div class="auth_header">
-																<ul class="elementskit-stars">
-																	<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
-																	</li>
-																	<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
-																	</li>
-																	<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
-																	</li>
-																	<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
-																	</li>
-																	<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
-																	</li>
-																</ul>
-															</div>
-									<div class="auth_content">
-																<p style="color: #fff;">Quam auctor inceptos purus nec elementum consectetur. Faucibus nullam gravida quisque class a metus vitae venenatis ornare. Tempus ut accumsan natoque mattis porttitor aliquam felis taciti. Sagittis primis at nibh sociosqu platea turpis suscipit. Sociosqu nostra eget magnis viverra eleifend netus.</p>
-															</div>
-									<div class="auth_details">
-																	<div class="testimonial--avatar"> <img width="500" height="500" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/test1.png" class="attachment-full size-full" alt="Cheerful man portrait" loading="lazy" height="70" width="70"/> </div>
-																	<div class="profile-info" style="color: #fff;"> <strong class="elementskit-author-name">Andre Harris</strong><br><span class="elementskit-author-des">Biologist</span> </div>
-																</div>
+								<div class="testimonial-slider">
+									<div class="slide">
+										<div class="auth_header">
+											<ul class="elementskit-stars">
+												<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
+												</li>
+												<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
+												</li>
+												<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
+												</li>
+												<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
+												</li>
+												<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
+												</li>
+											</ul>
+										</div>
+										<div class="auth_content">
+											<p style="color: #fff;">Quam auctor inceptos purus nec elementum consectetur. Faucibus nullam gravida quisque class a metus vitae venenatis ornare. Tempus ut accumsan natoque mattis porttitor aliquam felis taciti. Sagittis primis at nibh sociosqu platea turpis suscipit. Sociosqu nostra eget magnis viverra eleifend netus.</p>
+										</div>
+										<div class="auth_details">
+											<div class="testimonial--avatar"> <img width="500" height="500" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/test1.png" class="attachment-full size-full" alt="Cheerful man portrait" loading="lazy" height="70" width="70"/> </div>
+											<div class="profile-info" style="color: #fff;"> <strong class="elementskit-author-name">Andre Harris</strong><br><span class="elementskit-author-des">Biologist</span> </div>
+										</div>
+									</div>
+									<div class="slide">
+										<div class="auth_header">
+											<ul class="elementskit-stars">
+												<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
+												</li>
+												<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
+												</li>
+												<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
+												</li>
+												<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
+												</li>
+												<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
+												</li>
+											</ul>
+										</div>
+										<div class="auth_content">
+											<p style="color: #fff;">Quam auctor inceptos purus nec elementum consectetur. Faucibus nullam gravida quisque class a metus vitae venenatis ornare. Tempus ut accumsan natoque mattis porttitor aliquam felis taciti. Sagittis primis at nibh sociosqu platea turpis suscipit. Sociosqu nostra eget magnis viverra eleifend netus.</p>
+										</div>
+										<div class="auth_details">
+											<div class="testimonial--avatar"> <img width="500" height="500" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/test2.png" class="attachment-full size-full" alt="Cheerful man portrait" loading="lazy" height="70" width="70"/> </div>
+											<div class="profile-info" style="color: #fff;"> <strong class="elementskit-author-name">Jonathan </strong><br><span class="elementskit-author-des">Biologist</span> </div>
+										</div>
+									</div>
+									<div class="slide">
+										<div class="auth_header">
+											<ul class="elementskit-stars">
+												<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
+												</li>
+												<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
+												</li>
+												<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
+												</li>
+												<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
+												</li>
+												<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
+												</li>
+											</ul>
+										</div>
+										<div class="auth_content">
+											<p style="color: #fff;">Quam auctor inceptos purus nec elementum consectetur. Faucibus nullam gravida quisque class a metus vitae venenatis ornare. Tempus ut accumsan natoque mattis porttitor aliquam felis taciti. Sagittis primis at nibh sociosqu platea turpis suscipit. Sociosqu nostra eget magnis viverra eleifend netus.</p>
+										</div>
+										<div class="auth_details">
+											<div class="testimonial--avatar"> <img width="500" height="500" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/test3.png" class="attachment-full size-full" alt="Cheerful man portrait" loading="lazy" height="70" width="70"/> </div>
+											<div class="profile-info" style="color: #fff;"> <strong class="elementskit-author-name">Amber White</strong><br><span class="elementskit-author-des">Biologist</span> </div>
+										</div>
+									</div>
+
+
 								</div>
-								<div class="slide">
-									<div class="auth_header">
-																<ul class="elementskit-stars">
-																	<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
-																	</li>
-																	<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
-																	</li>
-																	<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
-																	</li>
-																	<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
-																	</li>
-																	<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
-																	</li>
-																</ul>
-															</div>
-									<div class="auth_content">
-																<p style="color: #fff;">Quam auctor inceptos purus nec elementum consectetur. Faucibus nullam gravida quisque class a metus vitae venenatis ornare. Tempus ut accumsan natoque mattis porttitor aliquam felis taciti. Sagittis primis at nibh sociosqu platea turpis suscipit. Sociosqu nostra eget magnis viverra eleifend netus.</p>
-															</div>
-									<div class="auth_details">
-																	<div class="testimonial--avatar"> <img width="500" height="500" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/test2.png" class="attachment-full size-full" alt="Cheerful man portrait" loading="lazy" height="70" width="70"/> </div>
-																	<div class="profile-info" style="color: #fff;"> <strong class="elementskit-author-name">Jonathan </strong><br><span class="elementskit-author-des">Biologist</span> </div>
-																</div>
-								</div>
-								<div class="slide">
-									<div class="auth_header">
-																<ul class="elementskit-stars">
-																	<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
-																	</li>
-																	<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
-																	</li>
-																	<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
-																	</li>
-																	<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
-																	</li>
-																	<li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
-																	</li>
-																</ul>
-															</div>
-									<div class="auth_content">
-																<p style="color: #fff;">Quam auctor inceptos purus nec elementum consectetur. Faucibus nullam gravida quisque class a metus vitae venenatis ornare. Tempus ut accumsan natoque mattis porttitor aliquam felis taciti. Sagittis primis at nibh sociosqu platea turpis suscipit. Sociosqu nostra eget magnis viverra eleifend netus.</p>
-															</div>
-									<div class="auth_details">
-																	<div class="testimonial--avatar"> <img width="500" height="500" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/test3.png" class="attachment-full size-full" alt="Cheerful man portrait" loading="lazy" height="70" width="70"/> </div>
-																	<div class="profile-info" style="color: #fff;"> <strong class="elementskit-author-name">Amber White</strong><br><span class="elementskit-author-des">Biologist</span> </div>
-																</div>
-								</div>
-								
-								
-							</div>
 
 
 
 
 
 
-							<!--	<div class="ekit-wid-con">
+								<!--	<div class="ekit-wid-con">
 									
 									<div class="" >
 										<div class="container">
@@ -923,34 +918,34 @@
 						</div>
 					</div>
 				</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6aa98a2" data-id="6aa98a2" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6aa98a2">
 					<div class="elementor-widget-wrap"> </div>
 				</div>
 			</div>
 		</section>
-		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-291b038 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="291b038" data-element_type="section" data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-291b038 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 			<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1965635" data-id="1965635" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1965635">
 					<div class="elementor-widget-wrap elementor-element-populated">
-						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-2f3a779 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2f3a779" data-element_type="section" data-settings="{&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<section class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-2f3a779 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 							<div class="elementor-container elementor-column-gap-default">
-								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5b8f911" data-id="5b8f911" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5b8f911">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-053c599 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="053c599" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+										<div class="elementor-element elementor-element-053c599 ob-harakiri-inherit elementor-widget elementor-widget-heading">
 											<div class="elementor-widget-container">
 												<h6 class="elementor-heading-title elementor-size-default">Update</h6>
 											</div>
 										</div>
-										<div class="elementor-element elementor-element-7b1459d ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="7b1459d" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+										<div class="elementor-element elementor-element-7b1459d ob-harakiri-inherit elementor-widget elementor-widget-heading">
 											<div class="elementor-widget-container">
 												<h2 class="elementor-heading-title elementor-size-default" style="color: #000;">Blog & Article</h2>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-93bab5c" data-id="93bab5c" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+								<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-93bab5c">
 									<div class="elementor-widget-wrap elementor-element-populated">
-										<div class="elementor-element elementor-element-e38e813 elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="e38e813" data-element_type="widget" data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="button.default">
+										<div class="elementor-element elementor-element-e38e813 elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button">
 											<div class="elementor-widget-container">
 												<div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper"> <span class="elementor-button-icon elementor-align-icon-right"> <i class="fal fa-arrow-right"></i> </span> <span class="elementor-button-text" style="color: #fff;">All Article</span> </span> </a> </div>
 											</div>
@@ -989,7 +984,7 @@
 									<article class="elementor-post elementor-grid-item post-94 post type-post status-publish format-standard has-post-thumbnail hentry category-cyber-security tag-cyber-security tag-elementor tag-moxcreative tag-quickenworks tag-template-kit">
 										<div class="elementor-post__card">
 											<a class="elementor-post__thumbnail__link" href="#">
-												<div class="elementor-post__thumbnail"><img width="2000" height="1333" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen.jpg" class="attachment-full size-full" alt="Male Teenage Hacker With Data Reflected From Computer Screen" loading="lazy" />
+												<div class="elementor-post__thumbnail"><img width="2000" height="1333" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/male-teenage-hacker-with-data-reflected-from-computer-screen.jpg" class="attachment-full size-full" alt="Male Teenage Hacker With Data Reflected From Computer Screen" loading="lazy"/>
 												</div>
 											</a>
 											<div class="elementor-post__badge font-white" style="color: #000 !important;">Cyber Security</div>
@@ -1025,42 +1020,42 @@
 
 	<div id="myModal" class="modalcstm fade-in one">
 
-  <div class="modal-content">
-		<div class="border_line">
-			<div class="hide_box" id="Menu1">
-    <h4 style="text-align:center; color:#020817;">Join me on Patreon</h4>
-    <h3>Your Cybersecurity Coach</h3>
-    <p class="pup_txt">Hey!  Are you new to cybersecurity or interested in transitioning into the profession?</p>
-			<p class="pup_txt">Great!  You’re in the right place.	</p>
-			<p class="pup_txt">Gain experience and confidence now every Tuesday and Thursday from 6:30pm to 8:30pm.	</p>
-    <p><a href="#" class="btn_jnmeptrn" onclick="toggleVisibility('Menu2');">Join me on Patreon</a></p>
-			</div>	
-			<div class="show_box" id="Menu2" style="display: none;">
-			<div class="preq_cnt">
-				<span class="close">&times;</span>
-		 <h2>Prerequisites</h2>
-			<ul>
-			<li>No previous information technology or cybersecurity knowledge required</li>
-				<li>Willing to learn</li>
-				<li>The ability to work independently and as a team</li>
-				<li>Complete the <a href="https://curiosity.britannica.com/curiosity-personality-quiz.html" target="_blank">Britannica Curiosity Compass</a> (3-minute quiz)</li>
-				<li>Complete the <a href="http://www.humanmetrics.com/personality" target="_blank">Personality Test</a>  (10-minute quiz)</li>
-			</ul>
-			<h2>System Requirements</h2>
-			<ul>
-			<li>Laptop/Desktop</li>
-				<li>8GB of RAM minimum</li>
-				<li>256GB hard drive minimum</li>
-			</ul>
+		<div class="modal-content">
+			<div class="border_line">
+				<div class="hide_box" id="Menu1">
+					<h4 style="text-align:center; color:#020817;">Join me on Patreon</h4>
+					<h3>Your Cybersecurity Coach</h3>
+					<p class="pup_txt">Hey! Are you new to cybersecurity or interested in transitioning into the profession?</p>
+					<p class="pup_txt">Great! You’re in the right place. </p>
+					<p class="pup_txt">Gain experience and confidence now every Tuesday and Thursday from 6:30pm to 8:30pm. </p>
+					<p><a href="#" class="btn_jnmeptrn" onclick="toggleVisibility('Menu2');">Join me on Patreon</a>
+					</p>
+				</div>
+				<div class="show_box" id="Menu2" style="display: none;">
+					<div class="preq_cnt">
+						<span class="close">&times;</span>
+						<h2>Prerequisites</h2>
+						<ul>
+							<li>No previous information technology or cybersecurity knowledge required</li>
+							<li>Willing to learn</li>
+							<li>The ability to work independently and as a team</li>
+							<li>Complete the <a href="https://curiosity.britannica.com/curiosity-personality-quiz.html" target="_blank">Britannica Curiosity Compass</a> (3-minute quiz)</li>
+							<li>Complete the <a href="http://www.humanmetrics.com/personality" target="_blank">Personality Test</a> (10-minute quiz)</li>
+						</ul>
+						<h2>System Requirements</h2>
+						<ul>
+							<li>Laptop/Desktop</li>
+							<li>8GB of RAM minimum</li>
+							<li>256GB hard drive minimum</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
-  </div>
-		</div>
-</div>
-</div>
-		
-	
+	</div>
+
+
 	<script>
-	
 		// Get the modal
 		var modal = document.getElementById( "myModal" );
 
@@ -1085,26 +1080,26 @@
 	</script>
 	<style>
 		.fade-in {
-  opacity:0;  /* make things invisible upon start */
-  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  -moz-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
-
-  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-  -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
-
-  -webkit-animation-duration:1s;
-  -moz-animation-duration:1s;
-  animation-duration:1s;
-}
-
-.fade-in.one {
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  animation-delay: 2s;
-}
+			opacity: 0;
+			/* make things invisible upon start */
+			-webkit-animation: fadeIn ease-in 1;
+			/* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+			-moz-animation: fadeIn ease-in 1;
+			animation: fadeIn ease-in 1;
+			-webkit-animation-fill-mode: forwards;
+			/* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+			-moz-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
+			-webkit-animation-duration: 1s;
+			-moz-animation-duration: 1s;
+			animation-duration: 1s;
+		}
 		
+		.fade-in.one {
+			-webkit-animation-delay: 2s;
+			-moz-animation-delay: 2s;
+			animation-delay: 2s;
+		}
 		
 		.slick-slide {
 			margin: 0px 10px;
@@ -1222,14 +1217,17 @@
 			padding-top: 0;
 			padding-bottom: 20px;
 		}
-		.auth_header .elementskit-stars  {
+		
+		.auth_header .elementskit-stars {
 			padding: 0;
 			margin: 0;
-}
+		}
+		
 		.auth_header .elementskit-stars li {
 			list-style: none;
 			display: inline;
-}
+		}
+		
 		.auth_details {
 			/*display: -webkit-box;
     display: -ms-flexbox;
@@ -1238,19 +1236,21 @@
     -ms-flex-pack: justify;
     justify-content: space-between;*/
 		}
+		
 		.auth_details img {
 			float: left;
-    border-radius: 50%;
-    height: 70px;
-    width: 70px;
-    border: 0;
-    background: transparent;
-    padding: 0;
+			border-radius: 50%;
+			height: 70px;
+			width: 70px;
+			border: 0;
+			background: transparent;
+			padding: 0;
 			margin: 0 20px 0 0;
-}
+		}
+		
 		.profile-info {
-    padding: 10px 0 0;
-}
+			padding: 10px 0 0;
+		}
 	</style>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
@@ -1326,27 +1326,29 @@
 			} );
 		} );
 	</script>
-		<script>
-		var divs = ["Menu1", "Menu2"];
-var visibleDivId = null;
-function toggleVisibility(divId) {
-  if(visibleDivId === divId) {
-    //visibleDivId = null;
-  } else {
-    visibleDivId = divId;
-  }
-  hideNonVisibleDivs();
-}
-function hideNonVisibleDivs() {
-  var i, divId, div;
-  for(i = 0; i < divs.length; i++) {
-    divId = divs[i];
-    div = document.getElementById(divId);
-    if(visibleDivId === divId) {
-      div.style.display = "block";
-    } else {
-      div.style.display = "none";
-    }
-  }
-}
-		</script>
+	<script>
+		var divs = [ "Menu1", "Menu2" ];
+		var visibleDivId = null;
+
+		function toggleVisibility( divId ) {
+			if ( visibleDivId === divId ) {
+				//visibleDivId = null;
+			} else {
+				visibleDivId = divId;
+			}
+			hideNonVisibleDivs();
+		}
+
+		function hideNonVisibleDivs() {
+			var i, divId, div;
+			for ( i = 0; i < divs.length; i++ ) {
+				divId = divs[ i ];
+				div = document.getElementById( divId );
+				if ( visibleDivId === divId ) {
+					div.style.display = "block";
+				} else {
+					div.style.display = "none";
+				}
+			}
+		}
+	</script>

@@ -21,8 +21,8 @@
 	
 	<link rel='stylesheet' id='elementor-post-3-css' href='<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/css/post-3b595.css?ver=1637060703' type='text/css' media='all'/>
 	<link rel='stylesheet' id='elementor-pro-css' href='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/css/frontend.minee9a.css?ver=3.2.2' type='text/css' media='all'/>
-	<?php /*?><link rel='stylesheet' id='ooohboi-steroids-styles-css' href='<?php echo base_url();?>design/wp-content/plugins/ooohboi-steroids-for-elementor/assets/css/maine45b.css?ver=1.8.103052021' type='text/css' media='all'/>
-	<link rel='stylesheet' id='void-whmcse-css' href='<?php echo base_url();?>design/wp-content/plugins/void-elementor-whmcs-elements/assets/css/style080f.css?ver=5.8.2' type='text/css' media='all'/><?php */?>
+	<link rel='stylesheet' id='ooohboi-steroids-styles-css' href='<?php echo base_url();?>design/wp-content/plugins/ooohboi-steroids-for-elementor/assets/css/maine45b.css?ver=1.8.103052021' type='text/css' media='all'/>
+	<link rel='stylesheet' id='void-whmcse-css' href='<?php echo base_url();?>design/wp-content/plugins/void-elementor-whmcs-elements/assets/css/style080f.css?ver=5.8.2' type='text/css' media='all'/>
 	<?php /*?><link rel='stylesheet' id='font-awesome-5-all-css' href='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min1c9b.css?ver=4.6.1' type='text/css' media='all'/>
 	<link rel='stylesheet' id='font-awesome-4-shim-css' href='<?php echo base_url();?>design/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min1845.css?ver=4.9.6' type='text/css' media='all'/><?php */?>
 	<link rel='stylesheet' id='elementor-post-798-css' href='<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/css/post-79801f5.css?ver=1637062368' type='text/css' media='all'/>
@@ -159,22 +159,22 @@
 			<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-677e228 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 				<div class="elementor-container elementor-column-gap-default">
 					<header>
-						<div class="brand"><a href="<?php echo site_url("/ home "); ?>"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/Comp_7.gif" title="Hsoc" alt="Hsoc" /></a>
+						<div class="brand"><a href="<?php echo site_url("/home "); ?>"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/Comp_7.gif" title="Hsoc" alt="Hsoc" /></a>
 						</div>
 						<nav class="menu">
 							<input type="checkbox" id="menuToggle">
 							<label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
 							<ul>
-								<a href="<?php echo site_url("/ home "); ?>" class="elementor-item-active">
+								<a href="<?php echo site_url("/home "); ?>" class="elementor-item-active">
 									<li>Home</li>
 								</a>
-								<a href="<?php echo site_url("/ about "); ?>">
+								<a href="<?php echo site_url("/about "); ?>">
 									<li>About Us</li>
 								</a>
-								<a href="<?php echo site_url("/ service "); ?>">
+								<a href="<?php echo site_url("/service "); ?>">
 									<li>Service</li>
 								</a>
-								<a href="<?php echo site_url("/ contact "); ?>">
+								<a href="<?php echo site_url("/contact "); ?>">
 									<li>Contact Us</li>
 								</a>
 							</ul>
