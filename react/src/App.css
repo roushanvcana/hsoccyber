@@ -1882,3 +1882,159 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
   }
 }
 /* responsive-behaviour */
+
+/* contact-page */
+
+.contact-section {
+  padding: 100px 50px 100px 50px;
+  background-image: url(./components/assets/images/hero-3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 100vw #093056d4;
+}
+
+.contact-section .bread-crumb h2 {
+  color: #f4ca59;
+  margin: 0 0 25px 0;
+  font-family: "Exo 2", sans-serif;
+}
+
+.contact-section .crumb-list ul.list {
+  list-style-type: none;
+  display: flex;
+  padding: 0%;
+}
+
+.contact-section .crumb-list ul.list li {
+  font-family: "Exo 2", sans-serif;
+}
+
+.contact-section .crumb-list ul.list li a {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Exo 2", sans-serif;
+}
+
+.contact-section .crumb-list ul.list li a:hover {
+  color: #f4ca59;
+}
+
+.contact-section .crumb-list ul.list li.active {
+  font-size: 20px;
+  color: #f4ca59;
+  font-weight: 600;
+}
+
+.contact-grid {
+  padding: 0px 50px 0px 50px;
+}
+
+.contact-grid .grid-1 {
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+
+.contact-grid .grid-1 img {
+  width: 20%;
+  margin: 0 0 20px 0;
+}
+
+.contact-grid .grid-1 a {
+  text-decoration: none;
+  color: #022e86;
+  font-weight: 500;
+}
+
+.contact-grid .grid-1 h6 {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.contact-grid .map {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-grid .map iframe#gmap_canvas {
+  height: 300px;
+  width: 100%;
+}
+
+.form-section {
+  background: #dee2e6;
+  padding: 100px 50px 100px 50px;
+}
+
+.form-section .head {
+  text-align: center;
+}
+
+.form-section .head h6 {
+  font-size: 20px;
+  color: #022e86;
+  font-weight: 700;
+}
+
+.form-section .head h2 {
+  font-size: 40px;
+  font-family: "Exo 2", sans-serif;
+  margin: 0 0 25px 0;
+}
+
+.form-section .form {
+  padding: 50px;
+}
+
+.form-section .form input {
+  padding: 14px;
+}
+
+.form-section .form button.head-button.btn.btn-primary {
+  width: 11%;
+  height: 47px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #00aefe;
+  border: none;
+  margin: 50px 0 0 0;
+  text-transform: uppercase;
+}
+
+.form-section .form button.head-button.btn.btn-primary:hover {
+  background-color: #043e58;
+  transform: translate(0, -10px);
+  transition: 0.6s;
+  -webkit-transform: translate(0, -10px);
+  -moz-transform: translate(0, -10px);
+  -ms-transform: translate(0, -10px);
+  -o-transform: translate(0, -10px);
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+
+/* .design {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 111;
+}
+
+.design::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 115px;
+  bottom: 0;
+  left: 0;
+  background-image: url(./components/assets/images/bottom-frame.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 100%;
+} */
+
+/* contact-page */
