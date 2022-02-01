@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,700;0,800;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Merienda:wght@700&display=swap");
 
 body {
   margin: 0;
@@ -1416,6 +1418,10 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
     padding: 50px;
   }
 
+  .modal.show .modal-dialog {
+    width: 60%;
+  }
+
   /* .pro-heading {
     text-align: center;
   } */
@@ -1649,6 +1655,10 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
     text-align: center;
     margin: 10px 0 0 0;
   }
+
+  .modal.show .modal-dialog {
+    width: 42%;
+  }
 }
 
 @media (max-width: 320px) {
@@ -1880,6 +1890,10 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
     text-align: center;
     margin: 10px 0 0 0;
   }
+
+  .modal.show .modal-dialog {
+    width: 30%;
+  }
 }
 /* responsive-behaviour */
 
@@ -1993,7 +2007,6 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
 }
 
 .form-section .form button.head-button.btn.btn-primary {
-  width: 11%;
   height: 47px;
   font-weight: 500;
   font-size: 16px;
@@ -2001,6 +2014,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
   border: none;
   margin: 50px 0 0 0;
   text-transform: uppercase;
+  padding: 10px 20px 15px 20px;
 }
 
 .form-section .form button.head-button.btn.btn-primary:hover {
@@ -2038,3 +2052,90 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
 } */
 
 /* contact-page */
+
+/* modal-css */
+
+.modal.show .modal-dialog {
+  top: 20%;
+  text-align: center;
+  border: 6px solid #2166a8;
+}
+
+.modal-content {
+  padding: 25px;
+  border-radius: 0% !important;
+  -webkit-border-radius: 0% !important;
+  -moz-border-radius: 0% !important;
+  -ms-border-radius: 0% !important;
+  -o-border-radius: 0% !important;
+}
+
+.modal-header {
+  border: 0 !important;
+  display: initial !important;
+}
+
+.modal-header h4 {
+  border: 0 !important;
+
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  line-height: 24px !important;
+  text-align: center;
+  color: #f8541f !important;
+  font-family: "Merienda", cursive !important;
+}
+
+.modal-header h3 {
+  text-align: center;
+  font-size: 28px;
+  font-family: "Merienda", cursive !important;
+}
+
+.btn-close {
+  border: 0;
+  border-radius: 0;
+  opacity: 0.5;
+  background: transparent;
+  display: none;
+}
+
+.modal-body {
+  padding: 0 !important;
+}
+
+.modal-body p {
+  text-align: center;
+  color: #333333;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 0 0;
+}
+
+.modal-footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center !important;
+  padding: 0.75rem;
+  border-top: 0 !important;
+}
+
+.modal-footer .btn-primary {
+  font-family: "Merienda", cursive !important;
+  background: #286bac;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+.modal-footer .btn-primary:hover {
+  background: rgb(12, 49, 163);
+  transition: 0.5s;
+}
+
+/* modal-css */

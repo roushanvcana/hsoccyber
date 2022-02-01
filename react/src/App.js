@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Home } from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route, Link, Routes, BrowserRouter } from 'react-router-dom';
 import Logo  from './components/assets/images/Comp_7.gif';
@@ -13,6 +13,7 @@ import { Footer } from './components/navbar/footer';
 import { Contact } from './components/pages/Contact';
 
 function App() {
+
 
   return (
     <BrowserRouter>
@@ -31,6 +32,7 @@ function App() {
     <>
       <Footer />
     </>
+     
 
     </div>
     </BrowserRouter>

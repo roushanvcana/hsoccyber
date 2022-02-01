@@ -1,4 +1,4 @@
-import React, { Fragment} from 'react';
+import React, { Fragment, useEffect, useState} from 'react';
 import OwlCarousel from 'react-owl-carousel';  
  import 'owl.carousel/dist/assets/owl.carousel.css';  
  import 'owl.carousel/dist/assets/owl.theme.default.css';  
@@ -6,7 +6,8 @@ import { Col,
     Container, 
     Row,
     Button,
-    Card
+    Card,
+    Modal
  } from 'react-bootstrap';
 
  import LogoImage from '../assets/images/Comp_7.gif';
@@ -55,8 +56,20 @@ import { Col,
  import Blog_2 from '../assets/images/woman-working.jpg';
  import Blog_3 from '../assets/images/male-teenage.jpg';
  import Blog_4 from '../assets/images/computer.jpg';
+  import $ from 'jquery';
 
 export const Home = () => {
+
+  const [show, setShow] = useState(false);
+
+  useEffect(()=>{
+    setTimeout(()=>{
+      setShow(true)
+    }, 1000)
+  }, [])
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   const options = {
     margin: 30,
@@ -871,6 +884,74 @@ export const Home = () => {
 
                              {/* tenth-section */}
 
+                      <>
+                      <Modal  
+                   show={show}
+                onHide={() => setShow(false)} 
+              animation={true}>
+        <Modal.Header closeButton>
+          <Modal.Title>
+          <h4>Join me on Patreon</h4></Modal.Title>
+          <h3>Your Cybersecurity Coach</h3>
+        </Modal.Header>
+        <Modal.Body>
+      <p>
+      Hey! Are you new to cybersecurity or interested in transitioning into the profession?
+      </p>
+      <p>Great! You’re in the right place.</p>
+
+      <p>Gain experience and confidence now every Tuesday and Thursday from 6:30pm to 8:30pm.</p>
+      
+      </Modal.Body>
+        <Modal.Footer>
+          {/* <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button> */}
+          <Button variant="primary" onClick={handleClose}>
+          Join me on Patreon
+          </Button>
+        </Modal.Footer>
+      </Modal>
+                      {/* <Modal
+                show={show}
+                onHide={() => setShow(false)}
+                dialogClassName="modal-90w"
+                aria-labelledby="contained-modal-title-vcenter"
+                      >
+                <Modal.Header closeButton>
+                    <Modal.Title id="contained-modal-title-vcenter">
+                        Lorem Ipsum Dolor
+                    </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <Row className="text-center justify-content-center">
+                        <Col>
+                            <Button>USER</Button>
+                        </Col>
+                        <Col>
+                            <Button>AGENT</Button>
+                        </Col>
+                    </Row>
+                </Modal.Body>
+            </Modal> */}
+                      </>
+                             {/* <>
+    <div id="modalOverlay">
+		<div className="modalPopup">
+			<div className="headerBar">
+				<img src="https://placehold.it/200x25/edcb04/333333/?text=LOGO" alt="Logo" />
+			</div>
+			<div className="modalContent">
+					<h1>Modal window title here</h1>
+					 <p>Modal appears on page load, presents information and is dismissed after the "Close" button is clicked. Styled modal messaging, images and other information here.</p>
+					 <button className="buttonStyle" id="button">Close</button>
+			</div>
+		</div>
+	</div>
+    </> */}
+
       </Fragment>
+
+      
   );
 };
