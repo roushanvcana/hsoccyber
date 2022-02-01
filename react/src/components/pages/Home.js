@@ -9,6 +9,7 @@ import { Col,
     Card,
     Modal
  } from 'react-bootstrap';
+ import { Link } from 'react-router-dom';
 
  import LogoImage from '../assets/images/Comp_7.gif';
  import Image1 from '../assets/images/abt1.jpg';
@@ -61,6 +62,7 @@ import { Col,
 export const Home = () => {
 
   const [show, setShow] = useState(false);
+   const [newshow, setNewShow] = useState(false);
 
   useEffect(()=>{
     setTimeout(()=>{
@@ -68,8 +70,11 @@ export const Home = () => {
     }, 1000)
   }, [])
 
+
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+   const handleShow = () => setNewShow(true);
+
+   const handleNewClose = () => setNewShow(false);
 
   const options = {
     margin: 30,
@@ -885,7 +890,8 @@ export const Home = () => {
                              {/* tenth-section */}
 
                       <>
-                      <Modal  
+                  
+                     <Modal  
                    show={show}
                 onHide={() => setShow(false)} 
               animation={true}>
@@ -904,51 +910,72 @@ export const Home = () => {
       
       </Modal.Body>
         <Modal.Footer>
-          {/* <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button> */}
-          <Button variant="primary" onClick={handleClose}>
+          <Button variant="primary" onClick={handleShow}>
           Join me on Patreon
           </Button>
         </Modal.Footer>
+          </Modal>
+
+          <Modal className='new-modal' show={newshow} onHide={handleNewClose} style={{
+             top: '0%',
+             textAlign: 'left',
+             width: '99%',
+          }}>
+        <Modal.Header className='header' style={{
+               display: 'flex',
+               textAlign: 'left',
+               padding: '10px',
+        }}>
+         <button type="button" class="btn-close" aria-label="Close" onClick={handleNewClose}
+          style={{
+            boxSizing: 'content-box',
+            width: '8px',
+            height: '8px',
+          padding: '0.25em 0.25em',
+          color: '#000',
+       background: 'transparent url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23000%27%3e%3cpath d=%27M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z%27/%3e%3c/svg%3e) center/1em auto no-repeat',
+           border: 0,
+       borderRadius: '0.25rem',
+        opacity: .5,
+        display: 'flex',
+          }}></button>
+          <Modal.Title className='title'>
+        Prerequisites
+        </Modal.Title>
+         
+        </Modal.Header>
+        <Modal.Body className='body' style={{
+          textAlign: 'left',
+        }}>
+        <ul>
+          <li>No previous information technology or cybersecurity knowledge required</li>
+         <li> Willing to learn</li>
+            <li> The ability to work independently and as a team</li> 
+          <li>Complete the <Link to="https://curiosity.britannica.com/curiosity-personality-quiz.html"> Britannica Curiosity Compass </Link>(3-minute quiz)</li>  
+               <li> Complete the <Link to="http://www.humanmetrics.com/personality">Personality Test</Link> (10-minute quiz)</li>
+          </ul>
+
+          <h5>System Requirements</h5>
+          <ul>
+        
+          <li>Laptop/Desktop</li>
+         <li>8GB of RAM minimum</li>
+            <li>256GB hard drive minimum</li>
+          </ul>
+
+        </Modal.Body>
+        {/* <Modal.Footer>
+          <Button variant="secondary" onClick={handleNewClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleNewClose}>
+            Save
+          </Button>
+        </Modal.Footer> */}
       </Modal>
-                      {/* <Modal
-                show={show}
-                onHide={() => setShow(false)}
-                dialogClassName="modal-90w"
-                aria-labelledby="contained-modal-title-vcenter"
-                      >
-                <Modal.Header closeButton>
-                    <Modal.Title id="contained-modal-title-vcenter">
-                        Lorem Ipsum Dolor
-                    </Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                    <Row className="text-center justify-content-center">
-                        <Col>
-                            <Button>USER</Button>
-                        </Col>
-                        <Col>
-                            <Button>AGENT</Button>
-                        </Col>
-                    </Row>
-                </Modal.Body>
-            </Modal> */}
+
                       </>
-                             {/* <>
-    <div id="modalOverlay">
-		<div className="modalPopup">
-			<div className="headerBar">
-				<img src="https://placehold.it/200x25/edcb04/333333/?text=LOGO" alt="Logo" />
-			</div>
-			<div className="modalContent">
-					<h1>Modal window title here</h1>
-					 <p>Modal appears on page load, presents information and is dismissed after the "Close" button is clicked. Styled modal messaging, images and other information here.</p>
-					 <button className="buttonStyle" id="button">Close</button>
-			</div>
-		</div>
-	</div>
-    </> */}
+                        
 
       </Fragment>
 

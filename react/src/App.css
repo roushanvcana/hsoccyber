@@ -2139,3 +2139,104 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
 }
 
 /* modal-css */
+
+/* login-section */
+
+.login-section {
+  padding: 100px 50px 100px 50px;
+  background-image: url(./components/assets/images/hero-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 100vw #093056d4;
+}
+
+.login-section .bread-crumb h2 {
+  color: #f4ca59;
+  margin: 0 0 25px 0;
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+.login-section .crumb-list ul.list {
+  list-style-type: none;
+  display: flex;
+  padding: 0%;
+}
+
+.login-section .crumb-list ul.list li {
+  font-family: "Exo 2", sans-serif;
+}
+
+.login-section .crumb-list ul.list li a {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Exo 2", sans-serif;
+}
+
+.login-section .crumb-list ul.list li a:hover {
+  color: #f4ca59;
+}
+
+.login-section .crumb-list ul.list li.active {
+  font-size: 20px;
+  color: #f4ca59;
+  font-weight: 600;
+}
+
+.login-form {
+  padding: 100px 50px 100px 50px;
+}
+
+.login-form .login-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 10px 10px 10px #05122a;
+}
+
+.login-form .login-text {
+  padding: 30px;
+  text-align: center;
+}
+
+.login-form .login-text .form .form-group {
+  display: flex;
+}
+
+.login-form .login-text h1 {
+  margin: 0 0 20px 0;
+}
+
+.login-form .login-text .form .form-group p {
+  margin: 0 0 30px 0;
+}
+
+.login-form .login-text .form .form-group .icon i {
+  font-size: 18px;
+  margin: 0 17px 0 0;
+  float: right;
+}
+
+.login-form .login-text .form .form-group input#customCheck1 {
+  margin: 0 10px;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+.login-form .login-text .form .form-group input.form-control {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* login-section */

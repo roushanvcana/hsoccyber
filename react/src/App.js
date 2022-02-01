@@ -11,6 +11,7 @@ import './App.css';
 import { HsocNavbar } from './components/navbar/navbar';
 import { Footer } from './components/navbar/footer';
 import { Contact } from './components/pages/Contact';
+import { Login } from './components/admin/pages/login';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/contact" exact element={<Contact />} />
+        <Route path="/admin/login" exact element={<Login />} />
       </Routes>
    </div>
 
