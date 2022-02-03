@@ -152,11 +152,15 @@
 		}
 	</style>
 </head>
+<?php 
+	   $data = $this->db->query('select * from manage_website_setting')->row_array();      
+	   //echo $data['header_background_color']; die;
+?>
 
 <body class="envato_tk_templates-template envato_tk_templates-template-elementor_header_footer single single-envato_tk_templates postid-798 elementor-default elementor-template-full-width elementor-kit-3 elementor-page elementor-page-798">
 	<div data-elementor-type="header" data-elementor-id="53" class="elementor elementor-53 elementor-location-header" data-elementor-settings="[]">
 		<div class="elementor-section-wrap">
-			<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-677e228 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default">
+			<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-677e228 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" style="background-color:<?php echo $data['header_background_color']; ?>">
 				<div class="elementor-container elementor-column-gap-default">
 					<header>
 						<div class="brand"><a href="<?php echo site_url("/home "); ?>"><img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/Comp_7.gif" title="Hsoc" alt="Hsoc" /></a>
@@ -171,7 +175,7 @@
 								<a href="<?php echo site_url("/about "); ?>">
 									<li>About Us</li>
 								</a>
-								<a href="<?php echo site_url("/service "); ?>">
+								<a href="<?php echo site_url("/services "); ?>">
 									<li>Service</li>
 								</a>
 								<a href="<?php echo site_url("/contact "); ?>">

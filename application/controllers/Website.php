@@ -12,6 +12,7 @@
 
     public function home()
     {   
+      
         $data['brandSetion'] = $this->db->query('select * from manage_trusted_brand limit 1,4')->result_array();  
         $data['webmodel'] = $this->db->query('select * from manage_webmodel where id=1')->row_array(); 
         $data['brandrow'] = $this->db->query('select * from manage_trusted_brand where upload_logo = " "')->row_array();  
@@ -25,6 +26,7 @@
         $data['aboutsus'] = $this->db->query('select * from manage_about_us')->row_array();
         $data['welcomemsg_data'] = $this->db->query('select * from manage_welcome_message')->row_array();      
         $data['evaluation'] = $this->db->query('select * from manage_evaluation')->row_array();      
+     
         $this->load->view('frontend/home',$data);
     }
     public function about()
