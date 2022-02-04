@@ -174,7 +174,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-12">
-                                <iframe src="https://www.vcanaglobal.com/" width="100%" height="300"></iframe>
+                                <iframe src="http://localhost/hsoccyber/" width="100%" height="300"></iframe>
                             </div>
                         </div>
                     </div>
