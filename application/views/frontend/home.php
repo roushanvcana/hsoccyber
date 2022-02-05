@@ -46,7 +46,7 @@
 													</div>
 													<div class="elementor-cta__content">
 														<div class="logo_ elementor-content-item elementor-cta__content-item elementor-cta__image elementor-animated-item--move-up"> <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/Comp_7.gif" title="Hsoc" alt="Hsoc"/> </div>
-														<h4 class="elementor-cta__title elementor-cta__content-item elementor-content-item elementor-animated-item--move-up heading_h4"> Securing Your Business </h4>
+														<h4 class="elementor-cta__title elementor-cta__content-item elementor-content-item elementor-animated-item--move-up heading_h4"> Securing Your Business</h4>
 														<div class="elementor-cta__description elementor-cta__content-item elementor-content-item elementor-animated-item--move-up">
 															<p class="space_desc">Whether you have a home-based business, a small- or medium-sized business, HSOC Cyber professional interns will consult with you to help you achieve your business objectives and provide the protection and defense you deserve. Contact us to learn more. We want to help you; therefore, we provide services at an extremely affordable rate</p>
 														</div>
@@ -135,16 +135,7 @@
 									</div>
 								</div>
 							</div>
-							<!--<div class="elementor-element elementor-element-0957d23 ob-harakiri-inherit elementor-widget elementor-widget-heading" data-id="0957d23" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="heading.default">
-       <div class="elementor-widget-container">
-        <h4 class="elementor-heading-title elementor-size-default color-black"></h4>
-       </div>
-      </div>
-      <div class="elementor-element elementor-element-40237c9 ob-harakiri-inherit elementor-widget elementor-widget-text-editor" data-id="40237c9" data-element_type="widget" data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
-       <div class="elementor-widget-container">
-        
-       </div>
-      </div>-->
+						
 						</div>
 					</div>
 				</div>

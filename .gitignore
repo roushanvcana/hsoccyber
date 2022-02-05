@@ -32,3 +32,4 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.JPG
 application/controllers/Team.php
 *.php
+application/views/frontend/home.php
