@@ -939,7 +939,7 @@
 
 	<?php $this->load->view('frontend/layout/footer'); ?>
 
-	<!--<div id="myModal" class="modalcstm fade-in one">
+	<div id="myModal" class="modalcstm fade-in one">
 
 		<div class="modal-content">
 			<div class="border_line">
@@ -973,7 +973,7 @@
 				</div>
 			</div>
 		</div>
-	</div>-->
+	</div>
 
 
 	<script>
