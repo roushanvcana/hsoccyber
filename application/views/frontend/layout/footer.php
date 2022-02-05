@@ -169,3 +169,6 @@ var ElementorProFrontendConfig = {"ajaxurl":"","nonce":"4fe4417b60","urls":{"ass
 </script> -->
 <script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/frontend.minee9a.js?ver=3.2.2' id='elementor-pro-frontend-js'></script> 
 <?php /*?><script type='text/javascript' src='<?php echo base_url();?>design/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.minee9a.js?ver=3.2.2' id='pro-preloaded-elements-handlers-js'></script><?php */?> 
+
+
+

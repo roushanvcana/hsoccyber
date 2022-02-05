@@ -1,8 +1,57 @@
 <?php $this->load->view('frontend/layout/header'); ?>
-
+<!--slider start here-->
+<div id="carousel-thumb" class="carousel carousel-thumbnails slide" data-ride="carousel" data-interval="15000">
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active carousel-banner">
+        <img class="d-block w-100 carousel-img-fit" src="https://mdbootstrap.com/img/Photos/Slides/img%20(88).jpg" alt="First slide">
+               <div class="row carousel-ban-text-adj">
+          <div class="row col-12">
+            <h1 class="col-12 carousel-header-adj">Lorem Ipsum</h1>
+            <p class="col-12 carousel-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elito. </p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-banner">
+        <img class="d-block w-100 carousel-img-fit" src="https://mdbootstrap.com/img/Photos/Slides/img%20(121).jpg" alt="Second slide">
+               <div class="row carousel-ban-text-adj">
+          <div class="row col-12">
+            <h1 class="col-12 carousel-header-adj">Lorem Ipsum</h1>
+            <p class="col-12 carousel-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elite. </p>
+           
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-banner">
+        <img class="d-block w-100 carousel-img-fit" src="https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg" alt="Third slide">
+        <div class="row carousel-ban-text-adj">
+          <div class="row col-12">
+            <h1 class="col-12 carousel-header-adj">Lorem Ipsum</h1>
+            <p class="col-12 carousel-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+   
+  </div>
+<!--slide end--> 
+	
 <div data-elementor-type="wp-post" data-elementor-id="798" class="elementor elementor-798" data-elementor-settings="[]">
 	<div class="elementor-section-wrap">
-		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-6a632fe elementor-section-boxed elementor-section-height-default elementor-section-height-default">
+		<!--<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-6a632fe elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 			<div class="elementor-background-overlay"></div>
 			<div class="elementor-container elementor-column-gap-default">
 				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-10396b5">
@@ -28,7 +77,10 @@
 					<div class="elementor-widget-wrap"> </div>
 				</div>
 			</div>
-		</section>
+		</section>-->
+		
+		
+		
 		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-6a1c204 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 			<div class="elementor-container elementor-column-gap-default">
 				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-22f015a">
@@ -887,7 +939,7 @@
 
 	<?php $this->load->view('frontend/layout/footer'); ?>
 
-	<div id="myModal" class="modalcstm fade-in one">
+	<!--<div id="myModal" class="modalcstm fade-in one">
 
 		<div class="modal-content">
 			<div class="border_line">
@@ -921,7 +973,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 
 
 	<script>
