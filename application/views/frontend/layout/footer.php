@@ -104,10 +104,10 @@
 										<div class="elementor-element elementor-element-0cec0b8 elementor-icon-list--layout-inline elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list">
 											<div class="elementor-widget-container">
 												<ul class="elementor-icon-list-items elementor-inline-items">
-													<li class="elementor-icon-list-item elementor-inline-item"> <a href="#"> <span class="elementor-icon-list-text">Privacy Policy</span> </a> </li>
-													<li class="elementor-icon-list-item elementor-inline-item"> <a href="#"> <span class="elementor-icon-list-text">Cookie Policy</span> </a> </li>
-													<li class="elementor-icon-list-item elementor-inline-item"> <a href="#"> <span class="elementor-icon-list-text">Terms of Use</span> </a> </li>
-													<li class="elementor-icon-list-item elementor-inline-item"> <a href="#"> <span class="elementor-icon-list-text">Site Map</span> </a> </li>
+													<li class="elementor-icon-list-item elementor-inline-item"> <a href="<?php echo base_url()?>privacy-policy"> <span class="elementor-icon-list-text">Privacy Policy</span> </a> </li>
+													<li class="elementor-icon-list-item elementor-inline-item"> <a href="<?php echo base_url()?>cookie"> <span class="elementor-icon-list-text">Cookie Policy</span> </a> </li>
+													<li class="elementor-icon-list-item elementor-inline-item"> <a href="<?php echo base_url()?>term-of-use"> <span class="elementor-icon-list-text">Terms of Use</span> </a> </li>
+													<li class="elementor-icon-list-item elementor-inline-item"> <a href="<?php echo base_url()?>term-of-use"> <span class="elementor-icon-list-text">Site Map</span> </a> </li>
 												</ul>
 											</div>
 										</div>
@@ -117,9 +117,12 @@
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-8afdbb6 elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" >
 											<div class="elementor-widget-container">
-												<div class="elementor-social-icons-wrapper elementor-grid"> <span class="elementor-grid-item"> <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow elementor-repeater-item-71798fc" target="_blank"> <span class="elementor-screen-only">Facebook</span> <i class="fab fa-facebook"></i> </a>
-													</span> <span class="elementor-grid-item"> <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-animation-grow elementor-repeater-item-b9c3e11" target="_blank"> <span class="elementor-screen-only">Linkedin</span> <i class="fab fa-linkedin"></i> </a>
-													</span> <span class="elementor-grid-item"> <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-grow elementor-repeater-item-a54ab8b" target="_blank"> <span class="elementor-screen-only">Twitter</span> <i class="fab fa-twitter"></i> </a>
+												<div class="elementor-social-icons-wrapper elementor-grid"> <span class="elementor-grid-item">
+													 <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow elementor-repeater-item-71798fc" target="_blank"> <span class="elementor-screen-only" href="<?php echo $data['facebook']; ?>" >Facebook</span> <i class="fab fa-facebook"></i> </a>
+													</span> <span class="elementor-grid-item"> 
+														<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-animation-grow elementor-repeater-item-b9c3e11" href="<?php echo $data['linkdin']; ?>" target="_blank"> <span class="elementor-screen-only">Linkedin</span> <i class="fab fa-linkedin"></i> </a>
+													</span> <span class="elementor-grid-item">
+														 <a href="<?php echo $data['twitter']; ?>"  class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-grow elementor-repeater-item-a54ab8b" target="_blank"> <span class="elementor-screen-only">Twitter</span> <i class="fab fa-twitter"></i> </a>
 													</span>
 												</div>
 											</div>
@@ -129,7 +132,7 @@
 								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-12b6a0e">
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-72c8974 ob-harakiri-inherit elementor-widget elementor-widget-heading">
-											<div class="elementor-widget-container"> <span class="elementor-heading-title elementor-size-default">Copyright © 2022, All rights reserved. Design by : Vcanaglobal.</span> </div>
+											<div class="elementor-widget-container"> <span class="elementor-heading-title elementor-size-default">Copyright © <?php echo date('Y')?>, All rights reserved. Design by : <?php echo $data['design_by']; ?>.</span> </div>
 										</div>
 									</div>
 								</div>

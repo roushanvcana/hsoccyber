@@ -1,35 +1,73 @@
 <?php $this->load->view('frontend/layout/header'); ?>
+<style>
+    .page_banner {
+    position: relative;
+    background-size: cover;
+    width: 100%;
+}
+.page_banner:before {
+    position: absolute;
+    width:100%;
+    height:100%;
+    content:'';
+    background:#000;
+    opacity: 0.4;
+}
+.page_banner img {
+    width: 1920px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.inner_banner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    text-align: center;
+    top: 40%;
+}
+.inner_banner h2 {
+    color:#000;
+    font-size:60px;
+}
+.inner_banner ul {
+    margin: 0;
+    padding: 0;
+}
+.inner_banner  li {
+    list-style:none;
+    display:inline;
+    padding: 0 6px 0 0;
+}
+.inner_banner  li a {
+    color:#000;
+}
+.inner_banner  li a:hover {
+    color:#fff;
+    text-decoration:none;
+}
+</style>
+<?php 
+	   $data = $this->db->query('select * from manage_website_setting')->row_array();      
+	   //echo $data['header_background_color']; die;
+?>
+
+<div class="page_banner">
+<img src="<?php echo base_url()?>uploads/gallery-image/<?php echo $data['contact_breadcom']; ?>">
+    <div class="inner_banner">
+        <h2>Contact us</h2>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><i class="fas fa-arrow-right font-awesome-pro"></i></li>
+            <li>Contact Us</li>
+    </div>
+</div>
+
 <div data-elementor-type="wp-post" data-elementor-id="150" class="elementor elementor-150" data-elementor-settings="[]">
 	<div class="elementor-section-wrap">
-		<section class="bg-clr-none ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-106c1e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
-			<div class="elementor-background-overlay"></div>
-			<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-68a97e7">
-					<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-840ff3f ob-harakiri-inherit elementor-widget elementor-widget-heading">
-							<div class="elementor-widget-container">
-								<h1 class="elementor-heading-title elementor-size-default">Contact Us</h1> </div>
-						</div>
-						<div class="elementor-element elementor-element-2325799 elementor-icon-list--layout-inline elementor-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list">
-							<div class="elementor-widget-container">
-								<ul class="elementor-icon-list-items elementor-inline-items">
-									<li class="elementor-icon-list-item elementor-inline-item">
-										<span class="elementor-icon-list-text">Home</span>
-									</li>
-									<li class="elementor-icon-list-item elementor-inline-item">
-										<span class="elementor-icon-list-icon">
-                                <i class="fas fa-arrow-right font-awesome-pro"></i>						</span>
-									
-
-										<span class="elementor-icon-list-text">Contact Us</span>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+	
 		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-5739281 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
 			<div class="elementor-container elementor-column-gap-default">
 				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-eda2124">

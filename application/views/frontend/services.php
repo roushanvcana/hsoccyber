@@ -1,48 +1,73 @@
 <?php $this->load->view('frontend/layout/header');
 //print_r($service);
 ?>
+<style>
+    .page_banner {
+    position: relative;
+    background-size: cover;
+    width: 100%;
+}
+.page_banner:before {
+    position: absolute;
+    width:100%;
+    height:100%;
+    content:'';
+    background:#000;
+    opacity: 0.4;
+}
+.page_banner img {
+    width: 1920px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.inner_banner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    text-align: center;
+    top: 40%;
+}
+.inner_banner h2 {
+    color:#000;
+    font-size:60px;
+}
+.inner_banner ul {
+    margin: 0;
+    padding: 0;
+}
+.inner_banner  li {
+    list-style:none;
+    display:inline;
+    padding: 0 6px 0 0;
+}
+.inner_banner  li a {
+    color:#000;
+}
+.inner_banner  li a:hover {
+    color:#fff;
+    text-decoration:none;
+}
+</style>
+<?php 
+	   $data = $this->db->query('select * from manage_website_setting')->row_array();      
+	   //echo $data['header_background_color']; die;
+?>
+
+<div class="page_banner">
+<img src="<?php echo base_url()?>uploads/gallery-image/<?php echo $data['service_breadcom']; ?>">
+    <div class="inner_banner">
+        <h2>Service</h2>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><i class="fas fa-arrow-right font-awesome-pro"></i></li>
+            <li>Service</li>
+    </div>
+</div>
 <div data-elementor-type="wp-post" data-elementor-id="571" class="elementor elementor-571" data-elementor-settings="[]">
     <div class="elementor-section-wrap">
-        <section
-            class="bg-clr-none ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-793de2a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-            data-id="793de2a" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
-            <div class="elementor-background-overlay"></div>
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-818c5db"
-                    data-id="818c5db" data-element_type="column"
-                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-6c0a852 ob-harakiri-inherit elementor-widget elementor-widget-heading"
-                            data-id="6c0a852" data-element_type="widget"
-                            data-settings="{&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
-                            data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <h1 class="elementor-heading-title elementor-size-default">Service</h1>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-c23e885 elementor-icon-list--layout-inline elementor-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                            data-id="c23e885" data-element_type="widget"
-                            data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
-                            data-widget_type="icon-list.default">
-                            <div class="elementor-widget-container">
-                                <ul class="elementor-icon-list-items elementor-inline-items">
-                                    <li class="elementor-icon-list-item elementor-inline-item">
-                                        <span class="elementor-icon-list-text">Home</span>
-                                    </li>
-                                    <li class="elementor-icon-list-item elementor-inline-item">
-                                        <span class="elementor-icon-list-icon">
-                                            <i class="fas fa-arrow-right font-awesome-pro"></i> </span>
-                                        <span class="elementor-icon-list-text">Service</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section class="space_top_bottom pt-100 pb-70">
             <div class="about-us-area">
                 <div class="container">
