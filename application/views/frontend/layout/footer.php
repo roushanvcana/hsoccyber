@@ -1,6 +1,10 @@
+<?php 
+	   $data = $this->db->query('select * from manage_website_setting')->row_array();      
+	 
+?>
 <div data-elementor-type="footer" data-elementor-id="72" class="elementor elementor-72 elementor-location-footer" data-elementor-settings="[]">
 	<div class="elementor-section-wrap">
-		<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-0a6193b elementor-section-boxed elementor-section-height-default elementor-section-height-default" >
+		<section class="" style="background-color:<?php echo $data['footer_background_color']; ?>; color:#fff" >
 			<div class="elementor-background-overlay"></div>
 			<div class="elementor-container elementor-column-gap-default">
 				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a0ef3fc">
