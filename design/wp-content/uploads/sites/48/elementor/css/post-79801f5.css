@@ -409,7 +409,7 @@ transition-delay:calc( ( 500ms / 3 ) * 3 );
 	cursor: default;
 }
 .elementor-798 .elementor-element.elementor-element-18bff79 > .elementor-element-populated {
-	padding: 2em 2em 2em 2em;
+	padding: 2em 2em 7em 2em;
 }
 .elementor-798 .elementor-element.elementor-element-18bff79.ob-is-pseudo > .elementor-element-populated:after {
 	transform: rotate(0deg);

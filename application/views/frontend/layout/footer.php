@@ -14,7 +14,7 @@
 								<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-ea7a810">
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-276c298 elementor-widget elementor-widget-image">
-											<div class="elementor-widget-container footer-logo"> <a href="<?php echo site_url("/home "); ?>"> <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/Comp_7.gif" title="Hsoc Grey" alt="Hsoc Grey" /> </a> </div>
+											<div class="elementor-widget-container footer-logo"> <a href="<?php echo site_url("/home "); ?>"> <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/elementor/thumbs/Comp_12.gif" title="Hsoc Grey" alt="Hsoc Grey" /> </a> </div>
 										</div>
 										<div class="elementor-element elementor-element-24b80df ob-harakiri-inherit elementor-widget elementor-widget-text-editor" >
 											<div class="elementor-widget-container">
@@ -34,7 +34,7 @@
 											<div class="elementor-widget-container">
 												<ul class="elementor-icon-list-items">
 													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/about "); ?>"> <span class="elementor-icon-list-text">About Us</span> </a> </li>
-													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/services "); ?>"> <span class="elementor-icon-list-text">Service</span> </a> </li>
+													<li class="elementor-icon-list-item"> <a href="https://mypccs.ucertify.com/" target="_blank"> <span class="elementor-icon-list-text">Courses</span> </a> </li>
 													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/contact "); ?>"> <span class="elementor-icon-list-text">Contact</span> </a> </li>
 
 												</ul>

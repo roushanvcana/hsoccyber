@@ -156,7 +156,7 @@
 					<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-ce110fb ob-harakiri-inherit elementor-widget elementor-widget-heading">
 							<div class="elementor-widget-container">
-								<h2 class="elementor-heading-title elementor-size-default">Trusted Partners</h2>
+								<h2 class="elementor-heading-title elementor-size-default">Trusted by International Brand</h2>
 							</div>
 						</div>
 						<div class="elementor-element elementor-element-9b48574 ob-harakiri-inherit elementor-widget elementor-widget-text-editor">
