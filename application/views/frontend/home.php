@@ -338,7 +338,8 @@
                 </div>
             </div>
         </section>
-        <section
+		
+        <!-- <section
             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-50df6d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
             <div class="elementor-container elementor-column-gap-default">
                 <div
@@ -375,8 +376,8 @@
                         </div>
                     </div>
                 </div>
-                <div
-                    class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4a6bc31">
+
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4a6bc31">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <section
                             class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-cdc8851 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
@@ -387,9 +388,7 @@
                                         <div
                                             class="elementor-element elementor-element-01bb0a4 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box">
                                             <div class="elementor-widget-container">
-                                                <div class="ekit-wid-con">
-                                                    <!-- link opening -->
-                                                    <!-- end link opening -->
+                                                <div class="ekit-wid-con">												
 
                                                     <div
                                                         class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
@@ -417,9 +416,6 @@
                                             class="elementor-element elementor-element-f55e05e ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box">
                                             <div class="elementor-widget-container">
                                                 <div class="ekit-wid-con">
-                                                    <!-- link opening -->
-                                                    <!-- end link opening -->
-
                                                     <div
                                                         class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
                                                         <div class="elementskit-box-header elementor-animation-">
@@ -449,9 +445,7 @@
                                         <div
                                             class="elementor-element elementor-element-81f7261 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box">
                                             <div class="elementor-widget-container">
-                                                <div class="ekit-wid-con">
-                                                    <!-- link opening -->
-                                                    <!-- end link opening -->
+                                                <div class="ekit-wid-con">                                                
 
                                                     <div
                                                         class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
@@ -478,10 +472,7 @@
                                         <div
                                             class="elementor-element elementor-element-65af2c9 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box">
                                             <div class="elementor-widget-container">
-                                                <div class="ekit-wid-con">
-                                                    <!-- link opening -->
-                                                    <!-- end link opening -->
-
+                                                <div class="ekit-wid-con">                                               
                                                     <div
                                                         class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
                                                         <div class="elementskit-box-header elementor-animation-">
@@ -505,7 +496,8 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
+
         <section
             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-c0fb530 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default">
             <div class="elementor-container elementor-column-gap-default">
