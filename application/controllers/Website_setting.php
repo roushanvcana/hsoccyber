@@ -51,6 +51,30 @@ class Website_setting extends CI_Controller {
                 move_uploaded_file($tmp_name, $path);
                 $webValue['logo'] = $name;
             }
+            if (!empty($_FILES["about_breadcom"]["name"])) {
+                $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["about_breadcom"]["name"];
+                $tmp_name = $_FILES["about_breadcom"]["tmp_name"];
+                $error = $_FILES["about_breadcom"]["error"];
+                $path = 'uploads/gallery-image/'. $name;
+                move_uploaded_file($tmp_name, $path);
+                $webValue['about_breadcom'] = $name;
+            }
+            if (!empty($_FILES["service_breadcom"]["name"])) {
+                $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["service_breadcom"]["name"];
+                $tmp_name = $_FILES["service_breadcom"]["tmp_name"];
+                $error = $_FILES["service_breadcom"]["error"];
+                $path = 'uploads/gallery-image/'. $name;
+                move_uploaded_file($tmp_name, $path);
+                $webValue['service_breadcom'] = $name;
+            }
+            if (!empty($_FILES["contact_breadcom"]["name"])) {
+                $name = 'IMG' . "-" . rand(1000, 100000).".".$_FILES["contact_breadcom"]["name"];
+                $tmp_name = $_FILES["contact_breadcom"]["tmp_name"];
+                $error = $_FILES["contact_breadcom"]["error"];
+                $path = 'uploads/gallery-image/'. $name;
+                move_uploaded_file($tmp_name, $path);
+                $webValue['contact_breadcom'] = $name;
+            }
           
             $query = $this->db->query('select * from manage_website_setting where id=1');
             

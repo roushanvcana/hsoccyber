@@ -7,12 +7,6 @@ ALTER TABLE `manage_website_setting` ADD `facebook` VARCHAR(200) NOT NULL AFTER 
 
 ALTER TABLE `manage_trusted_brand` ADD `description` LONGTEXT NOT NULL AFTER `upload_logo`;
 
+#05-02-2022
 
-
-
-add member 
-
-
-
-bvm.scaleneworks.com
-
+ALTER TABLE `manage_website_setting` ADD `about_breadcom` VARCHAR(100) NOT NULL AFTER `updated_at`, ADD `service_breadcom` VARCHAR(100) NOT NULL AFTER `about_breadcom`, ADD `contact_breadcom` VARCHAR(100) NOT NULL AFTER `service_breadcom`;

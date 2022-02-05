@@ -38,6 +38,108 @@
 	<script type='text/javascript' src='<?php echo base_url(); ?>design/wp-includes/js/jquery/jquery.minaf6c.js?ver=3.6.0' id='jquery-core-js'></script>
 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<script src='https://jacoblett.github.io/bootstrap4-latest/bootstrap-4-latest.min.js'></script>
+    <style>
+    .carousel-ban-text-adj {
+    position: absolute;
+   width: 60%;
+   display: flex;
+   margin-left: 0;
+   top: 40%;
+   padding: 0;
+}
+
+.carousel-header-adj {
+ margin: 0;
+ vertical-align: top;
+ padding-left: 0px;
+ text-align: left;
+ left: -3px;
+}
+
+.carousel-paragraph {
+ margin-left: 0;
+ margin-top: 15px;
+ margin-bottom: 15px;
+ padding-left: 0;
+    color: #fff;
+}
+
+.carousel-img-fit {
+ min-width: 980px;
+ min-height: 500px;
+ object-fit: cover;
+ object-position: 50% 50%;
+}
+
+.carousel-banner {
+ max-height: 600px !important;
+ min-height: 500px;
+}
+
+.carousel-banner-indicator {
+ margin-left: auto;
+ margin-right: auto;
+ transition: 1s;
+}
+
+.carousel-indicators li {
+ width: 250px;
+ margin-top: -150px;
+ margin-left: -60px;
+ transition: 1s;
+ opacity: 1;
+}
+
+.carousel-indicators li.active {
+ border-top: 4px solid #8e3387;
+ z-index: 15;
+}
+
+.carousel-swap-adjuster {
+ bottom: -20px;
+}
+
+.carousel-banner.active {
+ display: flex;
+ justify-content: center;
+}
+.carousel-item.carousel-banner:before {
+   position: absolute;
+   background: #000;
+   content: '';
+   width: 100%;
+   height: 100%;
+   opacity: 0.6;
+}
+.carousel-banner.carousel-item-next {
+ display: flex;
+ justify-content: center;
+}
+
+.carousel-banner.carousel-item-prev {
+ display: flex;
+ justify-content: center;
+}
+.carousel-header-adj {
+   color: #fff !important;
+}
+@media (max-width: 768px) {
+ .carousel-swap-adjuster {
+   bottom: -40px;
+ }
+}
+@media (max-width: 550px) {
+ .carousel-swap-adjuster {
+   bottom: -75px;
+ }
+}
+@media (max-width: 380px) {
+ .carousel-swap-adjuster {
+   bottom: -105px;
+ }
+}
+    </style>
 	<style>
 		header {
 			width: 100%;

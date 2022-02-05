@@ -1,8 +1,82 @@
 <?php $this->load->view('frontend/layout/header'); ?>
+<!--slider start here-->
+<div id="carousel-thumb" class="carousel carousel-thumbnails slide" data-ride="carousel" data-interval="15000">
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <!-- <div class="carousel-item active carousel-banner">
+            <img class="d-block w-100 carousel-img-fit" src="https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg"
+                alt="First slide">
+            <div class="row carousel-ban-text-adj">
+                <div class="row col-12">
+                    <h1 class="col-12 carousel-header-adj">Lorem Ipsum</h1>
+                    <p class="col-12 carousel-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elito. </p>
 
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item carousel-banner">
+            <img class="d-block w-100 carousel-img-fit" src="https://mdbootstrap.com/img/Photos/Slides/img%20(121).jpg"
+                alt="Second slide">
+            <div class="row carousel-ban-text-adj">
+                <div class="row col-12">
+                    <h1 class="col-12 carousel-header-adj">Lorem Ipsum</h1>
+                    <p class="col-12 carousel-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elite. </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item carousel-banner">
+            <img class="d-block w-100 carousel-img-fit" src="https://mdbootstrap.com/img/Photos/Slides/img%20(88).jpg"
+                alt="Third slide">
+            <div class="row carousel-ban-text-adj">
+                <div class="row col-12">
+                    <h1 class="col-12 carousel-header-adj">Lorem Ipsum</h1>
+                    <p class="col-12 carousel-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+                </div>
+            </div>
+        </div> -->
+
+        <?php 
+            if(count($slider) > 0){
+                $i = 1;
+                foreach ($slider as $value) {
+                    if($i == 1){
+                        $act = 'active';
+                    }else{
+                        $act = ' '; 
+                    }
+
+        ?>
+         <div class="carousel-item <?php echo $act; ?> carousel-banner">
+            <img class="d-block w-100 carousel-img-fit" src="<?php echo base_url()?>uploads/gallery-image/<?php echo $value['slider_image']; ?>" alt="First slide">
+            <div class="row carousel-ban-text-adj">
+                <div class="row col-12">
+                    <h1 class="col-12 carousel-header-adj">Lorem Ipsum</h1>
+                    <p class="col-12 carousel-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elito. </p>
+
+                </div>
+            </div>
+        </div>
+        <?php $i++; }}?>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+
+</div>
+<!--slide end-->
 <div data-elementor-type="wp-post" data-elementor-id="798" class="elementor elementor-798" data-elementor-settings="[]">
     <div class="elementor-section-wrap">
-        <section
+        <!-- <section
             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-6a632fe elementor-section-boxed elementor-section-height-default elementor-section-height-default">
             <div class="elementor-background-overlay"></div>
             <div class="elementor-container elementor-column-gap-default">
@@ -46,7 +120,7 @@
                     <div class="elementor-widget-wrap"> </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section
             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-6a1c204 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
             <div class="elementor-container elementor-column-gap-default">
@@ -56,7 +130,7 @@
                         <section
                             class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-0d39e3c elementor-section-boxed elementor-section-height-default elementor-section-height-default">
                             <div class="elementor-container elementor-column-gap-default">
-								<?php foreach ($sliderBox as  $value) {?>
+                                <?php foreach ($sliderBox as  $value) {?>
                                 <div
                                     class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9cddfdd">
                                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -79,11 +153,13 @@
                                                         </div>
                                                         <h4
                                                             class="elementor-cta__title elementor-cta__content-item elementor-content-item elementor-animated-item--move-up heading_h4">
-															<?php echo !empty($value['title']) ? $value['title'] : ''; ?>
-														</h4>
+                                                            <?php echo !empty($value['title']) ? $value['title'] : ''; ?>
+                                                        </h4>
                                                         <div
                                                             class="elementor-cta__description elementor-cta__content-item elementor-content-item elementor-animated-item--move-up">
-                                                            <p class="space_desc" style="text-align:right;"><?php echo !empty($value['description']) ? $value['description'] : ''; ?></p>
+                                                            <p class="space_desc" style="text-align:right;">
+                                                                <?php echo !empty($value['description']) ? $value['description'] : ''; ?>
+                                                            </p>
                                                         </div>
                                                         <div
                                                             class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--move-up">
@@ -97,8 +173,8 @@
                                         </div>
                                     </div>
                                 </div>
-                               <?php } ?>
-                               
+                                <?php } ?>
+
                         </section>
                     </div>
                 </div>
@@ -118,7 +194,7 @@
                                     <div class="col-lg-7">
                                         <div class="main_left_img">
                                             <div class="row">
-                                            <?php
+                                                <?php
                                                 $smallImg = explode(",",$welcomemsg_data['small_image']);
                                                 foreach ($smallImg as $smallimgvalue) {
                                              ?>
@@ -129,8 +205,8 @@
                                                             alt="logo-bikepro_" />
                                                     </div>
                                                 </div>
-                                              <?php }?>  
-                                                
+                                                <?php }?>
+
                                                 <div class="col-lg-12">
                                                     <div class="abt_mg_box">
                                                         <img class="swiper-slide-image"
@@ -144,10 +220,12 @@
                                     <div class="col-lg-5">
                                         <div class="main_right_cnt">
                                             <div class="heading_">
-                                                <h4><?php echo !empty($welcomemsg_data['title']) ? $welcomemsg_data['title'] : ''; ?></h4>
+                                                <h4><?php echo !empty($welcomemsg_data['title']) ? $welcomemsg_data['title'] : ''; ?>
+                                                </h4>
                                             </div>
                                             <div class="heading_desc">
-                                                <p><?php echo !empty($welcomemsg_data['message']) ? $welcomemsg_data['message'] :''; ?></p>
+                                                <p><?php echo !empty($welcomemsg_data['message']) ? $welcomemsg_data['message'] :''; ?>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -169,7 +247,7 @@
                             class="elementor-element elementor-element-ce110fb ob-harakiri-inherit elementor-widget elementor-widget-heading">
                             <div class="elementor-widget-container">
                                 <h2 class="elementor-heading-title elementor-size-default">
-                                   <?php echo !empty($brandrow['title']) ? $brandrow['title'] : ''; ?>
+                                    <?php echo !empty($brandrow['title']) ? $brandrow['title'] : ''; ?>
                                 </h2>
                             </div>
                         </div>
@@ -181,7 +259,7 @@
                         </div>
                         <div class="elementor-element elementor-element-e32d116 elementor-widget">
                             <div class="client-slider">
-								<?php
+                                <?php
                                  foreach ($brandSetion as $value) {
                                    if(!empty($value['upload_logo'])){ 
                                 ?>
@@ -189,16 +267,16 @@
                                         src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value['upload_logo']; ?>"
                                         alt="Logo Autokit" />
                                 </div>
-								<?php }}?>
+                                <?php }}?>
                             </div>
-							brandSetiontwo
+                            brandSetiontwo
                             <div class="client-slider1">
-							<?php foreach ($brandSetiontwo as $valuetwo) {?>
+                                <?php foreach ($brandSetiontwo as $valuetwo) {?>
                                 <div class="slide">
-									<img  src="<?php echo base_url();?>uploads/gallery-image/<?php echo $valuetwo['upload_logo']; ?>"
+                                    <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $valuetwo['upload_logo']; ?>"
                                         alt="Logo Autokit" />
                                 </div>
-								<?php }?>
+                                <?php }?>
                             </div>
                         </div>
                     </div>
@@ -231,13 +309,13 @@
                             <div class="elementor-widget-container">
                                 <div class="live_img">
                                     <ul>
-                                    <?php 
+                                        <?php 
                                         $imgCount =  explode(",",$aboutsus['image']);
                                         foreach($imgCount as $value){
                                     ?>
                                         <li><img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value; ?>"
                                                 alt="Logo Autokit" /></li>
-                                    <?php }?>
+                                        <?php }?>
                                     </ul>
                                 </div>
                                 <p><?php echo $aboutsus['description']; ?></p>
@@ -254,17 +332,17 @@
                     class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-0ffd50b elementor-section-boxed elementor-section-height-default elementor-section-height-default col-lg-12">
                     <div class="row">
                         <?php foreach ($syllabussection as $value) {?>
-                            <div class="col-lg-4">
-                                <div class="">
-                                    <div class="single-challenges overly-one">
-                                        <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value['image'];?>"
-                                            alt="">
-                                        <h3><?php echo $value['title']; ?></h3>
-                                       <?php echo $value['description']; ?>
-                                    </div>
+                        <div class="col-lg-4">
+                            <div class="">
+                                <div class="single-challenges overly-one">
+                                    <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value['image'];?>"
+                                        alt="">
+                                    <h3><?php echo $value['title']; ?></h3>
+                                    <?php echo $value['description']; ?>
                                 </div>
                             </div>
-                      <?php } ?>
+                        </div>
+                        <?php } ?>
                     </div>
                 </section>
 
@@ -297,7 +375,7 @@
                         <section
                             class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-0ffd50b elementor-section-boxed elementor-section-height-default elementor-section-height-default">
                             <div class="elementor-container elementor-column-gap-default">
-								<?php foreach ($serviceAdd as  $value) {?>
+                                <?php foreach ($serviceAdd as  $value) {?>
                                 <div
                                     class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4248acc">
                                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -321,7 +399,8 @@
                                                             </div>
                                                             <div class="box-body">
                                                                 <h3 class="elementskit-info-box-title"
-                                                                    style="color: #fff"><?php echo $value['title']; ?></h3>
+                                                                    style="color: #fff"><?php echo $value['title']; ?>
+                                                                </h3>
                                                                 <?php echo $value['description']; ?>
                                                             </div>
                                                         </div>
@@ -331,7 +410,7 @@
                                         </div>
                                     </div>
                                 </div>
-                               <?php }?>
+                                <?php }?>
                             </div>
                         </section>
                     </div>
@@ -539,7 +618,8 @@
                                         <span class="elementor-button-content-wrapper"> <span
                                                 class="elementor-button-icon elementor-align-icon-right"> <i
                                                     class="fal fa-arrow-right"></i> </span> <span
-                                                class="elementor-button-text"><?php echo $evaluation['button_rename']; ?></span> </span> </a> </div>
+                                                class="elementor-button-text"><?php echo $evaluation['button_rename']; ?></span>
+                                        </span> </a> </div>
                             </div>
                         </div>
                     </div>
@@ -572,11 +652,11 @@
                             <div class="elementor-widget-container">
 
                                 <div class="testimonial-slider">
-									<?php foreach ($testimonial as $value) {?>
+                                    <?php foreach ($testimonial as $value) {?>
                                     <div class="slide">
                                         <div class="auth_header">
                                             <ul class="elementskit-stars">
-												<?php for ($i=0; $i < $value['rating']; $i++) { ?>
+                                                <?php for ($i=0; $i < $value['rating']; $i++) { ?>
                                                 <li><a href="#"><i class="fas fa-star active font-awesome-free"></i></a>
                                                 </li>
                                                 <?php }?>
@@ -592,10 +672,11 @@
                                                     loading="lazy" height="70" width="70" /> </div>
                                             <div class="profile-info" style="color: #fff;"> <strong
                                                     class="elementskit-author-name"><?php echo $value['name']; ?></strong><br><span
-                                                    class="elementskit-author-des"><?php echo $value['designation']; ?></span> </div>
+                                                    class="elementskit-author-des"><?php echo $value['designation']; ?></span>
+                                            </div>
                                         </div>
                                     </div>
-                                   <?php }?>
+                                    <?php }?>
 
                                 </div>
                             </div>
@@ -674,11 +755,13 @@
                             <div class="elementor-widget-container">
                                 <div
                                     class="elementor-posts-container elementor-posts elementor-posts--skin-cards elementor-grid">
-									<?php foreach($articles as $value){?>
+                                    <?php foreach($articles as $value){?>
                                     <article
                                         class="elementor-post elementor-grid-item post-92 post type-post status-publish format-standard has-post-thumbnail hentry category-computer-virus tag-cyber-security tag-elementor tag-moxcreative tag-quickenworks tag-template-kit">
                                         <div class="elementor-post__card">
-                                            <a class="elementor-post__thumbnail__link" href="<?php echo base_url()?>blog-details/<?php echo $value['id'];?>" target="_blank">
+                                            <a class="elementor-post__thumbnail__link"
+                                                href="<?php echo base_url()?>blog-details/<?php echo $value['id'];?>"
+                                                target="_blank">
                                                 <div class="elementor-post__thumbnail"><img width="1080" height="721"
                                                         src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value['image']; ?>"
                                                         class="attachment-full size-full"
@@ -690,12 +773,13 @@
                                                 style="color: #000 !important;"><?php echo $value['title']; ?></div>
                                             <div class="elementor-post__text">
                                                 <h3 class="elementor-post__title">
-													 <a href="#"><?php echo strip_tags(substr($value['description'],0,500)); ?>
-											</a> </h3>
+                                                    <a href="#"><?php echo strip_tags(substr($value['description'],0,500)); ?>
+                                                    </a>
+                                                </h3>
                                             </div>
                                         </div>
                                     </article>
-									<?php }?>
+                                    <?php }?>
                                 </div>
                             </div>
                         </div>
@@ -717,16 +801,17 @@
                 <h4 style="text-align:center; color:#020817;">Join me on Patreon</h4>
                 <h3><?php echo $webmodel['heading']; ?></h3>
                 <p class="pup_txt"><?php echo $webmodel['description']; ?></p>
-               
-                <p><a href="#" class="btn_jnmeptrn" onclick="toggleVisibility('Menu2');"><?php echo $webmodel['model_button']; ?></a></p>
+
+                <p><a href="#" class="btn_jnmeptrn"
+                        onclick="toggleVisibility('Menu2');"><?php echo $webmodel['model_button']; ?></a></p>
             </div>
             <div class="show_box" id="Menu2" style="display: none;">
                 <div class="preq_cnt">
                     <span class="close">&times;</span>
                     <h2>Prerequisites</h2>
-                        <?php echo $webmodel['prerequisites']; ?>
+                    <?php echo $webmodel['prerequisites']; ?>
                     <h2>System Requirements</h2>
-                     <?php echo $webmodel['system_requirements']; ?>
+                    <?php echo $webmodel['system_requirements']; ?>
                 </div>
             </div>
         </div>
