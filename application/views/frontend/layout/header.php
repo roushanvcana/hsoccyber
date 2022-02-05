@@ -182,14 +182,14 @@
 			letter-spacing: 1px;
 			padding: 0 20px;
 			height: inherit;
-			color: #fff;
+			color: #000;
 			display: inline-block;
 			line-height: 80px;
 		}
 		
 		.menu ul a:hover {
 			background-color: transparent;
-			color: #fff;
+			color: #000;
 		}
 		
 		#menuToggle {
@@ -277,8 +277,8 @@
 								<a href="<?php echo site_url("/about "); ?>">
 									<li>About Us</li>
 								</a>
-								<a href="<?php echo site_url("/services "); ?>">
-									<li>Service</li>
+								<a href=" https://mypccs.ucertify.com/">
+									<li>Courses</li>
 								</a>
 								<a href="<?php echo site_url("/contact "); ?>">
 									<li>Contact Us</li>

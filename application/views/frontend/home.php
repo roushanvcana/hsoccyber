@@ -52,9 +52,11 @@
             <img class="d-block w-100 carousel-img-fit" src="<?php echo base_url()?>uploads/gallery-image/<?php echo $value['slider_image']; ?>" alt="First slide">
             <div class="row carousel-ban-text-adj">
                 <div class="row col-12">
-                    <h1 class="col-12 carousel-header-adj">Lorem Ipsum</h1>
-                    <p class="col-12 carousel-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elito. </p>
-
+                    <h1 class="col-12 carousel-header-adj"><?php echo $value['heading_text']; ?></h1>
+                    <p class="col-12 carousel-paragraph"><?php echo $value['slider_text']; ?> </p>
+                    <a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button"> 
+                        <span class="elementor-button-content-wrapper"> <span class="elementor-button-text"><?php echo $value['rename_button']; ?></span> </span> 
+                    </a>
                 </div>
             </div>
         </div>
@@ -76,51 +78,7 @@
 <!--slide end-->
 <div data-elementor-type="wp-post" data-elementor-id="798" class="elementor elementor-798" data-elementor-settings="[]">
     <div class="elementor-section-wrap">
-        <!-- <section
-            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-6a632fe elementor-section-boxed elementor-section-height-default elementor-section-height-default">
-            <div class="elementor-background-overlay"></div>
-            <div class="elementor-container elementor-column-gap-default">
-                <div
-                    class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-10396b5">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div
-                            class="elementor-element elementor-element-422bab5 ob-harakiri-inherit elementor-widget elementor-widget-heading">
-                            <div class="elementor-widget-container">
-                                <h4 class="elementor-heading-title elementor-size-default" style="color:#000;">
-                                    <?php echo !empty($slider[0]['heading_text']) ? $slider[0]['heading_text'] : '';?>
-                                </h4>
-                            </div>
-                        </div>
-                        <div
-                            class="elementor-element elementor-element-e938824 ob-harakiri-inherit elementor-widget elementor-widget-heading">
-                            <div class="elementor-widget-container">
-                                <h5 class="elementor-heading-title elementor-size-default">
-                                    <?php echo !empty($slider[0]['slider_text']) ? $slider[0]['slider_text'] : '';?>
-                                </h5>
-                            </div>
-                        </div>
-                        <div
-                            class="elementor-element elementor-element-2a18659 elementor-widget elementor-widget-button">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-button-wrapper"> <a href="#"
-                                        class="elementor-button-link elementor-button elementor-size-lg" role="button">
-                                        <span class="elementor-button-content-wrapper"> <span
-                                                class="elementor-button-text">
-                                                <?php echo !empty($slider[0]['rename_button']) ? $slider[0]['rename_button'] : '';?>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3fa625b">
-                    <div class="elementor-widget-wrap"> </div>
-                </div>
-            </div>
-        </section> -->
+        
         <section
             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-6a1c204 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
             <div class="elementor-container elementor-column-gap-default">
@@ -174,7 +132,6 @@
                                     </div>
                                 </div>
                                 <?php } ?>
-
                         </section>
                     </div>
                 </div>
@@ -417,174 +374,7 @@
                 </div>
             </div>
         </section>
-        <section
-            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-50df6d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
-            <div class="elementor-container elementor-column-gap-default">
-                <div
-                    class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c762712">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div
-                            class="elementor-element elementor-element-e3d85ee ob-harakiri-inherit elementor-widget elementor-widget-heading">
-                            <div class="elementor-widget-container">
-                                <h6 class="elementor-heading-title elementor-size-default">Why Choose Us</h6>
-                            </div>
-                        </div>
-                        <div
-                            class="elementor-element elementor-element-d261a1e ob-harakiri-inherit elementor-widget elementor-widget-heading">
-                            <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default" style="color: #000000;">Our
-                                    business is protecting yours</h2>
-                            </div>
-                        </div>
-                        <div
-                            class="elementor-element elementor-element-cb7f7df ob-harakiri-inherit elementor-widget elementor-widget-text-editor">
-                            <div class="elementor-widget-container">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                                    ullamcorper mattis, pulvinar dapibus leo.</p>
-                            </div>
-                        </div>
-                        <div
-                            class="elementor-element elementor-element-0a2a502 elementor-widget elementor-widget-button">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-button-wrapper"> <a href="#"
-                                        class="elementor-button-link elementor-button elementor-size-md" role="button">
-                                        <span class="elementor-button-content-wrapper"> <span
-                                                class="elementor-button-text">Discover More</span> </span> </a> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4a6bc31">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <section
-                            class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-cdc8851 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div
-                                    class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e85116d">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div
-                                            class="elementor-element elementor-element-01bb0a4 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box">
-                                            <div class="elementor-widget-container">
-                                                <div class="ekit-wid-con">
-                                                    <!-- link opening -->
-                                                    <!-- end link opening -->
-
-                                                    <div
-                                                        class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
-                                                        <div class="elementskit-box-header elementor-animation-">
-                                                            <div class="elementskit-info-box-icon  text-center"> <img
-                                                                    src="<?php echo base_url();?>design/wp-content/icon/icon1.jpg"
-                                                                    alt="icon" /> </div>
-                                                        </div>
-                                                        <div class="box-body">
-                                                            <h3 class="elementskit-info-box-title"> Trusted Company
-                                                            </h3>
-                                                            <p>Lorem pellentesque scelerisque pharetra mus faucibus
-                                                                consectetur maximus interdum eros </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-066589d">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div
-                                            class="elementor-element elementor-element-f55e05e ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box">
-                                            <div class="elementor-widget-container">
-                                                <div class="ekit-wid-con">
-                                                    <!-- link opening -->
-                                                    <!-- end link opening -->
-
-                                                    <div
-                                                        class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
-                                                        <div class="elementskit-box-header elementor-animation-">
-                                                            <div class="elementskit-info-box-icon  text-center"> <img
-                                                                    src="<?php echo base_url();?>design/wp-content/icon/icon2.jpg"
-                                                                    alt="icon" /> </div>
-                                                        </div>
-                                                        <div class="box-body">
-                                                            <h3 class="elementskit-info-box-title"> Expertise </h3>
-                                                            <p>Lorem pellentesque scelerisque pharetra mus faucibus
-                                                                consectetur maximus interdum eros </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section
-                            class="ob-is-breaking-bad ob-bb-inner elementor-section elementor-inner-section elementor-element elementor-element-26f1f7a elementor-section-boxed elementor-section-height-default elementor-section-height-default">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div
-                                    class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ab2146f">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div
-                                            class="elementor-element elementor-element-81f7261 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box">
-                                            <div class="elementor-widget-container">
-                                                <div class="ekit-wid-con">
-                                                    <!-- link opening -->
-                                                    <!-- end link opening -->
-
-                                                    <div
-                                                        class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
-                                                        <div class="elementskit-box-header elementor-animation-">
-                                                            <div class="elementskit-info-box-icon  text-center"> <img
-                                                                    src="<?php echo base_url();?>design/wp-content/icon/icon3.jpg"
-                                                                    alt="icon" /> </div>
-                                                        </div>
-                                                        <div class="box-body">
-                                                            <h3 class="elementskit-info-box-title"> System Protection
-                                                            </h3>
-                                                            <p>Lorem pellentesque scelerisque pharetra mus faucibus
-                                                                consectetur maximus interdum eros </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a83e750">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div
-                                            class="elementor-element elementor-element-65af2c9 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box">
-                                            <div class="elementor-widget-container">
-                                                <div class="ekit-wid-con">
-                                                    <!-- link opening -->
-                                                    <!-- end link opening -->
-
-                                                    <div
-                                                        class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
-                                                        <div class="elementskit-box-header elementor-animation-">
-                                                            <div class="elementskit-info-box-icon  text-center"> <img
-                                                                    src="<?php echo base_url();?>design/wp-content/icon/icon4.jpg"
-                                                                    alt="icon" /> </div>
-                                                        </div>
-                                                        <div class="box-body">
-                                                            <h3 class="elementskit-info-box-title"> 24/7 Support </h3>
-                                                            <p>Lorem pellentesque scelerisque pharetra mus faucibus
-                                                                consectetur maximus interdum eros </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         <section
             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-c0fb530 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default">
             <div class="elementor-container elementor-column-gap-default">
@@ -634,8 +424,6 @@
                 </div>
             </div>
         </section>
-
-
         <section
             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-62d0906 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
             <div class="elementor-background-overlay"></div>
