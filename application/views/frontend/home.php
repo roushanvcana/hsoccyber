@@ -1,5 +1,43 @@
 <?php $this->load->view('frontend/layout/header'); ?>
 <!--slider start here-->
+<style>
+    .about_section_img {
+        position: relative;
+        padding: 0 0 70px;
+    }
+    .about_section_img .about_img_2 {
+        position: absolute;
+        top: 242px;
+        left: 173px;
+        border: 10px solid #4cb958;
+        box-shadow: 0px 8px 16px 0px rgb(7 28 31 / 4%);
+    }
+    .sub_title {
+        font-size: 16px;
+        color: #ff5528;
+        font-weight: bold;
+        line-height: 1.75;
+        letter-spacing: 4px;
+        margin-bottom: 2px;
+    }
+
+    .pu_about_part_content .title {
+        font-size: 26px;
+        color: #4cb958;
+        font-weight: bold;
+        line-height: 1.1;
+        margin-bottom: 15px;
+    }
+
+    .pu_about_part_content a {
+        display: inline-block;
+        color: #fff;
+        background-color: #ff6015;
+        border-radius: 6px;
+        padding: 16px 25px;
+        font-weight: 500;
+    }
+</style>
 <div id="carousel-thumb" class="carousel carousel-thumbnails slide" data-ride="carousel" data-interval="15000">
     <!--Slides-->
     <div class="carousel-inner" role="listbox">
@@ -48,14 +86,17 @@
                     }
 
         ?>
-         <div class="carousel-item <?php echo $act; ?> carousel-banner">
-            <img class="d-block w-100 carousel-img-fit" src="<?php echo base_url()?>uploads/gallery-image/<?php echo $value['slider_image']; ?>" alt="First slide">
+        <div class="carousel-item <?php echo $act; ?> carousel-banner">
+            <img class="d-block w-100 carousel-img-fit"
+                src="<?php echo base_url()?>uploads/gallery-image/<?php echo $value['slider_image']; ?>"
+                alt="First slide">
             <div class="row carousel-ban-text-adj">
                 <div class="row col-12">
                     <h1 class="col-12 carousel-header-adj"><?php echo $value['heading_text']; ?></h1>
                     <p class="col-12 carousel-paragraph"><?php echo $value['slider_text']; ?> </p>
-                    <a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button"> 
-                        <span class="elementor-button-content-wrapper"> <span class="elementor-button-text"><?php echo $value['rename_button']; ?></span> </span> 
+                    <a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+                        <span class="elementor-button-content-wrapper"> <span
+                                class="elementor-button-text"><?php echo $value['rename_button']; ?></span> </span>
                     </a>
                 </div>
             </div>
@@ -78,7 +119,7 @@
 <!--slide end-->
 <div data-elementor-type="wp-post" data-elementor-id="798" class="elementor elementor-798" data-elementor-settings="[]">
     <div class="elementor-section-wrap">
-        
+
         <section
             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-6a1c204 elementor-section-boxed elementor-section-height-default elementor-section-height-default">
             <div class="elementor-container elementor-column-gap-default">
@@ -243,46 +284,67 @@
         <section
             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-0e6d5ff elementor-section-boxed elementor-section-height-default elementor-section-height-default">
             <div class="elementor-background-overlay"></div>
-            <div class="elementor-container elementor-column-gap-default">
-                <div
-                    class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-18bff79">
+            <div class="container custom_container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about_section_img">
+                                 <?php 
+                                        $imgCount =  explode(",",$aboutsus['image']);
+                                        $i = 1; 
+                                        foreach($imgCount as $value){
+                                            if($i==2){
+                                                $cls = 'about_img_2 img-fluid wow fadeInUp';
+                                                $ani = 'fadeInUp';
+                                            }else{
+                                                $cls = 'about_img_1 img-fluid wow fadeInLeft';
+                                                $ani = 'fadeInLeft';
+                                            }
+                                    ?>                                     
+                                        <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value; ?>"
+                                        alt="#" height="370" width="352" class="<?php echo $cls; ?>"
+                                        data-wow-delay="1.5s" data-wow-duration="1.5s"
+                                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 1.5s; animation-name:<?php echo $ani; ?>;">
+                                <?php $i++; }?>
+                         
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="pu_about_part_content pl-lg-3">
+                            <h5 class="sub_title">Who we are</h5>
+                            <h2 class="elementor-heading-title elementor-size-default" style="color: #fff;">
+                                    <?php echo $aboutsus['title']; ?>
+                            </h2>
+
+                            <p class="description"
+                                style="line-height: 1.7; text-align: justify; color: #fff; font-family: Roboto, sans-serif;">
+                                <?php echo $aboutsus['description']; ?></p>
+                      
+                                <div
+                                    class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--move-up">
+                                    <a class="elementor-cta__button elementor-button elementor-size-sm"
+                                        href="<?php echo site_url("/ about "); ?>"> Read More</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-container elementor-column-gap-default" style="margin-top:70px;">
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-18bff79">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div
-                            class="elementor-element elementor-element-32b50e4 ob-harakiri-inherit elementor-widget elementor-widget-heading">
+                        <div class="elementor-element elementor-element-32b50e4 ob-harakiri-inherit elementor-widget elementor-widget-heading">
                             <div class="elementor-widget-container">
-                                <h6 class="elementor-heading-title elementor-size-default">Who we are</h6>
+                                <h6 class="elementor-heading-title elementor-size-default"></h6>
                             </div>
                         </div>
                         <div
                             class="elementor-element elementor-element-284da00 ob-harakiri-inherit elementor-widget elementor-widget-heading">
                             <div class="elementor-widget-container">
                                 <h2 class="elementor-heading-title elementor-size-default" style="color: #fff;">
-                                    <?php echo $aboutsus['title']; ?>
+                                  
                                 </h2>
                             </div>
                         </div>
-                        <div
-                            class="elementor-element elementor-element-09d5b82 ob-harakiri-inherit elementor-widget elementor-widget-text-editor">
-                            <div class="elementor-widget-container">
-                                <div class="live_img">
-                                    <ul>
-                                        <?php 
-                                        $imgCount =  explode(",",$aboutsus['image']);
-                                        foreach($imgCount as $value){
-                                    ?>
-                                        <li><img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value; ?>"
-                                                alt="Logo Autokit" /></li>
-                                        <?php }?>
-                                    </ul>
-                                </div>
-                                <p><?php echo $aboutsus['description']; ?></p>
-                                <div
-                                    class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item elementor-animated-item--move-up">
-                                    <a class="elementor-cta__button elementor-button elementor-size-sm"
-                                        href="<?php echo site_url("/ about "); ?>"> Read More</a>
-                                </div>
-                            </div>
-                        </div>
+                     
                     </div>
                 </div>
                 <section
@@ -374,7 +436,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section
             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-c0fb530 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default">
             <div class="elementor-container elementor-column-gap-default">
