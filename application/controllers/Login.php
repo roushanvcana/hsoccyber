@@ -52,9 +52,12 @@ class Login extends CI_Controller
 			if ($this->session->userdata("admin_id") == TRUE) {
 				redirect(base_url() . "dashboard");
 			} else {
-				$this->load->view('admin');
+				redirect(base_url() . 'admin');
 			}
 		}
+
+	//	$this->load->view('admin');
+
 	}
 
 
