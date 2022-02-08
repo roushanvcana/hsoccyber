@@ -63,6 +63,8 @@ $route['services'] = 'Website/services';
 $route['contact'] = 'Website/contact';
 $route['prerequest'] = 'Website/prerequest';
 
+$route['blog'] = 'Service/blog';
+
 /////////////////Admin panel////////////////////
 $route['admin'] = 'Login/index';
 $route['dashboard'] = 'Home/index';

@@ -452,6 +452,13 @@ class Service extends CI_Controller {
         $this->load->view('frontend/about_details',$data);
     }
 
+    public function blog()
+    {
+        $data['articles_list'] =  $this->db->query('select * from articles')->result_array();
+        $data['status'] = status();
+        $this->load->view('frontend/blog', $data);
+    }
+
 }
 
 /* End of file Service.php */
