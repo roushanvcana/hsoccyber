@@ -141,7 +141,7 @@
                                                         <div class="elementor-cta__content">
                                                             <div class="logo_ elementor-content-item elementor-cta__content-item elementor-cta__image elementor-animated-item--move-up">
                                                                 <img src="<?php echo base_url(); ?>uploads/gallery-image/<?php echo
-                                                                                                                        !empty($value['logo']) ? $value['logo'] : ''; ?>" title="Hsoc" alt="Hsoc" />
+                                                                                                                            !empty($value['logo']) ? $value['logo'] : ''; ?>" title="Hsoc" alt="Hsoc" />
                                                             </div>
                                                             <h4 class="elementor-cta__title elementor-cta__content-item elementor-content-item elementor-animated-item--move-up heading_h4">
                                                                 <?php echo !empty($value['title']) ? $value['title'] : ''; ?>
@@ -496,10 +496,14 @@
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-element elementor-element-e38e813 elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="e38e813" data-element_type="widget" data-settings="{&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper"> <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button"> <span class="elementor-button-content-wrapper">
+                                                <div class="elementor-button-wrapper">
+                                                    <a href="<?php echo site_url("/blog"); ?>" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                        <span class="elementor-button-content-wrapper">
                                                             <span class="elementor-button-icon elementor-align-icon-right">
-                                                                <i class="fal fa-arrow-right"></i> </span> <span class="elementor-button-text" style="color: #fff;">All
-                                                                Article</span> </span> </a> </div>
+                                                                <i class="fal fa-arrow-right"></i>
+                                                            </span> <span class="elementor-button-text" style="color: #fff;">All
+                                                                Articles & Blogs</span> </span> </a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

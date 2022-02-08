@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -124,6 +124,7 @@ $route['team-list'] = 'Team/index';
 $route['team-delete/(:num)'] = 'Team/delete_team/$1';
 $route['team-edit/(:num)'] = 'Team/edit_team/$1';
 $route['blog-details/(:num)'] = 'Service/blog_details/$1';
+$route['blog'] = 'Service/blog';
 
 $route['welcome-message'] = 'Welcome_message/index';
 $route['upload-brand'] = 'Welcome_message/brand_upload';
@@ -142,18 +143,3 @@ $route['term-of-use'] = 'Website/term_of_use';
 $route['evaluation-add'] = 'Slider/add_evaluation';
 
 //$route['add-message'] = 'Home/add_message';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

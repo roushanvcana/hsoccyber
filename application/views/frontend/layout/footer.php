@@ -37,6 +37,7 @@ $data = $this->db->query('select * from manage_website_setting')->row_array();
 													<li class="elementor-icon-list-item"> <a href="https://mypccs.ucertify.com/" target="_blank"> <span class="elementor-icon-list-text">Courses</span> </a> </li>
 													<li class="elementor-icon-list-item"> <a href="<?php echo site_url("/contact "); ?>"> <span class="elementor-icon-list-text">Contact</span> </a> </li>
 
+
 												</ul>
 											</div>
 										</div>
