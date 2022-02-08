@@ -371,7 +371,10 @@
                   }
              
                 }
-                $aboutme['image'] =  implode(",", $data['totalFiles']);
+                if(!empty($data['totalFiles'])){
+                    $aboutme['image'] =  implode(",", $data['totalFiles']);
+                }
+            
                 
               
             $query = $this->db->query('select * from manage_about_us where id=1');

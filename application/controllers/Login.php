@@ -47,16 +47,9 @@ class Login extends CI_Controller
 				$this->session->set_flashdata('error', 'Invalid User Id and Password combination');
 				redirect(base_url() . 'admin');
 			}
-		} else {
-
-			if ($this->session->userdata("admin_id") == TRUE) {
-				redirect(base_url() . "dashboard");
-			} else {
-				redirect(base_url() . 'admin');
-			}
 		}
 
-	//	$this->load->view('admin');
+		$this->load->view('admin/login');
 
 	}
 
