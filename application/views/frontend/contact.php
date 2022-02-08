@@ -18,7 +18,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 650px;
+    height: 400px;
 }
 .inner_banner {
     position: absolute;
@@ -108,7 +108,7 @@
 															</div>
 														</div>
 														<div class="box-body">
-															<h5 class="elementskit-info-box-title">Headquarter</h5>
+															<h5 class="elementskit-info-box-title">Address</h5>
 
 															<p>
 																<?php 

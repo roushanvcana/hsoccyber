@@ -14,7 +14,7 @@
 									<div class="elementor-widget-wrap elementor-element-populated">
 										<div class="elementor-element elementor-element-276c298 elementor-widget elementor-widget-image">
 											<div class="elementor-widget-container footer-logo"> <a href="<?php echo site_url("/home "); ?>"> 
-											<img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $data['footer_logo']; ?>" title="Hsoc Grey" alt="Hsoc Grey" /> </a> </div>
+											<img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $data['footer_logo']; ?>" title="Hsoc Grey" alt="Hsoc Grey" style="max-width: 100%;" /> </a> </div>
 										</div>
 										<div class="elementor-element elementor-element-24b80df ob-harakiri-inherit elementor-widget elementor-widget-text-editor" >
 											<div class="elementor-widget-container">

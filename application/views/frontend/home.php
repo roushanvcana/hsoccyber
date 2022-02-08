@@ -9,7 +9,7 @@
         position: absolute;
         top: 242px;
         left: 173px;
-        border: 10px solid #4cb958;
+        border: 10px solid #00aefe;
         box-shadow: 0px 8px 16px 0px rgb(7 28 31 / 4%);
     }
     .sub_title {
@@ -92,7 +92,7 @@
                 alt="First slide">
             <div class="row carousel-ban-text-adj">
                 <div class="row col-12">
-                    <h1 class="col-12 carousel-header-adj"><?php echo $value['heading_text']; ?></h1>
+                    <h3 class="col-12 carousel-header-adj"><?php echo $value['heading_text']; ?></h3>
                     <p class="col-12 carousel-paragraph"><?php echo $value['slider_text']; ?> </p>
                     <a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button">
                         <span class="elementor-button-content-wrapper"> <span
@@ -148,7 +148,7 @@
                                                             class="logo_ elementor-content-item elementor-cta__content-item elementor-cta__image elementor-animated-item--move-up">
                                                             <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo 
                                                             !empty($value['logo']) ? $value['logo'] : '';?>"
-                                                                title="Hsoc" alt="Hsoc" />
+                                                                title="Hsoc" alt="Hsoc"  />
                                                         </div>
                                                         <h4
                                                             class="elementor-cta__title elementor-cta__content-item elementor-content-item elementor-animated-item--move-up heading_h4">
@@ -200,7 +200,7 @@
                                                     <div class="abt_mg_box">
                                                         <img class="swiper-slide-image"
                                                             src="<?php echo base_url();?>uploads/gallery-image/<?php echo !empty($smallimgvalue) ? $smallimgvalue : ''; ?>"
-                                                            alt="logo-bikepro_" />
+                                                            alt="logo-bikepro_" style="max-width: 100%;" />
                                                     </div>
                                                 </div>
                                                 <?php }?>
@@ -209,7 +209,7 @@
                                                     <div class="abt_mg_box">
                                                         <img class="swiper-slide-image"
                                                             src="<?php echo base_url();?>uploads/gallery-image/<?php echo !empty($welcomemsg_data['full_width']) ? $welcomemsg_data['full_width'] : ''; ?>"
-                                                            alt="logo-bikepro_" />
+                                                            alt="logo-bikepro_" style="max-width: 100%;" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -245,6 +245,7 @@
                             class="elementor-element elementor-element-ce110fb ob-harakiri-inherit elementor-widget elementor-widget-heading">
                             <div class="elementor-widget-container">
                                 <h2 class="elementor-heading-title elementor-size-default">
+                                  
                                     <?php echo !empty($brandrow['title']) ? $brandrow['title'] : ''; ?>
                                 </h2>
                             </div>
@@ -263,7 +264,7 @@
                                 ?>
                                 <div class="slide"><img
                                         src="<?php echo base_url();?>uploads/gallery-image/<?php echo $value['upload_logo']; ?>"
-                                        alt="Logo Autokit" />
+                                        alt="Logo Autokit" style="max-width: 100%;"/>
                                 </div>
                                 <?php }}?>
                             </div>
@@ -272,7 +273,7 @@
                                 <?php foreach ($brandSetiontwo as $valuetwo) {?>
                                 <div class="slide">
                                     <img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $valuetwo['upload_logo']; ?>"
-                                        alt="Logo Autokit" />
+                                        alt="Logo Autokit" style="max-width: 100%;"/>
                                 </div>
                                 <?php }?>
                             </div>

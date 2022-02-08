@@ -66,14 +66,14 @@
 
 .carousel-img-fit {
  min-width: 980px;
- min-height: 500px;
+ min-height: 700px;
  object-fit: cover;
  object-position: 50% 50%;
 }
 
 .carousel-banner {
- max-height: 600px !important;
- min-height: 500px;
+ max-height: 700px !important;
+ min-height: 700px;
 }
 
 .carousel-banner-indicator {
@@ -265,7 +265,7 @@
 			<section class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-677e228 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" style="background-color:<?php echo $data['header_background_color']; ?>">
 				<div class="elementor-container elementor-column-gap-default">
 					<header>
-						<div class="brand"><a href="<?php echo site_url("/home "); ?>"><img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $data['logo']; ?>" title="Hsoc" alt="Hsoc" /></a>
+						<div class="brand"><a href="<?php echo site_url("/home "); ?>"><img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $data['logo']; ?>" title="Hsoc" alt="Hsoc" style="width:230px" /></a>
 						</div>
 						<nav class="menu">
 							<input type="checkbox" id="menuToggle">

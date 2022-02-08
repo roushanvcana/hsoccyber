@@ -28,18 +28,25 @@ class Login extends CI_Controller
 			//get input data
 			$email = $this->input->post('email');
 			$pass = $this->input->post('password');
-
+            
+             $query = $this->db->get_where('manage_admin', ['email'=> $email, 'password'=>md5($pass)]);
+                  
+               $result =  $query->row_array();
+               
 			// load model
-			$this->load->model('login_model');
-			$result = $this->login_model->isvalidate($email, $pass);
+// 			$this->load->model('login_model');
+// 			$result = $this->login_model->isvalidate($email, $pass);
 
 			// session set login data
 			if (!empty($result)) {
 				$sess_Data = array(
 					"admin_id" => $result['id'],
-					"name" => $result['name'],
+					"first_name" => $result['first_name'],
+					"last_name" => $result['last_name'],
+					"mobile_number" => $result['mobile_number'],
 					"email" => $result['email'],
-					"image" => $result['image'],
+					"admintype" => $result['type'],
+				
 				);
 				$this->session->set_userdata($sess_Data);
 				redirect(base_url() . 'dashboard');
@@ -47,16 +54,9 @@ class Login extends CI_Controller
 				$this->session->set_flashdata('error', 'Invalid User Id and Password combination');
 				redirect(base_url() . 'admin');
 			}
-		} else {
-
-			if ($this->session->userdata("admin_id") == TRUE) {
-				redirect(base_url() . "dashboard");
-			} else {
-				redirect(base_url() . 'admin');
-			}
 		}
 
-	//	$this->load->view('admin');
+		$this->load->view('admin/login');
 
 	}
 

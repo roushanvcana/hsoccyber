@@ -18,7 +18,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 650px;
+    height: 400px;
 }
 .inner_banner {
     position: absolute;
@@ -81,7 +81,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="thumb">
-                           <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/cropped-view-of-african-american-businessman-using-laptop-and-smartphone-in-car-with-cyber-security-e1624634401494.jpg" alt="icon" />
+                           <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/about_.jpg" alt="icon" style="max-width:100%" />
                         </div>
                     </div>
                 </div>
@@ -112,10 +112,13 @@
                     </div>
                 </div>
 
-							<div class="col-lg-12"><div class="doc_img">
-			<img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $about[0]['upload_biography'];?>" alt="icon" />
-			</div></div>
+						
 
+            </div>
+            <div class="row">
+                	<div class="col-lg-12"><div class="doc_img">
+			<img src="<?php echo base_url();?>uploads/gallery-image/<?php echo $about[0]['upload_biography'];?>" alt="icon" style="max-width:100%" />
+			</div></div>
             </div>
         </div>
     </div>
@@ -125,7 +128,9 @@
     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-925752d" data-id="925752d" data-element_type="column" data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
      <div class="elementor-widget-wrap elementor-element-populated">
       <div class="elementor-element elementor-element-9b8ccf9 elementor-widget elementor-widget-image" data-id="9b8ccf9" data-element_type="widget" data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}" data-widget_type="image.default">
-       <div class="elementor-widget-container"> <img width="1080" height="720" src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/back-view-of-hackers-pointing-on-computer-screens-e1624634354233.jpg" class="attachment-full size-full" alt="Back view of hackers pointing on computer screens" loading="lazy" /> </div>
+       <div class="elementor-widget-container"> 
+       <img src="<?php echo base_url();?>design/wp-content/uploads/sites/48/2021/06/back-view-of-hackers-pointing-on-computer-screens-e1624634354233.jpg" class="attachment-full size-full" 
+       alt="Back view of hackers pointing on computer screens" loading="lazy" style="max-width:100%" /> </div>
       </div>
      </div>
     </div>
