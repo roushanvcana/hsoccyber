@@ -58,7 +58,7 @@
           }
         ?>  
         </p>
-       <?php echo form_open('Login/Authenticate'); ?>
+       <?php echo form_open('login'); ?>
           <div class="input-group mb-3">
             <div class="input-group-append">
               <div class="input-group-text">
