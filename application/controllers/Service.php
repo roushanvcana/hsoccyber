@@ -449,6 +449,9 @@ class Service extends CI_Controller {
     public function blog_details($id)
     {
         $data['articles_details'] =  $this->db->query('select * from articles where id="'.$id.'"')->result_array(); 
+
+        $data['letest_artical'] =  $this->db->query('select * from articles ORDER BY id desc limit 4')->result_array(); 
+     
         $this->load->view('frontend/about_details',$data);
     }
 

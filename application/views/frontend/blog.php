@@ -103,8 +103,4 @@
   <br />
 </section>
 
-
-
-
-
 <?php $this->load->view('frontend/layout/footer'); ?>
